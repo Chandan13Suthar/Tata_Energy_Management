@@ -1113,112 +1113,6 @@ Children:
             DataType: Color
             ModellingRule: Optional
             Value: "#ffffff"
-      - Name: PolyLine1
-        Type: PolyLine
-        Children:
-        - Name: LineThickness
-          Type: BaseDataVariableType
-          DataType: Size
-          ModellingRule: Optional
-          Value: 2.0
-        - Name: LeftMargin
-          Type: BaseVariableType
-          DataType: Size
-          ModellingRule: Optional
-          Value: 500.0
-        - Name: TopMargin
-          Type: BaseVariableType
-          DataType: Size
-          ModellingRule: Optional
-          Value: 30.0
-        - Name: Width
-          Type: BaseVariableType
-          DataType: Size
-          ModellingRule: Optional
-          Value: 0.0
-        - Name: Height
-          Type: BaseVariableType
-          DataType: Size
-          ModellingRule: Optional
-          Value: 154.0
-        - Name: Path
-          Type: BaseDataVariableType
-          DataType: String
-          ModellingRule: Optional
-          Value: "M 0.000000 0.000000 L 0.000000 140.000000"
-        - Name: FillColor
-          Type: BaseDataVariableType
-          DataType: Color
-          ModellingRule: Optional
-          Value: "#ffffffba"
-        - Name: LineColor
-          Type: BaseDataVariableType
-          DataType: Color
-          ModellingRule: Optional
-          Value: "#ffffffba"
-        - Name: HorizontalAlignment
-          Type: BaseVariableType
-          DataType: HorizontalAlignment
-          ModellingRule: Optional
-          Value: 0
-        - Name: RightMargin
-          Type: BaseVariableType
-          DataType: Size
-          ModellingRule: Optional
-          Value: 0.0
-      - Name: PolyLine2
-        Type: PolyLine
-        Children:
-        - Name: LineThickness
-          Type: BaseDataVariableType
-          DataType: Size
-          ModellingRule: Optional
-          Value: 2.0
-        - Name: LeftMargin
-          Type: BaseVariableType
-          DataType: Size
-          ModellingRule: Optional
-          Value: 920.0
-        - Name: TopMargin
-          Type: BaseVariableType
-          DataType: Size
-          ModellingRule: Optional
-          Value: 30.0
-        - Name: Width
-          Type: BaseVariableType
-          DataType: Size
-          ModellingRule: Optional
-          Value: 0.0
-        - Name: Height
-          Type: BaseVariableType
-          DataType: Size
-          ModellingRule: Optional
-          Value: 154.0
-        - Name: Path
-          Type: BaseDataVariableType
-          DataType: String
-          ModellingRule: Optional
-          Value: "M 0.000000 0.000000 L 0.000000 140.000000"
-        - Name: FillColor
-          Type: BaseDataVariableType
-          DataType: Color
-          ModellingRule: Optional
-          Value: "#ffffffba"
-        - Name: LineColor
-          Type: BaseDataVariableType
-          DataType: Color
-          ModellingRule: Optional
-          Value: "#ffffffba"
-        - Name: HorizontalAlignment
-          Type: BaseVariableType
-          DataType: HorizontalAlignment
-          ModellingRule: Optional
-          Value: 0
-        - Name: RightMargin
-          Type: BaseVariableType
-          DataType: Size
-          ModellingRule: Optional
-          Value: 0.0
       - Name: LeftMargin
         Type: BaseVariableType
         DataType: Size
@@ -1486,7 +1380,7 @@ Children:
           - Name: Pens
             Type: BaseObjectType
             Children:
-            - Name: TrendPen1
+            - Name: Apparent Power
               Type: TrendPen
               DataType: BaseDataType
               Children:
@@ -1505,6 +1399,34 @@ Children:
                 DataType: Color
                 ModellingRule: Optional
                 Value: "#ffffff"
+            - Name: Active Power
+              Type: TrendPen
+              DataType: BaseDataType
+              Children:
+              - Name: Thickness
+                Type: BaseDataVariableType
+                DataType: Size
+                Value: -1.0
+              - Name: Enabled
+                Type: BaseDataVariableType
+                DataType: Boolean
+                Value: true
+              - Name: Thresholds
+                Type: BaseObjectType
+            - Name: Reactive power
+              Type: TrendPen
+              DataType: BaseDataType
+              Children:
+              - Name: Thickness
+                Type: BaseDataVariableType
+                DataType: Size
+                Value: -1.0
+              - Name: Enabled
+                Type: BaseDataVariableType
+                DataType: Boolean
+                Value: true
+              - Name: Thresholds
+                Type: BaseObjectType
           - Class: Reference
             Target: ns=5;i=1129
             Direction: Forward
@@ -1548,10 +1470,29 @@ Children:
               Type: BaseDataVariableType
               DataType: Size
               Value: 100.0
+              Children:
+              - Name: ExpressionEvaluator1
+                Type: ExpressionEvaluator
+                Children:
+                - Name: Expression
+                  Type: BaseDataVariableType
+                  DataType: String
+                  ReferenceType: HasParameter
+                  ModellingRule: Optional
+                  Value: "{0} + 1000"
+                - Name: ns=3;Source0
+                  Type: BaseDataVariableType
+                  DataType: BaseDataType
+                  ReferenceType: HasSource
+                  Children:
+                  - Name: DynamicLink
+                    Type: DynamicLink
+                    DataType: NodePath
+                    Value: "../../../../Pens/Apparent Power@Value"
             - Name: AutoScale
               Type: BaseDataVariableType
               DataType: Boolean
-              Value: false
+              Value: true
             - Name: Interactive
               Type: BaseDataVariableType
               DataType: Boolean
@@ -2144,6 +2085,16 @@ Children:
               Value: "#ff0000"
             - Name: Thresholds
               Type: BaseObjectType
+            - Name: DynamicLink
+              Type: DynamicLink
+              DataType: NodePath
+              Value: "../../../Image1/CircularGauge1/Value"
+              Children:
+              - Name: Mode
+                Type: BaseVariableType
+                DataType: DynamicLinkMode
+                ModellingRule: Optional
+                Value: 2
           - Name: Y Phase
             Type: TrendPen
             DataType: BaseDataType
@@ -2186,6 +2137,16 @@ Children:
               Value: "#ffff00"
             - Name: Thresholds
               Type: BaseObjectType
+            - Name: DynamicLink
+              Type: DynamicLink
+              DataType: NodePath
+              Value: "../../../Image1/CircularGauge2/Value"
+              Children:
+              - Name: Mode
+                Type: BaseVariableType
+                DataType: DynamicLinkMode
+                ModellingRule: Optional
+                Value: 2
           - Name: B Phase
             Type: TrendPen
             DataType: BaseDataType
@@ -2228,6 +2189,16 @@ Children:
               Value: "#0000ff"
             - Name: Thresholds
               Type: BaseObjectType
+            - Name: DynamicLink
+              Type: DynamicLink
+              DataType: NodePath
+              Value: "../../../Image1/CircularGauge3/Value"
+              Children:
+              - Name: Mode
+                Type: BaseVariableType
+                DataType: DynamicLinkMode
+                ModellingRule: Optional
+                Value: 2
           - Name: Average
             Type: TrendPen
             DataType: BaseDataType
@@ -2265,6 +2236,16 @@ Children:
                 Value: 0
             - Name: Thresholds
               Type: BaseObjectType
+            - Name: DynamicLink
+              Type: DynamicLink
+              DataType: NodePath
+              Value: "../../../Image1/CircularGauge4/Value"
+              Children:
+              - Name: Mode
+                Type: BaseVariableType
+                DataType: DynamicLinkMode
+                ModellingRule: Optional
+                Value: 2
         - Class: Reference
           Target: ns=5;i=1129
           Direction: Forward
@@ -3667,24 +3648,10 @@ Children:
                     DataType: BaseDataType
                     ReferenceType: HasSource
                     Children:
-                    - Name: StringFormatter1
-                      Type: StringFormatter
-                      Children:
-                      - Name: Format
-                        Type: BaseDataVariableType
-                        DataType: LocalizedText
-                        ReferenceType: HasParameter
-                        ModellingRule: Optional
-                        Value: {"LocaleId":"","Text":"{0:n2}"}
-                      - Name: ns=3;Source0
-                        Type: BaseDataVariableType
-                        DataType: BaseDataType
-                        ReferenceType: HasSource
-                        Children:
-                        - Name: DynamicLink
-                          Type: DynamicLink
-                          DataType: NodePath
-                          Value: "../../../../../../../../CircularGauge2/Value"
+                    - Name: DynamicLink
+                      Type: DynamicLink
+                      DataType: NodePath
+                      Value: "../../../../../../CircularGauge2/Value"
           - Name: Width
             Type: BaseVariableType
             DataType: Size
@@ -3756,24 +3723,10 @@ Children:
                     DataType: BaseDataType
                     ReferenceType: HasSource
                     Children:
-                    - Name: StringFormatter1
-                      Type: StringFormatter
-                      Children:
-                      - Name: Format
-                        Type: BaseDataVariableType
-                        DataType: LocalizedText
-                        ReferenceType: HasParameter
-                        ModellingRule: Optional
-                        Value: {"LocaleId":"","Text":"{0:n2}"}
-                      - Name: ns=3;Source0
-                        Type: BaseDataVariableType
-                        DataType: BaseDataType
-                        ReferenceType: HasSource
-                        Children:
-                        - Name: DynamicLink
-                          Type: DynamicLink
-                          DataType: NodePath
-                          Value: "../../../../../../../../CircularGauge4/Value"
+                    - Name: DynamicLink
+                      Type: DynamicLink
+                      DataType: NodePath
+                      Value: "../../../../../../CircularGauge4/Value"
           - Name: Width
             Type: BaseVariableType
             DataType: Size
@@ -3845,24 +3798,10 @@ Children:
                     DataType: BaseDataType
                     ReferenceType: HasSource
                     Children:
-                    - Name: StringFormatter1
-                      Type: StringFormatter
-                      Children:
-                      - Name: Format
-                        Type: BaseDataVariableType
-                        DataType: LocalizedText
-                        ReferenceType: HasParameter
-                        ModellingRule: Optional
-                        Value: {"LocaleId":"","Text":"{0:n2}"}
-                      - Name: ns=3;Source0
-                        Type: BaseDataVariableType
-                        DataType: BaseDataType
-                        ReferenceType: HasSource
-                        Children:
-                        - Name: DynamicLink
-                          Type: DynamicLink
-                          DataType: NodePath
-                          Value: "../../../../../../../../CircularGauge3/Value"
+                    - Name: DynamicLink
+                      Type: DynamicLink
+                      DataType: NodePath
+                      Value: "../../../../../../CircularGauge3/Value"
           - Name: Width
             Type: BaseVariableType
             DataType: Size
@@ -3898,6 +3837,16 @@ Children:
             DataType: TextVerticalAlignment
             ModellingRule: Optional
             Value: 1
+          - Name: HorizontalAlignment
+            Type: BaseVariableType
+            DataType: HorizontalAlignment
+            ModellingRule: Optional
+            Value: 1
+          - Name: RightMargin
+            Type: BaseVariableType
+            DataType: Size
+            ModellingRule: Optional
+            Value: 545.0
       - Name: Image2
         Type: Image
         Children:
@@ -4112,7 +4061,7 @@ Children:
         - Name: Pens
           Type: BaseObjectType
           Children:
-          - Name: TrendPen1
+          - Name: R Phase
             Type: TrendPen
             DataType: BaseDataType
             Children:
@@ -4130,7 +4079,45 @@ Children:
               Type: BaseDataVariableType
               DataType: Color
               ModellingRule: Optional
-              Value: "#ffffff"
+              Value: "#fb1212"
+          - Name: Y Phase
+            Type: TrendPen
+            DataType: BaseDataType
+            Children:
+            - Name: Thickness
+              Type: BaseDataVariableType
+              DataType: Size
+              Value: -1.0
+            - Name: Enabled
+              Type: BaseDataVariableType
+              DataType: Boolean
+              Value: true
+            - Name: Thresholds
+              Type: BaseObjectType
+            - Name: Color
+              Type: BaseDataVariableType
+              DataType: Color
+              ModellingRule: Optional
+              Value: "#d9fc1c"
+          - Name: B Phase
+            Type: TrendPen
+            DataType: BaseDataType
+            Children:
+            - Name: Thickness
+              Type: BaseDataVariableType
+              DataType: Size
+              Value: -1.0
+            - Name: Enabled
+              Type: BaseDataVariableType
+              DataType: Boolean
+              Value: true
+            - Name: Thresholds
+              Type: BaseObjectType
+            - Name: Color
+              Type: BaseDataVariableType
+              DataType: Color
+              ModellingRule: Optional
+              Value: "#022cf2"
         - Class: Reference
           Target: ns=5;i=1129
           Direction: Forward
@@ -6374,7 +6361,7 @@ Children:
           Type: BaseVariableType
           DataType: Size
           ModellingRule: Optional
-          Value: 420.0
+          Value: 330.0
         - Name: FillColor
           Type: BaseDataVariableType
           DataType: Color
@@ -6390,6 +6377,138 @@ Children:
           DataType: Size
           ModellingRule: Optional
           Value: 15.0
+        - Name: Trend1
+          Type: Trend
+          Children:
+          - Name: Pens
+            Type: BaseObjectType
+            Children:
+            - Name: Consumption
+              Type: TrendPen
+              DataType: BaseDataType
+              Children:
+              - Name: Thickness
+                Type: BaseDataVariableType
+                DataType: Size
+                Value: -1.0
+              - Name: Enabled
+                Type: BaseDataVariableType
+                DataType: Boolean
+                Value: true
+              - Name: Thresholds
+                Type: BaseObjectType
+              - Name: Color
+                Type: BaseDataVariableType
+                DataType: Color
+                ModellingRule: Optional
+                Value: "#ffffff"
+          - Class: Reference
+            Target: ns=5;i=1129
+            Direction: Forward
+          - Name: XAxis
+            Type: DateTimeAxis
+            Children:
+            - Name: Follow
+              Type: BaseDataVariableType
+              DataType: Boolean
+              Value: true
+            - Name: Window
+              Type: BaseDataVariableType
+              DataType: Duration
+              Value: "0:00:00:5.0000000"
+            - Name: Interactive
+              Type: BaseDataVariableType
+              DataType: Boolean
+              Value: true
+            - Name: Time
+              Type: BaseDataVariableType
+              DataType: DateTime
+              Value: "1601-01-01T00:00:00.0000000"
+            - Name: SnapPosition
+              Type: BaseDataVariableType
+              DataType: SnapPositionEnum
+              ModellingRule: Optional
+              Value: 1
+          - Name: YAxis
+            Type: ValueAxis
+            Children:
+            - Name: MinValue
+              Type: BaseDataVariableType
+              DataType: Size
+              Value: 0.0
+            - Name: MaxValue
+              Type: BaseDataVariableType
+              DataType: Size
+              Value: 100.0
+            - Name: AutoScale
+              Type: BaseDataVariableType
+              DataType: Boolean
+              Value: true
+            - Name: Interactive
+              Type: BaseDataVariableType
+              DataType: Boolean
+              Value: true
+            - Name: Position
+              Type: BaseDataVariableType
+              DataType: HorizontalPositionEnum
+              Value: 0
+          - Name: LegendVisible
+            Type: BaseDataVariableType
+            DataType: Boolean
+            Value: true
+          - Name: Width
+            Type: BaseVariableType
+            DataType: Size
+            ModellingRule: Optional
+            Value: 1149.0
+          - Name: Height
+            Type: BaseVariableType
+            DataType: Size
+            ModellingRule: Optional
+            Value: 240.0
+          - Name: ReferenceTimeZone
+            Type: BaseDataVariableType
+            DataType: ReferenceTimeZone
+            ModellingRule: Optional
+            Value: 1
+          - Name: LeftMargin
+            Type: BaseVariableType
+            DataType: Size
+            ModellingRule: Optional
+            Value: 90.0
+          - Name: TopMargin
+            Type: BaseVariableType
+            DataType: Size
+            ModellingRule: Optional
+            Value: 95.0
+          - Class: Reference
+            Target: ns=5;i=1201
+            Direction: Forward
+          - Name: TimeRanges
+            Type: BaseObjectType
+          - Class: Reference
+            Target: ns=5;i=1209
+            Direction: Forward
+          - Name: HorizontalAlignment
+            Type: BaseVariableType
+            DataType: HorizontalAlignment
+            ModellingRule: Optional
+            Value: 3
+          - Name: RightMargin
+            Type: BaseVariableType
+            DataType: Size
+            ModellingRule: Optional
+            Value: 90.0
+          - Name: ToolTipStyle
+            Type: BaseDataVariableType
+            DataType: String
+            ModellingRule: Optional
+            Value: "TooltipStyle2"
+          - Name: ChartStyle
+            Type: BaseDataVariableType
+            DataType: String
+            ModellingRule: Optional
+            Value: "ChartStyle2"
       - Name: Image1
         Type: Image
         Children:

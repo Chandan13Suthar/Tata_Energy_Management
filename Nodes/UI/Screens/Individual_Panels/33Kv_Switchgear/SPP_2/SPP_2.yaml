@@ -152,10 +152,6 @@ Children:
                   Type: DynamicLink
                   DataType: NodePath
                   Value: "/Objects/Tata_Energy_Management/Model/Tags/RealTimePanelTags/33KVMeters/SPP_2/Reactive_Power_Total"
-      - Name: PolyLine1
-        Type: PolyLine
-      - Name: PolyLine2
-        Type: PolyLine
       - Name: Trend
         Type: Rectangle
         Children:
@@ -335,7 +331,7 @@ Children:
           - Name: Pens
             Type: BaseObjectType
             Children:
-            - Name: TrendPen1
+            - Name: Apparent Power
               Type: TrendPen
               DataType: BaseDataType
               Children:
@@ -349,6 +345,64 @@ Children:
                 Value: true
               - Name: Thresholds
                 Type: BaseObjectType
+              - Name: DynamicLink
+                Type: DynamicLink
+                DataType: NodePath
+                Value: "/Objects/Tata_Energy_Management/Model/Tags/RealTimePanelTags/33KVMeters/SPP_2/Apparent_Power_Total"
+                Children:
+                - Name: Mode
+                  Type: BaseVariableType
+                  DataType: DynamicLinkMode
+                  ModellingRule: Optional
+                  Value: 2
+            - Name: Active Power
+              Type: TrendPen
+              DataType: BaseDataType
+              Children:
+              - Name: Thickness
+                Type: BaseDataVariableType
+                DataType: Size
+                Value: -1.0
+              - Name: Enabled
+                Type: BaseDataVariableType
+                DataType: Boolean
+                Value: true
+              - Name: Thresholds
+                Type: BaseObjectType
+              - Name: DynamicLink
+                Type: DynamicLink
+                DataType: NodePath
+                Value: "/Objects/Tata_Energy_Management/Model/Tags/RealTimePanelTags/33KVMeters/SPP_2/Active_Power_Total"
+                Children:
+                - Name: Mode
+                  Type: BaseVariableType
+                  DataType: DynamicLinkMode
+                  ModellingRule: Optional
+                  Value: 2
+            - Name: Reactive power
+              Type: TrendPen
+              DataType: BaseDataType
+              Children:
+              - Name: Thickness
+                Type: BaseDataVariableType
+                DataType: Size
+                Value: -1.0
+              - Name: Enabled
+                Type: BaseDataVariableType
+                DataType: Boolean
+                Value: true
+              - Name: Thresholds
+                Type: BaseObjectType
+              - Name: DynamicLink
+                Type: DynamicLink
+                DataType: NodePath
+                Value: "/Objects/Tata_Energy_Management/Model/Tags/RealTimePanelTags/33KVMeters/SPP_2/Reactive_Power_Total"
+                Children:
+                - Name: Mode
+                  Type: BaseVariableType
+                  DataType: DynamicLinkMode
+                  ModellingRule: Optional
+                  Value: 2
           - Class: Reference
             Target: ns=5;i=1129
             Direction: Forward
@@ -387,10 +441,23 @@ Children:
               Type: BaseDataVariableType
               DataType: Size
               Value: 100.0
+              Children:
+              - Name: ExpressionEvaluator1
+                Type: ExpressionEvaluator
+                Children:
+                - Name: Source0
+                  Type: BaseDataVariableType
+                  DataType: BaseDataType
+                  ReferenceType: HasSource
+                  Children:
+                  - Name: DynamicLink
+                    Type: DynamicLink
+                    DataType: NodePath
+                    Value: "../../../../Pens/Apparent Power@Value"
             - Name: AutoScale
               Type: BaseDataVariableType
               DataType: Boolean
-              Value: false
+              Value: true
             - Name: Interactive
               Type: BaseDataVariableType
               DataType: Boolean
@@ -663,6 +730,10 @@ Children:
                 Value: 0
             - Name: Thresholds
               Type: BaseObjectType
+            - Name: DynamicLink
+              Type: DynamicLink
+              DataType: NodePath
+              Value: "../../../Image1/CircularGauge1/Value"
           - Name: Y Phase
             Type: TrendPen
             DataType: BaseDataType
@@ -700,6 +771,10 @@ Children:
                 Value: 0
             - Name: Thresholds
               Type: BaseObjectType
+            - Name: DynamicLink
+              Type: DynamicLink
+              DataType: NodePath
+              Value: "../../../Image1/CircularGauge2/Value"
           - Name: B Phase
             Type: TrendPen
             DataType: BaseDataType
@@ -737,6 +812,10 @@ Children:
                 Value: 0
             - Name: Thresholds
               Type: BaseObjectType
+            - Name: DynamicLink
+              Type: DynamicLink
+              DataType: NodePath
+              Value: "../../../Image1/CircularGauge3/Value"
           - Name: Average
             Type: TrendPen
             DataType: BaseDataType
@@ -774,6 +853,10 @@ Children:
                 Value: 0
             - Name: Thresholds
               Type: BaseObjectType
+            - Name: DynamicLink
+              Type: DynamicLink
+              DataType: NodePath
+              Value: "../../../Image1/CircularGauge4/Value"
         - Class: Reference
           Target: ns=5;i=1129
           Direction: Forward
@@ -1444,18 +1527,10 @@ Children:
                     DataType: BaseDataType
                     ReferenceType: HasSource
                     Children:
-                    - Name: StringFormatter1
-                      Type: StringFormatter
-                      Children:
-                      - Name: Source0
-                        Type: BaseDataVariableType
-                        DataType: BaseDataType
-                        ReferenceType: HasSource
-                        Children:
-                        - Name: DynamicLink
-                          Type: DynamicLink
-                          DataType: NodePath
-                          Value: "../../../../../../../../CircularGauge2/Value"
+                    - Name: DynamicLink
+                      Type: DynamicLink
+                      DataType: NodePath
+                      Value: "../../../../../../CircularGauge2/Value"
         - Name: Label8
           Type: Label
           Children:
@@ -1480,18 +1555,10 @@ Children:
                     DataType: BaseDataType
                     ReferenceType: HasSource
                     Children:
-                    - Name: StringFormatter1
-                      Type: StringFormatter
-                      Children:
-                      - Name: Source0
-                        Type: BaseDataVariableType
-                        DataType: BaseDataType
-                        ReferenceType: HasSource
-                        Children:
-                        - Name: DynamicLink
-                          Type: DynamicLink
-                          DataType: NodePath
-                          Value: "../../../../../../../../CircularGauge4/Value"
+                    - Name: DynamicLink
+                      Type: DynamicLink
+                      DataType: NodePath
+                      Value: "../../../../../../CircularGauge4/Value"
         - Name: Label7
           Type: Label
           Children:
@@ -1516,18 +1583,10 @@ Children:
                     DataType: BaseDataType
                     ReferenceType: HasSource
                     Children:
-                    - Name: StringFormatter1
-                      Type: StringFormatter
-                      Children:
-                      - Name: Source0
-                        Type: BaseDataVariableType
-                        DataType: BaseDataType
-                        ReferenceType: HasSource
-                        Children:
-                        - Name: DynamicLink
-                          Type: DynamicLink
-                          DataType: NodePath
-                          Value: "../../../../../../../../CircularGauge3/Value"
+                    - Name: DynamicLink
+                      Type: DynamicLink
+                      DataType: NodePath
+                      Value: "../../../../../../CircularGauge3/Value"
       - Name: Image2
         Type: Image
         Children:
@@ -1561,7 +1620,7 @@ Children:
         - Name: Pens
           Type: BaseObjectType
           Children:
-          - Name: TrendPen1
+          - Name: R Phase
             Type: TrendPen
             DataType: BaseDataType
             Children:
@@ -1575,6 +1634,64 @@ Children:
               Value: true
             - Name: Thresholds
               Type: BaseObjectType
+            - Name: DynamicLink
+              Type: DynamicLink
+              DataType: NodePath
+              Value: "/Objects/Tata_Energy_Management/Model/Tags/RealTimePanelTags/33KVMeters/SPP_2/Voltage_RN"
+              Children:
+              - Name: Mode
+                Type: BaseVariableType
+                DataType: DynamicLinkMode
+                ModellingRule: Optional
+                Value: 2
+          - Name: Y Phase
+            Type: TrendPen
+            DataType: BaseDataType
+            Children:
+            - Name: Thickness
+              Type: BaseDataVariableType
+              DataType: Size
+              Value: -1.0
+            - Name: Enabled
+              Type: BaseDataVariableType
+              DataType: Boolean
+              Value: true
+            - Name: Thresholds
+              Type: BaseObjectType
+            - Name: DynamicLink
+              Type: DynamicLink
+              DataType: NodePath
+              Value: "/Objects/Tata_Energy_Management/Model/Tags/RealTimePanelTags/33KVMeters/SPP_2/Voltage_YN"
+              Children:
+              - Name: Mode
+                Type: BaseVariableType
+                DataType: DynamicLinkMode
+                ModellingRule: Optional
+                Value: 2
+          - Name: B Phase
+            Type: TrendPen
+            DataType: BaseDataType
+            Children:
+            - Name: Thickness
+              Type: BaseDataVariableType
+              DataType: Size
+              Value: -1.0
+            - Name: Enabled
+              Type: BaseDataVariableType
+              DataType: Boolean
+              Value: true
+            - Name: Thresholds
+              Type: BaseObjectType
+            - Name: DynamicLink
+              Type: DynamicLink
+              DataType: NodePath
+              Value: "/Objects/Tata_Energy_Management/Model/Tags/RealTimePanelTags/33KVMeters/SPP_2/Voltage_BN"
+              Children:
+              - Name: Mode
+                Type: BaseVariableType
+                DataType: DynamicLinkMode
+                ModellingRule: Optional
+                Value: 2
         - Class: Reference
           Target: ns=5;i=1129
           Direction: Forward
@@ -2246,6 +2363,94 @@ Children:
         Type: Rectangle
       - Name: Rectangle3
         Type: Rectangle
+        Children:
+        - Name: Trend1
+          Type: Trend
+          Children:
+          - Name: Pens
+            Type: BaseObjectType
+            Children:
+            - Name: Consumption
+              Type: TrendPen
+              DataType: BaseDataType
+              Children:
+              - Name: Thickness
+                Type: BaseDataVariableType
+                DataType: Size
+                Value: -1.0
+              - Name: Enabled
+                Type: BaseDataVariableType
+                DataType: Boolean
+                Value: true
+              - Name: Thresholds
+                Type: BaseObjectType
+              - Name: DynamicLink
+                Type: DynamicLink
+                DataType: NodePath
+                Value: "/Objects/Tata_Energy_Management/Model/Tags/RealTimePanelTags/33KVMeters/SPP_2/Consumption"
+                Children:
+                - Name: Mode
+                  Type: BaseVariableType
+                  DataType: DynamicLinkMode
+                  ModellingRule: Optional
+                  Value: 2
+          - Class: Reference
+            Target: ns=5;i=1129
+            Direction: Forward
+          - Name: XAxis
+            Type: DateTimeAxis
+            Children:
+            - Name: Follow
+              Type: BaseDataVariableType
+              DataType: Boolean
+              Value: true
+            - Name: Window
+              Type: BaseDataVariableType
+              DataType: Duration
+              Value: "0:00:00:5.0000000"
+            - Name: Interactive
+              Type: BaseDataVariableType
+              DataType: Boolean
+              Value: true
+            - Name: Time
+              Type: BaseDataVariableType
+              DataType: DateTime
+              Value: "1601-01-01T00:00:00.0000000"
+          - Name: YAxis
+            Type: ValueAxis
+            Children:
+            - Name: MinValue
+              Type: BaseDataVariableType
+              DataType: Size
+              Value: 0.0
+            - Name: MaxValue
+              Type: BaseDataVariableType
+              DataType: Size
+              Value: 100.0
+            - Name: AutoScale
+              Type: BaseDataVariableType
+              DataType: Boolean
+              Value: true
+            - Name: Interactive
+              Type: BaseDataVariableType
+              DataType: Boolean
+              Value: true
+            - Name: Position
+              Type: BaseDataVariableType
+              DataType: HorizontalPositionEnum
+              Value: 0
+          - Name: LegendVisible
+            Type: BaseDataVariableType
+            DataType: Boolean
+            Value: true
+          - Class: Reference
+            Target: ns=5;i=1201
+            Direction: Forward
+          - Name: TimeRanges
+            Type: BaseObjectType
+          - Class: Reference
+            Target: ns=5;i=1209
+            Direction: Forward
       - Name: Image1
         Type: Image
         Children:

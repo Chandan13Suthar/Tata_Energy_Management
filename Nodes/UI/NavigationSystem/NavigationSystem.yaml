@@ -10949,7 +10949,7 @@ Children:
             - Name: Width
               Type: BaseDataVariableType
               DataType: Size
-              Value: -1.0
+              Value: 100.0
             - Name: HeaderAlignment
               Type: BaseDataVariableType
               DataType: TextHorizontalAlignment
@@ -11019,7 +11019,7 @@ Children:
             - Name: Width
               Type: BaseDataVariableType
               DataType: Size
-              Value: -1.0
+              Value: 150.0
             - Name: HeaderAlignment
               Type: BaseDataVariableType
               DataType: TextHorizontalAlignment
@@ -11054,7 +11054,7 @@ Children:
             - Name: Width
               Type: BaseDataVariableType
               DataType: Size
-              Value: -1.0
+              Value: 150.0
             - Name: HeaderAlignment
               Type: BaseDataVariableType
               DataType: TextHorizontalAlignment
@@ -11089,7 +11089,7 @@ Children:
             - Name: Width
               Type: BaseDataVariableType
               DataType: Size
-              Value: -1.0
+              Value: 150.0
             - Name: HeaderAlignment
               Type: BaseDataVariableType
               DataType: TextHorizontalAlignment
@@ -11124,7 +11124,7 @@ Children:
             - Name: Width
               Type: BaseDataVariableType
               DataType: Size
-              Value: -1.0
+              Value: 100.0
             - Name: HeaderAlignment
               Type: BaseDataVariableType
               DataType: TextHorizontalAlignment
@@ -11159,7 +11159,7 @@ Children:
             - Name: Width
               Type: BaseDataVariableType
               DataType: Size
-              Value: -1.0
+              Value: 100.0
             - Name: HeaderAlignment
               Type: BaseDataVariableType
               DataType: TextHorizontalAlignment
@@ -11194,7 +11194,7 @@ Children:
             - Name: Width
               Type: BaseDataVariableType
               DataType: Size
-              Value: -1.0
+              Value: 100.0
             - Name: HeaderAlignment
               Type: BaseDataVariableType
               DataType: TextHorizontalAlignment
@@ -11229,7 +11229,7 @@ Children:
             - Name: Width
               Type: BaseDataVariableType
               DataType: Size
-              Value: -1.0
+              Value: 50.0
             - Name: HeaderAlignment
               Type: BaseDataVariableType
               DataType: TextHorizontalAlignment
@@ -11264,7 +11264,7 @@ Children:
             - Name: Width
               Type: BaseDataVariableType
               DataType: Size
-              Value: -1.0
+              Value: 100.0
             - Name: HeaderAlignment
               Type: BaseDataVariableType
               DataType: TextHorizontalAlignment
@@ -11299,7 +11299,7 @@ Children:
             - Name: Width
               Type: BaseDataVariableType
               DataType: Size
-              Value: -1.0
+              Value: 100.0
             - Name: HeaderAlignment
               Type: BaseDataVariableType
               DataType: TextHorizontalAlignment
@@ -11334,7 +11334,7 @@ Children:
             - Name: Width
               Type: BaseDataVariableType
               DataType: Size
-              Value: -1.0
+              Value: 100.0
             - Name: HeaderAlignment
               Type: BaseDataVariableType
               DataType: TextHorizontalAlignment
@@ -11802,7 +11802,7 @@ Children:
           Type: BaseVariableType
           DataType: Size
           ModellingRule: Optional
-          Value: 300.0
+          Value: 460.0
         - Name: Item
           Type: Alias
           DataType: NodeId
@@ -11816,12 +11816,12 @@ Children:
           Type: BaseVariableType
           DataType: Size
           ModellingRule: Optional
-          Value: 9.0
+          Value: 10.0
         - Name: TopMargin
           Type: BaseVariableType
           DataType: Size
           ModellingRule: Optional
-          Value: 450.0
+          Value: 350.0
         - Name: AutoRefreshTime
           Type: BaseDataVariableType
           DataType: Duration
