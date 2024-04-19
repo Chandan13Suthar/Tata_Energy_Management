@@ -205,7 +205,7 @@ Children:
                     - Name: DynamicLink
                       Type: DynamicLink
                       DataType: NodePath
-                      Value: "../../../../../../Object1/X Axis@NodeId"
+                      Value: "../../../../../../../Object1/X Axis@NodeId"
                   - Name: Value
                     Type: BaseDataVariableType
                     DataType: Duration
@@ -290,7 +290,7 @@ Children:
                     - Name: DynamicLink
                       Type: DynamicLink
                       DataType: NodePath
-                      Value: "../../../../../../Object1/X Axis@NodeId"
+                      Value: "../../../../../../../Object1/X Axis@NodeId"
                   - Name: Value
                     Type: BaseDataVariableType
                     DataType: Duration
@@ -401,7 +401,7 @@ Children:
               - Name: DynamicLink
                 Type: DynamicLink
                 DataType: NodePath
-                Value: "../../../Object1/X Axis"
+                Value: "../../../../Object1/X Axis"
             - Name: Interactive
               Type: BaseDataVariableType
               DataType: Boolean
@@ -510,7 +510,7 @@ Children:
                     - Name: DynamicLink
                       Type: DynamicLink
                       DataType: NodePath
-                      Value: "../../../../../../Object1/X Axis@NodeId"
+                      Value: "../../../../../../../Object1/X Axis@NodeId"
                   - Name: Value
                     Type: BaseDataVariableType
                     DataType: Duration
@@ -595,7 +595,7 @@ Children:
                     - Name: DynamicLink
                       Type: DynamicLink
                       DataType: NodePath
-                      Value: "../../../../../../Object1/X Axis@NodeId"
+                      Value: "../../../../../../../Object1/X Axis@NodeId"
                   - Name: Value
                     Type: BaseDataVariableType
                     DataType: Duration
@@ -680,7 +680,7 @@ Children:
             - Name: Thickness
               Type: BaseDataVariableType
               DataType: Size
-              Value: 2.0
+              Value: 4.0
             - Name: Enabled
               Type: BaseDataVariableType
               DataType: Boolean
@@ -691,11 +691,11 @@ Children:
               - Name: MinValue
                 Type: BaseDataVariableType
                 DataType: Size
-                Value: -100.0
+                Value: 0.0
               - Name: MaxValue
                 Type: BaseDataVariableType
                 DataType: Size
-                Value: 100.0
+                Value: 400.0
               - Name: AutoScale
                 Type: BaseDataVariableType
                 DataType: Boolean
@@ -721,7 +721,7 @@ Children:
             - Name: Thickness
               Type: BaseDataVariableType
               DataType: Size
-              Value: 2.0
+              Value: 4.0
             - Name: Enabled
               Type: BaseDataVariableType
               DataType: Boolean
@@ -732,11 +732,11 @@ Children:
               - Name: MinValue
                 Type: BaseDataVariableType
                 DataType: Size
-                Value: -100.0
+                Value: 0.0
               - Name: MaxValue
                 Type: BaseDataVariableType
                 DataType: Size
-                Value: 100.0
+                Value: 400.0
               - Name: AutoScale
                 Type: BaseDataVariableType
                 DataType: Boolean
@@ -762,7 +762,7 @@ Children:
             - Name: Thickness
               Type: BaseDataVariableType
               DataType: Size
-              Value: 2.0
+              Value: 4.0
             - Name: Enabled
               Type: BaseDataVariableType
               DataType: Boolean
@@ -773,11 +773,11 @@ Children:
               - Name: MinValue
                 Type: BaseDataVariableType
                 DataType: Size
-                Value: -100.0
+                Value: 0.0
               - Name: MaxValue
                 Type: BaseDataVariableType
                 DataType: Size
-                Value: 100.0
+                Value: 400.0
               - Name: AutoScale
                 Type: BaseDataVariableType
                 DataType: Boolean
@@ -803,7 +803,7 @@ Children:
             - Name: Thickness
               Type: BaseDataVariableType
               DataType: Size
-              Value: 3.0
+              Value: 4.0
             - Name: Enabled
               Type: BaseDataVariableType
               DataType: Boolean
@@ -814,7 +814,7 @@ Children:
               - Name: MinValue
                 Type: BaseDataVariableType
                 DataType: Size
-                Value: -100.0
+                Value: 0.0
               - Name: MaxValue
                 Type: BaseDataVariableType
                 DataType: Size
@@ -851,6 +851,11 @@ Children:
             Type: BaseDataVariableType
             DataType: Duration
             Value: "0:00:00:5.0000000"
+            Children:
+            - Name: DynamicLink
+              Type: DynamicLink
+              DataType: NodePath
+              Value: "../../../Object1/X Axis"
           - Name: Interactive
             Type: BaseDataVariableType
             DataType: Boolean
@@ -869,11 +874,11 @@ Children:
           - Name: MaxValue
             Type: BaseDataVariableType
             DataType: Size
-            Value: 2000.0
+            Value: 500.0
           - Name: AutoScale
             Type: BaseDataVariableType
             DataType: Boolean
-            Value: false
+            Value: true
           - Name: Interactive
             Type: BaseDataVariableType
             DataType: Boolean
@@ -1651,6 +1656,11 @@ Children:
             Type: BaseDataVariableType
             DataType: Duration
             Value: "0:00:00:5.0000000"
+            Children:
+            - Name: DynamicLink
+              Type: DynamicLink
+              DataType: NodePath
+              Value: "../../../Object1/X Axis"
           - Name: Interactive
             Type: BaseDataVariableType
             DataType: Boolean
@@ -1673,7 +1683,7 @@ Children:
           - Name: AutoScale
             Type: BaseDataVariableType
             DataType: Boolean
-            Value: false
+            Value: true
           - Name: Interactive
             Type: BaseDataVariableType
             DataType: Boolean
@@ -2302,7 +2312,7 @@ Children:
               - Name: Thickness
                 Type: BaseDataVariableType
                 DataType: Size
-                Value: -1.0
+                Value: 2.0
               - Name: Enabled
                 Type: BaseDataVariableType
                 DataType: Boolean
@@ -2323,6 +2333,11 @@ Children:
               Type: BaseDataVariableType
               DataType: Duration
               Value: "0:00:00:5.0000000"
+              Children:
+              - Name: DynamicLink
+                Type: DynamicLink
+                DataType: NodePath
+                Value: "../../../../Object1/X Axis"
             - Name: Interactive
               Type: BaseDataVariableType
               DataType: Boolean
@@ -2366,6 +2381,365 @@ Children:
           - Class: Reference
             Target: ns=5;i=1209
             Direction: Forward
+        - Name: Object1
+          Type: BaseObjectType
+          Children:
+          - Name: X Axis
+            Type: BaseDataVariableType
+            DataType: Duration
+            Value: "0:00:00:0.0000000"
+        - Name: Switch1
+          Type: Switch
+          Children:
+          - Name: Checked
+            Type: BaseDataVariableType
+            DataType: Boolean
+            Value: false
+            Children:
+            - Name: DynamicLink
+              Type: DynamicLink
+              DataType: NodePath
+              Value: "../../Trend1/XAxis/Follow"
+        - Name: Button3
+          Type: Button
+          Children:
+          - Name: MouseClickEventHandler1
+            Type: EventHandler
+            Children:
+            - Name: ListenEventType
+              Type: PropertyType
+              DataType: NodeId
+              Value: "/Types/EventTypes/BaseEventType/MouseEvent/MouseClickEvent"
+            - Name: MethodsToCall
+              Type: BaseObjectType
+              Children:
+              - Name: MethodContainer1
+                Type: BaseObjectType
+                Children:
+                - Name: ObjectPointer
+                  Type: NodePointer
+                  DataType: NodeId
+                  Value: "/Objects/Commands/VariableCommands"
+                  Children:
+                  - Name: Kind
+                    Type: PropertyType
+                    DataType: NodeId
+                    Value: "/Types/ObjectTypes/BaseObjectType"
+                - Name: Method
+                  Type: BaseDataVariableType
+                  DataType: String
+                  Value: "Set"
+                - Name: InputArguments
+                  Type: BaseObjectType
+                  Children:
+                  - Name: VariableToModify
+                    Type: BaseDataVariableType
+                    DataType: VariablePointer
+                    Value: {"IdType":0,"Id":0,"Namespace":-1}
+                    Children:
+                    - Name: DynamicLink
+                      Type: DynamicLink
+                      DataType: NodePath
+                      Value: "../../../../../../Object1/X Axis@NodeId"
+                  - Name: Value
+                    Type: BaseDataVariableType
+                    DataType: Duration
+                    Value: "0:01:00:0.0000000"
+                  - Name: ArrayIndex
+                    Type: BaseDataVariableType
+                    DataType: UInt32
+                    ValueRank: ScalarOrOneDimension
+                    Value: 0
+            - Name: EventArguments
+              Type: MouseClickEvent
+              Children:
+              - Name: EventId
+                Type: PropertyType
+                DataType: ByteString
+                Value: ""
+              - Name: EventType
+                Type: PropertyType
+                DataType: NodeId
+                Value: {"IdType":0,"Id":0,"Namespace":-1}
+              - Name: SourceNode
+                Type: PropertyType
+                DataType: NodeId
+                Value: {"IdType":0,"Id":0,"Namespace":-1}
+              - Name: SourceName
+                Type: PropertyType
+                DataType: String
+                Value: ""
+              - Name: Time
+                Type: PropertyType
+                DataType: UtcTime
+                Value: "1601-01-01T00:00:00.0000000"
+              - Name: ReceiveTime
+                Type: PropertyType
+                DataType: UtcTime
+                Value: "1601-01-01T00:00:00.0000000"
+              - Name: Message
+                Type: PropertyType
+                DataType: LocalizedText
+                Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+              - Name: Severity
+                Type: PropertyType
+                DataType: UInt16
+                Value: 0
+        - Name: Button2
+          Type: Button
+          Children:
+          - Name: MouseClickEventHandler1
+            Type: EventHandler
+            Children:
+            - Name: ListenEventType
+              Type: PropertyType
+              DataType: NodeId
+              Value: "/Types/EventTypes/BaseEventType/MouseEvent/MouseClickEvent"
+            - Name: MethodsToCall
+              Type: BaseObjectType
+              Children:
+              - Name: MethodContainer1
+                Type: BaseObjectType
+                Children:
+                - Name: ObjectPointer
+                  Type: NodePointer
+                  DataType: NodeId
+                  Value: "/Objects/Commands/VariableCommands"
+                  Children:
+                  - Name: Kind
+                    Type: PropertyType
+                    DataType: NodeId
+                    Value: "/Types/ObjectTypes/BaseObjectType"
+                - Name: Method
+                  Type: BaseDataVariableType
+                  DataType: String
+                  Value: "Set"
+                - Name: InputArguments
+                  Type: BaseObjectType
+                  Children:
+                  - Name: VariableToModify
+                    Type: BaseDataVariableType
+                    DataType: VariablePointer
+                    Value: {"IdType":0,"Id":0,"Namespace":-1}
+                    Children:
+                    - Name: DynamicLink
+                      Type: DynamicLink
+                      DataType: NodePath
+                      Value: "../../../../../../Object1/X Axis@NodeId"
+                  - Name: Value
+                    Type: BaseDataVariableType
+                    DataType: Duration
+                    Value: "0:00:30:0.0000000"
+                  - Name: ArrayIndex
+                    Type: BaseDataVariableType
+                    DataType: UInt32
+                    ValueRank: ScalarOrOneDimension
+                    Value: 0
+            - Name: EventArguments
+              Type: MouseClickEvent
+              Children:
+              - Name: EventId
+                Type: PropertyType
+                DataType: ByteString
+                Value: ""
+              - Name: EventType
+                Type: PropertyType
+                DataType: NodeId
+                Value: {"IdType":0,"Id":0,"Namespace":-1}
+              - Name: SourceNode
+                Type: PropertyType
+                DataType: NodeId
+                Value: {"IdType":0,"Id":0,"Namespace":-1}
+              - Name: SourceName
+                Type: PropertyType
+                DataType: String
+                Value: ""
+              - Name: Time
+                Type: PropertyType
+                DataType: UtcTime
+                Value: "1601-01-01T00:00:00.0000000"
+              - Name: ReceiveTime
+                Type: PropertyType
+                DataType: UtcTime
+                Value: "1601-01-01T00:00:00.0000000"
+              - Name: Message
+                Type: PropertyType
+                DataType: LocalizedText
+                Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+              - Name: Severity
+                Type: PropertyType
+                DataType: UInt16
+                Value: 0
+        - Name: Button1
+          Type: Button
+          Children:
+          - Name: MouseClickEventHandler1
+            Type: EventHandler
+            Children:
+            - Name: ListenEventType
+              Type: PropertyType
+              DataType: NodeId
+              Value: "/Types/EventTypes/BaseEventType/MouseEvent/MouseClickEvent"
+            - Name: MethodsToCall
+              Type: BaseObjectType
+              Children:
+              - Name: MethodContainer1
+                Type: BaseObjectType
+                Children:
+                - Name: ObjectPointer
+                  Type: NodePointer
+                  DataType: NodeId
+                  Value: "/Objects/Commands/VariableCommands"
+                  Children:
+                  - Name: Kind
+                    Type: PropertyType
+                    DataType: NodeId
+                    Value: "/Types/ObjectTypes/BaseObjectType"
+                - Name: Method
+                  Type: BaseDataVariableType
+                  DataType: String
+                  Value: "Set"
+                - Name: InputArguments
+                  Type: BaseObjectType
+                  Children:
+                  - Name: VariableToModify
+                    Type: BaseDataVariableType
+                    DataType: VariablePointer
+                    Value: {"IdType":0,"Id":0,"Namespace":-1}
+                    Children:
+                    - Name: DynamicLink
+                      Type: DynamicLink
+                      DataType: NodePath
+                      Value: "../../../../../../Object1/X Axis@NodeId"
+                  - Name: Value
+                    Type: BaseDataVariableType
+                    DataType: Duration
+                    Value: "0:00:00:15.0000000"
+                  - Name: ArrayIndex
+                    Type: BaseDataVariableType
+                    DataType: UInt32
+                    ValueRank: ScalarOrOneDimension
+                    Value: 0
+            - Name: EventArguments
+              Type: MouseClickEvent
+              Children:
+              - Name: EventId
+                Type: PropertyType
+                DataType: ByteString
+                Value: ""
+              - Name: EventType
+                Type: PropertyType
+                DataType: NodeId
+                Value: {"IdType":0,"Id":0,"Namespace":-1}
+              - Name: SourceNode
+                Type: PropertyType
+                DataType: NodeId
+                Value: {"IdType":0,"Id":0,"Namespace":-1}
+              - Name: SourceName
+                Type: PropertyType
+                DataType: String
+                Value: ""
+              - Name: Time
+                Type: PropertyType
+                DataType: UtcTime
+                Value: "1601-01-01T00:00:00.0000000"
+              - Name: ReceiveTime
+                Type: PropertyType
+                DataType: UtcTime
+                Value: "1601-01-01T00:00:00.0000000"
+              - Name: Message
+                Type: PropertyType
+                DataType: LocalizedText
+                Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+              - Name: Severity
+                Type: PropertyType
+                DataType: UInt16
+                Value: 0
+        - Name: Button4
+          Type: Button
+          Children:
+          - Name: MouseClickEventHandler1
+            Type: EventHandler
+            Children:
+            - Name: ListenEventType
+              Type: PropertyType
+              DataType: NodeId
+              Value: "/Types/EventTypes/BaseEventType/MouseEvent/MouseClickEvent"
+            - Name: MethodsToCall
+              Type: BaseObjectType
+              Children:
+              - Name: MethodContainer1
+                Type: BaseObjectType
+                Children:
+                - Name: ObjectPointer
+                  Type: NodePointer
+                  DataType: NodeId
+                  Value: "/Objects/Commands/VariableCommands"
+                  Children:
+                  - Name: Kind
+                    Type: PropertyType
+                    DataType: NodeId
+                    Value: "/Types/ObjectTypes/BaseObjectType"
+                - Name: Method
+                  Type: BaseDataVariableType
+                  DataType: String
+                  Value: "Set"
+                - Name: InputArguments
+                  Type: BaseObjectType
+                  Children:
+                  - Name: VariableToModify
+                    Type: BaseDataVariableType
+                    DataType: VariablePointer
+                    Value: {"IdType":0,"Id":0,"Namespace":-1}
+                    Children:
+                    - Name: DynamicLink
+                      Type: DynamicLink
+                      DataType: NodePath
+                      Value: "../../../../../../Object1/X Axis@NodeId"
+                  - Name: Value
+                    Type: BaseDataVariableType
+                    DataType: Duration
+                    Value: "0:12:00:0.0000000"
+                  - Name: ArrayIndex
+                    Type: BaseDataVariableType
+                    DataType: UInt32
+                    ValueRank: ScalarOrOneDimension
+                    Value: 0
+            - Name: EventArguments
+              Type: MouseClickEvent
+              Children:
+              - Name: EventId
+                Type: PropertyType
+                DataType: ByteString
+                Value: ""
+              - Name: EventType
+                Type: PropertyType
+                DataType: NodeId
+                Value: {"IdType":0,"Id":0,"Namespace":-1}
+              - Name: SourceNode
+                Type: PropertyType
+                DataType: NodeId
+                Value: {"IdType":0,"Id":0,"Namespace":-1}
+              - Name: SourceName
+                Type: PropertyType
+                DataType: String
+                Value: ""
+              - Name: Time
+                Type: PropertyType
+                DataType: UtcTime
+                Value: "1601-01-01T00:00:00.0000000"
+              - Name: ReceiveTime
+                Type: PropertyType
+                DataType: UtcTime
+                Value: "1601-01-01T00:00:00.0000000"
+              - Name: Message
+                Type: PropertyType
+                DataType: LocalizedText
+                Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+              - Name: Severity
+                Type: PropertyType
+                DataType: UInt16
+                Value: 0
       - Name: Image1
         Type: Image
         Children:
