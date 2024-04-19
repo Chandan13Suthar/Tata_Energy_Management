@@ -1440,18 +1440,10 @@ Children:
                     DataType: BaseDataType
                     ReferenceType: HasSource
                     Children:
-                    - Name: StringFormatter1
-                      Type: StringFormatter
-                      Children:
-                      - Name: Source0
-                        Type: BaseDataVariableType
-                        DataType: BaseDataType
-                        ReferenceType: HasSource
-                        Children:
-                        - Name: DynamicLink
-                          Type: DynamicLink
-                          DataType: NodePath
-                          Value: "../../../../../../../../CircularGauge2/Value"
+                    - Name: DynamicLink
+                      Type: DynamicLink
+                      DataType: NodePath
+                      Value: "../../../../../../CircularGauge2/Value"
         - Name: Label8
           Type: Label
           Children:
@@ -1476,18 +1468,10 @@ Children:
                     DataType: BaseDataType
                     ReferenceType: HasSource
                     Children:
-                    - Name: StringFormatter1
-                      Type: StringFormatter
-                      Children:
-                      - Name: Source0
-                        Type: BaseDataVariableType
-                        DataType: BaseDataType
-                        ReferenceType: HasSource
-                        Children:
-                        - Name: DynamicLink
-                          Type: DynamicLink
-                          DataType: NodePath
-                          Value: "../../../../../../../../CircularGauge4/Value"
+                    - Name: DynamicLink
+                      Type: DynamicLink
+                      DataType: NodePath
+                      Value: "../../../../../../CircularGauge4/Value"
         - Name: Label7
           Type: Label
           Children:
@@ -1512,18 +1496,10 @@ Children:
                     DataType: BaseDataType
                     ReferenceType: HasSource
                     Children:
-                    - Name: StringFormatter1
-                      Type: StringFormatter
-                      Children:
-                      - Name: Source0
-                        Type: BaseDataVariableType
-                        DataType: BaseDataType
-                        ReferenceType: HasSource
-                        Children:
-                        - Name: DynamicLink
-                          Type: DynamicLink
-                          DataType: NodePath
-                          Value: "../../../../../../../../CircularGauge3/Value"
+                    - Name: DynamicLink
+                      Type: DynamicLink
+                      DataType: NodePath
+                      Value: "../../../../../../CircularGauge3/Value"
         - Name: TopMargin
           Type: BaseVariableType
           DataType: Size
