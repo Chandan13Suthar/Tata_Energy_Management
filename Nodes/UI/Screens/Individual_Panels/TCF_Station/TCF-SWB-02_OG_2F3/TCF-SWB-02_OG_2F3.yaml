@@ -12,47 +12,6 @@ Children:
     - Name: Layout
       Type: Rectangle
       Children:
-      - Name: Histogram
-        Type: Rectangle
-        Children:
-        - Name: HistogramChart1
-          Type: HistogramChart
-          Children:
-          - Name: Model
-            Type: NodePointer
-            DataType: NodeId
-            Value: {"IdType":0,"Id":0,"Namespace":-1}
-            Children:
-            - Name: ItemKind
-              Type: PropertyType
-              DataType: NodeId
-              Value: {"IdType":0,"Id":0,"Namespace":-1}
-            - Name: Kind
-              Type: PropertyType
-              DataType: NodeId
-              Value: {"IdType":0,"Id":0,"Namespace":-1}
-          - Name: Label
-            Type: BaseDataVariableType
-            DataType: LocalizedText
-            Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
-          - Name: Value
-            Type: BaseDataVariableType
-            DataType: Double
-            Value: 0.0
-          - Class: Reference
-            Target: ns=5;i=1105
-            Direction: Forward
-          - Name: Item
-            Type: Alias
-            DataType: NodeId
-            Value: {"IdType":0,"Id":0,"Namespace":-1}
-            Children:
-            - Name: Kind
-              Type: PropertyType
-              DataType: NodeId
-              Value: {"IdType":0,"Id":0,"Namespace":-1}
-        - Name: Label1
-          Type: Label
       - Name: Object1
         Type: BaseObjectType
         Children:

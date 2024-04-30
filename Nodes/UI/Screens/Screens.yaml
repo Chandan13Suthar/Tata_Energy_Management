@@ -179,6 +179,22 @@ Children:
           DataType: ResourceUri
           ModellingRule: Optional
           Value: "ns=36;%PROJECTDIR%/imgs/icons/Features/User.svg"
+      - Name: Panel7
+        Type: NavigationPanelItem
+        Children:
+        - Name: Title
+          Type: BaseDataVariableType
+          DataType: LocalizedText
+          Value: {"LocaleId":"en-US","Text":"HomePage 2"}
+        - Name: Panel
+          Type: NodePointer
+          DataType: NodeId
+          Value: "/Objects/Tata_Energy_Management/UI/NavigationSystem/HomePage2"
+          Children:
+          - Name: Kind
+            Type: PropertyType
+            DataType: NodeId
+            Value: "/Types/ObjectTypes/BaseObjectType/BaseUIObject/Item/Container"
     - Name: CurrentPanel
       Type: NodePointer
       DataType: NodeId
