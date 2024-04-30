@@ -974,6 +974,10 @@ Children:
         Type: BaseDataVariableType
         DataType: Size
         Value: 10.0
+      - Name: Radius
+        Type: BaseDataVariableType
+        DataType: Size
+        Value: 5.0
     - Name: TooltipStyle1
       Type: ToolTipStyle
       Children:

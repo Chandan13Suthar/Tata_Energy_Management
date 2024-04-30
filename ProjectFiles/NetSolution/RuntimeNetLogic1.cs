@@ -46,6 +46,7 @@ public class RuntimeNetLogic1 : BaseNetLogic
         button1Variable = owner.Button1Variable;
         datefromVariable = owner.DatefromVariable;
         datetoVariable = owner.DatetoVariable;
+        timerangeVariable = owner.TimeRangeVariable;
 
         periodicTask = new PeriodicTask(IncrementDecrementTask, 2000 , LogicObject);
         periodicTask.Start();
@@ -70,6 +71,8 @@ public class RuntimeNetLogic1 : BaseNetLogic
         bool button1 = button1Variable.Value;
         DateTime datefrom = datefromVariable.Value;
         DateTime dateto = datetoVariable.Value;
+       string timerange = timerangeVariable.Value;
+
 
         var project = FTOptix.HMIProject.Project.Current;
         ///////////////////For Jace Selection////////////////////////////////////////////////////////////////////////////
@@ -109,6 +112,9 @@ public class RuntimeNetLogic1 : BaseNetLogic
             string new123 = datefrom.ToString("yyyy-MMM-dd");
             string new321 = dateto.ToString("yyyy-MMM-dd");
             string jace1 = jace.ToString();
+            TimeSpan difference = dateto - datefrom;
+            timerange = difference.ToString(@"dd\:hh\:mm\:ss"); // ya aap apne hisab se date format mein set karein
+
 
             string query1 = $"SELECT  SUM(Consumption) FROM DailyConsumption WHERE LocalTimestamp  BETWEEN '" + new123 + " 00:00:00' AND '" + new321 + " 23:59:59' AND Jace = '"+ jace1 + "' ";
             //string query2 = $"SELECT  MIN(Consumption) FROM DailyConsumption WHERE  LocalTimestamp  BETWEEN '" + new123 + " 00:00:00' AND '" + new321 + " 23:59:59' AND Jace = '" + jace1 + "' ";
@@ -176,7 +182,7 @@ public class RuntimeNetLogic1 : BaseNetLogic
             avgpfVariable.Value = avgpf;
             avgfrequencyVariable.Value = avgfrequency;
             consumptionVariable.Value = consumption;
-
+            timerangeVariable.Value = timerange;
 
 
 
@@ -190,6 +196,9 @@ public class RuntimeNetLogic1 : BaseNetLogic
             string new645 = dateto.ToString("yyyy-MM-dd");
             string meter1 = meter.ToString();
             string jace1 = jace.ToString();
+            TimeSpan difference = dateto - datefrom;
+            timerange = difference.ToString(@"dd\:hh\:mm\:ss");
+           // string timerange = difference.ToString(@"dd\:hh\:mm\:ss");// ya aap apne hisab se date format mein set karein
 
             string query5 = $"SELECT  SUM(Consumption) FROM DailyConsumption WHERE LocalTimestamp  BETWEEN '" + new456 + " 00:00:00' AND '" + new645 + " 23:59:59' AND Jace =  '" + jace1 + "'  AND Meter = '" + meter1 + "' ";
             //string query6 = $"SELECT  MIN(Consumption) FROM DailyConsumption  WHERE Date  BETWEEN '" + new456 + " 00:00:00' AND '" + new645 + " 23:59:59' AND Jace =  '" + jace1 + "'  AND Meter = '" + meter1 + "' ";
@@ -255,7 +264,7 @@ public class RuntimeNetLogic1 : BaseNetLogic
             avgpfVariable.Value = avgpf;
             avgfrequencyVariable.Value = avgfrequency;
             consumptionVariable.Value = consumption;
-            
+            timerangeVariable.Value = timerange;
 
 
 
@@ -277,5 +286,6 @@ public class RuntimeNetLogic1 : BaseNetLogic
     private IUAVariable button1Variable;
     private IUAVariable datefromVariable;
     private IUAVariable datetoVariable;
+    private IUAVariable timerangeVariable;
     private PeriodicTask periodicTask;
 }
