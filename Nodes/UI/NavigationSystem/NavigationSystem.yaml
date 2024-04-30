@@ -28561,6 +28561,9 @@ Children:
             DataType: Size
             ModellingRule: Optional
             Value: 110.0
+          - Class: Reference
+            Target: ns=5;i=1105
+            Direction: Forward
         - Name: Trend1
           Type: Trend
           Children:
@@ -28702,6 +28705,15 @@ Children:
             DataType: String
             ModellingRule: Optional
             Value: "ChartStyle1"
+          - Class: Reference
+            Target: ns=5;i=1129
+            Direction: Forward
+          - Class: Reference
+            Target: ns=5;i=1201
+            Direction: Forward
+          - Class: Reference
+            Target: ns=5;i=1209
+            Direction: Forward
         - Name: Trend2
           Type: Trend
           Children:
@@ -28843,6 +28855,15 @@ Children:
             DataType: String
             ModellingRule: Optional
             Value: "ChartStyle1"
+          - Class: Reference
+            Target: ns=5;i=1129
+            Direction: Forward
+          - Class: Reference
+            Target: ns=5;i=1201
+            Direction: Forward
+          - Class: Reference
+            Target: ns=5;i=1209
+            Direction: Forward
         - Name: Trend3
           Type: Trend
           Children:
@@ -28965,6 +28986,15 @@ Children:
             DataType: String
             ModellingRule: Optional
             Value: "ChartStyle1"
+          - Class: Reference
+            Target: ns=5;i=1129
+            Direction: Forward
+          - Class: Reference
+            Target: ns=5;i=1201
+            Direction: Forward
+          - Class: Reference
+            Target: ns=5;i=1209
+            Direction: Forward
         - Name: HorizontalLayout1
           Type: RowLayout
           Children:
@@ -31586,6 +31616,9 @@ Children:
                 DataType: Size
                 ModellingRule: Optional
                 Value: 10.0
+              - Class: Reference
+                Target: ns=5;i=504
+                Direction: Forward
             - Name: LeftMargin
               Type: BaseVariableType
               DataType: Size

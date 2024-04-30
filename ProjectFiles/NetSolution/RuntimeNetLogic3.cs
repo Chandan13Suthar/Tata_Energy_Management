@@ -154,15 +154,15 @@ public class RuntimeNetLogic3 : BaseNetLogic
 
 
             ///////////For Jace1/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-            string query1 = $"SELECT  SUM(Consumption) FROM DailyConsumption WHERE LocalTimestamp  BETWEEN '" + new123 + " 00:00:00' AND '" + new321 + " 23:59:59' AND Jace = '" + jace3 + "' ";
+            string query1 = $"SELECT  SUM(Consumption) FROM DailyJaceDataLogger WHERE Timestamp  BETWEEN '" + new123 + " 00:00:00' AND '" + new321 + " 23:59:59' AND Jace = '" + jace3 + "' ";
             //string query2 = $"SELECT  MIN(Consumption) FROM ConsumptionDistribution WHERE Date  BETWEEN '" + new123 + " 00:00:00' AND '" + new321 + " 23:59:59' AND Jace = '" + jace3 + "' ";
-            string query3 = $"SELECT  AVG(Avg_PF) FROM DailyConsumption WHERE LocalTimestamp  BETWEEN '" + new123 + " 00:00:00' AND '" + new321 + " 23:59:59' AND Jace = '" + jace3 + "' ";
-            string query4 = $"SELECT  AVG(Frequency) FROM DailyConsumption WHERE LocalTimestamp  BETWEEN '" + new123 + " 00:00:00' AND '" + new321 + " 23:59:59' AND Jace = '" + jace3 + "' ";
+            string query3 = $"SELECT  AVG(Avg_PF) FROM DailyJaceDataLogger WHERE Timestamp  BETWEEN '" + new123 + " 00:00:00' AND '" + new321 + " 23:59:59' AND Jace = '" + jace3 + "' ";
+            string query4 = $"SELECT  AVG(Frequency) FROM DailyJaceDataLogger WHERE Timestamp  BETWEEN '" + new123 + " 00:00:00' AND '" + new321 + " 23:59:59' AND Jace = '" + jace3 + "' ";
             ///////////For Jace2/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-            string query5 = $"SELECT  MAX(Consumption) FROM DailyConsumption WHERE LocalTimestamp  BETWEEN '" + new123 + " 00:00:00' AND '" + new321 + " 23:59:59' AND Jace = '" + jace4 + "' ";
+            string query5 = $"SELECT  MAX(Consumption) FROM DailyJaceDataLogger WHERE Timestamp  BETWEEN '" + new123 + " 00:00:00' AND '" + new321 + " 23:59:59' AND Jace = '" + jace4 + "' ";
            // string query6 = $"SELECT  MIN(Consumption) FROM ConsumptionDistribution WHERE Date  BETWEEN '" + new123 + " 00:00:00' AND '" + new321 + " 23:59:59' AND Jace = '" + jace4 + "' ";
-            string query7 = $"SELECT  AVG(Avg_PF) FROM DailyConsumption WHERE LocalTimestamp  BETWEEN '" + new123 + " 00:00:00' AND '" + new321 + " 23:59:59' AND Jace = '" + jace4 + "' ";
-            string query8 = $"SELECT  AVG(Frequency) FROM DailyConsumption WHERE LocalTimestamp  BETWEEN '" + new123 + " 00:00:00' AND '" + new321 + " 23:59:59' AND Jace = '" + jace4 + "' ";
+            string query7 = $"SELECT  AVG(Avg_PF) FROM DailyJaceDataLogger WHERE Timestamp  BETWEEN '" + new123 + " 00:00:00' AND '" + new321 + " 23:59:59' AND Jace = '" + jace4 + "' ";
+            string query8 = $"SELECT  AVG(Frequency) FROM DailyJaceDataLogger WHERE Timestamp  BETWEEN '" + new123 + " 00:00:00' AND '" + new321 + " 23:59:59' AND Jace = '" + jace4 + "' ";
 
 
             ///////////For Jace1///////////////////////////////
@@ -294,16 +294,16 @@ public class RuntimeNetLogic3 : BaseNetLogic
 
             ////////////////////////////////////////////////////////////////////////// For Meter 1 ////////////////////////////////////////////////////////////////////////////////////// 
 
-            string query9 = $"SELECT  SUM(Consumption) FROM DailyConsumption WHERE LocalTimestamp  BETWEEN '" + new456 + " 00:00:00' AND '" + new645 + " 23:59:59' AND Jace =  '" + jace5 + "'  AND Meter = '" + meter5 + "' ";
+            string query9 = $"SELECT  SUM(Consumption) FROM DailyJaceDataLogger WHERE Timestamp  BETWEEN '" + new456 + " 00:00:00' AND '" + new645 + " 23:59:59' AND Jace =  '" + jace5 + "'  AND Meter = '" + meter5 + "' ";
             //string query10 = $"SELECT  MIN(Consumption) FROM DailyConsumption WHERE LocalTimestamp  BETWEEN '" + new456 + " 00:00:00' AND '" + new645 + " 23:59:59' AND Jace =  '" + jace5 + "'  AND Meter = '" + meter5 + "' ";
-            string query11 = $"SELECT  AVG(Avg_PF) FROM DailyConsumption WHERE LocalTimestamp  BETWEEN '" + new456 + " 00:00:00' AND '" + new645 + " 23:59:59' AND Jace =  '" + jace5 + "'  AND Meter = '" + meter5 + "' ";
-            string query12 = $"SELECT  AVG(Frequency) FROM DailyConsumption WHERE LocalTimestamp BETWEEN '" + new456 + " 00:00:00' AND '" + new645 + " 23:59:59' AND Jace =  '" + jace5 + "'  AND Meter = '" + meter5 + "' ";
+            string query11 = $"SELECT  AVG(Avg_PF) FROM DailyJaceDataLogger WHERE Timestamp  BETWEEN '" + new456 + " 00:00:00' AND '" + new645 + " 23:59:59' AND Jace =  '" + jace5 + "'  AND Meter = '" + meter5 + "' ";
+            string query12 = $"SELECT  AVG(Frequency) FROM DailyJaceDataLogger WHERE Timestamp BETWEEN '" + new456 + " 00:00:00' AND '" + new645 + " 23:59:59' AND Jace =  '" + jace5 + "'  AND Meter = '" + meter5 + "' ";
             
             ////////////////////////////////////////////////////////////////////////// For Meter 2 ////////////////////////////////////////////////////////////////////////////////////// 
-            string query13 = $"SELECT  SUM(Consumption) FROM DailyConsumption WHERE LocalTimestamp  BETWEEN '" + new456 + " 00:00:00' AND '" + new645 + " 23:59:59' AND Jace =  '" + jace6 + "'  AND Meter = '" + meter6 + "' ";
+            string query13 = $"SELECT  SUM(Consumption) FROM DailyJaceDataLogger WHERE Timestamp  BETWEEN '" + new456 + " 00:00:00' AND '" + new645 + " 23:59:59' AND Jace =  '" + jace6 + "'  AND Meter = '" + meter6 + "' ";
             //string query14 = $"SELECT  MIN(Consumption) FROM DailyConsumption WHERE LocalTimestamp  BETWEEN '" + new456 + " 00:00:00' AND '" + new645 + " 23:59:59' AND Jace =  '" + jace6 + "'  AND Meter = '" + meter6 + "' ";
-            string query15 = $"SELECT  AVG(Avg_PF) FROM DailyConsumption WHERE LocalTimestamp BETWEEN '" + new456 + " 00:00:00' AND '" + new645 + " 23:59:59' AND Jace =  '" + jace6 + "'  AND Meter = '" + meter6 + "' ";
-            string query16 = $"SELECT  AVG(Frequency) FROM DailyConsumption WHERE LocalTimestamp BETWEEN '" + new456 + " 00:00:00' AND '" + new645 + " 23:59:59' AND Jace =  '" + jace6 + "'  AND Meter = '" + meter6 + "' ";
+            string query15 = $"SELECT  AVG(Avg_PF) FROM DailyJaceDataLogger WHERE Timestamp BETWEEN '" + new456 + " 00:00:00' AND '" + new645 + " 23:59:59' AND Jace =  '" + jace6 + "'  AND Meter = '" + meter6 + "' ";
+            string query16 = $"SELECT  AVG(Frequency) FROM DailyJaceDataLogger WHERE Timestamp BETWEEN '" + new456 + " 00:00:00' AND '" + new645 + " 23:59:59' AND Jace =  '" + jace6 + "'  AND Meter = '" + meter6 + "' ";
 
             ///////////////////////For MEter 1//////////////////////
             myStore9.Query(query9, out header9, out resultSet9);

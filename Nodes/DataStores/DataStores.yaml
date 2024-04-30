@@ -933,6 +933,184 @@ Children:
           Type: StoreColumn
           DataType: Float
           Value: 0.0
+    - Name: EMSHistoTrendsLogger
+      Type: ODBCStoreTable
+      Children:
+      - Class: Reference
+        Target: ns=11;i=12
+        Direction: Forward
+      - Class: Reference
+        Target: ns=11;i=15
+        Direction: Forward
+      - Class: Reference
+        Target: ns=11;i=21
+        Direction: Forward
+      - Class: Reference
+        Target: ns=11;i=20
+        Direction: Forward
+      - Name: Columns
+        Type: BaseObjectType
+        Children:
+        - Name: Timestamp
+          Type: StoreColumn
+          DataType: UtcTime
+          Value: "1601-01-01T00:00:00.0000000"
+        - Name: LocalTimestamp
+          Type: StoreColumn
+          DataType: DateTime
+          Value: "1601-01-01T00:00:00.0000000"
+        - Name: 33KV
+          Type: StoreColumn
+          DataType: Float
+          Value: 0.0
+        - Name: UTILITY
+          Type: StoreColumn
+          DataType: Float
+          Value: 0.0
+        - Name: TCF
+          Type: StoreColumn
+          DataType: Float
+          Value: 0.0
+        - Name: STAMPING
+          Type: StoreColumn
+          DataType: Float
+          Value: 0.0
+        - Name: SPP
+          Type: StoreColumn
+          DataType: Float
+          Value: 0.0
+        - Name: SPARE
+          Type: StoreColumn
+          DataType: Float
+          Value: 0.0
+        - Name: PAINTSHOP
+          Type: StoreColumn
+          DataType: Float
+          Value: 0.0
+        - Name: ENGINESHOP
+          Type: StoreColumn
+          DataType: Float
+          Value: 0.0
+        - Name: BODYSHOP
+          Type: StoreColumn
+          DataType: Float
+          Value: 0.0
+    - Name: EMSHistoTrendsPFLogger
+      Type: ODBCStoreTable
+      Children:
+      - Class: Reference
+        Target: ns=11;i=12
+        Direction: Forward
+      - Class: Reference
+        Target: ns=11;i=15
+        Direction: Forward
+      - Class: Reference
+        Target: ns=11;i=21
+        Direction: Forward
+      - Class: Reference
+        Target: ns=11;i=20
+        Direction: Forward
+      - Name: Columns
+        Type: BaseObjectType
+        Children:
+        - Name: Timestamp
+          Type: StoreColumn
+          DataType: UtcTime
+          Value: "1601-01-01T00:00:00.0000000"
+        - Name: 33KV
+          Type: StoreColumn
+          DataType: Float
+          Value: 0.0
+        - Name: UTILITY
+          Type: StoreColumn
+          DataType: Float
+          Value: 0.0
+        - Name: TCF
+          Type: StoreColumn
+          DataType: Float
+          Value: 0.0
+        - Name: STAMPING
+          Type: StoreColumn
+          DataType: Float
+          Value: 0.0
+        - Name: SPP
+          Type: StoreColumn
+          DataType: Float
+          Value: 0.0
+        - Name: SPARE
+          Type: StoreColumn
+          DataType: Float
+          Value: 0.0
+        - Name: PAINTSHOP
+          Type: StoreColumn
+          DataType: Float
+          Value: 0.0
+        - Name: ENGINESHOP
+          Type: StoreColumn
+          DataType: Float
+          Value: 0.0
+        - Name: BODYSHOP
+          Type: StoreColumn
+          DataType: Float
+          Value: 0.0
+    - Name: EMSHistoTrendsfrequencyLogger
+      Type: ODBCStoreTable
+      Children:
+      - Class: Reference
+        Target: ns=11;i=12
+        Direction: Forward
+      - Class: Reference
+        Target: ns=11;i=15
+        Direction: Forward
+      - Class: Reference
+        Target: ns=11;i=21
+        Direction: Forward
+      - Class: Reference
+        Target: ns=11;i=20
+        Direction: Forward
+      - Name: Columns
+        Type: BaseObjectType
+        Children:
+        - Name: Timestamp
+          Type: StoreColumn
+          DataType: UtcTime
+          Value: "1601-01-01T00:00:00.0000000"
+        - Name: 33KV
+          Type: StoreColumn
+          DataType: Float
+          Value: 0.0
+        - Name: UTILITY
+          Type: StoreColumn
+          DataType: Float
+          Value: 0.0
+        - Name: TCF
+          Type: StoreColumn
+          DataType: Float
+          Value: 0.0
+        - Name: STAMPING
+          Type: StoreColumn
+          DataType: Float
+          Value: 0.0
+        - Name: SPP
+          Type: StoreColumn
+          DataType: Float
+          Value: 0.0
+        - Name: SPARE
+          Type: StoreColumn
+          DataType: Float
+          Value: 0.0
+        - Name: PAINTSHOP
+          Type: StoreColumn
+          DataType: Float
+          Value: 0.0
+        - Name: ENGINESHOP
+          Type: StoreColumn
+          DataType: Float
+          Value: 0.0
+        - Name: BODYSHOP
+          Type: StoreColumn
+          DataType: Float
+          Value: 0.0
   - Name: Type
     Type: PropertyType
     DataType: DBMSType
