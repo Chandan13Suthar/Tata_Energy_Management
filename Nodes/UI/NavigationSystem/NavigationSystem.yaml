@@ -31767,6 +31767,49 @@ Children:
             Type: BaseDataVariableType
             DataType: Float
             Value: 0.0
+            Children:
+            - Name: KeyValueConverter1
+              Type: ValueMapConverter
+              Children:
+              - Name: Source
+                Type: BaseDataVariableType
+                DataType: BaseDataType
+                ReferenceType: HasSource
+                Children:
+                - Name: DynamicLink
+                  Type: DynamicLink
+                  DataType: NodePath
+                  Value: "../../../../Rectangle1/SpinBox1/Value"
+              - Name: Pairs
+                Type: BaseObjectType
+                Children:
+                - Name: Pair
+                  Type: ValueMapPair
+                  Children:
+                  - Name: Key
+                    Type: BaseDataVariableType
+                    DataType: UInt32
+                    Value: 0
+                  - Name: Value
+                    Type: BaseDataVariableType
+                    DataType: String
+                    Value: ""
+                    Children:
+                    - Name: StringFormatter1
+                      Type: StringFormatter
+                      Children:
+                      - Name: Format
+                        Type: BaseDataVariableType
+                        DataType: LocalizedText
+                        ReferenceType: HasParameter
+                        ModellingRule: Optional
+                        Value: {"LocaleId":"en-US","Text":"SELECT Avg_PF FROM HourlyJaceDataLogger WHERE Jace= 33KV AND Month =4"}
+                      - Name: Mode
+                        Type: PropertyType
+                        DataType: DynamicLinkMode
+                        ReferenceType: HasComponent
+                        ModellingRule: Optional
+                        Value: 2
           - Name: MinValue
             Type: BaseDataVariableType
             DataType: Float
