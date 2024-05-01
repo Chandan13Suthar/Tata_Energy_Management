@@ -205,7 +205,7 @@ public class RuntimeNetLogic1 : BaseNetLogic
             string query7 = $"SELECT  AVG(Avg_PF) FROM DailyConsumption  WHERE  LocalTimestamp BETWEEN '" + new456 + " 00:00:00' AND '" + new645 + " 23:59:59' AND Jace =  '" + jace1 + "'  AND Meter = '" + meter1 + "' ";
             string query8 = $"SELECT  AVG(Frequency) FROM DailyConsumption  WHERE  LocalTimestamp  BETWEEN '" + new456 + " 00:00:00' AND '" + new645 + " 23:59:59' AND Jace =  '" + jace1 + "'  AND Meter = '" + meter1 + "' ";
 
-            throw new Exception(query5);
+            //throw new Exception(query5);
             myStore5.Query(query5, out header5, out resultSet5);
             //myStore6.Query(query6, out header6, out resultSet6);
             myStore7.Query(query7, out header7, out resultSet7);
