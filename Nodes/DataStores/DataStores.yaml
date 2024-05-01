@@ -285,6 +285,10 @@ Children:
           Type: StoreColumn
           DataType: String
           Value: ""
+        - Name: Consumption
+          Type: StoreColumn
+          DataType: Float
+          Value: 0.0
     - Name: MonthlyConsumptionReport
       Type: ODBCStoreTable
       Children:

@@ -71,7 +71,7 @@ public class RuntimeNetLogic1 : BaseNetLogic
         bool button1 = button1Variable.Value;
         DateTime datefrom = datefromVariable.Value;
         DateTime dateto = datetoVariable.Value;
-       string timerange = timerangeVariable.Value;
+         string timerange = timerangeVariable.Value;
 
 
         var project = FTOptix.HMIProject.Project.Current;
@@ -116,10 +116,10 @@ public class RuntimeNetLogic1 : BaseNetLogic
             timerange = difference.ToString(@"dd\:hh\:mm\:ss"); // ya aap apne hisab se date format mein set karein
 
 
-            string query1 = $"SELECT  SUM(Consumption) FROM DailyConsumption WHERE LocalTimestamp  BETWEEN '" + new123 + " 00:00:00' AND '" + new321 + " 23:59:59' AND Jace = '"+ jace1 + "' ";
+            string query1 = $"SELECT  SUM(Consumption) FROM HourlyJaceDataLogger WHERE Timestamp  BETWEEN '" + new123 + " 00:00:00' AND '" + new321 + " 23:59:59' AND Jace = '"+ jace1 + "' ";
             //string query2 = $"SELECT  MIN(Consumption) FROM DailyConsumption WHERE  LocalTimestamp  BETWEEN '" + new123 + " 00:00:00' AND '" + new321 + " 23:59:59' AND Jace = '" + jace1 + "' ";
-            string query3 = $"SELECT  AVG(Avg_PF) FROM DailyConsumption  WHERE  LocalTimestamp BETWEEN '" + new123 + " 00:00:00' AND '" + new321 + " 23:59:59' AND Jace = '" + jace1 + "' ";
-            string query4 = $"SELECT  AVG(Frequency) FROM DailyConsumption  WHERE  LocalTimestamp  BETWEEN '" + new123 + " 00:00:00' AND '" + new321 + " 23:59:59' AND Jace = '" + jace1 + "' ";
+            string query3 = $"SELECT  AVG(Avg_PF) FROM HourlyJaceDataLogger  WHERE  Timestamp BETWEEN '" + new123 + " 00:00:00' AND '" + new321 + " 23:59:59' AND Jace = '" + jace1 + "' ";
+            string query4 = $"SELECT  AVG(Frequency) FROM HourlyJaceDataLogger  WHERE  Timestamp  BETWEEN '" + new123 + " 00:00:00' AND '" + new321 + " 23:59:59' AND Jace = '" + jace1 + "' ";
 
 
             myStore1.Query(query1, out header1, out resultSet1);
@@ -205,7 +205,7 @@ public class RuntimeNetLogic1 : BaseNetLogic
             string query7 = $"SELECT  AVG(Avg_PF) FROM DailyConsumption  WHERE  LocalTimestamp BETWEEN '" + new456 + " 00:00:00' AND '" + new645 + " 23:59:59' AND Jace =  '" + jace1 + "'  AND Meter = '" + meter1 + "' ";
             string query8 = $"SELECT  AVG(Frequency) FROM DailyConsumption  WHERE  LocalTimestamp  BETWEEN '" + new456 + " 00:00:00' AND '" + new645 + " 23:59:59' AND Jace =  '" + jace1 + "'  AND Meter = '" + meter1 + "' ";
 
-
+            throw new Exception(query5);
             myStore5.Query(query5, out header5, out resultSet5);
             //myStore6.Query(query6, out header6, out resultSet6);
             myStore7.Query(query7, out header7, out resultSet7);
