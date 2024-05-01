@@ -1091,6 +1091,10 @@ Children:
     Type: BaseDataVariableType
     DataType: LocalizedText
     Value: {"LocaleId":"en-US","Text":"For Histo Dashboard"}
+  - Name: TimeRange
+    Type: BaseDataVariableType
+    DataType: TimeString
+    Value: "0"
 - Name: HistoDashboard
   Id: g=c92c97590d04d0688370490fb5310e7b
   Supertype: BaseObjectType
@@ -1189,6 +1193,10 @@ Children:
     Type: BaseDataVariableType
     DataType: LocalizedText
     Value: {"LocaleId":"en-US","Text":"For Histo Dashboard"}
+  - Name: TimeRange
+    Type: BaseDataVariableType
+    DataType: TimeString
+    Value: "0"
 - Name: _33KVAlarm1
   Type: _33KVAlarm
   Children:
