@@ -53,6 +53,7 @@ public class RuntimeNetLogic3 : BaseNetLogic
         button2Variable = owner.Button2Variable;
         datefromVariable = owner.DatefromVariable;
         datetoVariable = owner.DatetoVariable;
+        timerangeVariable = owner.TimeRangeVariable;
 
         periodicTask = new PeriodicTask(IncrementDecrementTask, 5000, LogicObject);
         periodicTask.Start();
@@ -84,6 +85,7 @@ public class RuntimeNetLogic3 : BaseNetLogic
         bool button2 = button2Variable.Value;
         DateTime datefrom = datefromVariable.Value;
         DateTime dateto = datetoVariable.Value;
+        string timerange = timerangeVariable.Value;
 
         var project = FTOptix.HMIProject.Project.Current;
         ///////////////////For Jace Selection////////////////////////////////////////////////////////////////////////////
@@ -151,18 +153,21 @@ public class RuntimeNetLogic3 : BaseNetLogic
             string new321 = dateto.ToString("yyyy-MM-dd");
             string jace3 = jace1.ToString();
             string jace4 = jace2.ToString();
+            TimeSpan difference = dateto - datefrom;
+            timerange = difference.ToString(@"dd\:hh\:mm\:ss");
+
 
 
             ///////////For Jace1/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-            string query1 = $"SELECT  SUM(Consumption) FROM DailyJaceDataLogger WHERE Timestamp  BETWEEN '" + new123 + " 00:00:00' AND '" + new321 + " 23:59:59' AND Jace = '" + jace3 + "' ";
+            string query1 = $"SELECT  SUM(Consumption) FROM HourlyJaceDataLogger WHERE Timestamp  BETWEEN '" + new123 + " 00:00:00' AND '" + new321 + " 23:59:59' AND Jace = '" + jace3 + "' ";
             //string query2 = $"SELECT  MIN(Consumption) FROM ConsumptionDistribution WHERE Date  BETWEEN '" + new123 + " 00:00:00' AND '" + new321 + " 23:59:59' AND Jace = '" + jace3 + "' ";
-            string query3 = $"SELECT  AVG(Avg_PF) FROM DailyJaceDataLogger WHERE Timestamp  BETWEEN '" + new123 + " 00:00:00' AND '" + new321 + " 23:59:59' AND Jace = '" + jace3 + "' ";
-            string query4 = $"SELECT  AVG(Frequency) FROM DailyJaceDataLogger WHERE Timestamp  BETWEEN '" + new123 + " 00:00:00' AND '" + new321 + " 23:59:59' AND Jace = '" + jace3 + "' ";
+            string query3 = $"SELECT  AVG(Avg_PF) FROM HourlyJaceDataLogger WHERE Timestamp  BETWEEN '" + new123 + " 00:00:00' AND '" + new321 + " 23:59:59' AND Jace = '" + jace3 + "' ";
+            string query4 = $"SELECT  AVG(Frequency) FROM HourlyJaceDataLogger WHERE Timestamp  BETWEEN '" + new123 + " 00:00:00' AND '" + new321 + " 23:59:59' AND Jace = '" + jace3 + "' ";
             ///////////For Jace2/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-            string query5 = $"SELECT  MAX(Consumption) FROM DailyJaceDataLogger WHERE Timestamp  BETWEEN '" + new123 + " 00:00:00' AND '" + new321 + " 23:59:59' AND Jace = '" + jace4 + "' ";
+            string query5 = $"SELECT  SUM(Consumption) FROM HourlyJaceDataLogger WHERE Timestamp  BETWEEN '" + new123 + " 00:00:00' AND '" + new321 + " 23:59:59' AND Jace = '" + jace4 + "' ";
            // string query6 = $"SELECT  MIN(Consumption) FROM ConsumptionDistribution WHERE Date  BETWEEN '" + new123 + " 00:00:00' AND '" + new321 + " 23:59:59' AND Jace = '" + jace4 + "' ";
-            string query7 = $"SELECT  AVG(Avg_PF) FROM DailyJaceDataLogger WHERE Timestamp  BETWEEN '" + new123 + " 00:00:00' AND '" + new321 + " 23:59:59' AND Jace = '" + jace4 + "' ";
-            string query8 = $"SELECT  AVG(Frequency) FROM DailyJaceDataLogger WHERE Timestamp  BETWEEN '" + new123 + " 00:00:00' AND '" + new321 + " 23:59:59' AND Jace = '" + jace4 + "' ";
+            string query7 = $"SELECT  AVG(Avg_PF) FROM HourlyJaceDataLogger WHERE Timestamp  BETWEEN '" + new123 + " 00:00:00' AND '" + new321 + " 23:59:59' AND Jace = '" + jace4 + "' ";
+            string query8 = $"SELECT  AVG(Frequency) FROM HourlyJaceDataLogger WHERE Timestamp  BETWEEN '" + new123 + " 00:00:00' AND '" + new321 + " 23:59:59' AND Jace = '" + jace4 + "' ";
 
 
             ///////////For Jace1///////////////////////////////
@@ -203,7 +208,7 @@ public class RuntimeNetLogic3 : BaseNetLogic
             var columnCount3 = header3 != null ? header3.Length : 0;
             if (rowCount3 > 0 && columnCount3 > 0)
             {
-                var column1 = Convert.ToInt32(resultSet3[0, 0]);
+                var column1 = Convert.ToSingle(resultSet3[0, 0]);
                 var Avgpf1 = column1;
                 avgpf1 = Avgpf1;
             }
@@ -213,7 +218,7 @@ public class RuntimeNetLogic3 : BaseNetLogic
             var columnCount4 = header4 != null ? header4.Length : 0;
             if (rowCount4 > 0 && columnCount4 > 0)
             {
-                var column1 = Convert.ToInt32(resultSet4[0, 0]);
+                var column1 = Convert.ToSingle(resultSet4[0, 0]);
                 var Avgfrequency1 = column1;
                 avgfrequency1 = Avgfrequency1;
             }
@@ -241,7 +246,7 @@ public class RuntimeNetLogic3 : BaseNetLogic
             var columnCount7 = header7 != null ? header7.Length : 0;
             if (rowCount7 > 0 && columnCount7 > 0)
             {
-                var column1 = Convert.ToInt32(resultSet7[0, 0]);
+                var column1 = Convert.ToSingle(resultSet7[0, 0]);
                 var Avgpf2 = column1;
                 avgpf2 = Avgpf2;
             }
@@ -251,7 +256,7 @@ public class RuntimeNetLogic3 : BaseNetLogic
             var columnCount8 = header8 != null ? header8.Length : 0;
             if (rowCount8 > 0 && columnCount8 > 0)
             {
-                var column1 = Convert.ToInt32(resultSet8[0, 0]);
+                var column1 = Convert.ToSingle(resultSet8[0, 0]);
                 var Avgfrequency2 = column1;
                 avgfrequency2 = Avgfrequency2;
             }
@@ -275,6 +280,7 @@ public class RuntimeNetLogic3 : BaseNetLogic
             avgpf2Variable.Value = avgpf2;
             avgfrequency2Variable.Value = avgfrequency2;
             consumption2Variable.Value = consumption2;
+            timerangeVariable.Value = timerange;
 
 
 
@@ -291,19 +297,21 @@ public class RuntimeNetLogic3 : BaseNetLogic
             string meter6 = meter2.ToString();
             string jace5 = jace1.ToString();
             string jace6 = jace2.ToString();
+            TimeSpan difference = dateto - datefrom;
+            timerange = difference.ToString(@"dd\:hh\:mm\:ss");
 
             ////////////////////////////////////////////////////////////////////////// For Meter 1 ////////////////////////////////////////////////////////////////////////////////////// 
 
-            string query9 = $"SELECT  SUM(Consumption) FROM DailyJaceDataLogger WHERE Timestamp  BETWEEN '" + new456 + " 00:00:00' AND '" + new645 + " 23:59:59' AND Jace =  '" + jace5 + "'  AND Meter = '" + meter5 + "' ";
+            string query9 = $"SELECT  SUM(Consumption) FROM DailyConsumption WHERE Timestamp  BETWEEN '" + new456 + " 00:00:00' AND '" + new645 + " 23:59:59' AND Jace =  '" + jace5 + "'  AND Meter = '" + meter5 + "' ";
             //string query10 = $"SELECT  MIN(Consumption) FROM DailyConsumption WHERE LocalTimestamp  BETWEEN '" + new456 + " 00:00:00' AND '" + new645 + " 23:59:59' AND Jace =  '" + jace5 + "'  AND Meter = '" + meter5 + "' ";
-            string query11 = $"SELECT  AVG(Avg_PF) FROM DailyJaceDataLogger WHERE Timestamp  BETWEEN '" + new456 + " 00:00:00' AND '" + new645 + " 23:59:59' AND Jace =  '" + jace5 + "'  AND Meter = '" + meter5 + "' ";
-            string query12 = $"SELECT  AVG(Frequency) FROM DailyJaceDataLogger WHERE Timestamp BETWEEN '" + new456 + " 00:00:00' AND '" + new645 + " 23:59:59' AND Jace =  '" + jace5 + "'  AND Meter = '" + meter5 + "' ";
+            string query11 = $"SELECT  AVG(Avg_PF) FROM DailyConsumption WHERE Timestamp  BETWEEN '" + new456 + " 00:00:00' AND '" + new645 + " 23:59:59' AND Jace =  '" + jace5 + "'  AND Meter = '" + meter5 + "' ";
+            string query12 = $"SELECT  AVG(Frequency) FROM DailyConsumption WHERE Timestamp BETWEEN '" + new456 + " 00:00:00' AND '" + new645 + " 23:59:59' AND Jace =  '" + jace5 + "'  AND Meter = '" + meter5 + "' ";
             
             ////////////////////////////////////////////////////////////////////////// For Meter 2 ////////////////////////////////////////////////////////////////////////////////////// 
-            string query13 = $"SELECT  SUM(Consumption) FROM DailyJaceDataLogger WHERE Timestamp  BETWEEN '" + new456 + " 00:00:00' AND '" + new645 + " 23:59:59' AND Jace =  '" + jace6 + "'  AND Meter = '" + meter6 + "' ";
+            string query13 = $"SELECT  SUM(Consumption) FROM DailyConsumption WHERE Timestamp  BETWEEN '" + new456 + " 00:00:00' AND '" + new645 + " 23:59:59' AND Jace =  '" + jace6 + "'  AND Meter = '" + meter6 + "' ";
             //string query14 = $"SELECT  MIN(Consumption) FROM DailyConsumption WHERE LocalTimestamp  BETWEEN '" + new456 + " 00:00:00' AND '" + new645 + " 23:59:59' AND Jace =  '" + jace6 + "'  AND Meter = '" + meter6 + "' ";
-            string query15 = $"SELECT  AVG(Avg_PF) FROM DailyJaceDataLogger WHERE Timestamp BETWEEN '" + new456 + " 00:00:00' AND '" + new645 + " 23:59:59' AND Jace =  '" + jace6 + "'  AND Meter = '" + meter6 + "' ";
-            string query16 = $"SELECT  AVG(Frequency) FROM DailyJaceDataLogger WHERE Timestamp BETWEEN '" + new456 + " 00:00:00' AND '" + new645 + " 23:59:59' AND Jace =  '" + jace6 + "'  AND Meter = '" + meter6 + "' ";
+            string query15 = $"SELECT  AVG(Avg_PF) FROM DailyConsumption WHERE Timestamp BETWEEN '" + new456 + " 00:00:00' AND '" + new645 + " 23:59:59' AND Jace =  '" + jace6 + "'  AND Meter = '" + meter6 + "' ";
+            string query16 = $"SELECT  AVG(Frequency) FROM DailyConsumption WHERE Timestamp BETWEEN '" + new456 + " 00:00:00' AND '" + new645 + " 23:59:59' AND Jace =  '" + jace6 + "'  AND Meter = '" + meter6 + "' ";
 
             ///////////////////////For MEter 1//////////////////////
             myStore9.Query(query9, out header9, out resultSet9);
@@ -345,7 +353,7 @@ public class RuntimeNetLogic3 : BaseNetLogic
             var columnCount11 = header11 != null ? header11.Length : 0;
             if (rowCount11 > 0 && columnCount11 > 0)
             {
-                var column1 = Convert.ToInt32(resultSet11[0, 0]);
+                var column1 = Convert.ToSingle(resultSet11[0, 0]);
                 var Avgpf1 = column1;
                 avgpf1 = Avgpf1;
             }
@@ -355,7 +363,7 @@ public class RuntimeNetLogic3 : BaseNetLogic
             var columnCount12 = header12 != null ? header12.Length : 0;
             if (rowCount12 > 0 && columnCount12 > 0)
             {
-                var column1 = Convert.ToInt32(resultSet12[0, 0]);
+                var column1 = Convert.ToSingle(resultSet12[0, 0]);
                 var Avgfrequency1 = column1;
                 avgfrequency1 = Avgfrequency1;
             }
@@ -390,7 +398,7 @@ public class RuntimeNetLogic3 : BaseNetLogic
             var columnCount15 = header15 != null ? header15.Length : 0;
             if (rowCount15 > 0 && columnCount15 > 0)
             {
-                var column1 = Convert.ToInt32(resultSet15[0, 0]);
+                var column1 = Convert.ToSingle(resultSet15[0, 0]);
                 var Avgpf2 = column1;
                 avgpf2 = Avgpf2;
             }
@@ -400,7 +408,7 @@ public class RuntimeNetLogic3 : BaseNetLogic
             var columnCount16 = header16 != null ? header16.Length : 0;
             if (rowCount16 > 0 && columnCount16 > 0)
             {
-                var column1 = Convert.ToInt32(resultSet16[0, 0]);
+                var column1 = Convert.ToSingle(resultSet16[0, 0]);
                 var Avgfrequency2 = column1;
                 avgfrequency2 = Avgfrequency2;
             }
@@ -425,6 +433,7 @@ public class RuntimeNetLogic3 : BaseNetLogic
             avgpf2Variable.Value = avgpf2;
             avgfrequency2Variable.Value = avgfrequency2;
             consumption2Variable.Value = consumption2;
+            timerangeVariable.Value = timerange;
 
 
         }
@@ -437,6 +446,7 @@ public class RuntimeNetLogic3 : BaseNetLogic
 
     private IUAVariable datefromVariable;
     private IUAVariable datetoVariable;
+    private IUAVariable timerangeVariable;
     private IUAVariable jace1Variable;
     private IUAVariable jace2Variable;
     private IUAVariable meter1Variable;

@@ -47,6 +47,7 @@ public class RuntimeNetLogic1 : BaseNetLogic
         datefromVariable = owner.DatefromVariable;
         datetoVariable = owner.DatetoVariable;
         timerangeVariable = owner.TimeRangeVariable;
+        durationVariable = owner.DurationVariable;
 
         periodicTask = new PeriodicTask(IncrementDecrementTask, 2000 , LogicObject);
         periodicTask.Start();
@@ -154,7 +155,7 @@ public class RuntimeNetLogic1 : BaseNetLogic
             var columnCount3 = header3 != null ? header3.Length : 0;
             if (rowCount3 > 0 && columnCount3 > 0)
             {
-                var column1 = Convert.ToInt32(resultSet3[0, 0]);
+                var column1 = Convert.ToSingle(resultSet3[0, 0]);
                 var Avgpf = column1;
                 avgpf = Avgpf;
             }
@@ -164,7 +165,7 @@ public class RuntimeNetLogic1 : BaseNetLogic
             var columnCount4 = header4 != null ? header4.Length : 0;
             if (rowCount4 > 0 && columnCount4 > 0)
             {
-                var column1 = Convert.ToInt32(resultSet4[0, 0]);
+                var column1 = Convert.ToSingle(resultSet4[0, 0]);
                 var Avgfrequency = column1;
                 avgfrequency = Avgfrequency;
             }
@@ -238,7 +239,7 @@ public class RuntimeNetLogic1 : BaseNetLogic
             var columnCount7 = header7 != null ? header7.Length : 0;
             if (rowCount7 > 0 && columnCount7 > 0)
             {
-                var column1 = Convert.ToInt32(resultSet7[0, 0]);
+                var column1 = Convert.ToSingle(resultSet7[0, 0]);
                 var Avgpf = column1;
                 avgpf = Avgpf;
             }
@@ -248,11 +249,11 @@ public class RuntimeNetLogic1 : BaseNetLogic
             var columnCount8 = header8 != null ? header8.Length : 0;
             if (rowCount8 > 0 && columnCount8 > 0)
             {
-                var column1 = Convert.ToInt32(resultSet8[0, 0]);
-                var Avgfrequency = column1;
+
+                var column1 = Convert.ToSingle(resultSet8[0, 0]);
+                var Avgfrequency = column1; // Update avgfrequency with parsed float value
                 avgfrequency = Avgfrequency;
             }
-
 
             //float consumptionP = (maxconsumption - minconsumption);
 
@@ -287,5 +288,6 @@ public class RuntimeNetLogic1 : BaseNetLogic
     private IUAVariable datefromVariable;
     private IUAVariable datetoVariable;
     private IUAVariable timerangeVariable;
+    private IUAVariable durationVariable;
     private PeriodicTask periodicTask;
 }
