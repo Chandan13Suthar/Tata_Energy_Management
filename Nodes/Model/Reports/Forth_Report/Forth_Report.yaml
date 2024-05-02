@@ -7,7 +7,7 @@ Children:
   Supertype: Enumeration
   EnumDefinition: 
    {
-    "Name": "Jaceselection",
+    "Name": "Jace selection",
     "DataType": {
      "IdType": 2,
      "Id": "57306442dcd064165b96977ebf794c80",
@@ -18,72 +18,83 @@ Children:
       "Value": 0,
       "DisplayName": {
        "LocaleId": "en-US",
-       "Text": "33KV"
+       "Text": "ALL"
       },
       "Description": {
        "LocaleId": "en-US",
-       "Text": "33KV"
+       "Text": "ALL"
       }
      },{
       "Name": "Value1",
       "Value": 1,
       "DisplayName": {
        "LocaleId": "en-US",
-       "Text": "UTILITY"
+       "Text": "33KV"
       },
       "Description": {
        "LocaleId": "en-US",
-       "Text": "UTILITY"
+       "Text": "33KV SEGR ROOM"
       }
      },{
       "Name": "Value2",
       "Value": 2,
       "DisplayName": {
        "LocaleId": "en-US",
-       "Text": "PUMP ROOM"
+       "Text": "UTILITY"
       },
       "Description": {
        "LocaleId": "en-US",
-       "Text": "PUMP ROOM"
+       "Text": "UTILITY"
       }
      },{
       "Name": "Value3",
       "Value": 3,
       "DisplayName": {
        "LocaleId": "en-US",
-       "Text": "PAINT SHOP"
+       "Text": "PUMP ROOM"
       },
       "Description": {
        "LocaleId": "en-US",
-       "Text": "PAINT SHOP"
+       "Text": "PUMP ROOM"
       }
      },{
       "Name": "Value4",
       "Value": 4,
       "DisplayName": {
        "LocaleId": "en-US",
-       "Text": "BODY SHOP"
+       "Text": "PAINT SHOP"
       },
       "Description": {
        "LocaleId": "en-US",
-       "Text": "BODY SHOP"
+       "Text": "PAINT SHOP"
       }
      },{
       "Name": "Value5",
       "Value": 5,
       "DisplayName": {
        "LocaleId": "en-US",
-       "Text": "TCF STATION"
+       "Text": "BODY SHOP"
       },
       "Description": {
        "LocaleId": "en-US",
-       "Text": "TCF STATION"
+       "Text": "BODY SHOP"
       }
      },{
       "Name": "Value6",
       "Value": 6,
       "DisplayName": {
        "LocaleId": "en-US",
+       "Text": "TCF STATION"
+      },
+      "Description": {
+       "LocaleId": "en-US",
+       "Text": "TCF STATION"
+      }
+     },{
+      "Name": "Value7",
+      "Value": 7,
+      "DisplayName": {
+       "LocaleId": "en-US",
        "Text": "STAMPING"
       },
       "Description": {
@@ -91,8 +102,8 @@ Children:
        "Text": "STAMPING"
       }
      },{
-      "Name": "Value7",
-      "Value": 7,
+      "Name": "Value8",
+      "Value": 8,
       "DisplayName": {
        "LocaleId": "en-US",
        "Text": "ADMIN"
@@ -102,8 +113,8 @@ Children:
        "Text": "ADMIN"
       }
      },{
-      "Name": "Value8",
-      "Value": 8,
+      "Name": "Value9",
+      "Value": 9,
       "DisplayName": {
        "LocaleId": "en-US",
        "Text": "SPP"

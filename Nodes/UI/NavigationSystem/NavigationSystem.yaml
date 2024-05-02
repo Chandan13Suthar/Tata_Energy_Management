@@ -30124,6 +30124,121 @@ Children:
           DataType: Size
           ModellingRule: Optional
           Value: 0.0
+        - Name: CircularGauge1
+          Type: CircularGauge
+          Children:
+          - Name: Value
+            Type: BaseDataVariableType
+            DataType: Float
+            Value: 0.0
+            Children:
+            - Name: KeyValueConverter1
+              Type: ValueMapConverter
+              Children:
+              - Name: Source
+                Type: BaseDataVariableType
+                DataType: BaseDataType
+                ReferenceType: HasSource
+                Children:
+                - Name: DynamicLink
+                  Type: DynamicLink
+                  DataType: NodePath
+                  Value: "../../../../Rectangle1/SpinBox1/Value"
+              - Name: Pairs
+                Type: BaseObjectType
+                Children:
+                - Name: Pair
+                  Type: ValueMapPair
+                  Children:
+                  - Name: Key
+                    Type: BaseDataVariableType
+                    DataType: UInt32
+                    Value: 0
+                  - Name: Value
+                    Type: BaseDataVariableType
+                    DataType: String
+                    Value: ""
+                    Children:
+                    - Name: StringFormatter1
+                      Type: StringFormatter
+                      Children:
+                      - Name: Format
+                        Type: BaseDataVariableType
+                        DataType: LocalizedText
+                        ReferenceType: HasParameter
+                        ModellingRule: Optional
+                        Value: {"LocaleId":"en-US","Text":"SELECT Avg_PF FROM HourlyJaceDataLogger WHERE Jace= 33KV AND Month =4"}
+                      - Name: Mode
+                        Type: PropertyType
+                        DataType: DynamicLinkMode
+                        ReferenceType: HasComponent
+                        ModellingRule: Optional
+                        Value: 2
+          - Name: MinValue
+            Type: BaseDataVariableType
+            DataType: Float
+            Value: 0.0
+          - Name: MaxValue
+            Type: BaseDataVariableType
+            DataType: Float
+            Value: 1.0
+          - Name: WarningZones
+            Type: BaseObjectType
+          - Name: Width
+            Type: BaseVariableType
+            DataType: Size
+            ModellingRule: Optional
+            Value: 210.0
+          - Name: Height
+            Type: BaseVariableType
+            DataType: Size
+            ModellingRule: Optional
+            Value: 180.0
+          - Name: LeftMargin
+            Type: BaseVariableType
+            DataType: Size
+            ModellingRule: Optional
+            Value: 430.0
+          - Name: TopMargin
+            Type: BaseVariableType
+            DataType: Size
+            ModellingRule: Optional
+            Value: 400.0
+          - Name: StartAngle
+            Type: BaseDataVariableType
+            DataType: Size
+            ModellingRule: Optional
+            Value: -110.0
+          - Name: EndAngle
+            Type: BaseDataVariableType
+            DataType: Size
+            ModellingRule: Optional
+            Value: 110.0
+          - Name: MajorTickCount
+            Type: BaseDataVariableType
+            DataType: Float
+            ModellingRule: Optional
+            Value: 10.0
+          - Name: Editable
+            Type: BaseDataVariableType
+            DataType: Boolean
+            ModellingRule: Optional
+            Value: false
+          - Name: MinorTickCount
+            Type: BaseDataVariableType
+            DataType: Float
+            ModellingRule: Optional
+            Value: 2.0
+          - Name: ScalePadding
+            Type: BaseDataVariableType
+            DataType: Size
+            ModellingRule: Optional
+            Value: 30.0
+          - Name: GaugeStyle
+            Type: BaseDataVariableType
+            DataType: String
+            ModellingRule: Optional
+            Value: "GaugeStyle1"
         - Name: JacewisePanel
           Type: Rectangle
           Children:
