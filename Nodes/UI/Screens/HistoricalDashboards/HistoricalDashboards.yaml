@@ -6452,7 +6452,7 @@ Children:
                     - Name: Pens
                       Type: BaseObjectType
                       Children:
-                      - Name: Consumption
+                      - Name: TrendPen1
                         Type: TrendPen
                         DataType: BaseDataType
                         Children:
@@ -6466,21 +6466,21 @@ Children:
                           Value: true
                         - Name: Thresholds
                           Type: BaseObjectType
-                        - Name: Color
-                          Type: BaseDataVariableType
-                          DataType: Color
-                          ModellingRule: Optional
-                          Value: "#84c3be"
                         - Name: DynamicLink
                           Type: DynamicLink
                           DataType: NodePath
-                          Value: "/Objects/Tata_Energy_Management/Loggers/HourlyJaceDataLogger/VariablesToLog/Consumption/LastValue"
+                          Value: "../../../CircularGauge2/Value"
                           Children:
                           - Name: Mode
                             Type: BaseVariableType
                             DataType: DynamicLinkMode
                             ModellingRule: Optional
                             Value: 2
+                        - Name: Color
+                          Type: BaseDataVariableType
+                          DataType: Color
+                          ModellingRule: Optional
+                          Value: "#ff0000"
                     - Class: Reference
                       Target: ns=5;i=1129
                       Direction: Forward
@@ -6490,16 +6490,11 @@ Children:
                       - Name: Follow
                         Type: BaseDataVariableType
                         DataType: Boolean
-                        Value: false
+                        Value: true
                       - Name: Window
                         Type: BaseDataVariableType
                         DataType: Duration
-                        Value: "0:00:00:5.0000000"
-                        Children:
-                        - Name: DynamicLink
-                          Type: DynamicLink
-                          DataType: NodePath
-                          Value: "../../../../S2_TotalConsumption3/Variable1"
+                        Value: "0:00:00:30.0000000"
                       - Name: Interactive
                         Type: BaseDataVariableType
                         DataType: Boolean
@@ -6508,11 +6503,6 @@ Children:
                         Type: BaseDataVariableType
                         DataType: DateTime
                         Value: "1601-01-01T00:00:00.0000000"
-                        Children:
-                        - Name: DynamicLink
-                          Type: DynamicLink
-                          DataType: NodePath
-                          Value: "/Objects/Tata_Energy_Management/Model/Histo Dashboard/Datefrom@Value"
                       - Name: SnapPosition
                         Type: BaseDataVariableType
                         DataType: SnapPositionEnum
@@ -6528,11 +6518,11 @@ Children:
                       - Name: MinValue
                         Type: BaseDataVariableType
                         DataType: Size
-                        Value: 50.0
+                        Value: 0.0
                       - Name: MaxValue
                         Type: BaseDataVariableType
                         DataType: Size
-                        Value: 500.0
+                        Value: 100.0
                       - Name: AutoScale
                         Type: BaseDataVariableType
                         DataType: Boolean
@@ -6572,12 +6562,12 @@ Children:
                       Type: BaseVariableType
                       DataType: Size
                       ModellingRule: Optional
-                      Value: 62.0
+                      Value: 47.0
                     - Name: TopMargin
                       Type: BaseVariableType
                       DataType: Size
                       ModellingRule: Optional
-                      Value: 19.0
+                      Value: 26.0
                     - Name: RefreshTime
                       Type: BaseDataVariableType
                       DataType: UInt32
@@ -6602,38 +6592,6 @@ Children:
                       Type: BaseDataVariableType
                       DataType: Boolean
                       Value: true
-                      Children:
-                      - Name: ExpressionEvaluator1
-                        Type: ExpressionEvaluator
-                        Children:
-                        - Name: Expression
-                          Type: BaseDataVariableType
-                          DataType: String
-                          ReferenceType: HasParameter
-                          ModellingRule: Optional
-                          Value: "{0} == 0"
-                        - Name: ns=3;Source0
-                          Type: BaseDataVariableType
-                          DataType: BaseDataType
-                          ReferenceType: HasSource
-                          Children:
-                          - Name: DynamicLink
-                            Type: DynamicLink
-                            DataType: NodePath
-                            Value: "/Objects/Tata_Energy_Management/Model/Histo Dashboard/Comparision_Selection"
-                    - Name: Model
-                      Type: NodePointer
-                      DataType: NodeId
-                      Value: "/Objects/Tata_Energy_Management/DataStores/ODBCDatabase"
-                      Children:
-                      - Name: ItemKind
-                        Type: PropertyType
-                        DataType: NodeId
-                        Value: {"IdType":0,"Id":0,"Namespace":-1}
-                      - Name: Kind
-                        Type: PropertyType
-                        DataType: NodeId
-                        Value: {"IdType":0,"Id":0,"Namespace":-1}
                     - Name: Query
                       Type: BaseDataVariableType
                       DataType: String
@@ -6648,7 +6606,7 @@ Children:
                     - Name: Pens
                       Type: BaseObjectType
                       Children:
-                      - Name: Consumption
+                      - Name: TrendPen1
                         Type: TrendPen
                         DataType: BaseDataType
                         Children:
@@ -6662,15 +6620,10 @@ Children:
                           Value: true
                         - Name: Thresholds
                           Type: BaseObjectType
-                        - Name: Color
-                          Type: BaseDataVariableType
-                          DataType: Color
-                          ModellingRule: Optional
-                          Value: "#ff0000"
                         - Name: DynamicLink
                           Type: DynamicLink
                           DataType: NodePath
-                          Value: "/Objects/Tata_Energy_Management/Loggers/DailyConsumption/VariablesToLog/Consumption/LastValue"
+                          Value: "../../../CircularGauge1/Value"
                           Children:
                           - Name: Mode
                             Type: BaseVariableType
@@ -6686,16 +6639,11 @@ Children:
                       - Name: Follow
                         Type: BaseDataVariableType
                         DataType: Boolean
-                        Value: false
+                        Value: true
                       - Name: Window
                         Type: BaseDataVariableType
                         DataType: Duration
-                        Value: "1:00:00:0.0000000"
-                        Children:
-                        - Name: DynamicLink
-                          Type: DynamicLink
-                          DataType: NodePath
-                          Value: "../../../../S2_TotalConsumption3/Variable1"
+                        Value: "0:00:00:30.0000000"
                       - Name: Interactive
                         Type: BaseDataVariableType
                         DataType: Boolean
@@ -6704,11 +6652,6 @@ Children:
                         Type: BaseDataVariableType
                         DataType: DateTime
                         Value: "1601-01-01T00:00:00.0000000"
-                        Children:
-                        - Name: DynamicLink
-                          Type: DynamicLink
-                          DataType: NodePath
-                          Value: "/Objects/Tata_Energy_Management/Model/Histo Dashboard/Datefrom@Value"
                       - Name: SnapPosition
                         Type: BaseDataVariableType
                         DataType: SnapPositionEnum
@@ -6724,11 +6667,11 @@ Children:
                       - Name: MinValue
                         Type: BaseDataVariableType
                         DataType: Size
-                        Value: 50.0
+                        Value: 0.0
                       - Name: MaxValue
                         Type: BaseDataVariableType
                         DataType: Size
-                        Value: -1.0
+                        Value: 100.0
                       - Name: AutoScale
                         Type: BaseDataVariableType
                         DataType: Boolean
@@ -6768,12 +6711,12 @@ Children:
                       Type: BaseVariableType
                       DataType: Size
                       ModellingRule: Optional
-                      Value: 61.0
+                      Value: 47.0
                     - Name: TopMargin
                       Type: BaseVariableType
                       DataType: Size
                       ModellingRule: Optional
-                      Value: 19.0
+                      Value: 26.0
                     - Name: RefreshTime
                       Type: BaseDataVariableType
                       DataType: UInt32
@@ -6798,38 +6741,6 @@ Children:
                       Type: BaseDataVariableType
                       DataType: Boolean
                       Value: true
-                      Children:
-                      - Name: ExpressionEvaluator1
-                        Type: ExpressionEvaluator
-                        Children:
-                        - Name: Expression
-                          Type: BaseDataVariableType
-                          DataType: String
-                          ReferenceType: HasParameter
-                          ModellingRule: Optional
-                          Value: "{0} == 1"
-                        - Name: ns=3;Source0
-                          Type: BaseDataVariableType
-                          DataType: BaseDataType
-                          ReferenceType: HasSource
-                          Children:
-                          - Name: DynamicLink
-                            Type: DynamicLink
-                            DataType: NodePath
-                            Value: "/Objects/Tata_Energy_Management/Model/Histo Dashboard/Comparision_Selection"
-                    - Name: Model
-                      Type: NodePointer
-                      DataType: NodeId
-                      Value: "/Objects/Tata_Energy_Management/DataStores/ODBCDatabase"
-                      Children:
-                      - Name: ItemKind
-                        Type: PropertyType
-                        DataType: NodeId
-                        Value: {"IdType":0,"Id":0,"Namespace":-1}
-                      - Name: Kind
-                        Type: PropertyType
-                        DataType: NodeId
-                        Value: {"IdType":0,"Id":0,"Namespace":-1}
                     - Name: Query
                       Type: BaseDataVariableType
                       DataType: String
@@ -6838,6 +6749,15 @@ Children:
                       Type: BaseDataVariableType
                       DataType: Boolean
                       Value: true
+                    - Name: Opacity
+                      Type: BaseVariableType
+                      DataType: Float
+                      Value: 85.0
+                      Children:
+                      - Name: DynamicLink
+                        Type: DynamicLink
+                        DataType: NodePath
+                        Value: "../../CircularGauge3/Value"
                   - Name: Button1
                     Type: Button
                     Children:
@@ -64961,7 +64881,7 @@ Children:
                       Type: BaseVariableType
                       DataType: Size
                       ModellingRule: Optional
-                      Value: 50.0
+                      Value: 45.0
                     - Name: MaxHoldTime
                       Type: BaseDataVariableType
                       DataType: Duration
@@ -70305,12 +70225,12 @@ Children:
                     Type: BaseVariableType
                     DataType: Size
                     ModellingRule: Optional
-                    Value: 780.0
+                    Value: 580.0
                   - Name: TopMargin
                     Type: BaseVariableType
                     DataType: Size
                     ModellingRule: Optional
-                    Value: -402.0
+                    Value: -409.0
                   - Name: Width
                     Type: BaseVariableType
                     DataType: Size
@@ -73145,7 +73065,7 @@ Children:
                   Type: BaseVariableType
                   DataType: Size
                   ModellingRule: Optional
-                  Value: 305.0
+                  Value: 301.0
               - Name: TopMargin
                 Type: BaseVariableType
                 DataType: Size
