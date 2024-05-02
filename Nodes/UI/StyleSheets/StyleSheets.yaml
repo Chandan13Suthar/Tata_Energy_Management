@@ -882,7 +882,7 @@ Children:
       - Name: BackgroundColor
         Type: BaseDataVariableType
         DataType: Color
-        Value: "#3b3b3b"
+        Value: "#f0f0f0"
       - Name: FontSize
         Type: BaseDataVariableType
         DataType: Size
@@ -890,7 +890,11 @@ Children:
       - Name: AxisColor
         Type: BaseDataVariableType
         DataType: Color
-        Value: "#ffffff"
+        Value: "#f8e71c"
+      - Name: GridColor
+        Type: BaseDataVariableType
+        DataType: Color
+        Value: "#000000"
   - Name: DataListStyles
     Type: BaseObjectType
     Children:

@@ -15098,3 +15098,184 @@ Children:
       ReferenceType: HasComponent
       Value: 2
 - File: HomePageHistogram/HomePageHistogram.yaml
+- Name: HomePageInstance
+  Type: HomePageNew
+  Children:
+  - Name: Target
+    Type: BaseDataVariableType
+    DataType: Float
+    Value: 1200.0
+  - Name: Consumption
+    Type: BaseDataVariableType
+    DataType: Float
+    Value: 0.0
+  - Name: AvgPF
+    Type: BaseDataVariableType
+    DataType: Float
+    Value: 0.0
+  - Name: AvgFrequency
+    Type: BaseDataVariableType
+    DataType: Float
+    Value: 0.0
+  - Name: AvgLL
+    Type: BaseDataVariableType
+    DataType: Float
+    Value: 0.0
+  - Name: AvgLN
+    Type: BaseDataVariableType
+    DataType: Float
+    Value: 0.0
+  - Name: Date
+    Type: BaseDataVariableType
+    DataType: DateTime
+    Value: "1601-01-01T00:00:00.0000000"
+  - Name: PF
+    Type: BaseDataVariableType
+    DataType: Float
+    Value: 0.0
+  - Name: Frequency
+    Type: BaseDataVariableType
+    DataType: Float
+    Value: 0.0
+  - Name: TODConsumption
+    Type: BaseDataVariableType
+    DataType: Float
+    Value: 0.0
+  - Name: Selection
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+    Children:
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "/Objects/Tata_Energy_Management/Model/HomePageHistogram/HomePage2/SpinBoxValue"
+  - Name: Button
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: true
+  - Name: RuntimeNetLogic8
+    Type: NetLogic
+- Name: HomePageNew
+  Id: g=e202063b9b77d674d04af72a94a04c4c
+  Supertype: BaseObjectType
+  Children:
+  - Name: Target
+    Type: BaseDataVariableType
+    DataType: Float
+    Value: 1200.0
+  - Name: Consumption
+    Type: BaseDataVariableType
+    DataType: Float
+    Value: 0.0
+  - Name: AvgPF
+    Type: BaseDataVariableType
+    DataType: Float
+    Value: 0.0
+  - Name: AvgFrequency
+    Type: BaseDataVariableType
+    DataType: Float
+    Value: 0.0
+  - Name: AvgLL
+    Type: BaseDataVariableType
+    DataType: Float
+    Value: 0.0
+  - Name: AvgLN
+    Type: BaseDataVariableType
+    DataType: Float
+    Value: 0.0
+  - Name: Date
+    Type: BaseDataVariableType
+    DataType: DateTime
+    Value: "1601-01-01T00:00:00.0000000"
+  - Name: PF
+    Type: BaseDataVariableType
+    DataType: Float
+    Value: 0.0
+  - Name: Frequency
+    Type: BaseDataVariableType
+    DataType: Float
+    Value: 0.0
+  - Name: TODConsumption
+    Type: BaseDataVariableType
+    DataType: Float
+    Value: 0.0
+  - Name: Selection
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+    Children:
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "/Objects/Tata_Energy_Management/Model/HomePageHistogram/HomePage2/SpinBoxValue"
+      Children:
+      - Name: Mode
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        ModellingRule: Optional
+        Value: 2
+  - Name: RuntimeNetLogic8
+    Type: NetLogic
+  - Name: Button
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: true
+- Name: HomePageNew1
+  Type: HomePageNew
+  Children:
+  - Name: Target
+    Type: BaseDataVariableType
+    DataType: Float
+    Value: 1200.0
+  - Name: Consumption
+    Type: BaseDataVariableType
+    DataType: Float
+    Value: 0.0
+  - Name: AvgPF
+    Type: BaseDataVariableType
+    DataType: Float
+    Value: 0.0
+  - Name: AvgFrequency
+    Type: BaseDataVariableType
+    DataType: Float
+    Value: 0.0
+  - Name: AvgLL
+    Type: BaseDataVariableType
+    DataType: Float
+    Value: 0.0
+  - Name: AvgLN
+    Type: BaseDataVariableType
+    DataType: Float
+    Value: 0.0
+  - Name: Date
+    Type: BaseDataVariableType
+    DataType: DateTime
+    Value: "1601-01-01T00:00:00.0000000"
+  - Name: PF
+    Type: BaseDataVariableType
+    DataType: Float
+    Value: 0.0
+  - Name: Frequency
+    Type: BaseDataVariableType
+    DataType: Float
+    Value: 0.0
+  - Name: TODConsumption
+    Type: BaseDataVariableType
+    DataType: Float
+    Value: 0.0
+  - Name: Selection
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+    Children:
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "/Objects/Tata_Energy_Management/Model/HomePageHistogram/HomePage2/SpinBoxValue"
+  - Name: RuntimeNetLogic8
+    Type: NetLogic
+  - Name: Button
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: true

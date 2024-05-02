@@ -71459,6 +71459,52 @@ Children:
                     Value: 1.0
                   - Name: WarningZones
                     Type: BaseObjectType
+                    Children:
+                    - Name: WarningZone1
+                      Type: WarningZone
+                      Children:
+                      - Name: From
+                        Type: BaseDataVariableType
+                        DataType: Float
+                        Value: 0.0
+                      - Name: To
+                        Type: BaseDataVariableType
+                        DataType: Float
+                        Value: 0.699999988079071
+                      - Name: Color
+                        Type: BaseDataVariableType
+                        DataType: Color
+                        Value: "#ff1414"
+                    - Name: WarningZone2
+                      Type: WarningZone
+                      Children:
+                      - Name: From
+                        Type: BaseDataVariableType
+                        DataType: Float
+                        Value: 0.699999988079071
+                      - Name: To
+                        Type: BaseDataVariableType
+                        DataType: Float
+                        Value: 0.8500000238418579
+                      - Name: Color
+                        Type: BaseDataVariableType
+                        DataType: Color
+                        Value: "#f8e71c"
+                    - Name: WarningZone3
+                      Type: WarningZone
+                      Children:
+                      - Name: From
+                        Type: BaseDataVariableType
+                        DataType: Float
+                        Value: 0.8500000238418579
+                      - Name: To
+                        Type: BaseDataVariableType
+                        DataType: Float
+                        Value: 1.0
+                      - Name: Color
+                        Type: BaseDataVariableType
+                        DataType: Color
+                        Value: "#11b504"
                   - Name: Width
                     Type: BaseVariableType
                     DataType: Size
@@ -71514,12 +71560,12 @@ Children:
                     Type: BaseVariableType
                     DataType: Size
                     ModellingRule: Optional
-                    Value: 100.0
+                    Value: 102.0
                   - Name: TopMargin
                     Type: BaseVariableType
                     DataType: Size
                     ModellingRule: Optional
-                    Value: -71.0
+                    Value: -80.0
                   - Name: Width
                     Type: BaseVariableType
                     DataType: Size
@@ -71684,12 +71730,12 @@ Children:
                     Type: BaseVariableType
                     DataType: Size
                     ModellingRule: Optional
-                    Value: 120.0
+                    Value: 60.0
                   - Name: TopMargin
                     Type: BaseVariableType
                     DataType: Size
                     ModellingRule: Optional
-                    Value: -410.0
+                    Value: -411.0
                   - Name: Width
                     Type: BaseVariableType
                     DataType: Size
@@ -71731,7 +71777,7 @@ Children:
                   - Name: Text
                     Type: BaseDataVariableType
                     DataType: LocalizedText
-                    Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+                    Value: {"LocaleId":"en-US","Text":"J1_INCOMER1"}
                   - Name: LeftMargin
                     Type: BaseVariableType
                     DataType: Size
@@ -74386,9 +74432,70 @@ Children:
                   - Name: MaxValue
                     Type: BaseDataVariableType
                     DataType: Float
-                    Value: 120.0
+                    Value: 60.0
                   - Name: WarningZones
                     Type: BaseObjectType
+                    Children:
+                    - Name: WarningZone1
+                      Type: WarningZone
+                      Children:
+                      - Name: From
+                        Type: BaseDataVariableType
+                        DataType: Float
+                        Value: 0.0
+                      - Name: To
+                        Type: BaseDataVariableType
+                        DataType: Float
+                        Value: 45.0
+                      - Name: Color
+                        Type: BaseDataVariableType
+                        DataType: Color
+                        Value: "#ff1414"
+                    - Name: WarningZone2
+                      Type: WarningZone
+                      Children:
+                      - Name: From
+                        Type: BaseDataVariableType
+                        DataType: Float
+                        Value: 45.0
+                      - Name: To
+                        Type: BaseDataVariableType
+                        DataType: Float
+                        Value: 48.0
+                      - Name: Color
+                        Type: BaseDataVariableType
+                        DataType: Color
+                        Value: "#f8e71c"
+                    - Name: WarningZone3
+                      Type: WarningZone
+                      Children:
+                      - Name: From
+                        Type: BaseDataVariableType
+                        DataType: Float
+                        Value: 48.0
+                      - Name: To
+                        Type: BaseDataVariableType
+                        DataType: Float
+                        Value: 51.0
+                      - Name: Color
+                        Type: BaseDataVariableType
+                        DataType: Color
+                        Value: "#11b504"
+                    - Name: WarningZone4
+                      Type: WarningZone
+                      Children:
+                      - Name: From
+                        Type: BaseDataVariableType
+                        DataType: Float
+                        Value: 51.0
+                      - Name: To
+                        Type: BaseDataVariableType
+                        DataType: Float
+                        Value: 60.0
+                      - Name: Color
+                        Type: BaseDataVariableType
+                        DataType: Color
+                        Value: "#ff1414"
                   - Name: Width
                     Type: BaseVariableType
                     DataType: Size
@@ -74760,6 +74867,51 @@ Children:
                 DataType: Size
                 ModellingRule: Optional
                 Value: -10.0
+              - Name: PanelLoader1
+                Type: PanelLoader
+                Children:
+                - Name: Panel
+                  Type: NodePointer
+                  DataType: NodeId
+                  Value: {"IdType":0,"Id":0,"Namespace":-1}
+                  Children:
+                  - Name: Kind
+                    Type: PropertyType
+                    DataType: NodeId
+                    Value: "/Types/ObjectTypes/BaseObjectType/BaseUIObject/Item/Container"
+                - Name: CurrentPanel
+                  Type: NodePointer
+                  DataType: NodeId
+                  AccessLevel: Read
+                  Value: {"IdType":0,"Id":0,"Namespace":-1}
+                  Children:
+                  - Name: Kind
+                    Type: PropertyType
+                    DataType: NodeId
+                    Value: "/Types/ObjectTypes/BaseObjectType/BaseUIObject/Item"
+                - Class: Reference
+                  Target: ns=5;i=478
+                  Direction: Forward
+                - Name: Width
+                  Type: BaseVariableType
+                  DataType: Size
+                  ModellingRule: Optional
+                  Value: 1490.0
+                - Name: Height
+                  Type: BaseVariableType
+                  DataType: Size
+                  ModellingRule: Optional
+                  Value: 300.0
+                - Name: LeftMargin
+                  Type: BaseVariableType
+                  DataType: Size
+                  ModellingRule: Optional
+                  Value: 30.0
+                - Name: TopMargin
+                  Type: BaseVariableType
+                  DataType: Size
+                  ModellingRule: Optional
+                  Value: 636.0
           - Name: BottomMargin
             Type: BaseVariableType
             DataType: Size

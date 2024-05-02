@@ -19111,7 +19111,7 @@ Children:
             Type: BaseVariableType
             DataType: Size
             ModellingRule: Optional
-            Value: 8.0
+            Value: 6.0
           - Name: Width
             Type: BaseVariableType
             DataType: Size
@@ -19341,7 +19341,7 @@ Children:
             Type: BaseVariableType
             DataType: Size
             ModellingRule: Optional
-            Value: 20.0
+            Value: 28.0
         - Name: DateAndTime1
           Type: DateTimePicker
           Children:
@@ -19385,20 +19385,16 @@ Children:
           - Name: Model
             Type: NodePointer
             DataType: NodeId
-            Value: {"IdType":0,"Id":0,"Namespace":-1}
+            Value: "/Objects/Tata_Energy_Management/Model/Reports/Forth Report/Jaceselection"
             Children:
             - Name: ItemKind
               Type: PropertyType
               DataType: NodeId
-              Value: {"IdType":0,"Id":0,"Namespace":-1}
+              Value: "/Types/VariableTypes/BaseVariableType/BaseDataVariableType"
             - Name: Kind
               Type: PropertyType
               DataType: NodeId
               Value: {"IdType":0,"Id":0,"Namespace":-1}
-            - Name: DynamicLink
-              Type: DynamicLink
-              DataType: NodePath
-              Value: "../Values@NodeId"
           - Name: SelectedValue
             Type: BaseDataVariableType
             DataType: BaseDataType
@@ -19406,7 +19402,7 @@ Children:
             - Name: DynamicLink
               Type: DynamicLink
               DataType: NodePath
-              Value: "/Objects/Tata_Energy_Management/Model/Alarms/Selection/Filter_Jace_R"
+              Value: "/Objects/Tata_Energy_Management/Model/Reports/Forth Report/Jaceselectionresult"
               Children:
               - Name: Mode
                 Type: BaseVariableType
@@ -19421,7 +19417,7 @@ Children:
             - Name: Kind
               Type: PropertyType
               DataType: NodeId
-              Value: {"IdType":0,"Id":0,"Namespace":-1}
+              Value: "/Types/VariableTypes/BaseVariableType/BaseDataVariableType"
             - Name: NodeClass
               Type: PropertyType
               DataType: NodePointerNodeClass
@@ -19452,61 +19448,22 @@ Children:
             - Name: Kind
               Type: PropertyType
               DataType: NodeId
-              Value: {"IdType":0,"Id":0,"Namespace":-1}
+              Value: "/Types/VariableTypes/BaseVariableType/BaseDataVariableType"
           - Name: LeftMargin
             Type: BaseVariableType
             DataType: Size
             ModellingRule: Optional
-            Value: 90.0
+            Value: 98.0
           - Name: TopMargin
             Type: BaseVariableType
             DataType: Size
             ModellingRule: Optional
-            Value: 60.0
+            Value: 56.0
           - Name: Height
             Type: BaseVariableType
             DataType: Size
             ModellingRule: Optional
             Value: 30.0
-          - Name: Values
-            Type: BaseObjectType
-            Children:
-            - Name: All
-              Type: BaseDataVariableType
-              DataType: String
-              Value: "SELECT * FROM \"EMSAlarmsEventLogger\" WHERE Jace NOT LIKE '99999'"
-            - Name: 33KV
-              Type: BaseDataVariableType
-              DataType: String
-              Value: "33KV"
-            - Name: Utility
-              Type: BaseDataVariableType
-              DataType: String
-              Value: "Utility"
-            - Name: Stamping
-              Type: BaseDataVariableType
-              DataType: String
-              Value: "Stamping"
-            - Name: TCF
-              Type: BaseDataVariableType
-              DataType: String
-              Value: "TCF"
-            - Name: BodyShop
-              Type: BaseDataVariableType
-              DataType: String
-              Value: "BodyShop"
-            - Name: PaintShop
-              Type: BaseDataVariableType
-              DataType: String
-              Value: "PaintShop"
-            - Name: PumpRoom
-              Type: BaseDataVariableType
-              DataType: String
-              Value: "PumpRoom"
-            - Name: Admin
-              Type: BaseDataVariableType
-              DataType: String
-              Value: "Admin"
           - Name: SelectedValuePath
             Type: BaseDataVariableType
             DataType: BaseDataType
@@ -19535,6 +19492,15 @@ Children:
             DataType: Size
             ModellingRule: Optional
             Value: 0.0
+          - Name: DisplayValuePath
+            Type: BaseDataVariableType
+            DataType: LocalizedText
+            Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+            Children:
+            - Name: DynamicLink
+              Type: DynamicLink
+              DataType: NodePath
+              Value: "{Item}@DisplayName"
         - Name: 33KV_Selection
           Type: ComboBox
           Children:
@@ -19545,20 +19511,16 @@ Children:
           - Name: Model
             Type: NodePointer
             DataType: NodeId
-            Value: {"IdType":0,"Id":0,"Namespace":-1}
+            Value: "/Objects/Tata_Energy_Management/Model/Reports/Forth Report/33KV"
             Children:
             - Name: ItemKind
               Type: PropertyType
               DataType: NodeId
-              Value: {"IdType":0,"Id":0,"Namespace":-1}
+              Value: "/Types/VariableTypes/BaseVariableType/BaseDataVariableType"
             - Name: Kind
               Type: PropertyType
               DataType: NodeId
               Value: {"IdType":0,"Id":0,"Namespace":-1}
-            - Name: DynamicLink
-              Type: DynamicLink
-              DataType: NodePath
-              Value: "../Values@NodeId"
           - Name: SelectedValue
             Type: BaseDataVariableType
             DataType: BaseDataType
@@ -19566,7 +19528,7 @@ Children:
             - Name: DynamicLink
               Type: DynamicLink
               DataType: NodePath
-              Value: "/Objects/Tata_Energy_Management/Model/Alarms/Selection/Filter_Meter_R"
+              Value: "/Objects/Tata_Energy_Management/Model/Reports/Forth Report/33KVComboselection"
               Children:
               - Name: Mode
                 Type: BaseVariableType
@@ -19581,7 +19543,7 @@ Children:
             - Name: Kind
               Type: PropertyType
               DataType: NodeId
-              Value: {"IdType":0,"Id":0,"Namespace":-1}
+              Value: "/Types/VariableTypes/BaseVariableType/BaseDataVariableType"
             - Name: NodeClass
               Type: PropertyType
               DataType: NodePointerNodeClass
@@ -19612,7 +19574,7 @@ Children:
             - Name: Kind
               Type: PropertyType
               DataType: NodeId
-              Value: {"IdType":0,"Id":0,"Namespace":-1}
+              Value: "/Types/VariableTypes/BaseVariableType/BaseDataVariableType"
           - Name: LeftMargin
             Type: BaseVariableType
             DataType: Size
@@ -19628,89 +19590,6 @@ Children:
             DataType: Size
             ModellingRule: Optional
             Value: 30.0
-          - Name: Values
-            Type: BaseObjectType
-            Children:
-            - Name: Incomer_1
-              Type: BaseDataVariableType
-              DataType: String
-              Value: "Incomer_1"
-            - Name: Incomer_2
-              Type: BaseDataVariableType
-              DataType: String
-              Value: "Incomer_2"
-            - Name: SPARE_IN1_OG1
-              Type: BaseDataVariableType
-              DataType: String
-              Value: "SPARE_IN1_OG1"
-            - Name: UTILITY_IN1_OG2
-              Type: BaseDataVariableType
-              DataType: String
-              Value: "UTILITY_IN1_OG2"
-            - Name: STAMPING_IN1_OG3
-              Type: BaseDataVariableType
-              DataType: String
-              Value: "STAMPING_IN1_OG3"
-            - Name: TCF_IN1_OG4
-              Type: BaseDataVariableType
-              DataType: String
-              Value: "TCF_IN1_OG4"
-            - Name: BODY_SHOP_IN1_OG5
-              Type: BaseDataVariableType
-              DataType: String
-              Value: "BODY_SHOP_IN1_OG5"
-            - Name: ENGINE_SHOP_IN1_OG6
-              Type: BaseDataVariableType
-              DataType: String
-              Value: "ENGINE_SHOP_IN1_OG6"
-            - Name: PAINT_SHOP_IN1_OG7
-              Type: BaseDataVariableType
-              DataType: String
-              Value: "PAINT_SHOP_IN1_OG7"
-            - Name: PAINT_SHOP_IN2_OG8
-              Type: BaseDataVariableType
-              DataType: String
-              Value: "PAINT_SHOP_IN2_OG8"
-            - Name: ENGINE_SHOP_IN2_OG9
-              Type: BaseDataVariableType
-              DataType: String
-              Value: "ENGINE_SHOP_IN2_OG9"
-            - Name: BODY_SHOP_IN2_G10
-              Type: BaseDataVariableType
-              DataType: String
-              Value: "BODY_SHOP_IN2_G10"
-            - Name: TCF_IN2_OG11
-              Type: BaseDataVariableType
-              DataType: String
-              Value: "TCF_IN2_OG11"
-            - Name: STAMPING_IN2_OG12
-              Type: BaseDataVariableType
-              DataType: String
-              Value: "STAMPING_IN2_OG12"
-            - Name: UTILITY_IN2_OG13
-              Type: BaseDataVariableType
-              DataType: String
-              Value: "UTILITY_IN2_OG13"
-            - Name: SPARE_IN2_OG14
-              Type: BaseDataVariableType
-              DataType: String
-              Value: "SPARE_IN2_OG14"
-            - Name: SPP_Shop_IN2_OG15
-              Type: BaseDataVariableType
-              DataType: String
-              Value: "SPP_Shop_IN2_OG15"
-            - Name: SPP_Shop_IN1_OG16
-              Type: BaseDataVariableType
-              DataType: String
-              Value: "SPP_Shop_IN1_OG16"
-            - Name: EB_IN1
-              Type: BaseDataVariableType
-              DataType: String
-              Value: "EB_IN1"
-            - Name: DG_IN2
-              Type: BaseDataVariableType
-              DataType: String
-              Value: "DG_IN2"
           - Name: SelectedValuePath
             Type: BaseDataVariableType
             DataType: BaseDataType
@@ -19740,7 +19619,7 @@ Children:
                 - Name: DynamicLink
                   Type: DynamicLink
                   DataType: NodePath
-                  Value: "/Objects/Tata_Energy_Management/Model/Alarms/Selection/Filter_Jace"
+                  Value: "/Objects/Tata_Energy_Management/Model/Reports/Forth Report/Jaceselectionresult"
               - Name: Pairs
                 Type: BaseObjectType
                 Children:
@@ -19749,8 +19628,8 @@ Children:
                   Children:
                   - Name: Key
                     Type: BaseDataVariableType
-                    DataType: String
-                    Value: "SELECT * FROM Model WHERE Jace='33KV'"
+                    DataType: Int32
+                    Value: 0
                   - Name: Value
                     Type: BaseDataVariableType
                     DataType: Boolean
@@ -19760,8 +19639,8 @@ Children:
                   Children:
                   - Name: Key
                     Type: BaseDataVariableType
-                    DataType: String
-                    Value: "SELECT * FROM Model WHERE Jace='Utility'"
+                    DataType: Int32
+                    Value: 1
                   - Name: Value
                     Type: BaseDataVariableType
                     DataType: Boolean
@@ -19771,8 +19650,8 @@ Children:
                   Children:
                   - Name: Key
                     Type: BaseDataVariableType
-                    DataType: String
-                    Value: "SELECT * FROM Model WHERE Jace='Stamping'"
+                    DataType: Int32
+                    Value: 2
                   - Name: Value
                     Type: BaseDataVariableType
                     DataType: Boolean
@@ -19782,8 +19661,8 @@ Children:
                   Children:
                   - Name: Key
                     Type: BaseDataVariableType
-                    DataType: String
-                    Value: "SELECT * FROM Model WHERE Jace='TCF'"
+                    DataType: Int32
+                    Value: 3
                   - Name: Value
                     Type: BaseDataVariableType
                     DataType: Boolean
@@ -19793,8 +19672,8 @@ Children:
                   Children:
                   - Name: Key
                     Type: BaseDataVariableType
-                    DataType: String
-                    Value: "SELECT * FROM Model WHERE Jace='BodyShop'"
+                    DataType: Int32
+                    Value: 4
                   - Name: Value
                     Type: BaseDataVariableType
                     DataType: Boolean
@@ -19804,8 +19683,8 @@ Children:
                   Children:
                   - Name: Key
                     Type: BaseDataVariableType
-                    DataType: String
-                    Value: "SELECT * FROM Model WHERE Jace='PaintShop'"
+                    DataType: Int32
+                    Value: 5
                   - Name: Value
                     Type: BaseDataVariableType
                     DataType: Boolean
@@ -19815,8 +19694,8 @@ Children:
                   Children:
                   - Name: Key
                     Type: BaseDataVariableType
-                    DataType: String
-                    Value: "SELECT * FROM Model WHERE Jace='PumpRoom'"
+                    DataType: Int32
+                    Value: 6
                   - Name: Value
                     Type: BaseDataVariableType
                     DataType: Boolean
@@ -19826,8 +19705,8 @@ Children:
                   Children:
                   - Name: Key
                     Type: BaseDataVariableType
-                    DataType: String
-                    Value: "SELECT * FROM Model WHERE Jace='Admin'"
+                    DataType: Int32
+                    Value: 8
                   - Name: Value
                     Type: BaseDataVariableType
                     DataType: Boolean
@@ -19842,6 +19721,15 @@ Children:
             DataType: Size
             ModellingRule: Optional
             Value: 0.0
+          - Name: DisplayValuePath
+            Type: BaseDataVariableType
+            DataType: LocalizedText
+            Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+            Children:
+            - Name: DynamicLink
+              Type: DynamicLink
+              DataType: NodePath
+              Value: "{Item}@DisplayName"
         - Name: Utility_Selection
           Type: ComboBox
           Children:
@@ -19852,2256 +19740,16 @@ Children:
           - Name: Model
             Type: NodePointer
             DataType: NodeId
-            Value: {"IdType":0,"Id":0,"Namespace":-1}
+            Value: "/Objects/Tata_Energy_Management/Model/Reports/Forth Report/Utility"
             Children:
             - Name: ItemKind
               Type: PropertyType
               DataType: NodeId
-              Value: {"IdType":0,"Id":0,"Namespace":-1}
+              Value: "/Types/VariableTypes/BaseVariableType/BaseDataVariableType"
             - Name: Kind
               Type: PropertyType
               DataType: NodeId
               Value: {"IdType":0,"Id":0,"Namespace":-1}
-            - Name: DynamicLink
-              Type: DynamicLink
-              DataType: NodePath
-              Value: "../Values@NodeId"
-          - Name: SelectedValue
-            Type: BaseDataVariableType
-            DataType: BaseDataType
-          - Name: SelectedItem
-            Type: NodePointer
-            DataType: NodeId
-            Value: {"IdType":0,"Id":0,"Namespace":-1}
-            Children:
-            - Name: Kind
-              Type: PropertyType
-              DataType: NodeId
-              Value: {"IdType":0,"Id":0,"Namespace":-1}
-            - Name: NodeClass
-              Type: PropertyType
-              DataType: NodePointerNodeClass
-              ModellingRule: Optional
-              Value: 1
-          - Name: UISelectedItem
-            Type: BaseDataVariableType
-            DataType: NodeId
-            AccessLevel: Read
-            Value: {"IdType":0,"Id":0,"Namespace":-1}
-          - Name: UISelectedValue
-            Type: BaseDataVariableType
-            DataType: BaseDataType
-            AccessLevel: Read
-          - Class: Reference
-            Target: ns=5;i=480
-            Direction: Forward
-          - Name: Width
-            Type: BaseVariableType
-            DataType: Size
-            ModellingRule: Optional
-            Value: 220.0
-          - Name: Item
-            Type: Alias
-            DataType: NodeId
-            Value: {"IdType":0,"Id":0,"Namespace":-1}
-            Children:
-            - Name: Kind
-              Type: PropertyType
-              DataType: NodeId
-              Value: {"IdType":0,"Id":0,"Namespace":-1}
-          - Name: LeftMargin
-            Type: BaseVariableType
-            DataType: Size
-            ModellingRule: Optional
-            Value: 450.0
-          - Name: TopMargin
-            Type: BaseVariableType
-            DataType: Size
-            ModellingRule: Optional
-            Value: 59.0
-          - Name: Height
-            Type: BaseVariableType
-            DataType: Size
-            ModellingRule: Optional
-            Value: 30.0
-          - Name: Values
-            Type: BaseObjectType
-            Children:
-            - Name: MCB_MVS_01_IN1
-              Type: BaseDataVariableType
-              DataType: String
-              Value: "AND Meter = ' MCB_MVS_01_IN1'"
-            - Name: MCB_MVS_01_IN2
-              Type: BaseDataVariableType
-              DataType: String
-              Value: "AND Meter = ' MCB_MVS_01_IN2'"
-            - Name: MCB_MVS_01_O_G_F4
-              Type: BaseDataVariableType
-              DataType: String
-              Value: "AND Meter = ' MCB_MVS_01_O_G_F4'"
-            - Name: MCB_MVS_01_O_G_F5
-              Type: BaseDataVariableType
-              DataType: String
-              Value: "AND Meter = '  MCB_MVS_01_O_G_F5'"
-            - Name: MCB_MVS_01_O_G_F6
-              Type: BaseDataVariableType
-              DataType: String
-              Value: "AND Meter = ' MCB_MVS_01_O_G_F6'"
-            - Name: MCB_MVS_01_O_G_F7
-              Type: BaseDataVariableType
-              DataType: String
-              Value: "AND Meter = 'MCB_MVS_01_O_G_F7'"
-            - Name: MCB_MVS_01_O_G_F8
-              Type: BaseDataVariableType
-              DataType: String
-              Value: "AND Meter = ' MCB_MVS_01_O_G_F8'"
-            - Name: MCB_MVS_02_IN1F1
-              Type: BaseDataVariableType
-              DataType: String
-              Value: "AND Meter = ' MCB_MVS_02_IN1F1'"
-            - Name: MCB_MVS_02_O_G_F3
-              Type: BaseDataVariableType
-              DataType: String
-              Value: "AND Meter = ' MCB_MVS_02_O_G_F3'"
-            - Name: MCB_MVS_02_O_G_F4
-              Type: BaseDataVariableType
-              DataType: String
-              Value: "AND Meter = ' MCB_MVS_02_O_G_F4'"
-            - Name: MCB_MVS_02_O_G_F5
-              Type: BaseDataVariableType
-              DataType: String
-              Value: "AND Meter = ' MCB_MVS_02_O_G_F5'"
-            - Name: MCB_MVS_02_O_G_F6
-              Type: BaseDataVariableType
-              DataType: String
-              Value: "AND Meter = ' MCB_MVS_02_O_G_F6'"
-            - Name: MCB_MVS_02_O_G_F7
-              Type: BaseDataVariableType
-              DataType: String
-              Value: "AND Meter = ' MCB_MVS_02_O_G_F7'"
-            - Name: MCB_MVS_02_O_G_F8
-              Type: BaseDataVariableType
-              DataType: String
-              Value: "AND Meter = ' MCB_MVS_02_O_G_F8'"
-            - Name: MCB_MVS_02_O_G_F9
-              Type: BaseDataVariableType
-              DataType: String
-              Value: "AND Meter = ' MCB_MVS_02_O_G_F9'"
-            - Name: MCB_MVS_03_IN1F1
-              Type: BaseDataVariableType
-              DataType: String
-              Value: "AND Meter = ' MCB_MVS_03_IN1F1'"
-            - Name: MCB_MVS_03_O_G_F3
-              Type: BaseDataVariableType
-              DataType: String
-              Value: "AND Meter = ' MCB_MVS_03_O_G_F3'"
-            - Name: MCB_MVS_03_O_G_F4
-              Type: BaseDataVariableType
-              DataType: String
-              Value: "AND Meter = ' MCB_MVS_03_O_G_F4'"
-            - Name: MCB_MVS_03_O_G_F5
-              Type: BaseDataVariableType
-              DataType: String
-              Value: "AND Meter = ' MCB_MVS_03_O_G_F5'"
-            - Name: MCB_SWB_01_IN1F1
-              Type: BaseDataVariableType
-              DataType: String
-              Value: "AND Meter = ' MCB_SWB_01_IN1F1'"
-            - Name: MCB_SWB_01_O_G_2F1
-              Type: BaseDataVariableType
-              DataType: String
-              Value: "AND Meter = ' MCB_SWB_01_O_G_2F1'"
-            - Name: MCB_SWB_01_O_G_3F1
-              Type: BaseDataVariableType
-              DataType: String
-              Value: "AND Meter = ' MCB_SWB_01_O_G_3F1'"
-            - Name: MCB_SWB_01_O_G_4F1
-              Type: BaseDataVariableType
-              DataType: String
-              Value: "AND Meter = ' MCB_SWB_01_O_G_4F1'"
-            - Name: MCB_SWB_01_O_G_5F2
-              Type: BaseDataVariableType
-              DataType: String
-              Value: "AND Meter = ' MCB_SWB_01_O_G_5F2'"
-            - Name: MCB_SWB_01_O_G_4F2
-              Type: BaseDataVariableType
-              DataType: String
-              Value: "AND Meter = ' MCB_SWB_01_O_G_4F2'"
-            - Name: MCB_SWB_02_IN1F1
-              Type: BaseDataVariableType
-              DataType: String
-              Value: "AND Meter = ' MCB_SWB_02_IN1F1'"
-            - Name: MCB_SWB_02_O_G_2F1
-              Type: BaseDataVariableType
-              DataType: String
-              Value: "AND Meter = ' MCB_SWB_02_O_G_2F1'"
-            - Name: MCB_SWB_02_O_G_2F2
-              Type: BaseDataVariableType
-              DataType: String
-              Value: "AND Meter = ' MCB_SWB_02_O_G_2F2'"
-            - Name: MCB_SWB_02_O_G_3F1
-              Type: BaseDataVariableType
-              DataType: String
-              Value: "AND Meter = ' MCB_SWB_02_O_G_3F1'"
-            - Name: MCB_SWB_02_O_G_3F2
-              Type: BaseDataVariableType
-              DataType: String
-              Value: "AND Meter = ' MCB_SWB_02_O_G_3F2'"
-            - Name: MCB_SWB_02_O_G_4F1
-              Type: BaseDataVariableType
-              DataType: String
-              Value: "AND Meter = ' MCB_SWB_02_O_G_4F1'"
-            - Name: MCB_SWB_02_O_G_4F2
-              Type: BaseDataVariableType
-              DataType: String
-              Value: "AND Meter = ' MCB_SWB_02_O_G_4F2'"
-            - Name: MCB_SWB_02_O_G_5F1
-              Type: BaseDataVariableType
-              DataType: String
-              Value: "AND Meter = ' MCB_SWB_02_O_G_5F1'"
-            - Name: MCB_SWB_03_IN1F1
-              Type: BaseDataVariableType
-              DataType: String
-              Value: "AND Meter = ' MCB_SWB_03_IN1F1'"
-            - Name: MCB_SWB_03_O_G_2F1
-              Type: BaseDataVariableType
-              DataType: String
-              Value: "AND Meter = ' MCB_SWB_03_O_G_2F1'"
-            - Name: MCB_SWB_03_O_G_3F1
-              Type: BaseDataVariableType
-              DataType: String
-              Value: "AND Meter = ' MCB_SWB_03_O_G_3F1'"
-            - Name: MCB_MCC_04_IN1F1
-              Type: BaseDataVariableType
-              DataType: String
-              Value: "AND Meter = ' MCB_MCC_04_IN1F1'"
-            - Name: MCB_MCC_04_O_G_2F1
-              Type: BaseDataVariableType
-              DataType: String
-              Value: "AND Meter = ' MCB_MCC_04_O_G_2F1'"
-            - Name: MCB_MCC_04_O_G_2F2
-              Type: BaseDataVariableType
-              DataType: String
-              Value: "AND Meter = ' MCB_MCC_04_O_G_2F2'"
-            - Name: MCB_MCC_04_O_G_3F1
-              Type: BaseDataVariableType
-              DataType: String
-              Value: "AND Meter = ' MCB_MCC_04_O_G_3F1'"
-            - Name: MCB_MCC_04_O_G_3F2
-              Type: BaseDataVariableType
-              DataType: String
-              Value: "AND Meter = ' MCB_MCC_04_O_G_3F2'"
-            - Name: MCB_MCC_04_O_G_4F1
-              Type: BaseDataVariableType
-              DataType: String
-              Value: "AND Meter = ' MCB_MCC_04_O_G_4F1'"
-            - Name: MCB_MCC_04_O_G_4F2
-              Type: BaseDataVariableType
-              DataType: String
-              Value: "AND Meter = ' MCB_MCC_04_O_G_4F2'"
-            - Name: MCB_MCC_04_O_G_5F1
-              Type: BaseDataVariableType
-              DataType: String
-              Value: "AND Meter = ' MCB_MCC_04_O_G_5F1'"
-            - Name: MCB_MCC_04_O_G_5F2
-              Type: BaseDataVariableType
-              DataType: String
-              Value: "AND Meter = ' MCB_MCC_04_O_G_5F2'"
-            - Name: MCB_MCC_04_O_G_6F2
-              Type: BaseDataVariableType
-              DataType: String
-              Value: "AND Meter = ' MCB_MCC_04_O_G_6F2'"
-            - Name: MCB_MCC_03_IN1F1
-              Type: BaseDataVariableType
-              DataType: String
-              Value: "AND Meter = ' MCB_MCC_03_IN1F1'"
-            - Name: MCB_MCC_03_O_G_2F1
-              Type: BaseDataVariableType
-              DataType: String
-              Value: "AND Meter = ' MCB_MCC_03_O_G_2F1'"
-            - Name: MCB_MCC_03_O_G_3F1
-              Type: BaseDataVariableType
-              DataType: String
-              Value: "AND Meter = ' MCB_MCC_03_O_G_3F1'"
-            - Name: MCB_MCC_03_O_G_4F1
-              Type: BaseDataVariableType
-              DataType: String
-              Value: "AND Meter = ' MCB_MCC_03_O_G_4F1'"
-            - Name: MCB_MCC_03_O_G_5F1
-              Type: BaseDataVariableType
-              DataType: String
-              Value: "AND Meter = ' MCB_MCC_03_O_G_5F1'"
-            - Name: MCB_MCC_03_O_G_6F1
-              Type: BaseDataVariableType
-              DataType: String
-              Value: "AND Meter = ' MCB_MCC_03_O_G_6F1'"
-            - Name: MCB_MCC_03_O_G_7F1
-              Type: BaseDataVariableType
-              DataType: String
-              Value: "AND Meter = ' MCB_MCC_03_O_G_7F1'"
-            - Name: MCB_MCC_03_O_G_8F1
-              Type: BaseDataVariableType
-              DataType: String
-              Value: "AND Meter = ' MCB_MCC_03_O_G_8F1'"
-            - Name: MCB_MCC_05_IN1F1
-              Type: BaseDataVariableType
-              DataType: String
-              Value: "AND Meter = ' MCB_MCC_05_IN1F1'"
-            - Name: MCB_MCC_05_O_G_2F1
-              Type: BaseDataVariableType
-              DataType: String
-              Value: "AND Meter = ' MCB_MCC_05_O_G_2F1'"
-            - Name: MCB_MCC_05_O_G_3F1
-              Type: BaseDataVariableType
-              DataType: String
-              Value: "AND Meter = ' MCB_MCC_05_O_G_3F1'"
-            - Name: MCB_MCC_05_O_G_4F1
-              Type: BaseDataVariableType
-              DataType: String
-              Value: "AND Meter = ' MCB_MCC_05_O_G_4F1'"
-            - Name: MCB_MCC_05_O_G_5F1
-              Type: BaseDataVariableType
-              DataType: String
-              Value: "AND Meter = ' MCB_MCC_05_O_G_5F1'"
-            - Name: MCB_MCC_05_O_G_6F1
-              Type: BaseDataVariableType
-              DataType: String
-              Value: "AND Meter = ' MCB_MCC_05_O_G_6F1'"
-            - Name: MCB_MCC_05_O_G_7F1
-              Type: BaseDataVariableType
-              DataType: String
-              Value: "AND Meter = ' MCB_MCC_05_O_G_7F1'"
-            - Name: MCB_MCC_05_O_G_8F1
-              Type: BaseDataVariableType
-              DataType: String
-              Value: "AND Meter = ' MCB_MCC_05_O_G_8F1'"
-            - Name: meter63
-              Type: BaseDataVariableType
-              DataType: String
-              Value: "AND Meter = ' meter63'"
-            - Name: meter64
-              Type: BaseDataVariableType
-              DataType: String
-              Value: "AND Meter = ' meter64'"
-            - Name: MCB_MCC_01_IN1F1
-              Type: BaseDataVariableType
-              DataType: String
-              Value: "AND Meter = ' MCB_MCC_01_IN1F1'"
-            - Name: meter65
-              Type: BaseDataVariableType
-              DataType: String
-              Value: "AND Meter = ' meter65'"
-            - Name: meter66
-              Type: BaseDataVariableType
-              DataType: String
-              Value: "AND Meter = ' meter66'"
-            - Name: meter67
-              Type: BaseDataVariableType
-              DataType: String
-              Value: "AND Meter = ' meter67'"
-            - Name: meter68
-              Type: BaseDataVariableType
-              DataType: String
-              Value: "AND Meter = ' meter68'"
-            - Name: meter69
-              Type: BaseDataVariableType
-              DataType: String
-              Value: "AND Meter = ' meter69'"
-            - Name: meter70
-              Type: BaseDataVariableType
-              DataType: String
-              Value: "AND Meter = ' meter70'"
-            - Name: meter71
-              Type: BaseDataVariableType
-              DataType: String
-              Value: "AND Meter = ' meter71'"
-            - Name: meter72
-              Type: BaseDataVariableType
-              DataType: String
-              Value: "AND Meter = ' meter72'"
-            - Name: meter73
-              Type: BaseDataVariableType
-              DataType: String
-              Value: "AND Meter = ' meter73'"
-            - Name: meter74
-              Type: BaseDataVariableType
-              DataType: String
-              Value: "AND Meter = ' meter74'"
-          - Name: SelectedValuePath
-            Type: BaseDataVariableType
-            DataType: BaseDataType
-            Children:
-            - Name: DynamicLink
-              Type: DynamicLink
-              DataType: NodePath
-              Value: "{Item}@Value"
-          - Name: Mode
-            Type: BaseVariableType
-            DataType: ComboBoxModeEnum
-            ModellingRule: Optional
-            Value: 0
-          - Name: Visible
-            Type: BaseDataVariableType
-            DataType: Boolean
-            Value: true
-            Children:
-            - Name: KeyValueConverter1
-              Type: ValueMapConverter
-              Children:
-              - Name: Source
-                Type: BaseDataVariableType
-                DataType: BaseDataType
-                ReferenceType: HasSource
-                Children:
-                - Name: DynamicLink
-                  Type: DynamicLink
-                  DataType: NodePath
-                  Value: "/Objects/Tata_Energy_Management/Model/Alarms/Selection/Filter_Jace"
-              - Name: Pairs
-                Type: BaseObjectType
-                Children:
-                - Name: Pair
-                  Type: ValueMapPair
-                  Children:
-                  - Name: Key
-                    Type: BaseDataVariableType
-                    DataType: String
-                    Value: "SELECT * FROM Model WHERE Jace='33KV'"
-                  - Name: Value
-                    Type: BaseDataVariableType
-                    DataType: Boolean
-                    Value: false
-                - Name: Pair1
-                  Type: ValueMapPair
-                  Children:
-                  - Name: Key
-                    Type: BaseDataVariableType
-                    DataType: String
-                    Value: "SELECT * FROM Model WHERE Jace='Utility'"
-                  - Name: Value
-                    Type: BaseDataVariableType
-                    DataType: Boolean
-                    Value: true
-                - Name: Pair2
-                  Type: ValueMapPair
-                  Children:
-                  - Name: Key
-                    Type: BaseDataVariableType
-                    DataType: String
-                    Value: "SELECT * FROM Model WHERE Jace='Stamping'"
-                  - Name: Value
-                    Type: BaseDataVariableType
-                    DataType: Boolean
-                    Value: false
-                - Name: Pair3
-                  Type: ValueMapPair
-                  Children:
-                  - Name: Key
-                    Type: BaseDataVariableType
-                    DataType: String
-                    Value: "SELECT * FROM Model WHERE Jace='TCF'"
-                  - Name: Value
-                    Type: BaseDataVariableType
-                    DataType: Boolean
-                    Value: false
-                - Name: Pair4
-                  Type: ValueMapPair
-                  Children:
-                  - Name: Key
-                    Type: BaseDataVariableType
-                    DataType: String
-                    Value: "SELECT * FROM Model WHERE Jace='BodyShop'"
-                  - Name: Value
-                    Type: BaseDataVariableType
-                    DataType: Boolean
-                    Value: false
-                - Name: Pair5
-                  Type: ValueMapPair
-                  Children:
-                  - Name: Key
-                    Type: BaseDataVariableType
-                    DataType: String
-                    Value: "SELECT * FROM Model WHERE Jace='PaintShop'"
-                  - Name: Value
-                    Type: BaseDataVariableType
-                    DataType: Boolean
-                    Value: false
-                - Name: Pair6
-                  Type: ValueMapPair
-                  Children:
-                  - Name: Key
-                    Type: BaseDataVariableType
-                    DataType: String
-                    Value: "SELECT * FROM Model WHERE Jace='PumpRoom'"
-                  - Name: Value
-                    Type: BaseDataVariableType
-                    DataType: Boolean
-                    Value: false
-                - Name: Pair7
-                  Type: ValueMapPair
-                  Children:
-                  - Name: Key
-                    Type: BaseDataVariableType
-                    DataType: String
-                    Value: "SELECT * FROM Model WHERE Jace='Admin'"
-                  - Name: Value
-                    Type: BaseDataVariableType
-                    DataType: Boolean
-                    Value: false
-          - Name: HorizontalAlignment
-            Type: BaseVariableType
-            DataType: HorizontalAlignment
-            ModellingRule: Optional
-            Value: 0
-          - Name: RightMargin
-            Type: BaseVariableType
-            DataType: Size
-            ModellingRule: Optional
-            Value: 0.0
-        - Name: Stamping_Selection
-          Type: ComboBox
-          Children:
-          - Name: Text
-            Type: BaseDataVariableType
-            DataType: LocalizedText
-            Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
-          - Name: Model
-            Type: NodePointer
-            DataType: NodeId
-            Value: {"IdType":0,"Id":0,"Namespace":-1}
-            Children:
-            - Name: ItemKind
-              Type: PropertyType
-              DataType: NodeId
-              Value: {"IdType":0,"Id":0,"Namespace":-1}
-            - Name: Kind
-              Type: PropertyType
-              DataType: NodeId
-              Value: {"IdType":0,"Id":0,"Namespace":-1}
-            - Name: DynamicLink
-              Type: DynamicLink
-              DataType: NodePath
-              Value: "../Values@NodeId"
-          - Name: SelectedValue
-            Type: BaseDataVariableType
-            DataType: BaseDataType
-          - Name: SelectedItem
-            Type: NodePointer
-            DataType: NodeId
-            Value: {"IdType":0,"Id":0,"Namespace":-1}
-            Children:
-            - Name: Kind
-              Type: PropertyType
-              DataType: NodeId
-              Value: {"IdType":0,"Id":0,"Namespace":-1}
-            - Name: NodeClass
-              Type: PropertyType
-              DataType: NodePointerNodeClass
-              ModellingRule: Optional
-              Value: 1
-          - Name: UISelectedItem
-            Type: BaseDataVariableType
-            DataType: NodeId
-            AccessLevel: Read
-            Value: {"IdType":0,"Id":0,"Namespace":-1}
-          - Name: UISelectedValue
-            Type: BaseDataVariableType
-            DataType: BaseDataType
-            AccessLevel: Read
-          - Class: Reference
-            Target: ns=5;i=480
-            Direction: Forward
-          - Name: Width
-            Type: BaseVariableType
-            DataType: Size
-            ModellingRule: Optional
-            Value: 220.0
-          - Name: Item
-            Type: Alias
-            DataType: NodeId
-            Value: {"IdType":0,"Id":0,"Namespace":-1}
-            Children:
-            - Name: Kind
-              Type: PropertyType
-              DataType: NodeId
-              Value: {"IdType":0,"Id":0,"Namespace":-1}
-          - Name: LeftMargin
-            Type: BaseVariableType
-            DataType: Size
-            ModellingRule: Optional
-            Value: 450.0
-          - Name: TopMargin
-            Type: BaseVariableType
-            DataType: Size
-            ModellingRule: Optional
-            Value: 59.0
-          - Name: Height
-            Type: BaseVariableType
-            DataType: Size
-            ModellingRule: Optional
-            Value: 30.0
-          - Name: Values
-            Type: BaseObjectType
-            Children:
-            - Name: STP_MVS_01_IN_F1
-              Type: BaseDataVariableType
-              DataType: String
-              Value: "AND Meter = ' STP_MVS_01_IN_F1'"
-            - Name: STP_MVS_01_IN_F2
-              Type: BaseDataVariableType
-              DataType: String
-              Value: "AND Meter = ' STP_MVS_01_IN_F2'"
-            - Name: STP_MVS_01_OG_F4
-              Type: BaseDataVariableType
-              DataType: String
-              Value: "AND Meter = ' STP_MVS_01_OG_F4'"
-            - Name: STP_MVS_01_OG_F5
-              Type: BaseDataVariableType
-              DataType: String
-              Value: "AND Meter = ' STP_MVS_01_OG_F5'"
-            - Name: STP_MVS_01_OG_F6
-              Type: BaseDataVariableType
-              DataType: String
-              Value: "AND Meter = ' STP_MVS_01_OG_F6'"
-            - Name: STP_MVS_01_OG_F7
-              Type: BaseDataVariableType
-              DataType: String
-              Value: "AND Meter = ' STP_MVS_01_OG_F7'"
-            - Name: STP_MVS_01_OG_F8
-              Type: BaseDataVariableType
-              DataType: String
-              Value: "AND Meter = ' STP_MVS_01_OG_F8'"
-            - Name: STP_SWB_01_INF1
-              Type: BaseDataVariableType
-              DataType: String
-              Value: "AND Meter = ' STP_SWB_01_INF1'"
-            - Name: STP_SWB_01_OG_3F
-              Type: BaseDataVariableType
-              DataType: String
-              Value: "AND Meter = ' STP_SWB_01_OG_3F'"
-            - Name: STP_SWB_02_INF1
-              Type: BaseDataVariableType
-              DataType: String
-              Value: "AND Meter = ' STP_SWB_02_INF1'"
-            - Name: STP_SWB_02_OG_2F
-              Type: BaseDataVariableType
-              DataType: String
-              Value: "AND Meter = ' STP_SWB_02_OG_2F'"
-            - Name: STP_SWB_02_OG_3F1
-              Type: BaseDataVariableType
-              DataType: String
-              Value: "AND Meter = ' STP_SWB_02_OG_3F1'"
-            - Name: STP_SWB_02_OG_3F2
-              Type: BaseDataVariableType
-              DataType: String
-              Value: "AND Meter = ' STP_SWB_02_OG_3F2'"
-            - Name: STP_SWB_02_OG_4F1
-              Type: BaseDataVariableType
-              DataType: String
-              Value: "AND Meter = ' STP_SWB_02_OG_4F1'"
-            - Name: STP_SWB_02_OG_4F2
-              Type: BaseDataVariableType
-              DataType: String
-              Value: "AND Meter = ' STP_SWB_02_OG_4F2'"
-            - Name: STP_SWB_02_OG_5F1
-              Type: BaseDataVariableType
-              DataType: String
-              Value: "AND Meter = ' STP_SWB_02_OG_5F1'"
-            - Name: STP_SWB_03_INF1
-              Type: BaseDataVariableType
-              DataType: String
-              Value: "AND Meter = ' STP_SWB_03_INF1'"
-            - Name: STP_SWB_04_INF1
-              Type: BaseDataVariableType
-              DataType: String
-              Value: "AND Meter = ' STP_SWB_04_INF1'"
-            - Name: STP_SWB_05_INF1
-              Type: BaseDataVariableType
-              DataType: String
-              Value: "AND Meter = ' STP_SWB_05_INF1'"
-          - Name: SelectedValuePath
-            Type: BaseDataVariableType
-            DataType: BaseDataType
-            Children:
-            - Name: DynamicLink
-              Type: DynamicLink
-              DataType: NodePath
-              Value: "{Item}@Value"
-          - Name: Mode
-            Type: BaseVariableType
-            DataType: ComboBoxModeEnum
-            ModellingRule: Optional
-            Value: 0
-          - Name: Visible
-            Type: BaseDataVariableType
-            DataType: Boolean
-            Value: true
-            Children:
-            - Name: KeyValueConverter1
-              Type: ValueMapConverter
-              Children:
-              - Name: Source
-                Type: BaseDataVariableType
-                DataType: BaseDataType
-                ReferenceType: HasSource
-                Children:
-                - Name: DynamicLink
-                  Type: DynamicLink
-                  DataType: NodePath
-                  Value: "/Objects/Tata_Energy_Management/Model/Alarms/Selection/Filter_Jace"
-              - Name: Pairs
-                Type: BaseObjectType
-                Children:
-                - Name: Pair
-                  Type: ValueMapPair
-                  Children:
-                  - Name: Key
-                    Type: BaseDataVariableType
-                    DataType: String
-                    Value: "SELECT * FROM Model WHERE Jace='33KV'"
-                  - Name: Value
-                    Type: BaseDataVariableType
-                    DataType: Boolean
-                    Value: false
-                - Name: Pair1
-                  Type: ValueMapPair
-                  Children:
-                  - Name: Key
-                    Type: BaseDataVariableType
-                    DataType: String
-                    Value: "SELECT * FROM Model WHERE Jace='Utility'"
-                  - Name: Value
-                    Type: BaseDataVariableType
-                    DataType: Boolean
-                    Value: false
-                - Name: Pair2
-                  Type: ValueMapPair
-                  Children:
-                  - Name: Key
-                    Type: BaseDataVariableType
-                    DataType: String
-                    Value: "SELECT * FROM Model WHERE Jace='Stamping'"
-                  - Name: Value
-                    Type: BaseDataVariableType
-                    DataType: Boolean
-                    Value: true
-                - Name: Pair3
-                  Type: ValueMapPair
-                  Children:
-                  - Name: Key
-                    Type: BaseDataVariableType
-                    DataType: String
-                    Value: "SELECT * FROM Model WHERE Jace='TCF'"
-                  - Name: Value
-                    Type: BaseDataVariableType
-                    DataType: Boolean
-                    Value: false
-                - Name: Pair4
-                  Type: ValueMapPair
-                  Children:
-                  - Name: Key
-                    Type: BaseDataVariableType
-                    DataType: String
-                    Value: "SELECT * FROM Model WHERE Jace='BodyShop'"
-                  - Name: Value
-                    Type: BaseDataVariableType
-                    DataType: Boolean
-                    Value: false
-                - Name: Pair5
-                  Type: ValueMapPair
-                  Children:
-                  - Name: Key
-                    Type: BaseDataVariableType
-                    DataType: String
-                    Value: "SELECT * FROM Model WHERE Jace='PaintShop'"
-                  - Name: Value
-                    Type: BaseDataVariableType
-                    DataType: Boolean
-                    Value: false
-                - Name: Pair6
-                  Type: ValueMapPair
-                  Children:
-                  - Name: Key
-                    Type: BaseDataVariableType
-                    DataType: String
-                    Value: "SELECT * FROM Model WHERE Jace='PumpRoom'"
-                  - Name: Value
-                    Type: BaseDataVariableType
-                    DataType: Boolean
-                    Value: false
-                - Name: Pair7
-                  Type: ValueMapPair
-                  Children:
-                  - Name: Key
-                    Type: BaseDataVariableType
-                    DataType: String
-                    Value: "SELECT * FROM Model WHERE Jace='Admin'"
-                  - Name: Value
-                    Type: BaseDataVariableType
-                    DataType: Boolean
-                    Value: false
-          - Name: HorizontalAlignment
-            Type: BaseVariableType
-            DataType: HorizontalAlignment
-            ModellingRule: Optional
-            Value: 0
-          - Name: RightMargin
-            Type: BaseVariableType
-            DataType: Size
-            ModellingRule: Optional
-            Value: 0.0
-        - Name: PaintShop_Selection
-          Type: ComboBox
-          Children:
-          - Name: Text
-            Type: BaseDataVariableType
-            DataType: LocalizedText
-            Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
-          - Name: Model
-            Type: NodePointer
-            DataType: NodeId
-            Value: {"IdType":0,"Id":0,"Namespace":-1}
-            Children:
-            - Name: ItemKind
-              Type: PropertyType
-              DataType: NodeId
-              Value: {"IdType":0,"Id":0,"Namespace":-1}
-            - Name: Kind
-              Type: PropertyType
-              DataType: NodeId
-              Value: {"IdType":0,"Id":0,"Namespace":-1}
-            - Name: DynamicLink
-              Type: DynamicLink
-              DataType: NodePath
-              Value: "../Values@NodeId"
-          - Name: SelectedValue
-            Type: BaseDataVariableType
-            DataType: BaseDataType
-          - Name: SelectedItem
-            Type: NodePointer
-            DataType: NodeId
-            Value: {"IdType":0,"Id":0,"Namespace":-1}
-            Children:
-            - Name: Kind
-              Type: PropertyType
-              DataType: NodeId
-              Value: {"IdType":0,"Id":0,"Namespace":-1}
-            - Name: NodeClass
-              Type: PropertyType
-              DataType: NodePointerNodeClass
-              ModellingRule: Optional
-              Value: 1
-          - Name: UISelectedItem
-            Type: BaseDataVariableType
-            DataType: NodeId
-            AccessLevel: Read
-            Value: {"IdType":0,"Id":0,"Namespace":-1}
-          - Name: UISelectedValue
-            Type: BaseDataVariableType
-            DataType: BaseDataType
-            AccessLevel: Read
-          - Class: Reference
-            Target: ns=5;i=480
-            Direction: Forward
-          - Name: Width
-            Type: BaseVariableType
-            DataType: Size
-            ModellingRule: Optional
-            Value: 220.0
-          - Name: Item
-            Type: Alias
-            DataType: NodeId
-            Value: {"IdType":0,"Id":0,"Namespace":-1}
-            Children:
-            - Name: Kind
-              Type: PropertyType
-              DataType: NodeId
-              Value: {"IdType":0,"Id":0,"Namespace":-1}
-          - Name: LeftMargin
-            Type: BaseVariableType
-            DataType: Size
-            ModellingRule: Optional
-            Value: 450.0
-          - Name: TopMargin
-            Type: BaseVariableType
-            DataType: Size
-            ModellingRule: Optional
-            Value: 59.0
-          - Name: Height
-            Type: BaseVariableType
-            DataType: Size
-            ModellingRule: Optional
-            Value: 30.0
-          - Name: Values
-            Type: BaseObjectType
-            Children:
-            - Name: PNT_MVS_01_IN_F1
-              Type: BaseDataVariableType
-              DataType: String
-              Value: "AND Meter = ' PNT_MVS_01_IN_F1'"
-            - Name: PNT_MVS_01_IN_F2
-              Type: BaseDataVariableType
-              DataType: String
-              Value: "AND Meter = ' PNT_MVS_01_IN_F2'"
-            - Name: PNT_MVS_01_OG_F4
-              Type: BaseDataVariableType
-              DataType: String
-              Value: "AND Meter = ' PNT_MVS_01_OG_F4'"
-            - Name: PNT_MVS_01_OG_F5
-              Type: BaseDataVariableType
-              DataType: String
-              Value: "AND Meter = ' PNT_MVS_01_OG_F5'"
-            - Name: PNT_MVS_01_OG_F6
-              Type: BaseDataVariableType
-              DataType: String
-              Value: "AND Meter = ' PNT_MVS_01_OG_F6'"
-            - Name: PNT_MVS_01_OG_F7
-              Type: BaseDataVariableType
-              DataType: String
-              Value: "AND Meter = ' PNT_MVS_01_OG_F7'"
-            - Name: PNT_MVS_01_OG_F8
-              Type: BaseDataVariableType
-              DataType: String
-              Value: "AND Meter = ' PNT_MVS_01_OG_F8'"
-            - Name: PNT_MVS_01_OG_F9
-              Type: BaseDataVariableType
-              DataType: String
-              Value: "AND Meter = ' PNT_MVS_01_OG_F9'"
-            - Name: PNT_MVS_01_OG_F10
-              Type: BaseDataVariableType
-              DataType: String
-              Value: "AND Meter = ' PNT_MVS_01_OG_F10'"
-            - Name: PNT_MVS_01_OG_F11
-              Type: BaseDataVariableType
-              DataType: String
-              Value: "AND Meter = ' PNT_MVS_01_OG_F11'"
-            - Name: PNT_SWB_07_IN1
-              Type: BaseDataVariableType
-              DataType: String
-              Value: "AND Meter = ' PNT_SWB_07_IN1'"
-            - Name: PNT_SWB_07_OG3
-              Type: BaseDataVariableType
-              DataType: String
-              Value: "AND Meter = ' PNT_SWB_07_OG3'"
-            - Name: PNT_SWB_06_IN1
-              Type: BaseDataVariableType
-              DataType: String
-              Value: "AND Meter = ' PNT_SWB_06_IN1'"
-            - Name: PNT_SWB_06_OG4
-              Type: BaseDataVariableType
-              DataType: String
-              Value: "AND Meter = ' PNT_SWB_06_OG4'"
-            - Name: PNT_SWB_01_IN1
-              Type: BaseDataVariableType
-              DataType: String
-              Value: "AND Meter = ' PNT_SWB_01_IN1'"
-            - Name: PNT_SWB_02_IN1
-              Type: BaseDataVariableType
-              DataType: String
-              Value: "AND Meter = ' PNT_SWB_02_IN1'"
-            - Name: PNT_SWB_03_IN1
-              Type: BaseDataVariableType
-              DataType: String
-              Value: "AND Meter = ' PNT_SWB_03_IN1'"
-            - Name: PNT_SWB_04_IN1
-              Type: BaseDataVariableType
-              DataType: String
-              Value: "AND Meter = ' PNT_SWB_04_IN1'"
-            - Name: PNT_SWB_05_IN1
-              Type: BaseDataVariableType
-              DataType: String
-              Value: "AND Meter = ' PNT_SWB_05_IN1'"
-          - Name: SelectedValuePath
-            Type: BaseDataVariableType
-            DataType: BaseDataType
-            Children:
-            - Name: DynamicLink
-              Type: DynamicLink
-              DataType: NodePath
-              Value: "{Item}@Value"
-          - Name: Mode
-            Type: BaseVariableType
-            DataType: ComboBoxModeEnum
-            ModellingRule: Optional
-            Value: 0
-          - Name: Visible
-            Type: BaseDataVariableType
-            DataType: Boolean
-            Value: true
-            Children:
-            - Name: KeyValueConverter1
-              Type: ValueMapConverter
-              Children:
-              - Name: Source
-                Type: BaseDataVariableType
-                DataType: BaseDataType
-                ReferenceType: HasSource
-                Children:
-                - Name: DynamicLink
-                  Type: DynamicLink
-                  DataType: NodePath
-                  Value: "/Objects/Tata_Energy_Management/Model/Alarms/Selection/Filter_Jace"
-              - Name: Pairs
-                Type: BaseObjectType
-                Children:
-                - Name: Pair
-                  Type: ValueMapPair
-                  Children:
-                  - Name: Key
-                    Type: BaseDataVariableType
-                    DataType: String
-                    Value: "SELECT * FROM Model WHERE Jace='33KV'"
-                  - Name: Value
-                    Type: BaseDataVariableType
-                    DataType: Boolean
-                    Value: false
-                - Name: Pair1
-                  Type: ValueMapPair
-                  Children:
-                  - Name: Key
-                    Type: BaseDataVariableType
-                    DataType: String
-                    Value: "SELECT * FROM Model WHERE Jace='Utility'"
-                  - Name: Value
-                    Type: BaseDataVariableType
-                    DataType: Boolean
-                    Value: false
-                - Name: Pair2
-                  Type: ValueMapPair
-                  Children:
-                  - Name: Key
-                    Type: BaseDataVariableType
-                    DataType: String
-                    Value: "SELECT * FROM Model WHERE Jace='Stamping'"
-                  - Name: Value
-                    Type: BaseDataVariableType
-                    DataType: Boolean
-                    Value: false
-                - Name: Pair3
-                  Type: ValueMapPair
-                  Children:
-                  - Name: Key
-                    Type: BaseDataVariableType
-                    DataType: String
-                    Value: "SELECT * FROM Model WHERE Jace='TCF'"
-                  - Name: Value
-                    Type: BaseDataVariableType
-                    DataType: Boolean
-                    Value: false
-                - Name: Pair4
-                  Type: ValueMapPair
-                  Children:
-                  - Name: Key
-                    Type: BaseDataVariableType
-                    DataType: String
-                    Value: "SELECT * FROM Model WHERE Jace='BodyShop'"
-                  - Name: Value
-                    Type: BaseDataVariableType
-                    DataType: Boolean
-                    Value: false
-                - Name: Pair5
-                  Type: ValueMapPair
-                  Children:
-                  - Name: Key
-                    Type: BaseDataVariableType
-                    DataType: String
-                    Value: "SELECT * FROM Model WHERE Jace='PaintShop'"
-                  - Name: Value
-                    Type: BaseDataVariableType
-                    DataType: Boolean
-                    Value: true
-                - Name: Pair6
-                  Type: ValueMapPair
-                  Children:
-                  - Name: Key
-                    Type: BaseDataVariableType
-                    DataType: String
-                    Value: "SELECT * FROM Model WHERE Jace='PumpRoom'"
-                  - Name: Value
-                    Type: BaseDataVariableType
-                    DataType: Boolean
-                    Value: false
-                - Name: Pair7
-                  Type: ValueMapPair
-                  Children:
-                  - Name: Key
-                    Type: BaseDataVariableType
-                    DataType: String
-                    Value: "SELECT * FROM Model WHERE Jace='Admin'"
-                  - Name: Value
-                    Type: BaseDataVariableType
-                    DataType: Boolean
-                    Value: false
-          - Name: HorizontalAlignment
-            Type: BaseVariableType
-            DataType: HorizontalAlignment
-            ModellingRule: Optional
-            Value: 0
-          - Name: RightMargin
-            Type: BaseVariableType
-            DataType: Size
-            ModellingRule: Optional
-            Value: 0.0
-        - Name: BodyShop_Selection
-          Type: ComboBox
-          Children:
-          - Name: Text
-            Type: BaseDataVariableType
-            DataType: LocalizedText
-            Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
-          - Name: Model
-            Type: NodePointer
-            DataType: NodeId
-            Value: {"IdType":0,"Id":0,"Namespace":-1}
-            Children:
-            - Name: ItemKind
-              Type: PropertyType
-              DataType: NodeId
-              Value: {"IdType":0,"Id":0,"Namespace":-1}
-            - Name: Kind
-              Type: PropertyType
-              DataType: NodeId
-              Value: {"IdType":0,"Id":0,"Namespace":-1}
-            - Name: DynamicLink
-              Type: DynamicLink
-              DataType: NodePath
-              Value: "../Values@NodeId"
-          - Name: SelectedValue
-            Type: BaseDataVariableType
-            DataType: BaseDataType
-          - Name: SelectedItem
-            Type: NodePointer
-            DataType: NodeId
-            Value: {"IdType":0,"Id":0,"Namespace":-1}
-            Children:
-            - Name: Kind
-              Type: PropertyType
-              DataType: NodeId
-              Value: {"IdType":0,"Id":0,"Namespace":-1}
-            - Name: NodeClass
-              Type: PropertyType
-              DataType: NodePointerNodeClass
-              ModellingRule: Optional
-              Value: 1
-          - Name: UISelectedItem
-            Type: BaseDataVariableType
-            DataType: NodeId
-            AccessLevel: Read
-            Value: {"IdType":0,"Id":0,"Namespace":-1}
-          - Name: UISelectedValue
-            Type: BaseDataVariableType
-            DataType: BaseDataType
-            AccessLevel: Read
-          - Class: Reference
-            Target: ns=5;i=480
-            Direction: Forward
-          - Name: Width
-            Type: BaseVariableType
-            DataType: Size
-            ModellingRule: Optional
-            Value: 220.0
-          - Name: Item
-            Type: Alias
-            DataType: NodeId
-            Value: {"IdType":0,"Id":0,"Namespace":-1}
-            Children:
-            - Name: Kind
-              Type: PropertyType
-              DataType: NodeId
-              Value: {"IdType":0,"Id":0,"Namespace":-1}
-          - Name: LeftMargin
-            Type: BaseVariableType
-            DataType: Size
-            ModellingRule: Optional
-            Value: 450.0
-          - Name: TopMargin
-            Type: BaseVariableType
-            DataType: Size
-            ModellingRule: Optional
-            Value: 59.0
-          - Name: Height
-            Type: BaseVariableType
-            DataType: Size
-            ModellingRule: Optional
-            Value: 30.0
-          - Name: Values
-            Type: BaseObjectType
-            Children:
-            - Name: BDY_MVS_01_IN1
-              Type: BaseDataVariableType
-              DataType: String
-              Value: "AND Meter = ' BDY_MVS_01_IN1'"
-            - Name: BDY_MVS_01_IN2
-              Type: BaseDataVariableType
-              DataType: String
-              Value: "AND Meter = ' BDY_MVS_01_IN2'"
-            - Name: BDY_MVS_01_OG_F3
-              Type: BaseDataVariableType
-              DataType: String
-              Value: "AND Meter = ' BDY_MVS_01_OG_F3'"
-            - Name: BDY_MVS_01_OG_F4
-              Type: BaseDataVariableType
-              DataType: String
-              Value: "AND Meter = ' BDY_MVS_01_OG_F4'"
-            - Name: BDY_MVS_01_OG_F6
-              Type: BaseDataVariableType
-              DataType: String
-              Value: "AND Meter = ' BDY_MVS_01_OG_F6'"
-            - Name: BDY_MVS_01_OG_F7
-              Type: BaseDataVariableType
-              DataType: String
-              Value: "AND Meter = ' BDY_MVS_01_OG_F7'"
-            - Name: BDY_SWB_01_INF1
-              Type: BaseDataVariableType
-              DataType: String
-              Value: "AND Meter = ' BDY_SWB_01_INF1'"
-            - Name: BDY_SWB_01_OG_F2
-              Type: BaseDataVariableType
-              DataType: String
-              Value: "AND Meter = ' BDY_SWB_01_OG_F2'"
-            - Name: BDY_SWB_02_INF1
-              Type: BaseDataVariableType
-              DataType: String
-              Value: "AND Meter = ' BDY_SWB_02_INF1'"
-            - Name: BDY_SWB_02_OG_F2
-              Type: BaseDataVariableType
-              DataType: String
-              Value: "AND Meter = ' BDY_SWB_02_OG_F2'"
-            - Name: BDY_SWB_03_INF1
-              Type: BaseDataVariableType
-              DataType: String
-              Value: "AND Meter = ' BDY_SWB_03_INF1'"
-            - Name: BDY_SWB_03_OG_F2
-              Type: BaseDataVariableType
-              DataType: String
-              Value: "AND Meter = ' BDY_SWB_03_OG_F2'"
-            - Name: BDY_SWB_03_OG_F3
-              Type: BaseDataVariableType
-              DataType: String
-              Value: "AND Meter = ' BDY_SWB_03_OG_F3'"
-            - Name: BDY_SWB_03_OG_F4
-              Type: BaseDataVariableType
-              DataType: String
-              Value: "AND Meter = ' BDY_SWB_03_OG_F4'"
-            - Name: BDY_SWB_03_OG_F5
-              Type: BaseDataVariableType
-              DataType: String
-              Value: "AND Meter = ' BDY_SWB_03_OG_F5'"
-            - Name: BDY_SWB_08_INF1
-              Type: BaseDataVariableType
-              DataType: String
-              Value: "AND Meter = ' BDY_SWB_08_INF1'"
-            - Name: extra
-              Type: BaseDataVariableType
-              DataType: String
-              Value: "AND Meter = ' extra'"
-            - Name: BDY_SWB_08_OG_F2
-              Type: BaseDataVariableType
-              DataType: String
-              Value: "AND Meter = ' BDY_SWB_08_OG_F2'"
-            - Name: BDY_SWB_08_OG_F3
-              Type: BaseDataVariableType
-              DataType: String
-              Value: "AND Meter = ' BDY_SWB_08_OG_F3'"
-            - Name: BDY_SWB_08_OG_F4
-              Type: BaseDataVariableType
-              DataType: String
-              Value: "AND Meter = ' BDY_SWB_08_OG_F4'"
-            - Name: BDY_SWB_08_OG_F5
-              Type: BaseDataVariableType
-              DataType: String
-              Value: "AND Meter = ' BDY_SWB_08_OG_F5'"
-            - Name: BDY_SWB_08_OG_F6
-              Type: BaseDataVariableType
-              DataType: String
-              Value: "AND Meter = ' BDY_SWB_08_OG_F6'"
-            - Name: BDY_SWB_08_OG_F7
-              Type: BaseDataVariableType
-              DataType: String
-              Value: "AND Meter = ' BDY_SWB_08_OG_F7'"
-            - Name: BDY_MVS_02_IN1
-              Type: BaseDataVariableType
-              DataType: String
-              Value: "AND Meter = ' BDY_MVS_02_IN1'"
-            - Name: BDY_MVS_02_IN2
-              Type: BaseDataVariableType
-              DataType: String
-              Value: "AND Meter = ' BDY_MVS_02_IN2'"
-            - Name: BDY_MVS_02_OG_F3
-              Type: BaseDataVariableType
-              DataType: String
-              Value: "AND Meter = ' BDY_MVS_02_OG_F3'"
-            - Name: BDY_MVS_02_OG_F4
-              Type: BaseDataVariableType
-              DataType: String
-              Value: "AND Meter = ' BDY_MVS_02_OG_F4'"
-            - Name: BDY_MVS_02_OG_F6
-              Type: BaseDataVariableType
-              DataType: String
-              Value: "AND Meter = ' BDY_MVS_02_OG_F6'"
-            - Name: BDY_MVS_02_OG_F7
-              Type: BaseDataVariableType
-              DataType: String
-              Value: "AND Meter = ' BDY_MVS_02_OG_F7'"
-            - Name: BDY_SWB_04_INF1
-              Type: BaseDataVariableType
-              DataType: String
-              Value: "AND Meter = ' BDY_SWB_04_INF1'"
-            - Name: BDY_SWB_04_OG_F2
-              Type: BaseDataVariableType
-              DataType: String
-              Value: "AND Meter = ' BDY_SWB_04_OG_F2'"
-            - Name: BDY_SWB_05_INF1
-              Type: BaseDataVariableType
-              DataType: String
-              Value: "AND Meter = ' BDY_SWB_05_INF1'"
-            - Name: BDY_SWB_05_OG_F2
-              Type: BaseDataVariableType
-              DataType: String
-              Value: "AND Meter = ' BDY_SWB_05_OG_F2'"
-            - Name: BDY_SWB_05_OG_F3
-              Type: BaseDataVariableType
-              DataType: String
-              Value: "AND Meter = ' BDY_SWB_05_OG_F3'"
-            - Name: BDY_SWB_06_INF1
-              Type: BaseDataVariableType
-              DataType: String
-              Value: "AND Meter = ' BDY_SWB_06_INF1'"
-            - Name: BDY_SWB_06_OG_F2
-              Type: BaseDataVariableType
-              DataType: String
-              Value: "AND Meter = ' BDY_SWB_06_OG_F2'"
-            - Name: BDY_SWB_06_OG_F3
-              Type: BaseDataVariableType
-              DataType: String
-              Value: "AND Meter = ' BDY_SWB_06_OG_F3'"
-            - Name: BDY_SWB_06_OG_F4
-              Type: BaseDataVariableType
-              DataType: String
-              Value: "AND Meter = ' BDY_SWB_06_OG_F4'"
-            - Name: BDY_SWB_07_INF1
-              Type: BaseDataVariableType
-              DataType: String
-              Value: "AND Meter = ' BDY_SWB_07_INF1'"
-            - Name: BDY_SWB_07_OG_F2
-              Type: BaseDataVariableType
-              DataType: String
-              Value: "AND Meter = ' BDY_SWB_07_OG_F2'"
-            - Name: BDY_SWB_07_OG_F3
-              Type: BaseDataVariableType
-              DataType: String
-              Value: "AND Meter = ' BDY_SWB_07_OG_F3'"
-            - Name: BDY_SWB_07_OG_F4
-              Type: BaseDataVariableType
-              DataType: String
-              Value: "AND Meter = ' BDY_SWB_07_OG_F4'"
-            - Name: BDY_SWB_08_OG_F8
-              Type: BaseDataVariableType
-              DataType: String
-              Value: "AND Meter = ' BDY_SWB_08_OG_F8'"
-          - Name: SelectedValuePath
-            Type: BaseDataVariableType
-            DataType: BaseDataType
-            Children:
-            - Name: DynamicLink
-              Type: DynamicLink
-              DataType: NodePath
-              Value: "{Item}@Value"
-          - Name: Mode
-            Type: BaseVariableType
-            DataType: ComboBoxModeEnum
-            ModellingRule: Optional
-            Value: 0
-          - Name: Visible
-            Type: BaseDataVariableType
-            DataType: Boolean
-            Value: true
-            Children:
-            - Name: KeyValueConverter1
-              Type: ValueMapConverter
-              Children:
-              - Name: Source
-                Type: BaseDataVariableType
-                DataType: BaseDataType
-                ReferenceType: HasSource
-                Children:
-                - Name: DynamicLink
-                  Type: DynamicLink
-                  DataType: NodePath
-                  Value: "/Objects/Tata_Energy_Management/Model/Alarms/Selection/Filter_Jace"
-              - Name: Pairs
-                Type: BaseObjectType
-                Children:
-                - Name: Pair
-                  Type: ValueMapPair
-                  Children:
-                  - Name: Key
-                    Type: BaseDataVariableType
-                    DataType: String
-                    Value: "SELECT * FROM Model WHERE Jace='33KV'"
-                  - Name: Value
-                    Type: BaseDataVariableType
-                    DataType: Boolean
-                    Value: false
-                - Name: Pair1
-                  Type: ValueMapPair
-                  Children:
-                  - Name: Key
-                    Type: BaseDataVariableType
-                    DataType: String
-                    Value: "SELECT * FROM Model WHERE Jace='Utility'"
-                  - Name: Value
-                    Type: BaseDataVariableType
-                    DataType: Boolean
-                    Value: false
-                - Name: Pair2
-                  Type: ValueMapPair
-                  Children:
-                  - Name: Key
-                    Type: BaseDataVariableType
-                    DataType: String
-                    Value: "SELECT * FROM Model WHERE Jace='Stamping'"
-                  - Name: Value
-                    Type: BaseDataVariableType
-                    DataType: Boolean
-                    Value: false
-                - Name: Pair3
-                  Type: ValueMapPair
-                  Children:
-                  - Name: Key
-                    Type: BaseDataVariableType
-                    DataType: String
-                    Value: "SELECT * FROM Model WHERE Jace='TCF'"
-                  - Name: Value
-                    Type: BaseDataVariableType
-                    DataType: Boolean
-                    Value: false
-                - Name: Pair4
-                  Type: ValueMapPair
-                  Children:
-                  - Name: Key
-                    Type: BaseDataVariableType
-                    DataType: String
-                    Value: "SELECT * FROM Model WHERE Jace='BodyShop'"
-                  - Name: Value
-                    Type: BaseDataVariableType
-                    DataType: Boolean
-                    Value: true
-                - Name: Pair5
-                  Type: ValueMapPair
-                  Children:
-                  - Name: Key
-                    Type: BaseDataVariableType
-                    DataType: String
-                    Value: "SELECT * FROM Model WHERE Jace='PaintShop'"
-                  - Name: Value
-                    Type: BaseDataVariableType
-                    DataType: Boolean
-                    Value: false
-                - Name: Pair6
-                  Type: ValueMapPair
-                  Children:
-                  - Name: Key
-                    Type: BaseDataVariableType
-                    DataType: String
-                    Value: "SELECT * FROM Model WHERE Jace='PumpRoom'"
-                  - Name: Value
-                    Type: BaseDataVariableType
-                    DataType: Boolean
-                    Value: false
-                - Name: Pair7
-                  Type: ValueMapPair
-                  Children:
-                  - Name: Key
-                    Type: BaseDataVariableType
-                    DataType: String
-                    Value: "SELECT * FROM Model WHERE Jace='Admin'"
-                  - Name: Value
-                    Type: BaseDataVariableType
-                    DataType: Boolean
-                    Value: false
-          - Name: HorizontalAlignment
-            Type: BaseVariableType
-            DataType: HorizontalAlignment
-            ModellingRule: Optional
-            Value: 0
-          - Name: RightMargin
-            Type: BaseVariableType
-            DataType: Size
-            ModellingRule: Optional
-            Value: 0.0
-        - Name: TCF_Selection
-          Type: ComboBox
-          Children:
-          - Name: Text
-            Type: BaseDataVariableType
-            DataType: LocalizedText
-            Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
-          - Name: Model
-            Type: NodePointer
-            DataType: NodeId
-            Value: {"IdType":0,"Id":0,"Namespace":-1}
-            Children:
-            - Name: ItemKind
-              Type: PropertyType
-              DataType: NodeId
-              Value: {"IdType":0,"Id":0,"Namespace":-1}
-            - Name: Kind
-              Type: PropertyType
-              DataType: NodeId
-              Value: {"IdType":0,"Id":0,"Namespace":-1}
-            - Name: DynamicLink
-              Type: DynamicLink
-              DataType: NodePath
-              Value: "../Values@NodeId"
-          - Name: SelectedValue
-            Type: BaseDataVariableType
-            DataType: BaseDataType
-          - Name: SelectedItem
-            Type: NodePointer
-            DataType: NodeId
-            Value: {"IdType":0,"Id":0,"Namespace":-1}
-            Children:
-            - Name: Kind
-              Type: PropertyType
-              DataType: NodeId
-              Value: {"IdType":0,"Id":0,"Namespace":-1}
-            - Name: NodeClass
-              Type: PropertyType
-              DataType: NodePointerNodeClass
-              ModellingRule: Optional
-              Value: 1
-          - Name: UISelectedItem
-            Type: BaseDataVariableType
-            DataType: NodeId
-            AccessLevel: Read
-            Value: {"IdType":0,"Id":0,"Namespace":-1}
-          - Name: UISelectedValue
-            Type: BaseDataVariableType
-            DataType: BaseDataType
-            AccessLevel: Read
-          - Class: Reference
-            Target: ns=5;i=480
-            Direction: Forward
-          - Name: Width
-            Type: BaseVariableType
-            DataType: Size
-            ModellingRule: Optional
-            Value: 220.0
-          - Name: Item
-            Type: Alias
-            DataType: NodeId
-            Value: {"IdType":0,"Id":0,"Namespace":-1}
-            Children:
-            - Name: Kind
-              Type: PropertyType
-              DataType: NodeId
-              Value: {"IdType":0,"Id":0,"Namespace":-1}
-          - Name: LeftMargin
-            Type: BaseVariableType
-            DataType: Size
-            ModellingRule: Optional
-            Value: 450.0
-          - Name: TopMargin
-            Type: BaseVariableType
-            DataType: Size
-            ModellingRule: Optional
-            Value: 59.0
-          - Name: Height
-            Type: BaseVariableType
-            DataType: Size
-            ModellingRule: Optional
-            Value: 30.0
-          - Name: Values
-            Type: BaseObjectType
-            Children:
-            - Name: TCF_MVS_01_IN_F1
-              Type: BaseDataVariableType
-              DataType: String
-              Value: "AND Meter = ' TCF_MVS_01_IN_F1'"
-            - Name: TCF_MVS_01_IN_F2
-              Type: BaseDataVariableType
-              DataType: String
-              Value: "AND Meter = ' TCF_MVS_01_IN_F2'"
-            - Name: TCF_MVS_01_OG_F4
-              Type: BaseDataVariableType
-              DataType: String
-              Value: "AND Meter = ' TCF_MVS_01_OG_F4'"
-            - Name: TCF_MVS_01_OG_F5
-              Type: BaseDataVariableType
-              DataType: String
-              Value: "AND Meter = ' TCF_MVS_01_OG_F5'"
-            - Name: TCF_MVS_01_OG_F6
-              Type: BaseDataVariableType
-              DataType: String
-              Value: "AND Meter = ' TCF_MVS_01_OG_F6'"
-            - Name: WH_TCF_SWB_01_IN1F2
-              Type: BaseDataVariableType
-              DataType: String
-              Value: "AND Meter = ' WH_TCF_SWB_01_IN1F2'"
-            - Name: WH_TCF_SWB_01_OG_2F3
-              Type: BaseDataVariableType
-              DataType: String
-              Value: "AND Meter = ' WH_TCF_SWB_01_OG_2F3'"
-            - Name: WH_TCF_SWB_01_OG_3F3
-              Type: BaseDataVariableType
-              DataType: String
-              Value: "AND Meter = ' WH_TCF_SWB_01_OG_3F3'"
-            - Name: WH_TCF_SWB_01_OG_4F3
-              Type: BaseDataVariableType
-              DataType: String
-              Value: "AND Meter = ' WH_TCF_SWB_01_OG_4F3'"
-            - Name: WH_TCF_SWB_01_OG_5F3
-              Type: BaseDataVariableType
-              DataType: String
-              Value: "AND Meter = ' WH_TCF_SWB_01_OG_5F3'"
-            - Name: 'TCF-SWB-01_IN1F3'
-              Type: BaseDataVariableType
-              DataType: String
-              Value: "AND Meter = ' TCF-SWB-01_IN1F3'"
-            - Name: 'TCF-SWB-01_OG_2F3'
-              Type: BaseDataVariableType
-              DataType: String
-              Value: "AND Meter = ' TCF-SWB-01_OG_2F3'"
-            - Name: 'TCF-SWB-01_OG_3F3'
-              Type: BaseDataVariableType
-              DataType: String
-              Value: "AND Meter = ' TCF-SWB-01_OG_3F3'"
-            - Name: 'TCF-SWB-01_OG_4F3'
-              Type: BaseDataVariableType
-              DataType: String
-              Value: "AND Meter = ' TCF-SWB-01_OG_4F3'"
-            - Name: 'TCF-SWB-01_OG_5F3'
-              Type: BaseDataVariableType
-              DataType: String
-              Value: "AND Meter = ' TCF-SWB-01_OG_5F3'"
-            - Name: 'TCF-SWB-01_OG_6F3'
-              Type: BaseDataVariableType
-              DataType: String
-              Value: "AND Meter = ' TCF-SWB-01_OG_6F3'"
-            - Name: 'TCF-SWB-01_OG_7F3'
-              Type: BaseDataVariableType
-              DataType: String
-              Value: "AND Meter = ' TCF-SWB-01_OG_7F3'"
-            - Name: 'TCF-SWB-02_INF1'
-              Type: BaseDataVariableType
-              DataType: String
-              Value: "AND Meter = ' TCF-SWB-02_INF1'"
-            - Name: 'TCF-SWB-02_OG_2F3'
-              Type: BaseDataVariableType
-              DataType: String
-              Value: "AND Meter = ' TCF-SWB-02_OG_2F3'"
-            - Name: 'TCF-SWB-02_OG_2F1'
-              Type: BaseDataVariableType
-              DataType: String
-              Value: "AND Meter = ' TCF-SWB-02_OG_2F1'"
-            - Name: 'TCF-SWB-02_OG_2F2'
-              Type: BaseDataVariableType
-              DataType: String
-              Value: "AND Meter = ' TCF-SWB-02_OG_2F2'"
-            - Name: 'TCF-SWB-02_OG_2F4'
-              Type: BaseDataVariableType
-              DataType: String
-              Value: "AND Meter = ' TCF-SWB-02_OG_2F4'"
-          - Name: SelectedValuePath
-            Type: BaseDataVariableType
-            DataType: BaseDataType
-            Children:
-            - Name: DynamicLink
-              Type: DynamicLink
-              DataType: NodePath
-              Value: "{Item}@Value"
-          - Name: Mode
-            Type: BaseVariableType
-            DataType: ComboBoxModeEnum
-            ModellingRule: Optional
-            Value: 0
-          - Name: Visible
-            Type: BaseDataVariableType
-            DataType: Boolean
-            Value: true
-            Children:
-            - Name: KeyValueConverter1
-              Type: ValueMapConverter
-              Children:
-              - Name: Source
-                Type: BaseDataVariableType
-                DataType: BaseDataType
-                ReferenceType: HasSource
-                Children:
-                - Name: DynamicLink
-                  Type: DynamicLink
-                  DataType: NodePath
-                  Value: "/Objects/Tata_Energy_Management/Model/Alarms/Selection/Filter_Jace"
-              - Name: Pairs
-                Type: BaseObjectType
-                Children:
-                - Name: Pair
-                  Type: ValueMapPair
-                  Children:
-                  - Name: Key
-                    Type: BaseDataVariableType
-                    DataType: String
-                    Value: "SELECT * FROM Model WHERE Jace='33KV'"
-                  - Name: Value
-                    Type: BaseDataVariableType
-                    DataType: Boolean
-                    Value: false
-                - Name: Pair1
-                  Type: ValueMapPair
-                  Children:
-                  - Name: Key
-                    Type: BaseDataVariableType
-                    DataType: String
-                    Value: "SELECT * FROM Model WHERE Jace='Utility'"
-                  - Name: Value
-                    Type: BaseDataVariableType
-                    DataType: Boolean
-                    Value: false
-                - Name: Pair2
-                  Type: ValueMapPair
-                  Children:
-                  - Name: Key
-                    Type: BaseDataVariableType
-                    DataType: String
-                    Value: "SELECT * FROM Model WHERE Jace='Stamping'"
-                  - Name: Value
-                    Type: BaseDataVariableType
-                    DataType: Boolean
-                    Value: false
-                - Name: Pair3
-                  Type: ValueMapPair
-                  Children:
-                  - Name: Key
-                    Type: BaseDataVariableType
-                    DataType: String
-                    Value: "SELECT * FROM Model WHERE Jace='TCF'"
-                  - Name: Value
-                    Type: BaseDataVariableType
-                    DataType: Boolean
-                    Value: true
-                - Name: Pair4
-                  Type: ValueMapPair
-                  Children:
-                  - Name: Key
-                    Type: BaseDataVariableType
-                    DataType: String
-                    Value: "SELECT * FROM Model WHERE Jace='BodyShop'"
-                  - Name: Value
-                    Type: BaseDataVariableType
-                    DataType: Boolean
-                    Value: false
-                - Name: Pair5
-                  Type: ValueMapPair
-                  Children:
-                  - Name: Key
-                    Type: BaseDataVariableType
-                    DataType: String
-                    Value: "SELECT * FROM Model WHERE Jace='PaintShop'"
-                  - Name: Value
-                    Type: BaseDataVariableType
-                    DataType: Boolean
-                    Value: false
-                - Name: Pair6
-                  Type: ValueMapPair
-                  Children:
-                  - Name: Key
-                    Type: BaseDataVariableType
-                    DataType: String
-                    Value: "SELECT * FROM Model WHERE Jace='PumpRoom'"
-                  - Name: Value
-                    Type: BaseDataVariableType
-                    DataType: Boolean
-                    Value: false
-                - Name: Pair7
-                  Type: ValueMapPair
-                  Children:
-                  - Name: Key
-                    Type: BaseDataVariableType
-                    DataType: String
-                    Value: "SELECT * FROM Model WHERE Jace='Admin'"
-                  - Name: Value
-                    Type: BaseDataVariableType
-                    DataType: Boolean
-                    Value: false
-          - Name: HorizontalAlignment
-            Type: BaseVariableType
-            DataType: HorizontalAlignment
-            ModellingRule: Optional
-            Value: 0
-          - Name: RightMargin
-            Type: BaseVariableType
-            DataType: Size
-            ModellingRule: Optional
-            Value: 0.0
-        - Name: Admin_Selection
-          Type: ComboBox
-          Children:
-          - Name: Text
-            Type: BaseDataVariableType
-            DataType: LocalizedText
-            Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
-          - Name: Model
-            Type: NodePointer
-            DataType: NodeId
-            Value: {"IdType":0,"Id":0,"Namespace":-1}
-            Children:
-            - Name: ItemKind
-              Type: PropertyType
-              DataType: NodeId
-              Value: {"IdType":0,"Id":0,"Namespace":-1}
-            - Name: Kind
-              Type: PropertyType
-              DataType: NodeId
-              Value: {"IdType":0,"Id":0,"Namespace":-1}
-            - Name: DynamicLink
-              Type: DynamicLink
-              DataType: NodePath
-              Value: "../Values@NodeId"
-          - Name: SelectedValue
-            Type: BaseDataVariableType
-            DataType: BaseDataType
-          - Name: SelectedItem
-            Type: NodePointer
-            DataType: NodeId
-            Value: {"IdType":0,"Id":0,"Namespace":-1}
-            Children:
-            - Name: Kind
-              Type: PropertyType
-              DataType: NodeId
-              Value: {"IdType":0,"Id":0,"Namespace":-1}
-            - Name: NodeClass
-              Type: PropertyType
-              DataType: NodePointerNodeClass
-              ModellingRule: Optional
-              Value: 1
-          - Name: UISelectedItem
-            Type: BaseDataVariableType
-            DataType: NodeId
-            AccessLevel: Read
-            Value: {"IdType":0,"Id":0,"Namespace":-1}
-          - Name: UISelectedValue
-            Type: BaseDataVariableType
-            DataType: BaseDataType
-            AccessLevel: Read
-          - Class: Reference
-            Target: ns=5;i=480
-            Direction: Forward
-          - Name: Width
-            Type: BaseVariableType
-            DataType: Size
-            ModellingRule: Optional
-            Value: 220.0
-          - Name: Item
-            Type: Alias
-            DataType: NodeId
-            Value: {"IdType":0,"Id":0,"Namespace":-1}
-            Children:
-            - Name: Kind
-              Type: PropertyType
-              DataType: NodeId
-              Value: {"IdType":0,"Id":0,"Namespace":-1}
-          - Name: LeftMargin
-            Type: BaseVariableType
-            DataType: Size
-            ModellingRule: Optional
-            Value: 450.0
-          - Name: TopMargin
-            Type: BaseVariableType
-            DataType: Size
-            ModellingRule: Optional
-            Value: 59.0
-          - Name: Height
-            Type: BaseVariableType
-            DataType: Size
-            ModellingRule: Optional
-            Value: 30.0
-          - Name: Values
-            Type: BaseObjectType
-            Children:
-            - Name: 'ADM-DB-01_INF1'
-              Type: BaseDataVariableType
-              DataType: String
-              Value: "AND Meter = ' ADM-DB-01_INF1'"
-            - Name: 'ADM-EDB-01_INF2'
-              Type: BaseDataVariableType
-              DataType: String
-              Value: "AND Meter = ' ADM-EDB-01_INF2'"
-          - Name: SelectedValuePath
-            Type: BaseDataVariableType
-            DataType: BaseDataType
-            Children:
-            - Name: DynamicLink
-              Type: DynamicLink
-              DataType: NodePath
-              Value: "{Item}@Value"
-          - Name: Mode
-            Type: BaseVariableType
-            DataType: ComboBoxModeEnum
-            ModellingRule: Optional
-            Value: 0
-          - Name: Visible
-            Type: BaseDataVariableType
-            DataType: Boolean
-            Value: true
-            Children:
-            - Name: KeyValueConverter1
-              Type: ValueMapConverter
-              Children:
-              - Name: Source
-                Type: BaseDataVariableType
-                DataType: BaseDataType
-                ReferenceType: HasSource
-                Children:
-                - Name: DynamicLink
-                  Type: DynamicLink
-                  DataType: NodePath
-                  Value: "/Objects/Tata_Energy_Management/Model/Alarms/Selection/Filter_Jace"
-              - Name: Pairs
-                Type: BaseObjectType
-                Children:
-                - Name: Pair
-                  Type: ValueMapPair
-                  Children:
-                  - Name: Key
-                    Type: BaseDataVariableType
-                    DataType: String
-                    Value: "SELECT * FROM Model WHERE Jace='33KV'"
-                  - Name: Value
-                    Type: BaseDataVariableType
-                    DataType: Boolean
-                    Value: false
-                - Name: Pair1
-                  Type: ValueMapPair
-                  Children:
-                  - Name: Key
-                    Type: BaseDataVariableType
-                    DataType: String
-                    Value: "SELECT * FROM Model WHERE Jace='Utility'"
-                  - Name: Value
-                    Type: BaseDataVariableType
-                    DataType: Boolean
-                    Value: false
-                - Name: Pair2
-                  Type: ValueMapPair
-                  Children:
-                  - Name: Key
-                    Type: BaseDataVariableType
-                    DataType: String
-                    Value: "SELECT * FROM Model WHERE Jace='Stamping'"
-                  - Name: Value
-                    Type: BaseDataVariableType
-                    DataType: Boolean
-                    Value: false
-                - Name: Pair3
-                  Type: ValueMapPair
-                  Children:
-                  - Name: Key
-                    Type: BaseDataVariableType
-                    DataType: String
-                    Value: "SELECT * FROM Model WHERE Jace='TCF'"
-                  - Name: Value
-                    Type: BaseDataVariableType
-                    DataType: Boolean
-                    Value: false
-                - Name: Pair4
-                  Type: ValueMapPair
-                  Children:
-                  - Name: Key
-                    Type: BaseDataVariableType
-                    DataType: String
-                    Value: "SELECT * FROM Model WHERE Jace='BodyShop'"
-                  - Name: Value
-                    Type: BaseDataVariableType
-                    DataType: Boolean
-                    Value: false
-                - Name: Pair5
-                  Type: ValueMapPair
-                  Children:
-                  - Name: Key
-                    Type: BaseDataVariableType
-                    DataType: String
-                    Value: "SELECT * FROM Model WHERE Jace='PaintShop'"
-                  - Name: Value
-                    Type: BaseDataVariableType
-                    DataType: Boolean
-                    Value: false
-                - Name: Pair6
-                  Type: ValueMapPair
-                  Children:
-                  - Name: Key
-                    Type: BaseDataVariableType
-                    DataType: String
-                    Value: "SELECT * FROM Model WHERE Jace='PumpRoom'"
-                  - Name: Value
-                    Type: BaseDataVariableType
-                    DataType: Boolean
-                    Value: false
-                - Name: Pair7
-                  Type: ValueMapPair
-                  Children:
-                  - Name: Key
-                    Type: BaseDataVariableType
-                    DataType: String
-                    Value: "SELECT * FROM Model WHERE Jace='Admin'"
-                  - Name: Value
-                    Type: BaseDataVariableType
-                    DataType: Boolean
-                    Value: true
-          - Name: HorizontalAlignment
-            Type: BaseVariableType
-            DataType: HorizontalAlignment
-            ModellingRule: Optional
-            Value: 0
-          - Name: RightMargin
-            Type: BaseVariableType
-            DataType: Size
-            ModellingRule: Optional
-            Value: 0.0
-        - Name: PumpRoom_Selection
-          Type: ComboBox
-          Children:
-          - Name: Text
-            Type: BaseDataVariableType
-            DataType: LocalizedText
-            Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
-          - Name: Model
-            Type: NodePointer
-            DataType: NodeId
-            Value: {"IdType":0,"Id":0,"Namespace":-1}
-            Children:
-            - Name: ItemKind
-              Type: PropertyType
-              DataType: NodeId
-              Value: {"IdType":0,"Id":0,"Namespace":-1}
-            - Name: Kind
-              Type: PropertyType
-              DataType: NodeId
-              Value: {"IdType":0,"Id":0,"Namespace":-1}
-            - Name: DynamicLink
-              Type: DynamicLink
-              DataType: NodePath
-              Value: "../Values@NodeId"
-          - Name: SelectedValue
-            Type: BaseDataVariableType
-            DataType: BaseDataType
-          - Name: SelectedItem
-            Type: NodePointer
-            DataType: NodeId
-            Value: {"IdType":0,"Id":0,"Namespace":-1}
-            Children:
-            - Name: Kind
-              Type: PropertyType
-              DataType: NodeId
-              Value: {"IdType":0,"Id":0,"Namespace":-1}
-            - Name: NodeClass
-              Type: PropertyType
-              DataType: NodePointerNodeClass
-              ModellingRule: Optional
-              Value: 1
-          - Name: UISelectedItem
-            Type: BaseDataVariableType
-            DataType: NodeId
-            AccessLevel: Read
-            Value: {"IdType":0,"Id":0,"Namespace":-1}
-          - Name: UISelectedValue
-            Type: BaseDataVariableType
-            DataType: BaseDataType
-            AccessLevel: Read
-          - Class: Reference
-            Target: ns=5;i=480
-            Direction: Forward
-          - Name: Width
-            Type: BaseVariableType
-            DataType: Size
-            ModellingRule: Optional
-            Value: 220.0
-          - Name: Item
-            Type: Alias
-            DataType: NodeId
-            Value: {"IdType":0,"Id":0,"Namespace":-1}
-            Children:
-            - Name: Kind
-              Type: PropertyType
-              DataType: NodeId
-              Value: {"IdType":0,"Id":0,"Namespace":-1}
-          - Name: LeftMargin
-            Type: BaseVariableType
-            DataType: Size
-            ModellingRule: Optional
-            Value: 450.0
-          - Name: TopMargin
-            Type: BaseVariableType
-            DataType: Size
-            ModellingRule: Optional
-            Value: 59.0
-          - Name: Height
-            Type: BaseVariableType
-            DataType: Size
-            ModellingRule: Optional
-            Value: 30.0
-          - Name: Values
-            Type: BaseObjectType
-            Children:
-            - Name: 'WTK-1-PMCC-0-01'
-              Type: BaseDataVariableType
-              DataType: String
-              Value: "AND Meter = ' WTK-1-PMCC-0-01'"
-          - Name: SelectedValuePath
-            Type: BaseDataVariableType
-            DataType: BaseDataType
-            Children:
-            - Name: DynamicLink
-              Type: DynamicLink
-              DataType: NodePath
-              Value: "{Item}@Value"
-          - Name: Mode
-            Type: BaseVariableType
-            DataType: ComboBoxModeEnum
-            ModellingRule: Optional
-            Value: 0
-          - Name: Visible
-            Type: BaseDataVariableType
-            DataType: Boolean
-            Value: true
-            Children:
-            - Name: KeyValueConverter1
-              Type: ValueMapConverter
-              Children:
-              - Name: Source
-                Type: BaseDataVariableType
-                DataType: BaseDataType
-                ReferenceType: HasSource
-                Children:
-                - Name: DynamicLink
-                  Type: DynamicLink
-                  DataType: NodePath
-                  Value: "/Objects/Tata_Energy_Management/Model/Alarms/Selection/Filter_Jace"
-              - Name: Pairs
-                Type: BaseObjectType
-                Children:
-                - Name: Pair
-                  Type: ValueMapPair
-                  Children:
-                  - Name: Key
-                    Type: BaseDataVariableType
-                    DataType: String
-                    Value: "SELECT * FROM Model WHERE Jace='33KV'"
-                  - Name: Value
-                    Type: BaseDataVariableType
-                    DataType: Boolean
-                    Value: false
-                - Name: Pair1
-                  Type: ValueMapPair
-                  Children:
-                  - Name: Key
-                    Type: BaseDataVariableType
-                    DataType: String
-                    Value: "SELECT * FROM Model WHERE Jace='Utility'"
-                  - Name: Value
-                    Type: BaseDataVariableType
-                    DataType: Boolean
-                    Value: false
-                - Name: Pair2
-                  Type: ValueMapPair
-                  Children:
-                  - Name: Key
-                    Type: BaseDataVariableType
-                    DataType: String
-                    Value: "SELECT * FROM Model WHERE Jace='Stamping'"
-                  - Name: Value
-                    Type: BaseDataVariableType
-                    DataType: Boolean
-                    Value: false
-                - Name: Pair3
-                  Type: ValueMapPair
-                  Children:
-                  - Name: Key
-                    Type: BaseDataVariableType
-                    DataType: String
-                    Value: "SELECT * FROM Model WHERE Jace='TCF'"
-                  - Name: Value
-                    Type: BaseDataVariableType
-                    DataType: Boolean
-                    Value: false
-                - Name: Pair4
-                  Type: ValueMapPair
-                  Children:
-                  - Name: Key
-                    Type: BaseDataVariableType
-                    DataType: String
-                    Value: "SELECT * FROM Model WHERE Jace='BodyShop'"
-                  - Name: Value
-                    Type: BaseDataVariableType
-                    DataType: Boolean
-                    Value: false
-                - Name: Pair5
-                  Type: ValueMapPair
-                  Children:
-                  - Name: Key
-                    Type: BaseDataVariableType
-                    DataType: String
-                    Value: "SELECT * FROM Model WHERE Jace='PaintShop'"
-                  - Name: Value
-                    Type: BaseDataVariableType
-                    DataType: Boolean
-                    Value: false
-                - Name: Pair6
-                  Type: ValueMapPair
-                  Children:
-                  - Name: Key
-                    Type: BaseDataVariableType
-                    DataType: String
-                    Value: "SELECT * FROM Model WHERE Jace='PumpRoom'"
-                  - Name: Value
-                    Type: BaseDataVariableType
-                    DataType: Boolean
-                    Value: true
-                - Name: Pair7
-                  Type: ValueMapPair
-                  Children:
-                  - Name: Key
-                    Type: BaseDataVariableType
-                    DataType: String
-                    Value: "SELECT * FROM Model WHERE Jace='Admin'"
-                  - Name: Value
-                    Type: BaseDataVariableType
-                    DataType: Boolean
-                    Value: false
-          - Name: HorizontalAlignment
-            Type: BaseVariableType
-            DataType: HorizontalAlignment
-            ModellingRule: Optional
-            Value: 0
-          - Name: RightMargin
-            Type: BaseVariableType
-            DataType: Size
-            ModellingRule: Optional
-            Value: 0.0
-        - Name: Parameter_Selection
-          Type: ComboBox
-          Children:
-          - Name: Text
-            Type: BaseDataVariableType
-            DataType: LocalizedText
-            Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
-          - Name: Model
-            Type: NodePointer
-            DataType: NodeId
-            Value: {"IdType":0,"Id":0,"Namespace":-1}
-            Children:
-            - Name: ItemKind
-              Type: PropertyType
-              DataType: NodeId
-              Value: {"IdType":0,"Id":0,"Namespace":-1}
-            - Name: Kind
-              Type: PropertyType
-              DataType: NodeId
-              Value: {"IdType":0,"Id":0,"Namespace":-1}
-            - Name: DynamicLink
-              Type: DynamicLink
-              DataType: NodePath
-              Value: "../Values@NodeId"
           - Name: SelectedValue
             Type: BaseDataVariableType
             DataType: BaseDataType
@@ -22109,7 +19757,7 @@ Children:
             - Name: DynamicLink
               Type: DynamicLink
               DataType: NodePath
-              Value: "/Objects/Tata_Energy_Management/Model/Alarms/Selection/Filter_Parameter_R"
+              Value: "/Objects/Tata_Energy_Management/Model/Reports/Forth Report/UtilityComboselection"
               Children:
               - Name: Mode
                 Type: BaseVariableType
@@ -22124,7 +19772,1610 @@ Children:
             - Name: Kind
               Type: PropertyType
               DataType: NodeId
+              Value: "/Types/VariableTypes/BaseVariableType/BaseDataVariableType"
+            - Name: NodeClass
+              Type: PropertyType
+              DataType: NodePointerNodeClass
+              ModellingRule: Optional
+              Value: 1
+          - Name: UISelectedItem
+            Type: BaseDataVariableType
+            DataType: NodeId
+            AccessLevel: Read
+            Value: {"IdType":0,"Id":0,"Namespace":-1}
+          - Name: UISelectedValue
+            Type: BaseDataVariableType
+            DataType: BaseDataType
+            AccessLevel: Read
+          - Class: Reference
+            Target: ns=5;i=480
+            Direction: Forward
+          - Name: Width
+            Type: BaseVariableType
+            DataType: Size
+            ModellingRule: Optional
+            Value: 220.0
+          - Name: Item
+            Type: Alias
+            DataType: NodeId
+            Value: {"IdType":0,"Id":0,"Namespace":-1}
+            Children:
+            - Name: Kind
+              Type: PropertyType
+              DataType: NodeId
+              Value: "/Types/VariableTypes/BaseVariableType/BaseDataVariableType"
+          - Name: LeftMargin
+            Type: BaseVariableType
+            DataType: Size
+            ModellingRule: Optional
+            Value: 450.0
+          - Name: TopMargin
+            Type: BaseVariableType
+            DataType: Size
+            ModellingRule: Optional
+            Value: 59.0
+          - Name: Height
+            Type: BaseVariableType
+            DataType: Size
+            ModellingRule: Optional
+            Value: 30.0
+          - Name: SelectedValuePath
+            Type: BaseDataVariableType
+            DataType: BaseDataType
+            Children:
+            - Name: DynamicLink
+              Type: DynamicLink
+              DataType: NodePath
+              Value: "{Item}@Value"
+          - Name: Mode
+            Type: BaseVariableType
+            DataType: ComboBoxModeEnum
+            ModellingRule: Optional
+            Value: 0
+          - Name: Visible
+            Type: BaseDataVariableType
+            DataType: Boolean
+            Value: true
+            Children:
+            - Name: KeyValueConverter1
+              Type: ValueMapConverter
+              Children:
+              - Name: Source
+                Type: BaseDataVariableType
+                DataType: BaseDataType
+                ReferenceType: HasSource
+                Children:
+                - Name: DynamicLink
+                  Type: DynamicLink
+                  DataType: NodePath
+                  Value: "/Objects/Tata_Energy_Management/Model/Reports/Forth Report/Jaceselectionresult"
+              - Name: Pairs
+                Type: BaseObjectType
+                Children:
+                - Name: Pair
+                  Type: ValueMapPair
+                  Children:
+                  - Name: Key
+                    Type: BaseDataVariableType
+                    DataType: Int32
+                    Value: 0
+                  - Name: Value
+                    Type: BaseDataVariableType
+                    DataType: Boolean
+                    Value: false
+                - Name: Pair1
+                  Type: ValueMapPair
+                  Children:
+                  - Name: Key
+                    Type: BaseDataVariableType
+                    DataType: Int32
+                    Value: 1
+                  - Name: Value
+                    Type: BaseDataVariableType
+                    DataType: Boolean
+                    Value: true
+                - Name: Pair2
+                  Type: ValueMapPair
+                  Children:
+                  - Name: Key
+                    Type: BaseDataVariableType
+                    DataType: Int32
+                    Value: 2
+                  - Name: Value
+                    Type: BaseDataVariableType
+                    DataType: Boolean
+                    Value: false
+                - Name: Pair3
+                  Type: ValueMapPair
+                  Children:
+                  - Name: Key
+                    Type: BaseDataVariableType
+                    DataType: Int32
+                    Value: 3
+                  - Name: Value
+                    Type: BaseDataVariableType
+                    DataType: Boolean
+                    Value: false
+                - Name: Pair4
+                  Type: ValueMapPair
+                  Children:
+                  - Name: Key
+                    Type: BaseDataVariableType
+                    DataType: Int32
+                    Value: 4
+                  - Name: Value
+                    Type: BaseDataVariableType
+                    DataType: Boolean
+                    Value: false
+                - Name: Pair5
+                  Type: ValueMapPair
+                  Children:
+                  - Name: Key
+                    Type: BaseDataVariableType
+                    DataType: Int32
+                    Value: 5
+                  - Name: Value
+                    Type: BaseDataVariableType
+                    DataType: Boolean
+                    Value: false
+                - Name: Pair6
+                  Type: ValueMapPair
+                  Children:
+                  - Name: Key
+                    Type: BaseDataVariableType
+                    DataType: Int32
+                    Value: 6
+                  - Name: Value
+                    Type: BaseDataVariableType
+                    DataType: Boolean
+                    Value: false
+                - Name: Pair7
+                  Type: ValueMapPair
+                  Children:
+                  - Name: Key
+                    Type: BaseDataVariableType
+                    DataType: Int32
+                    Value: 8
+                  - Name: Value
+                    Type: BaseDataVariableType
+                    DataType: Boolean
+                    Value: false
+          - Name: HorizontalAlignment
+            Type: BaseVariableType
+            DataType: HorizontalAlignment
+            ModellingRule: Optional
+            Value: 0
+          - Name: RightMargin
+            Type: BaseVariableType
+            DataType: Size
+            ModellingRule: Optional
+            Value: 0.0
+          - Name: DisplayValuePath
+            Type: BaseDataVariableType
+            DataType: LocalizedText
+            Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+            Children:
+            - Name: DynamicLink
+              Type: DynamicLink
+              DataType: NodePath
+              Value: "{Item}@DisplayName"
+        - Name: Stamping_Selection
+          Type: ComboBox
+          Children:
+          - Name: Text
+            Type: BaseDataVariableType
+            DataType: LocalizedText
+            Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+          - Name: Model
+            Type: NodePointer
+            DataType: NodeId
+            Value: "/Objects/Tata_Energy_Management/Model/Reports/Forth Report/Stamping"
+            Children:
+            - Name: ItemKind
+              Type: PropertyType
+              DataType: NodeId
+              Value: "/Types/VariableTypes/BaseVariableType/BaseDataVariableType"
+            - Name: Kind
+              Type: PropertyType
+              DataType: NodeId
               Value: {"IdType":0,"Id":0,"Namespace":-1}
+          - Name: SelectedValue
+            Type: BaseDataVariableType
+            DataType: BaseDataType
+            Children:
+            - Name: DynamicLink
+              Type: DynamicLink
+              DataType: NodePath
+              Value: "/Objects/Tata_Energy_Management/Model/Reports/Forth Report/StampingComboselection"
+              Children:
+              - Name: Mode
+                Type: BaseVariableType
+                DataType: DynamicLinkMode
+                ModellingRule: Optional
+                Value: 2
+          - Name: SelectedItem
+            Type: NodePointer
+            DataType: NodeId
+            Value: {"IdType":0,"Id":0,"Namespace":-1}
+            Children:
+            - Name: Kind
+              Type: PropertyType
+              DataType: NodeId
+              Value: "/Types/VariableTypes/BaseVariableType/BaseDataVariableType"
+            - Name: NodeClass
+              Type: PropertyType
+              DataType: NodePointerNodeClass
+              ModellingRule: Optional
+              Value: 1
+          - Name: UISelectedItem
+            Type: BaseDataVariableType
+            DataType: NodeId
+            AccessLevel: Read
+            Value: {"IdType":0,"Id":0,"Namespace":-1}
+          - Name: UISelectedValue
+            Type: BaseDataVariableType
+            DataType: BaseDataType
+            AccessLevel: Read
+          - Class: Reference
+            Target: ns=5;i=480
+            Direction: Forward
+          - Name: Width
+            Type: BaseVariableType
+            DataType: Size
+            ModellingRule: Optional
+            Value: 220.0
+          - Name: Item
+            Type: Alias
+            DataType: NodeId
+            Value: {"IdType":0,"Id":0,"Namespace":-1}
+            Children:
+            - Name: Kind
+              Type: PropertyType
+              DataType: NodeId
+              Value: "/Types/VariableTypes/BaseVariableType/BaseDataVariableType"
+          - Name: LeftMargin
+            Type: BaseVariableType
+            DataType: Size
+            ModellingRule: Optional
+            Value: 450.0
+          - Name: TopMargin
+            Type: BaseVariableType
+            DataType: Size
+            ModellingRule: Optional
+            Value: 59.0
+          - Name: Height
+            Type: BaseVariableType
+            DataType: Size
+            ModellingRule: Optional
+            Value: 30.0
+          - Name: SelectedValuePath
+            Type: BaseDataVariableType
+            DataType: BaseDataType
+            Children:
+            - Name: DynamicLink
+              Type: DynamicLink
+              DataType: NodePath
+              Value: "{Item}@Value"
+          - Name: Mode
+            Type: BaseVariableType
+            DataType: ComboBoxModeEnum
+            ModellingRule: Optional
+            Value: 0
+          - Name: Visible
+            Type: BaseDataVariableType
+            DataType: Boolean
+            Value: true
+            Children:
+            - Name: KeyValueConverter1
+              Type: ValueMapConverter
+              Children:
+              - Name: Source
+                Type: BaseDataVariableType
+                DataType: BaseDataType
+                ReferenceType: HasSource
+                Children:
+                - Name: DynamicLink
+                  Type: DynamicLink
+                  DataType: NodePath
+                  Value: "/Objects/Tata_Energy_Management/Model/Reports/Forth Report/Jaceselectionresult"
+              - Name: Pairs
+                Type: BaseObjectType
+                Children:
+                - Name: Pair
+                  Type: ValueMapPair
+                  Children:
+                  - Name: Key
+                    Type: BaseDataVariableType
+                    DataType: Int32
+                    Value: 0
+                  - Name: Value
+                    Type: BaseDataVariableType
+                    DataType: Boolean
+                    Value: false
+                - Name: Pair1
+                  Type: ValueMapPair
+                  Children:
+                  - Name: Key
+                    Type: BaseDataVariableType
+                    DataType: Int32
+                    Value: 1
+                  - Name: Value
+                    Type: BaseDataVariableType
+                    DataType: Boolean
+                    Value: false
+                - Name: Pair2
+                  Type: ValueMapPair
+                  Children:
+                  - Name: Key
+                    Type: BaseDataVariableType
+                    DataType: Int32
+                    Value: 2
+                  - Name: Value
+                    Type: BaseDataVariableType
+                    DataType: Boolean
+                    Value: false
+                - Name: Pair3
+                  Type: ValueMapPair
+                  Children:
+                  - Name: Key
+                    Type: BaseDataVariableType
+                    DataType: Int32
+                    Value: 3
+                  - Name: Value
+                    Type: BaseDataVariableType
+                    DataType: Boolean
+                    Value: false
+                - Name: Pair4
+                  Type: ValueMapPair
+                  Children:
+                  - Name: Key
+                    Type: BaseDataVariableType
+                    DataType: Int32
+                    Value: 4
+                  - Name: Value
+                    Type: BaseDataVariableType
+                    DataType: Boolean
+                    Value: false
+                - Name: Pair5
+                  Type: ValueMapPair
+                  Children:
+                  - Name: Key
+                    Type: BaseDataVariableType
+                    DataType: Int32
+                    Value: 5
+                  - Name: Value
+                    Type: BaseDataVariableType
+                    DataType: Boolean
+                    Value: false
+                - Name: Pair6
+                  Type: ValueMapPair
+                  Children:
+                  - Name: Key
+                    Type: BaseDataVariableType
+                    DataType: Int32
+                    Value: 6
+                  - Name: Value
+                    Type: BaseDataVariableType
+                    DataType: Boolean
+                    Value: true
+                - Name: Pair7
+                  Type: ValueMapPair
+                  Children:
+                  - Name: Key
+                    Type: BaseDataVariableType
+                    DataType: Int32
+                    Value: 8
+                  - Name: Value
+                    Type: BaseDataVariableType
+                    DataType: Boolean
+                    Value: false
+          - Name: HorizontalAlignment
+            Type: BaseVariableType
+            DataType: HorizontalAlignment
+            ModellingRule: Optional
+            Value: 0
+          - Name: RightMargin
+            Type: BaseVariableType
+            DataType: Size
+            ModellingRule: Optional
+            Value: 0.0
+          - Name: DisplayValuePath
+            Type: BaseDataVariableType
+            DataType: LocalizedText
+            Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+            Children:
+            - Name: DynamicLink
+              Type: DynamicLink
+              DataType: NodePath
+              Value: "{Item}@DisplayName"
+        - Name: PaintShop_Selection
+          Type: ComboBox
+          Children:
+          - Name: Text
+            Type: BaseDataVariableType
+            DataType: LocalizedText
+            Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+          - Name: Model
+            Type: NodePointer
+            DataType: NodeId
+            Value: "/Objects/Tata_Energy_Management/Model/Reports/Forth Report/Paintshop"
+            Children:
+            - Name: ItemKind
+              Type: PropertyType
+              DataType: NodeId
+              Value: "/Types/VariableTypes/BaseVariableType/BaseDataVariableType"
+            - Name: Kind
+              Type: PropertyType
+              DataType: NodeId
+              Value: {"IdType":0,"Id":0,"Namespace":-1}
+          - Name: SelectedValue
+            Type: BaseDataVariableType
+            DataType: BaseDataType
+            Children:
+            - Name: DynamicLink
+              Type: DynamicLink
+              DataType: NodePath
+              Value: "/Objects/Tata_Energy_Management/Model/Reports/Forth Report/PaintshopComboselection"
+              Children:
+              - Name: Mode
+                Type: BaseVariableType
+                DataType: DynamicLinkMode
+                ModellingRule: Optional
+                Value: 2
+          - Name: SelectedItem
+            Type: NodePointer
+            DataType: NodeId
+            Value: {"IdType":0,"Id":0,"Namespace":-1}
+            Children:
+            - Name: Kind
+              Type: PropertyType
+              DataType: NodeId
+              Value: "/Types/VariableTypes/BaseVariableType/BaseDataVariableType"
+            - Name: NodeClass
+              Type: PropertyType
+              DataType: NodePointerNodeClass
+              ModellingRule: Optional
+              Value: 1
+          - Name: UISelectedItem
+            Type: BaseDataVariableType
+            DataType: NodeId
+            AccessLevel: Read
+            Value: {"IdType":0,"Id":0,"Namespace":-1}
+          - Name: UISelectedValue
+            Type: BaseDataVariableType
+            DataType: BaseDataType
+            AccessLevel: Read
+          - Class: Reference
+            Target: ns=5;i=480
+            Direction: Forward
+          - Name: Width
+            Type: BaseVariableType
+            DataType: Size
+            ModellingRule: Optional
+            Value: 220.0
+          - Name: Item
+            Type: Alias
+            DataType: NodeId
+            Value: {"IdType":0,"Id":0,"Namespace":-1}
+            Children:
+            - Name: Kind
+              Type: PropertyType
+              DataType: NodeId
+              Value: "/Types/VariableTypes/BaseVariableType/BaseDataVariableType"
+          - Name: LeftMargin
+            Type: BaseVariableType
+            DataType: Size
+            ModellingRule: Optional
+            Value: 450.0
+          - Name: TopMargin
+            Type: BaseVariableType
+            DataType: Size
+            ModellingRule: Optional
+            Value: 59.0
+          - Name: Height
+            Type: BaseVariableType
+            DataType: Size
+            ModellingRule: Optional
+            Value: 30.0
+          - Name: SelectedValuePath
+            Type: BaseDataVariableType
+            DataType: BaseDataType
+            Children:
+            - Name: DynamicLink
+              Type: DynamicLink
+              DataType: NodePath
+              Value: "{Item}@Value"
+          - Name: Mode
+            Type: BaseVariableType
+            DataType: ComboBoxModeEnum
+            ModellingRule: Optional
+            Value: 0
+          - Name: Visible
+            Type: BaseDataVariableType
+            DataType: Boolean
+            Value: true
+            Children:
+            - Name: KeyValueConverter1
+              Type: ValueMapConverter
+              Children:
+              - Name: Source
+                Type: BaseDataVariableType
+                DataType: BaseDataType
+                ReferenceType: HasSource
+                Children:
+                - Name: DynamicLink
+                  Type: DynamicLink
+                  DataType: NodePath
+                  Value: "/Objects/Tata_Energy_Management/Model/Reports/Forth Report/Jaceselectionresult"
+              - Name: Pairs
+                Type: BaseObjectType
+                Children:
+                - Name: Pair
+                  Type: ValueMapPair
+                  Children:
+                  - Name: Key
+                    Type: BaseDataVariableType
+                    DataType: Int32
+                    Value: 0
+                  - Name: Value
+                    Type: BaseDataVariableType
+                    DataType: Boolean
+                    Value: false
+                - Name: Pair1
+                  Type: ValueMapPair
+                  Children:
+                  - Name: Key
+                    Type: BaseDataVariableType
+                    DataType: Int32
+                    Value: 1
+                  - Name: Value
+                    Type: BaseDataVariableType
+                    DataType: Boolean
+                    Value: false
+                - Name: Pair2
+                  Type: ValueMapPair
+                  Children:
+                  - Name: Key
+                    Type: BaseDataVariableType
+                    DataType: Int32
+                    Value: 2
+                  - Name: Value
+                    Type: BaseDataVariableType
+                    DataType: Boolean
+                    Value: false
+                - Name: Pair3
+                  Type: ValueMapPair
+                  Children:
+                  - Name: Key
+                    Type: BaseDataVariableType
+                    DataType: Int32
+                    Value: 3
+                  - Name: Value
+                    Type: BaseDataVariableType
+                    DataType: Boolean
+                    Value: true
+                - Name: Pair4
+                  Type: ValueMapPair
+                  Children:
+                  - Name: Key
+                    Type: BaseDataVariableType
+                    DataType: Int32
+                    Value: 4
+                  - Name: Value
+                    Type: BaseDataVariableType
+                    DataType: Boolean
+                    Value: false
+                - Name: Pair5
+                  Type: ValueMapPair
+                  Children:
+                  - Name: Key
+                    Type: BaseDataVariableType
+                    DataType: Int32
+                    Value: 5
+                  - Name: Value
+                    Type: BaseDataVariableType
+                    DataType: Boolean
+                    Value: false
+                - Name: Pair6
+                  Type: ValueMapPair
+                  Children:
+                  - Name: Key
+                    Type: BaseDataVariableType
+                    DataType: Int32
+                    Value: 6
+                  - Name: Value
+                    Type: BaseDataVariableType
+                    DataType: Boolean
+                    Value: false
+                - Name: Pair7
+                  Type: ValueMapPair
+                  Children:
+                  - Name: Key
+                    Type: BaseDataVariableType
+                    DataType: Int32
+                    Value: 8
+                  - Name: Value
+                    Type: BaseDataVariableType
+                    DataType: Boolean
+                    Value: false
+          - Name: HorizontalAlignment
+            Type: BaseVariableType
+            DataType: HorizontalAlignment
+            ModellingRule: Optional
+            Value: 0
+          - Name: RightMargin
+            Type: BaseVariableType
+            DataType: Size
+            ModellingRule: Optional
+            Value: 0.0
+          - Name: DisplayValuePath
+            Type: BaseDataVariableType
+            DataType: LocalizedText
+            Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+            Children:
+            - Name: DynamicLink
+              Type: DynamicLink
+              DataType: NodePath
+              Value: "{Item}@DisplayName"
+        - Name: BodyShop_Selection
+          Type: ComboBox
+          Children:
+          - Name: Text
+            Type: BaseDataVariableType
+            DataType: LocalizedText
+            Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+          - Name: Model
+            Type: NodePointer
+            DataType: NodeId
+            Value: "/Objects/Tata_Energy_Management/Model/Reports/Forth Report/Bodyshop"
+            Children:
+            - Name: ItemKind
+              Type: PropertyType
+              DataType: NodeId
+              Value: "/Types/VariableTypes/BaseVariableType/BaseDataVariableType"
+            - Name: Kind
+              Type: PropertyType
+              DataType: NodeId
+              Value: {"IdType":0,"Id":0,"Namespace":-1}
+          - Name: SelectedValue
+            Type: BaseDataVariableType
+            DataType: BaseDataType
+            Children:
+            - Name: DynamicLink
+              Type: DynamicLink
+              DataType: NodePath
+              Value: "/Objects/Tata_Energy_Management/Model/Reports/Forth Report/BodyshopComboselection"
+              Children:
+              - Name: Mode
+                Type: BaseVariableType
+                DataType: DynamicLinkMode
+                ModellingRule: Optional
+                Value: 2
+          - Name: SelectedItem
+            Type: NodePointer
+            DataType: NodeId
+            Value: {"IdType":0,"Id":0,"Namespace":-1}
+            Children:
+            - Name: Kind
+              Type: PropertyType
+              DataType: NodeId
+              Value: "/Types/VariableTypes/BaseVariableType/BaseDataVariableType"
+            - Name: NodeClass
+              Type: PropertyType
+              DataType: NodePointerNodeClass
+              ModellingRule: Optional
+              Value: 1
+          - Name: UISelectedItem
+            Type: BaseDataVariableType
+            DataType: NodeId
+            AccessLevel: Read
+            Value: {"IdType":0,"Id":0,"Namespace":-1}
+          - Name: UISelectedValue
+            Type: BaseDataVariableType
+            DataType: BaseDataType
+            AccessLevel: Read
+          - Class: Reference
+            Target: ns=5;i=480
+            Direction: Forward
+          - Name: Width
+            Type: BaseVariableType
+            DataType: Size
+            ModellingRule: Optional
+            Value: 220.0
+          - Name: Item
+            Type: Alias
+            DataType: NodeId
+            Value: {"IdType":0,"Id":0,"Namespace":-1}
+            Children:
+            - Name: Kind
+              Type: PropertyType
+              DataType: NodeId
+              Value: "/Types/VariableTypes/BaseVariableType/BaseDataVariableType"
+          - Name: LeftMargin
+            Type: BaseVariableType
+            DataType: Size
+            ModellingRule: Optional
+            Value: 450.0
+          - Name: TopMargin
+            Type: BaseVariableType
+            DataType: Size
+            ModellingRule: Optional
+            Value: 59.0
+          - Name: Height
+            Type: BaseVariableType
+            DataType: Size
+            ModellingRule: Optional
+            Value: 30.0
+          - Name: SelectedValuePath
+            Type: BaseDataVariableType
+            DataType: BaseDataType
+            Children:
+            - Name: DynamicLink
+              Type: DynamicLink
+              DataType: NodePath
+              Value: "{Item}@Value"
+          - Name: Mode
+            Type: BaseVariableType
+            DataType: ComboBoxModeEnum
+            ModellingRule: Optional
+            Value: 0
+          - Name: Visible
+            Type: BaseDataVariableType
+            DataType: Boolean
+            Value: true
+            Children:
+            - Name: KeyValueConverter1
+              Type: ValueMapConverter
+              Children:
+              - Name: Source
+                Type: BaseDataVariableType
+                DataType: BaseDataType
+                ReferenceType: HasSource
+                Children:
+                - Name: DynamicLink
+                  Type: DynamicLink
+                  DataType: NodePath
+                  Value: "/Objects/Tata_Energy_Management/Model/Reports/Forth Report/Jaceselectionresult"
+              - Name: Pairs
+                Type: BaseObjectType
+                Children:
+                - Name: Pair
+                  Type: ValueMapPair
+                  Children:
+                  - Name: Key
+                    Type: BaseDataVariableType
+                    DataType: Int32
+                    Value: 0
+                  - Name: Value
+                    Type: BaseDataVariableType
+                    DataType: Boolean
+                    Value: false
+                - Name: Pair1
+                  Type: ValueMapPair
+                  Children:
+                  - Name: Key
+                    Type: BaseDataVariableType
+                    DataType: Int32
+                    Value: 1
+                  - Name: Value
+                    Type: BaseDataVariableType
+                    DataType: Boolean
+                    Value: false
+                - Name: Pair2
+                  Type: ValueMapPair
+                  Children:
+                  - Name: Key
+                    Type: BaseDataVariableType
+                    DataType: Int32
+                    Value: 2
+                  - Name: Value
+                    Type: BaseDataVariableType
+                    DataType: Boolean
+                    Value: false
+                - Name: Pair3
+                  Type: ValueMapPair
+                  Children:
+                  - Name: Key
+                    Type: BaseDataVariableType
+                    DataType: Int32
+                    Value: 3
+                  - Name: Value
+                    Type: BaseDataVariableType
+                    DataType: Boolean
+                    Value: false
+                - Name: Pair4
+                  Type: ValueMapPair
+                  Children:
+                  - Name: Key
+                    Type: BaseDataVariableType
+                    DataType: Int32
+                    Value: 4
+                  - Name: Value
+                    Type: BaseDataVariableType
+                    DataType: Boolean
+                    Value: true
+                - Name: Pair5
+                  Type: ValueMapPair
+                  Children:
+                  - Name: Key
+                    Type: BaseDataVariableType
+                    DataType: Int32
+                    Value: 5
+                  - Name: Value
+                    Type: BaseDataVariableType
+                    DataType: Boolean
+                    Value: false
+                - Name: Pair6
+                  Type: ValueMapPair
+                  Children:
+                  - Name: Key
+                    Type: BaseDataVariableType
+                    DataType: Int32
+                    Value: 6
+                  - Name: Value
+                    Type: BaseDataVariableType
+                    DataType: Boolean
+                    Value: false
+                - Name: Pair7
+                  Type: ValueMapPair
+                  Children:
+                  - Name: Key
+                    Type: BaseDataVariableType
+                    DataType: Int32
+                    Value: 8
+                  - Name: Value
+                    Type: BaseDataVariableType
+                    DataType: Boolean
+                    Value: false
+          - Name: HorizontalAlignment
+            Type: BaseVariableType
+            DataType: HorizontalAlignment
+            ModellingRule: Optional
+            Value: 0
+          - Name: RightMargin
+            Type: BaseVariableType
+            DataType: Size
+            ModellingRule: Optional
+            Value: 0.0
+          - Name: DisplayValuePath
+            Type: BaseDataVariableType
+            DataType: LocalizedText
+            Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+            Children:
+            - Name: DynamicLink
+              Type: DynamicLink
+              DataType: NodePath
+              Value: "{Item}@DisplayName"
+        - Name: TCF_Selection
+          Type: ComboBox
+          Children:
+          - Name: Text
+            Type: BaseDataVariableType
+            DataType: LocalizedText
+            Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+          - Name: Model
+            Type: NodePointer
+            DataType: NodeId
+            Value: "/Objects/Tata_Energy_Management/Model/Reports/Forth Report/TCF"
+            Children:
+            - Name: ItemKind
+              Type: PropertyType
+              DataType: NodeId
+              Value: "/Types/VariableTypes/BaseVariableType/BaseDataVariableType"
+            - Name: Kind
+              Type: PropertyType
+              DataType: NodeId
+              Value: {"IdType":0,"Id":0,"Namespace":-1}
+          - Name: SelectedValue
+            Type: BaseDataVariableType
+            DataType: BaseDataType
+            Children:
+            - Name: DynamicLink
+              Type: DynamicLink
+              DataType: NodePath
+              Value: "/Objects/Tata_Energy_Management/Model/Reports/Forth Report/TCFComboselection"
+              Children:
+              - Name: Mode
+                Type: BaseVariableType
+                DataType: DynamicLinkMode
+                ModellingRule: Optional
+                Value: 2
+          - Name: SelectedItem
+            Type: NodePointer
+            DataType: NodeId
+            Value: {"IdType":0,"Id":0,"Namespace":-1}
+            Children:
+            - Name: Kind
+              Type: PropertyType
+              DataType: NodeId
+              Value: "/Types/VariableTypes/BaseVariableType/BaseDataVariableType"
+            - Name: NodeClass
+              Type: PropertyType
+              DataType: NodePointerNodeClass
+              ModellingRule: Optional
+              Value: 1
+          - Name: UISelectedItem
+            Type: BaseDataVariableType
+            DataType: NodeId
+            AccessLevel: Read
+            Value: {"IdType":0,"Id":0,"Namespace":-1}
+          - Name: UISelectedValue
+            Type: BaseDataVariableType
+            DataType: BaseDataType
+            AccessLevel: Read
+          - Class: Reference
+            Target: ns=5;i=480
+            Direction: Forward
+          - Name: Width
+            Type: BaseVariableType
+            DataType: Size
+            ModellingRule: Optional
+            Value: 220.0
+          - Name: Item
+            Type: Alias
+            DataType: NodeId
+            Value: {"IdType":0,"Id":0,"Namespace":-1}
+            Children:
+            - Name: Kind
+              Type: PropertyType
+              DataType: NodeId
+              Value: "/Types/VariableTypes/BaseVariableType/BaseDataVariableType"
+          - Name: LeftMargin
+            Type: BaseVariableType
+            DataType: Size
+            ModellingRule: Optional
+            Value: 450.0
+          - Name: TopMargin
+            Type: BaseVariableType
+            DataType: Size
+            ModellingRule: Optional
+            Value: 59.0
+          - Name: Height
+            Type: BaseVariableType
+            DataType: Size
+            ModellingRule: Optional
+            Value: 30.0
+          - Name: SelectedValuePath
+            Type: BaseDataVariableType
+            DataType: BaseDataType
+            Children:
+            - Name: DynamicLink
+              Type: DynamicLink
+              DataType: NodePath
+              Value: "{Item}@Value"
+          - Name: Mode
+            Type: BaseVariableType
+            DataType: ComboBoxModeEnum
+            ModellingRule: Optional
+            Value: 0
+          - Name: Visible
+            Type: BaseDataVariableType
+            DataType: Boolean
+            Value: true
+            Children:
+            - Name: KeyValueConverter1
+              Type: ValueMapConverter
+              Children:
+              - Name: Source
+                Type: BaseDataVariableType
+                DataType: BaseDataType
+                ReferenceType: HasSource
+                Children:
+                - Name: DynamicLink
+                  Type: DynamicLink
+                  DataType: NodePath
+                  Value: "/Objects/Tata_Energy_Management/Model/Reports/Forth Report/Jaceselectionresult"
+              - Name: Pairs
+                Type: BaseObjectType
+                Children:
+                - Name: Pair
+                  Type: ValueMapPair
+                  Children:
+                  - Name: Key
+                    Type: BaseDataVariableType
+                    DataType: Int32
+                    Value: 0
+                  - Name: Value
+                    Type: BaseDataVariableType
+                    DataType: Boolean
+                    Value: false
+                - Name: Pair1
+                  Type: ValueMapPair
+                  Children:
+                  - Name: Key
+                    Type: BaseDataVariableType
+                    DataType: Int32
+                    Value: 1
+                  - Name: Value
+                    Type: BaseDataVariableType
+                    DataType: Boolean
+                    Value: false
+                - Name: Pair2
+                  Type: ValueMapPair
+                  Children:
+                  - Name: Key
+                    Type: BaseDataVariableType
+                    DataType: Int32
+                    Value: 2
+                  - Name: Value
+                    Type: BaseDataVariableType
+                    DataType: Boolean
+                    Value: false
+                - Name: Pair3
+                  Type: ValueMapPair
+                  Children:
+                  - Name: Key
+                    Type: BaseDataVariableType
+                    DataType: Int32
+                    Value: 3
+                  - Name: Value
+                    Type: BaseDataVariableType
+                    DataType: Boolean
+                    Value: false
+                - Name: Pair4
+                  Type: ValueMapPair
+                  Children:
+                  - Name: Key
+                    Type: BaseDataVariableType
+                    DataType: Int32
+                    Value: 4
+                  - Name: Value
+                    Type: BaseDataVariableType
+                    DataType: Boolean
+                    Value: false
+                - Name: Pair5
+                  Type: ValueMapPair
+                  Children:
+                  - Name: Key
+                    Type: BaseDataVariableType
+                    DataType: Int32
+                    Value: 5
+                  - Name: Value
+                    Type: BaseDataVariableType
+                    DataType: Boolean
+                    Value: true
+                - Name: Pair6
+                  Type: ValueMapPair
+                  Children:
+                  - Name: Key
+                    Type: BaseDataVariableType
+                    DataType: Int32
+                    Value: 6
+                  - Name: Value
+                    Type: BaseDataVariableType
+                    DataType: Boolean
+                    Value: false
+                - Name: Pair7
+                  Type: ValueMapPair
+                  Children:
+                  - Name: Key
+                    Type: BaseDataVariableType
+                    DataType: Int32
+                    Value: 8
+                  - Name: Value
+                    Type: BaseDataVariableType
+                    DataType: Boolean
+                    Value: false
+          - Name: HorizontalAlignment
+            Type: BaseVariableType
+            DataType: HorizontalAlignment
+            ModellingRule: Optional
+            Value: 0
+          - Name: RightMargin
+            Type: BaseVariableType
+            DataType: Size
+            ModellingRule: Optional
+            Value: 0.0
+          - Name: DisplayValuePath
+            Type: BaseDataVariableType
+            DataType: LocalizedText
+            Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+            Children:
+            - Name: DynamicLink
+              Type: DynamicLink
+              DataType: NodePath
+              Value: "{Item}@DisplayName"
+        - Name: Admin_Selection
+          Type: ComboBox
+          Children:
+          - Name: Text
+            Type: BaseDataVariableType
+            DataType: LocalizedText
+            Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+          - Name: Model
+            Type: NodePointer
+            DataType: NodeId
+            Value: "/Objects/Tata_Energy_Management/Model/Reports/Forth Report/Admin"
+            Children:
+            - Name: ItemKind
+              Type: PropertyType
+              DataType: NodeId
+              Value: "/Types/VariableTypes/BaseVariableType/BaseDataVariableType"
+            - Name: Kind
+              Type: PropertyType
+              DataType: NodeId
+              Value: {"IdType":0,"Id":0,"Namespace":-1}
+          - Name: SelectedValue
+            Type: BaseDataVariableType
+            DataType: BaseDataType
+            Children:
+            - Name: DynamicLink
+              Type: DynamicLink
+              DataType: NodePath
+              Value: "/Objects/Tata_Energy_Management/Model/Reports/Forth Report/AdminComboselection"
+              Children:
+              - Name: Mode
+                Type: BaseVariableType
+                DataType: DynamicLinkMode
+                ModellingRule: Optional
+                Value: 2
+          - Name: SelectedItem
+            Type: NodePointer
+            DataType: NodeId
+            Value: {"IdType":0,"Id":0,"Namespace":-1}
+            Children:
+            - Name: Kind
+              Type: PropertyType
+              DataType: NodeId
+              Value: "/Types/VariableTypes/BaseVariableType/BaseDataVariableType"
+            - Name: NodeClass
+              Type: PropertyType
+              DataType: NodePointerNodeClass
+              ModellingRule: Optional
+              Value: 1
+          - Name: UISelectedItem
+            Type: BaseDataVariableType
+            DataType: NodeId
+            AccessLevel: Read
+            Value: {"IdType":0,"Id":0,"Namespace":-1}
+          - Name: UISelectedValue
+            Type: BaseDataVariableType
+            DataType: BaseDataType
+            AccessLevel: Read
+          - Class: Reference
+            Target: ns=5;i=480
+            Direction: Forward
+          - Name: Width
+            Type: BaseVariableType
+            DataType: Size
+            ModellingRule: Optional
+            Value: 220.0
+          - Name: Item
+            Type: Alias
+            DataType: NodeId
+            Value: {"IdType":0,"Id":0,"Namespace":-1}
+            Children:
+            - Name: Kind
+              Type: PropertyType
+              DataType: NodeId
+              Value: "/Types/VariableTypes/BaseVariableType/BaseDataVariableType"
+          - Name: LeftMargin
+            Type: BaseVariableType
+            DataType: Size
+            ModellingRule: Optional
+            Value: 450.0
+          - Name: TopMargin
+            Type: BaseVariableType
+            DataType: Size
+            ModellingRule: Optional
+            Value: 59.0
+          - Name: Height
+            Type: BaseVariableType
+            DataType: Size
+            ModellingRule: Optional
+            Value: 30.0
+          - Name: SelectedValuePath
+            Type: BaseDataVariableType
+            DataType: BaseDataType
+            Children:
+            - Name: DynamicLink
+              Type: DynamicLink
+              DataType: NodePath
+              Value: "{Item}@Value"
+          - Name: Mode
+            Type: BaseVariableType
+            DataType: ComboBoxModeEnum
+            ModellingRule: Optional
+            Value: 0
+          - Name: Visible
+            Type: BaseDataVariableType
+            DataType: Boolean
+            Value: true
+            Children:
+            - Name: KeyValueConverter1
+              Type: ValueMapConverter
+              Children:
+              - Name: Source
+                Type: BaseDataVariableType
+                DataType: BaseDataType
+                ReferenceType: HasSource
+                Children:
+                - Name: DynamicLink
+                  Type: DynamicLink
+                  DataType: NodePath
+                  Value: "/Objects/Tata_Energy_Management/Model/Reports/Forth Report/Jaceselectionresult"
+              - Name: Pairs
+                Type: BaseObjectType
+                Children:
+                - Name: Pair
+                  Type: ValueMapPair
+                  Children:
+                  - Name: Key
+                    Type: BaseDataVariableType
+                    DataType: Int32
+                    Value: 0
+                  - Name: Value
+                    Type: BaseDataVariableType
+                    DataType: Boolean
+                    Value: false
+                - Name: Pair1
+                  Type: ValueMapPair
+                  Children:
+                  - Name: Key
+                    Type: BaseDataVariableType
+                    DataType: Int32
+                    Value: 1
+                  - Name: Value
+                    Type: BaseDataVariableType
+                    DataType: Boolean
+                    Value: false
+                - Name: Pair2
+                  Type: ValueMapPair
+                  Children:
+                  - Name: Key
+                    Type: BaseDataVariableType
+                    DataType: Int32
+                    Value: 2
+                  - Name: Value
+                    Type: BaseDataVariableType
+                    DataType: Boolean
+                    Value: false
+                - Name: Pair3
+                  Type: ValueMapPair
+                  Children:
+                  - Name: Key
+                    Type: BaseDataVariableType
+                    DataType: Int32
+                    Value: 3
+                  - Name: Value
+                    Type: BaseDataVariableType
+                    DataType: Boolean
+                    Value: false
+                - Name: Pair4
+                  Type: ValueMapPair
+                  Children:
+                  - Name: Key
+                    Type: BaseDataVariableType
+                    DataType: Int32
+                    Value: 4
+                  - Name: Value
+                    Type: BaseDataVariableType
+                    DataType: Boolean
+                    Value: false
+                - Name: Pair5
+                  Type: ValueMapPair
+                  Children:
+                  - Name: Key
+                    Type: BaseDataVariableType
+                    DataType: Int32
+                    Value: 5
+                  - Name: Value
+                    Type: BaseDataVariableType
+                    DataType: Boolean
+                    Value: false
+                - Name: Pair6
+                  Type: ValueMapPair
+                  Children:
+                  - Name: Key
+                    Type: BaseDataVariableType
+                    DataType: Int32
+                    Value: 6
+                  - Name: Value
+                    Type: BaseDataVariableType
+                    DataType: Boolean
+                    Value: true
+                - Name: Pair7
+                  Type: ValueMapPair
+                  Children:
+                  - Name: Key
+                    Type: BaseDataVariableType
+                    DataType: Int32
+                    Value: 8
+                  - Name: Value
+                    Type: BaseDataVariableType
+                    DataType: Boolean
+                    Value: false
+          - Name: HorizontalAlignment
+            Type: BaseVariableType
+            DataType: HorizontalAlignment
+            ModellingRule: Optional
+            Value: 0
+          - Name: RightMargin
+            Type: BaseVariableType
+            DataType: Size
+            ModellingRule: Optional
+            Value: 0.0
+          - Name: DisplayValuePath
+            Type: BaseDataVariableType
+            DataType: LocalizedText
+            Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+            Children:
+            - Name: DynamicLink
+              Type: DynamicLink
+              DataType: NodePath
+              Value: "{Item}@DisplayName"
+        - Name: PumpRoom_Selection
+          Type: ComboBox
+          Children:
+          - Name: Text
+            Type: BaseDataVariableType
+            DataType: LocalizedText
+            Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+          - Name: Model
+            Type: NodePointer
+            DataType: NodeId
+            Value: "/Objects/Tata_Energy_Management/Model/Reports/Forth Report/Pumproom"
+            Children:
+            - Name: ItemKind
+              Type: PropertyType
+              DataType: NodeId
+              Value: "/Types/VariableTypes/BaseVariableType/BaseDataVariableType"
+            - Name: Kind
+              Type: PropertyType
+              DataType: NodeId
+              Value: {"IdType":0,"Id":0,"Namespace":-1}
+          - Name: SelectedValue
+            Type: BaseDataVariableType
+            DataType: BaseDataType
+            Children:
+            - Name: DynamicLink
+              Type: DynamicLink
+              DataType: NodePath
+              Value: "/Objects/Tata_Energy_Management/Model/Reports/Forth Report/PumproomComboselection"
+              Children:
+              - Name: Mode
+                Type: BaseVariableType
+                DataType: DynamicLinkMode
+                ModellingRule: Optional
+                Value: 2
+          - Name: SelectedItem
+            Type: NodePointer
+            DataType: NodeId
+            Value: {"IdType":0,"Id":0,"Namespace":-1}
+            Children:
+            - Name: Kind
+              Type: PropertyType
+              DataType: NodeId
+              Value: "/Types/VariableTypes/BaseVariableType/BaseDataVariableType"
+            - Name: NodeClass
+              Type: PropertyType
+              DataType: NodePointerNodeClass
+              ModellingRule: Optional
+              Value: 1
+          - Name: UISelectedItem
+            Type: BaseDataVariableType
+            DataType: NodeId
+            AccessLevel: Read
+            Value: {"IdType":0,"Id":0,"Namespace":-1}
+          - Name: UISelectedValue
+            Type: BaseDataVariableType
+            DataType: BaseDataType
+            AccessLevel: Read
+          - Class: Reference
+            Target: ns=5;i=480
+            Direction: Forward
+          - Name: Width
+            Type: BaseVariableType
+            DataType: Size
+            ModellingRule: Optional
+            Value: 220.0
+          - Name: Item
+            Type: Alias
+            DataType: NodeId
+            Value: {"IdType":0,"Id":0,"Namespace":-1}
+            Children:
+            - Name: Kind
+              Type: PropertyType
+              DataType: NodeId
+              Value: "/Types/VariableTypes/BaseVariableType/BaseDataVariableType"
+          - Name: LeftMargin
+            Type: BaseVariableType
+            DataType: Size
+            ModellingRule: Optional
+            Value: 449.0
+          - Name: TopMargin
+            Type: BaseVariableType
+            DataType: Size
+            ModellingRule: Optional
+            Value: 59.0
+          - Name: Height
+            Type: BaseVariableType
+            DataType: Size
+            ModellingRule: Optional
+            Value: 30.0
+          - Name: SelectedValuePath
+            Type: BaseDataVariableType
+            DataType: BaseDataType
+            Children:
+            - Name: DynamicLink
+              Type: DynamicLink
+              DataType: NodePath
+              Value: "{Item}@Value"
+          - Name: Mode
+            Type: BaseVariableType
+            DataType: ComboBoxModeEnum
+            ModellingRule: Optional
+            Value: 0
+          - Name: Visible
+            Type: BaseDataVariableType
+            DataType: Boolean
+            Value: true
+            Children:
+            - Name: KeyValueConverter1
+              Type: ValueMapConverter
+              Children:
+              - Name: Source
+                Type: BaseDataVariableType
+                DataType: BaseDataType
+                ReferenceType: HasSource
+                Children:
+                - Name: DynamicLink
+                  Type: DynamicLink
+                  DataType: NodePath
+                  Value: "/Objects/Tata_Energy_Management/Model/Reports/Forth Report/Jaceselectionresult"
+              - Name: Pairs
+                Type: BaseObjectType
+                Children:
+                - Name: Pair
+                  Type: ValueMapPair
+                  Children:
+                  - Name: Key
+                    Type: BaseDataVariableType
+                    DataType: Int32
+                    Value: 0
+                  - Name: Value
+                    Type: BaseDataVariableType
+                    DataType: Boolean
+                    Value: false
+                - Name: Pair1
+                  Type: ValueMapPair
+                  Children:
+                  - Name: Key
+                    Type: BaseDataVariableType
+                    DataType: Int32
+                    Value: 1
+                  - Name: Value
+                    Type: BaseDataVariableType
+                    DataType: Boolean
+                    Value: false
+                - Name: Pair2
+                  Type: ValueMapPair
+                  Children:
+                  - Name: Key
+                    Type: BaseDataVariableType
+                    DataType: Int32
+                    Value: 2
+                  - Name: Value
+                    Type: BaseDataVariableType
+                    DataType: Boolean
+                    Value: true
+                - Name: Pair3
+                  Type: ValueMapPair
+                  Children:
+                  - Name: Key
+                    Type: BaseDataVariableType
+                    DataType: Int32
+                    Value: 3
+                  - Name: Value
+                    Type: BaseDataVariableType
+                    DataType: Boolean
+                    Value: false
+                - Name: Pair4
+                  Type: ValueMapPair
+                  Children:
+                  - Name: Key
+                    Type: BaseDataVariableType
+                    DataType: Int32
+                    Value: 4
+                  - Name: Value
+                    Type: BaseDataVariableType
+                    DataType: Boolean
+                    Value: false
+                - Name: Pair5
+                  Type: ValueMapPair
+                  Children:
+                  - Name: Key
+                    Type: BaseDataVariableType
+                    DataType: Int32
+                    Value: 5
+                  - Name: Value
+                    Type: BaseDataVariableType
+                    DataType: Boolean
+                    Value: false
+                - Name: Pair6
+                  Type: ValueMapPair
+                  Children:
+                  - Name: Key
+                    Type: BaseDataVariableType
+                    DataType: Int32
+                    Value: 6
+                  - Name: Value
+                    Type: BaseDataVariableType
+                    DataType: Boolean
+                    Value: false
+                - Name: Pair7
+                  Type: ValueMapPair
+                  Children:
+                  - Name: Key
+                    Type: BaseDataVariableType
+                    DataType: Int32
+                    Value: 8
+                  - Name: Value
+                    Type: BaseDataVariableType
+                    DataType: Boolean
+                    Value: false
+          - Name: HorizontalAlignment
+            Type: BaseVariableType
+            DataType: HorizontalAlignment
+            ModellingRule: Optional
+            Value: 0
+          - Name: RightMargin
+            Type: BaseVariableType
+            DataType: Size
+            ModellingRule: Optional
+            Value: 0.0
+          - Name: DisplayValuePath
+            Type: BaseDataVariableType
+            DataType: LocalizedText
+            Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+            Children:
+            - Name: DynamicLink
+              Type: DynamicLink
+              DataType: NodePath
+              Value: "{Item}@DisplayName"
+        - Name: Parameter_Selection
+          Type: ComboBox
+          Children:
+          - Name: Text
+            Type: BaseDataVariableType
+            DataType: LocalizedText
+            Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+          - Name: Model
+            Type: NodePointer
+            DataType: NodeId
+            Value: "/Objects/Tata_Energy_Management/Model/Reports/Forth Report/Parameter"
+            Children:
+            - Name: ItemKind
+              Type: PropertyType
+              DataType: NodeId
+              Value: "/Types/VariableTypes/BaseVariableType/BaseDataVariableType"
+            - Name: Kind
+              Type: PropertyType
+              DataType: NodeId
+              Value: {"IdType":0,"Id":0,"Namespace":-1}
+          - Name: SelectedValue
+            Type: BaseDataVariableType
+            DataType: BaseDataType
+            Children:
+            - Name: DynamicLink
+              Type: DynamicLink
+              DataType: NodePath
+              Value: "/Objects/Tata_Energy_Management/Model/Reports/Forth Report/Parameterselectionresult"
+              Children:
+              - Name: Mode
+                Type: BaseVariableType
+                DataType: DynamicLinkMode
+                ModellingRule: Optional
+                Value: 2
+          - Name: SelectedItem
+            Type: NodePointer
+            DataType: NodeId
+            Value: {"IdType":0,"Id":0,"Namespace":-1}
+            Children:
+            - Name: Kind
+              Type: PropertyType
+              DataType: NodeId
+              Value: "/Types/VariableTypes/BaseVariableType/BaseDataVariableType"
             - Name: NodeClass
               Type: PropertyType
               DataType: NodePointerNodeClass
@@ -22155,7 +21406,7 @@ Children:
             - Name: Kind
               Type: PropertyType
               DataType: NodeId
-              Value: {"IdType":0,"Id":0,"Namespace":-1}
+              Value: "/Types/VariableTypes/BaseVariableType/BaseDataVariableType"
           - Name: LeftMargin
             Type: BaseVariableType
             DataType: Size
@@ -22171,17 +21422,6 @@ Children:
             DataType: Size
             ModellingRule: Optional
             Value: 30.0
-          - Name: Values
-            Type: BaseObjectType
-            Children:
-            - Name: Voltage
-              Type: BaseDataVariableType
-              DataType: String
-              Value: "AND Parameter = 'Voltage'"
-            - Name: PF
-              Type: BaseDataVariableType
-              DataType: String
-              Value: "AND Parameter = 'Pf'"
           - Name: SelectedValuePath
             Type: BaseDataVariableType
             DataType: BaseDataType
@@ -22209,6 +21449,15 @@ Children:
             DataType: Size
             ModellingRule: Optional
             Value: 0.0
+          - Name: DisplayValuePath
+            Type: BaseDataVariableType
+            DataType: LocalizedText
+            Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+            Children:
+            - Name: DynamicLink
+              Type: DynamicLink
+              DataType: NodePath
+              Value: "{Item}@DisplayName"
         - Name: Date1
           Type: Label
           Children:
@@ -22294,6 +21543,120 @@ Children:
             DataType: Size
             ModellingRule: Optional
             Value: 10.0
+        - Name: Label2
+          Type: Label
+          Children:
+          - Name: Width
+            Type: BaseVariableType
+            DataType: Size
+            ModellingRule: Optional
+            Value: 219.0
+          - Name: Height
+            Type: BaseVariableType
+            DataType: Size
+            ModellingRule: Optional
+            Value: 46.0
+          - Name: LeftMargin
+            Type: BaseVariableType
+            DataType: Size
+            ModellingRule: Optional
+            Value: 629.0
+          - Name: TopMargin
+            Type: BaseVariableType
+            DataType: Size
+            ModellingRule: Optional
+            Value: 6.0
+          - Name: Text
+            Type: BaseDataVariableType
+            DataType: LocalizedText
+            Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+            Children:
+            - Name: DynamicLink
+              Type: DynamicLink
+              DataType: NodePath
+              Value: "/Objects/Tata_Energy_Management/Model/Reports/Forth Report/JaceSelected"
+              Children:
+              - Name: Mode
+                Type: BaseVariableType
+                DataType: DynamicLinkMode
+                ModellingRule: Optional
+                Value: 2
+        - Name: Label1
+          Type: Label
+          Children:
+          - Name: Width
+            Type: BaseVariableType
+            DataType: Size
+            ModellingRule: Optional
+            Value: 219.0
+          - Name: Height
+            Type: BaseVariableType
+            DataType: Size
+            ModellingRule: Optional
+            Value: 46.0
+          - Name: LeftMargin
+            Type: BaseVariableType
+            DataType: Size
+            ModellingRule: Optional
+            Value: 719.0
+          - Name: TopMargin
+            Type: BaseVariableType
+            DataType: Size
+            ModellingRule: Optional
+            Value: 6.0
+          - Name: Text
+            Type: BaseDataVariableType
+            DataType: LocalizedText
+            Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+            Children:
+            - Name: DynamicLink
+              Type: DynamicLink
+              DataType: NodePath
+              Value: "/Objects/Tata_Energy_Management/Model/Reports/Forth Report/Meterselected"
+              Children:
+              - Name: Mode
+                Type: BaseVariableType
+                DataType: DynamicLinkMode
+                ModellingRule: Optional
+                Value: 2
+        - Name: Label3
+          Type: Label
+          Children:
+          - Name: Width
+            Type: BaseVariableType
+            DataType: Size
+            ModellingRule: Optional
+            Value: 219.0
+          - Name: Height
+            Type: BaseVariableType
+            DataType: Size
+            ModellingRule: Optional
+            Value: 46.0
+          - Name: LeftMargin
+            Type: BaseVariableType
+            DataType: Size
+            ModellingRule: Optional
+            Value: 850.0
+          - Name: TopMargin
+            Type: BaseVariableType
+            DataType: Size
+            ModellingRule: Optional
+            Value: 4.0
+          - Name: Text
+            Type: BaseDataVariableType
+            DataType: LocalizedText
+            Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+            Children:
+            - Name: DynamicLink
+              Type: DynamicLink
+              DataType: NodePath
+              Value: "/Objects/Tata_Energy_Management/Model/Reports/Forth Report/Parameterselection"
+              Children:
+              - Name: Mode
+                Type: BaseVariableType
+                DataType: DynamicLinkMode
+                ModellingRule: Optional
+                Value: 2
       - Name: Label1
         Type: Label
         Children:

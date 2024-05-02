@@ -27749,1252 +27749,6 @@ Children:
           DataType: Size
           ModellingRule: Optional
           Value: 1.0
-        - Name: Image3
-          Type: Image
-          Children:
-          - Name: Path
-            Type: BaseDataVariableType
-            DataType: ResourceUri
-            Value: "ns=36;%PROJECTDIR%/imgs/Untitled1.png"
-          - Name: Width
-            Type: BaseVariableType
-            DataType: Size
-            ModellingRule: Optional
-            Value: 270.0
-          - Name: Height
-            Type: BaseVariableType
-            DataType: Size
-            ModellingRule: Optional
-            Value: 25.0
-          - Name: LeftMargin
-            Type: BaseVariableType
-            DataType: Size
-            ModellingRule: Optional
-            Value: 400.0
-          - Name: TopMargin
-            Type: BaseVariableType
-            DataType: Size
-            ModellingRule: Optional
-            Value: 755.0
-          - Name: FillMode
-            Type: BaseDataVariableType
-            DataType: FillModeEnum
-            ModellingRule: Optional
-            Value: 1
-        - Name: Image2
-          Type: Image
-          Children:
-          - Name: Path
-            Type: BaseDataVariableType
-            DataType: ResourceUri
-            Value: "ns=36;%PROJECTDIR%/imgs/Untitled1.png"
-          - Name: Width
-            Type: BaseVariableType
-            DataType: Size
-            ModellingRule: Optional
-            Value: 270.0
-          - Name: Height
-            Type: BaseVariableType
-            DataType: Size
-            ModellingRule: Optional
-            Value: 25.0
-          - Name: LeftMargin
-            Type: BaseVariableType
-            DataType: Size
-            ModellingRule: Optional
-            Value: 400.0
-          - Name: TopMargin
-            Type: BaseVariableType
-            DataType: Size
-            ModellingRule: Optional
-            Value: 545.0
-          - Name: FillMode
-            Type: BaseDataVariableType
-            DataType: FillModeEnum
-            ModellingRule: Optional
-            Value: 1
-        - Name: Image1
-          Type: Image
-          Children:
-          - Name: Path
-            Type: BaseDataVariableType
-            DataType: ResourceUri
-            Value: "ns=36;%PROJECTDIR%/imgs/Untitled1.png"
-          - Name: Width
-            Type: BaseVariableType
-            DataType: Size
-            ModellingRule: Optional
-            Value: 270.0
-          - Name: Height
-            Type: BaseVariableType
-            DataType: Size
-            ModellingRule: Optional
-            Value: 25.0
-          - Name: LeftMargin
-            Type: BaseVariableType
-            DataType: Size
-            ModellingRule: Optional
-            Value: 400.0
-          - Name: TopMargin
-            Type: BaseVariableType
-            DataType: Size
-            ModellingRule: Optional
-            Value: 345.0
-          - Name: FillMode
-            Type: BaseDataVariableType
-            DataType: FillModeEnum
-            ModellingRule: Optional
-            Value: 1
-        - Name: Rectangle1
-          Type: Rectangle
-          Children:
-          - Name: Width
-            Type: BaseVariableType
-            DataType: Size
-            ModellingRule: Optional
-            Value: 1500.0
-          - Name: Height
-            Type: BaseVariableType
-            DataType: Size
-            ModellingRule: Optional
-            Value: 50.0
-          - Name: BorderThickness
-            Type: BaseDataVariableType
-            DataType: Size
-            ModellingRule: Optional
-            Value: 3.0
-          - Name: LeftMargin
-            Type: BaseVariableType
-            DataType: Size
-            ModellingRule: Optional
-            Value: 0.0
-          - Name: TopMargin
-            Type: BaseVariableType
-            DataType: Size
-            ModellingRule: Optional
-            Value: 105.0
-          - Name: CornerRadius
-            Type: BaseDataVariableType
-            DataType: Size
-            ModellingRule: Optional
-            Value: 5.0
-          - Name: SpinBox1
-            Type: SpinBox
-            Children:
-            - Name: Value
-              Type: BaseDataVariableType
-              DataType: Double
-              Value: 0.0
-              Children:
-              - Name: DynamicLink
-                Type: DynamicLink
-                DataType: NodePath
-                Value: "/Objects/Tata_Energy_Management/Model/HomePageHistogram/HomePage2/SpinBoxValue"
-                Children:
-                - Name: Mode
-                  Type: BaseVariableType
-                  DataType: DynamicLinkMode
-                  ModellingRule: Optional
-                  Value: 2
-            - Name: Width
-              Type: BaseVariableType
-              DataType: Size
-              ModellingRule: Optional
-              Value: 1470.0
-            - Name: LeftMargin
-              Type: BaseVariableType
-              DataType: Size
-              ModellingRule: Optional
-              Value: 3.5
-            - Name: TopMargin
-              Type: BaseVariableType
-              DataType: Size
-              ModellingRule: Optional
-              Value: 4.0
-            - Name: Height
-              Type: BaseVariableType
-              DataType: Size
-              ModellingRule: Optional
-              Value: 42.0
-            - Name: MinValue
-              Type: BaseDataVariableType
-              DataType: Double
-              ModellingRule: Optional
-              Value: 0.0
-            - Name: MaxValue
-              Type: BaseDataVariableType
-              DataType: Double
-              ModellingRule: Optional
-              Value: 8.0
-            - Name: TextColor
-              Type: BaseDataVariableType
-              DataType: Color
-              ModellingRule: Optional
-              Value: "#010425"
-            - Name: InputBoxStyle
-              Type: BaseDataVariableType
-              DataType: String
-              ModellingRule: Optional
-              Value: "InputBoxStyle1"
-            - Name: ButtonStyle
-              Type: BaseDataVariableType
-              DataType: String
-              ModellingRule: Optional
-              Value: "SpinBoxButton"
-            - Name: HorizontalAlignment
-              Type: BaseVariableType
-              DataType: HorizontalAlignment
-              ModellingRule: Optional
-              Value: 3
-            - Name: RightMargin
-              Type: BaseVariableType
-              DataType: Size
-              ModellingRule: Optional
-              Value: 3.5
-          - Name: Image1
-            Type: Image
-            Children:
-            - Name: Path
-              Type: BaseDataVariableType
-              DataType: ResourceUri
-              Value: "ns=36;%PROJECTDIR%/imgs/Untitled1.png"
-            - Name: Width
-              Type: BaseVariableType
-              DataType: Size
-              ModellingRule: Optional
-              Value: 50.0
-            - Name: Height
-              Type: BaseVariableType
-              DataType: Size
-              ModellingRule: Optional
-              Value: 41.0
-            - Name: HorizontalAlignment
-              Type: BaseVariableType
-              DataType: HorizontalAlignment
-              ModellingRule: Optional
-              Value: 3
-            - Name: FillMode
-              Type: BaseDataVariableType
-              DataType: FillModeEnum
-              ModellingRule: Optional
-              Value: 1
-            - Name: TopMargin
-              Type: BaseVariableType
-              DataType: Size
-              ModellingRule: Optional
-              Value: 0.0
-            - Name: RightMargin
-              Type: BaseVariableType
-              DataType: Size
-              ModellingRule: Optional
-              Value: 40.0
-            - Name: LeftMargin
-              Type: BaseVariableType
-              DataType: Size
-              ModellingRule: Optional
-              Value: 40.0
-            - Name: VerticalAlignment
-              Type: BaseVariableType
-              DataType: VerticalAlignment
-              ModellingRule: Optional
-              Value: 2
-          - Name: Label1
-            Type: Label
-            Children:
-            - Name: Width
-              Type: BaseVariableType
-              DataType: Size
-              ModellingRule: Optional
-              Value: 299.0
-            - Name: Height
-              Type: BaseVariableType
-              DataType: Size
-              ModellingRule: Optional
-              Value: 34.0
-            - Name: LeftMargin
-              Type: BaseVariableType
-              DataType: Size
-              ModellingRule: Optional
-              Value: 600.0
-            - Name: TopMargin
-              Type: BaseVariableType
-              DataType: Size
-              ModellingRule: Optional
-              Value: 7.0
-            - Name: Text
-              Type: BaseDataVariableType
-              DataType: LocalizedText
-              Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
-              Children:
-              - Name: KeyValueConverter1
-                Type: ValueMapConverter
-                Children:
-                - Name: Source
-                  Type: BaseDataVariableType
-                  DataType: BaseDataType
-                  ReferenceType: HasSource
-                  Children:
-                  - Name: DynamicLink
-                    Type: DynamicLink
-                    DataType: NodePath
-                    Value: "/Objects/Tata_Energy_Management/Model/HomePageHistogram/HomePage2/SpinBoxValue"
-                - Name: Pairs
-                  Type: BaseObjectType
-                  Children:
-                  - Name: Pair
-                    Type: ValueMapPair
-                    Children:
-                    - Name: Key
-                      Type: BaseDataVariableType
-                      DataType: UInt32
-                      Value: 0
-                    - Name: Value
-                      Type: BaseDataVariableType
-                      DataType: String
-                      Value: "33KV"
-                  - Name: Pair1
-                    Type: ValueMapPair
-                    Children:
-                    - Name: Key
-                      Type: BaseDataVariableType
-                      DataType: UInt32
-                      Value: 1
-                    - Name: Value
-                      Type: BaseDataVariableType
-                      DataType: String
-                      Value: "UTILITY"
-                  - Name: Pair2
-                    Type: ValueMapPair
-                    Children:
-                    - Name: Key
-                      Type: BaseDataVariableType
-                      DataType: UInt32
-                      Value: 2
-                    - Name: Value
-                      Type: BaseDataVariableType
-                      DataType: String
-                      Value: "PUMP ROOM"
-                  - Name: Pair3
-                    Type: ValueMapPair
-                    Children:
-                    - Name: Key
-                      Type: BaseDataVariableType
-                      DataType: UInt32
-                      Value: 3
-                    - Name: Value
-                      Type: BaseDataVariableType
-                      DataType: String
-                      Value: "PAINT SHOP"
-                  - Name: Pair4
-                    Type: ValueMapPair
-                    Children:
-                    - Name: Key
-                      Type: BaseDataVariableType
-                      DataType: UInt32
-                      Value: 4
-                    - Name: Value
-                      Type: BaseDataVariableType
-                      DataType: String
-                      Value: "BODY SHOP"
-                  - Name: Pair5
-                    Type: ValueMapPair
-                    Children:
-                    - Name: Key
-                      Type: BaseDataVariableType
-                      DataType: UInt32
-                      Value: 5
-                    - Name: Value
-                      Type: BaseDataVariableType
-                      DataType: String
-                      Value: "TCF STATION"
-                  - Name: Pair6
-                    Type: ValueMapPair
-                    Children:
-                    - Name: Key
-                      Type: BaseDataVariableType
-                      DataType: UInt32
-                      Value: 6
-                    - Name: Value
-                      Type: BaseDataVariableType
-                      DataType: String
-                      Value: "STAMPING"
-                  - Name: Pair7
-                    Type: ValueMapPair
-                    Children:
-                    - Name: Key
-                      Type: BaseDataVariableType
-                      DataType: UInt32
-                      Value: 7
-                    - Name: Value
-                      Type: BaseDataVariableType
-                      DataType: String
-                      Value: "ADMIN"
-                  - Name: Pair8
-                    Type: ValueMapPair
-                    Children:
-                    - Name: Key
-                      Type: BaseDataVariableType
-                      DataType: UInt32
-                      Value: 8
-                    - Name: Value
-                      Type: BaseDataVariableType
-                      DataType: String
-                      Value: "SPP"
-            - Name: TextHorizontalAlignment
-              Type: BaseVariableType
-              DataType: TextHorizontalAlignment
-              ModellingRule: Optional
-              Value: 1
-            - Name: TextVerticalAlignment
-              Type: BaseVariableType
-              DataType: TextVerticalAlignment
-              ModellingRule: Optional
-              Value: 1
-            - Name: FontSize
-              Type: BaseDataVariableType
-              DataType: Size
-              ModellingRule: Optional
-              Value: 25.0
-            - Name: TextColor
-              Type: BaseDataVariableType
-              DataType: Color
-              ModellingRule: Optional
-              Value: "#ffffff"
-          - Name: HorizontalAlignment
-            Type: BaseVariableType
-            DataType: HorizontalAlignment
-            ModellingRule: Optional
-            Value: 3
-        - Name: VerticalLayout1
-          Type: ColumnLayout
-          Children:
-          - Name: Width
-            Type: BaseVariableType
-            DataType: Size
-            ModellingRule: Optional
-            Value: 370.0
-          - Name: Height
-            Type: BaseVariableType
-            DataType: Size
-            ModellingRule: Optional
-            Value: 790.0
-          - Name: LeftMargin
-            Type: BaseVariableType
-            DataType: Size
-            ModellingRule: Optional
-            Value: 10.0
-          - Name: TopMargin
-            Type: BaseVariableType
-            DataType: Size
-            ModellingRule: Optional
-            Value: 170.0
-          - Name: Image1
-            Type: Image
-            Children:
-            - Name: Path
-              Type: BaseDataVariableType
-              DataType: ResourceUri
-              Value: "ns=36;%PROJECTDIR%/imgs/Screenshot (181).png"
-            - Name: Width
-              Type: BaseVariableType
-              DataType: Size
-              ModellingRule: Optional
-              Value: 371.0
-            - Name: Height
-              Type: BaseVariableType
-              DataType: Size
-              ModellingRule: Optional
-              Value: 790.0
-            - Name: FillMode
-              Type: BaseDataVariableType
-              DataType: FillModeEnum
-              ModellingRule: Optional
-              Value: 1
-            - Name: LeftMargin
-              Type: BaseVariableType
-              DataType: Size
-              ModellingRule: Optional
-              Value: -1.0
-            - Name: TopMargin
-              Type: BaseVariableType
-              DataType: Size
-              ModellingRule: Optional
-              Value: 0.0
-            - Name: Label1
-              Type: Label
-              Children:
-              - Name: Text
-                Type: BaseDataVariableType
-                DataType: LocalizedText
-                ModellingRule: Optional
-                Value: {"LocaleId":"en-US","Text":"Target"}
-              - Name: Width
-                Type: BaseVariableType
-                DataType: Size
-                ModellingRule: Optional
-                Value: 160.0
-              - Name: Height
-                Type: BaseVariableType
-                DataType: Size
-                ModellingRule: Optional
-                Value: 30.0
-              - Name: LeftMargin
-                Type: BaseVariableType
-                DataType: Size
-                ModellingRule: Optional
-                Value: 100.0
-              - Name: TopMargin
-                Type: BaseVariableType
-                DataType: Size
-                ModellingRule: Optional
-                Value: 109.0
-              - Name: TextColor
-                Type: BaseDataVariableType
-                DataType: Color
-                ModellingRule: Optional
-                Value: "#ffffff"
-              - Name: TextHorizontalAlignment
-                Type: BaseVariableType
-                DataType: TextHorizontalAlignment
-                ModellingRule: Optional
-                Value: 1
-              - Name: TextVerticalAlignment
-                Type: BaseVariableType
-                DataType: TextVerticalAlignment
-                ModellingRule: Optional
-                Value: 1
-              - Name: FontSize
-                Type: BaseDataVariableType
-                DataType: Size
-                ModellingRule: Optional
-                Value: 25.0
-            - Name: Label2
-              Type: Label
-              Children:
-              - Name: Text
-                Type: BaseDataVariableType
-                DataType: LocalizedText
-                ModellingRule: Optional
-                Value: {"NamespaceIndex":36,"TextId":"Consumption"}
-              - Name: Width
-                Type: BaseVariableType
-                DataType: Size
-                ModellingRule: Optional
-                Value: 160.0
-              - Name: Height
-                Type: BaseVariableType
-                DataType: Size
-                ModellingRule: Optional
-                Value: 30.0
-              - Name: LeftMargin
-                Type: BaseVariableType
-                DataType: Size
-                ModellingRule: Optional
-                Value: 110.0
-              - Name: TopMargin
-                Type: BaseVariableType
-                DataType: Size
-                ModellingRule: Optional
-                Value: 229.0
-              - Name: TextColor
-                Type: BaseDataVariableType
-                DataType: Color
-                ModellingRule: Optional
-                Value: "#ffffff"
-              - Name: TextHorizontalAlignment
-                Type: BaseVariableType
-                DataType: TextHorizontalAlignment
-                ModellingRule: Optional
-                Value: 1
-              - Name: TextVerticalAlignment
-                Type: BaseVariableType
-                DataType: TextVerticalAlignment
-                ModellingRule: Optional
-                Value: 1
-              - Name: FontSize
-                Type: BaseDataVariableType
-                DataType: Size
-                ModellingRule: Optional
-                Value: 25.0
-            - Name: Label3
-              Type: Label
-              Children:
-              - Name: Text
-                Type: BaseDataVariableType
-                DataType: LocalizedText
-                ModellingRule: Optional
-                Value: {"LocaleId":"en-US","Text":"Average PowerFactor"}
-              - Name: Width
-                Type: BaseVariableType
-                DataType: Size
-                ModellingRule: Optional
-                Value: 290.0
-              - Name: Height
-                Type: BaseVariableType
-                DataType: Size
-                ModellingRule: Optional
-                Value: 30.0
-              - Name: LeftMargin
-                Type: BaseVariableType
-                DataType: Size
-                ModellingRule: Optional
-                Value: 50.0
-              - Name: TopMargin
-                Type: BaseVariableType
-                DataType: Size
-                ModellingRule: Optional
-                Value: 349.0
-              - Name: TextColor
-                Type: BaseDataVariableType
-                DataType: Color
-                ModellingRule: Optional
-                Value: "#ffffff"
-              - Name: TextHorizontalAlignment
-                Type: BaseVariableType
-                DataType: TextHorizontalAlignment
-                ModellingRule: Optional
-                Value: 1
-              - Name: TextVerticalAlignment
-                Type: BaseVariableType
-                DataType: TextVerticalAlignment
-                ModellingRule: Optional
-                Value: 1
-              - Name: FontSize
-                Type: BaseDataVariableType
-                DataType: Size
-                ModellingRule: Optional
-                Value: 25.0
-            - Name: Label4
-              Type: Label
-              Children:
-              - Name: Text
-                Type: BaseDataVariableType
-                DataType: LocalizedText
-                ModellingRule: Optional
-                Value: {"LocaleId":"en-US","Text":"Average Frequency"}
-              - Name: Width
-                Type: BaseVariableType
-                DataType: Size
-                ModellingRule: Optional
-                Value: 290.0
-              - Name: Height
-                Type: BaseVariableType
-                DataType: Size
-                ModellingRule: Optional
-                Value: 30.0
-              - Name: LeftMargin
-                Type: BaseVariableType
-                DataType: Size
-                ModellingRule: Optional
-                Value: 50.0
-              - Name: TopMargin
-                Type: BaseVariableType
-                DataType: Size
-                ModellingRule: Optional
-                Value: 472.0
-              - Name: TextColor
-                Type: BaseDataVariableType
-                DataType: Color
-                ModellingRule: Optional
-                Value: "#ffffff"
-              - Name: TextHorizontalAlignment
-                Type: BaseVariableType
-                DataType: TextHorizontalAlignment
-                ModellingRule: Optional
-                Value: 1
-              - Name: TextVerticalAlignment
-                Type: BaseVariableType
-                DataType: TextVerticalAlignment
-                ModellingRule: Optional
-                Value: 1
-              - Name: FontSize
-                Type: BaseDataVariableType
-                DataType: Size
-                ModellingRule: Optional
-                Value: 25.0
-            - Name: Label5
-              Type: Label
-              Children:
-              - Name: Text
-                Type: BaseDataVariableType
-                DataType: LocalizedText
-                ModellingRule: Optional
-                Value: {"LocaleId":"en-US","Text":"Average Voltage LL"}
-              - Name: Width
-                Type: BaseVariableType
-                DataType: Size
-                ModellingRule: Optional
-                Value: 290.0
-              - Name: Height
-                Type: BaseVariableType
-                DataType: Size
-                ModellingRule: Optional
-                Value: 30.0
-              - Name: LeftMargin
-                Type: BaseVariableType
-                DataType: Size
-                ModellingRule: Optional
-                Value: 50.0
-              - Name: TopMargin
-                Type: BaseVariableType
-                DataType: Size
-                ModellingRule: Optional
-                Value: 597.0
-              - Name: TextColor
-                Type: BaseDataVariableType
-                DataType: Color
-                ModellingRule: Optional
-                Value: "#ffffff"
-              - Name: TextHorizontalAlignment
-                Type: BaseVariableType
-                DataType: TextHorizontalAlignment
-                ModellingRule: Optional
-                Value: 1
-              - Name: TextVerticalAlignment
-                Type: BaseVariableType
-                DataType: TextVerticalAlignment
-                ModellingRule: Optional
-                Value: 1
-              - Name: FontSize
-                Type: BaseDataVariableType
-                DataType: Size
-                ModellingRule: Optional
-                Value: 25.0
-            - Name: Label6
-              Type: Label
-              Children:
-              - Name: Text
-                Type: BaseDataVariableType
-                DataType: LocalizedText
-                ModellingRule: Optional
-                Value: {"LocaleId":"en-US","Text":"Average Voltage LN"}
-              - Name: Width
-                Type: BaseVariableType
-                DataType: Size
-                ModellingRule: Optional
-                Value: 290.0
-              - Name: Height
-                Type: BaseVariableType
-                DataType: Size
-                ModellingRule: Optional
-                Value: 30.0
-              - Name: LeftMargin
-                Type: BaseVariableType
-                DataType: Size
-                ModellingRule: Optional
-                Value: 50.0
-              - Name: TopMargin
-                Type: BaseVariableType
-                DataType: Size
-                ModellingRule: Optional
-                Value: 709.0
-              - Name: TextColor
-                Type: BaseDataVariableType
-                DataType: Color
-                ModellingRule: Optional
-                Value: "#ffffff"
-              - Name: TextHorizontalAlignment
-                Type: BaseVariableType
-                DataType: TextHorizontalAlignment
-                ModellingRule: Optional
-                Value: 1
-              - Name: TextVerticalAlignment
-                Type: BaseVariableType
-                DataType: TextVerticalAlignment
-                ModellingRule: Optional
-                Value: 1
-              - Name: FontSize
-                Type: BaseDataVariableType
-                DataType: Size
-                ModellingRule: Optional
-                Value: 25.0
-        - Name: HistogramChart1
-          Type: HistogramChart
-          Children:
-          - Name: Model
-            Type: NodePointer
-            DataType: NodeId
-            Value: {"IdType":0,"Id":0,"Namespace":-1}
-            Children:
-            - Name: ItemKind
-              Type: PropertyType
-              DataType: NodeId
-              Value: {"IdType":0,"Id":0,"Namespace":-1}
-            - Name: Kind
-              Type: PropertyType
-              DataType: NodeId
-              Value: {"IdType":0,"Id":0,"Namespace":-1}
-          - Name: Label
-            Type: BaseDataVariableType
-            DataType: LocalizedText
-            Value: {"NamespaceIndex":36,"TextId":"Daily Consumption Report"}
-          - Name: Value
-            Type: BaseDataVariableType
-            DataType: Double
-            Value: 0.0
-          - Name: Item
-            Type: Alias
-            DataType: NodeId
-            Value: {"IdType":0,"Id":0,"Namespace":-1}
-            Children:
-            - Name: Kind
-              Type: PropertyType
-              DataType: NodeId
-              Value: {"IdType":0,"Id":0,"Namespace":-1}
-          - Name: LeftMargin
-            Type: BaseVariableType
-            DataType: Size
-            ModellingRule: Optional
-            Value: 407.0
-          - Name: TopMargin
-            Type: BaseVariableType
-            DataType: Size
-            ModellingRule: Optional
-            Value: 170.0
-          - Name: Width
-            Type: BaseVariableType
-            DataType: Size
-            ModellingRule: Optional
-            Value: 1073.0
-          - Name: Height
-            Type: BaseVariableType
-            DataType: Size
-            ModellingRule: Optional
-            Value: 110.0
-          - Class: Reference
-            Target: ns=5;i=1105
-            Direction: Forward
-        - Name: Trend1
-          Type: Trend
-          Children:
-          - Name: Pens
-            Type: BaseObjectType
-            Children:
-            - Name: R Phase Voltage
-              Type: TrendPen
-              DataType: BaseDataType
-              Children:
-              - Name: Thickness
-                Type: BaseDataVariableType
-                DataType: Size
-                Value: -1.0
-              - Name: Enabled
-                Type: BaseDataVariableType
-                DataType: Boolean
-                Value: true
-              - Name: Thresholds
-                Type: BaseObjectType
-              - Name: Color
-                Type: BaseDataVariableType
-                DataType: Color
-                ModellingRule: Optional
-                Value: "#eb001b"
-            - Name: Y Phase Voltage
-              Type: TrendPen
-              DataType: BaseDataType
-              Children:
-              - Name: Thickness
-                Type: BaseDataVariableType
-                DataType: Size
-                Value: -1.0
-              - Name: Enabled
-                Type: BaseDataVariableType
-                DataType: Boolean
-                Value: true
-              - Name: Thresholds
-                Type: BaseObjectType
-              - Name: Color
-                Type: BaseDataVariableType
-                DataType: Color
-                ModellingRule: Optional
-                Value: "#f0fa08"
-            - Name: B Phase Voltage
-              Type: TrendPen
-              DataType: BaseDataType
-              Children:
-              - Name: Thickness
-                Type: BaseDataVariableType
-                DataType: Size
-                Value: -1.0
-              - Name: Enabled
-                Type: BaseDataVariableType
-                DataType: Boolean
-                Value: true
-              - Name: Thresholds
-                Type: BaseObjectType
-              - Name: Color
-                Type: BaseDataVariableType
-                DataType: Color
-                ModellingRule: Optional
-                Value: "#032dca"
-          - Name: XAxis
-            Type: DateTimeAxis
-            Children:
-            - Name: Follow
-              Type: BaseDataVariableType
-              DataType: Boolean
-              Value: true
-            - Name: Window
-              Type: BaseDataVariableType
-              DataType: Duration
-              Value: "0:00:00:5.0000000"
-            - Name: Interactive
-              Type: BaseDataVariableType
-              DataType: Boolean
-              Value: true
-            - Name: Time
-              Type: BaseDataVariableType
-              DataType: DateTime
-              Value: "1601-01-01T00:00:00.0000000"
-          - Name: YAxis
-            Type: ValueAxis
-            Children:
-            - Name: Position
-              Type: BaseDataVariableType
-              DataType: HorizontalPositionEnum
-              Value: 0
-            - Name: MinValue
-              Type: BaseDataVariableType
-              DataType: Size
-              Value: -100.0
-            - Name: MaxValue
-              Type: BaseDataVariableType
-              DataType: Size
-              Value: 100.0
-            - Name: AutoScale
-              Type: BaseDataVariableType
-              DataType: Boolean
-              Value: false
-            - Name: Interactive
-              Type: BaseDataVariableType
-              DataType: Boolean
-              Value: true
-          - Name: LegendVisible
-            Type: BaseDataVariableType
-            DataType: Boolean
-            Value: true
-          - Name: TimeRanges
-            Type: BaseObjectType
-          - Name: Width
-            Type: BaseVariableType
-            DataType: Size
-            ModellingRule: Optional
-            Value: 783.0
-          - Name: Height
-            Type: BaseVariableType
-            DataType: Size
-            ModellingRule: Optional
-            Value: 130.0
-          - Name: ReferenceTimeZone
-            Type: BaseDataVariableType
-            DataType: ReferenceTimeZone
-            ModellingRule: Optional
-            Value: 1
-          - Name: TopMargin
-            Type: BaseVariableType
-            DataType: Size
-            ModellingRule: Optional
-            Value: 357.0
-          - Name: LeftMargin
-            Type: BaseVariableType
-            DataType: Size
-            ModellingRule: Optional
-            Value: 710.0
-          - Name: ChartStyle
-            Type: BaseDataVariableType
-            DataType: String
-            ModellingRule: Optional
-            Value: "ChartStyle1"
-          - Class: Reference
-            Target: ns=5;i=1129
-            Direction: Forward
-          - Class: Reference
-            Target: ns=5;i=1201
-            Direction: Forward
-          - Class: Reference
-            Target: ns=5;i=1209
-            Direction: Forward
-        - Name: Trend2
-          Type: Trend
-          Children:
-          - Name: Pens
-            Type: BaseObjectType
-            Children:
-            - Name: R Phase Current
-              Type: TrendPen
-              DataType: BaseDataType
-              Children:
-              - Name: Thickness
-                Type: BaseDataVariableType
-                DataType: Size
-                Value: -1.0
-              - Name: Enabled
-                Type: BaseDataVariableType
-                DataType: Boolean
-                Value: true
-              - Name: Thresholds
-                Type: BaseObjectType
-              - Name: Color
-                Type: BaseDataVariableType
-                DataType: Color
-                ModellingRule: Optional
-                Value: "#eb001b"
-            - Name: Y Phase Current
-              Type: TrendPen
-              DataType: BaseDataType
-              Children:
-              - Name: Thickness
-                Type: BaseDataVariableType
-                DataType: Size
-                Value: -1.0
-              - Name: Enabled
-                Type: BaseDataVariableType
-                DataType: Boolean
-                Value: true
-              - Name: Thresholds
-                Type: BaseObjectType
-              - Name: Color
-                Type: BaseDataVariableType
-                DataType: Color
-                ModellingRule: Optional
-                Value: "#f0fa08"
-            - Name: B Phase Current
-              Type: TrendPen
-              DataType: BaseDataType
-              Children:
-              - Name: Thickness
-                Type: BaseDataVariableType
-                DataType: Size
-                Value: -1.0
-              - Name: Enabled
-                Type: BaseDataVariableType
-                DataType: Boolean
-                Value: true
-              - Name: Thresholds
-                Type: BaseObjectType
-              - Name: Color
-                Type: BaseDataVariableType
-                DataType: Color
-                ModellingRule: Optional
-                Value: "#032dca"
-          - Name: XAxis
-            Type: DateTimeAxis
-            Children:
-            - Name: Follow
-              Type: BaseDataVariableType
-              DataType: Boolean
-              Value: true
-            - Name: Window
-              Type: BaseDataVariableType
-              DataType: Duration
-              Value: "0:00:00:5.0000000"
-            - Name: Interactive
-              Type: BaseDataVariableType
-              DataType: Boolean
-              Value: true
-            - Name: Time
-              Type: BaseDataVariableType
-              DataType: DateTime
-              Value: "1601-01-01T00:00:00.0000000"
-          - Name: YAxis
-            Type: ValueAxis
-            Children:
-            - Name: Position
-              Type: BaseDataVariableType
-              DataType: HorizontalPositionEnum
-              Value: 0
-            - Name: MinValue
-              Type: BaseDataVariableType
-              DataType: Size
-              Value: -100.0
-            - Name: MaxValue
-              Type: BaseDataVariableType
-              DataType: Size
-              Value: 100.0
-            - Name: AutoScale
-              Type: BaseDataVariableType
-              DataType: Boolean
-              Value: false
-            - Name: Interactive
-              Type: BaseDataVariableType
-              DataType: Boolean
-              Value: true
-          - Name: LegendVisible
-            Type: BaseDataVariableType
-            DataType: Boolean
-            Value: true
-          - Name: TimeRanges
-            Type: BaseObjectType
-          - Name: Width
-            Type: BaseVariableType
-            DataType: Size
-            ModellingRule: Optional
-            Value: 784.0
-          - Name: Height
-            Type: BaseVariableType
-            DataType: Size
-            ModellingRule: Optional
-            Value: 130.0
-          - Name: ReferenceTimeZone
-            Type: BaseDataVariableType
-            DataType: ReferenceTimeZone
-            ModellingRule: Optional
-            Value: 1
-          - Name: TopMargin
-            Type: BaseVariableType
-            DataType: Size
-            ModellingRule: Optional
-            Value: 565.0
-          - Name: LeftMargin
-            Type: BaseVariableType
-            DataType: Size
-            ModellingRule: Optional
-            Value: 710.0
-          - Name: ChartStyle
-            Type: BaseDataVariableType
-            DataType: String
-            ModellingRule: Optional
-            Value: "ChartStyle1"
-          - Class: Reference
-            Target: ns=5;i=1129
-            Direction: Forward
-          - Class: Reference
-            Target: ns=5;i=1201
-            Direction: Forward
-          - Class: Reference
-            Target: ns=5;i=1209
-            Direction: Forward
-        - Name: Trend3
-          Type: Trend
-          Children:
-          - Name: Pens
-            Type: BaseObjectType
-            Children:
-            - Name: Power Factor
-              Type: TrendPen
-              DataType: BaseDataType
-              Children:
-              - Name: Thickness
-                Type: BaseDataVariableType
-                DataType: Size
-                Value: -1.0
-              - Name: Enabled
-                Type: BaseDataVariableType
-                DataType: Boolean
-                Value: true
-              - Name: Thresholds
-                Type: BaseObjectType
-              - Name: Color
-                Type: BaseDataVariableType
-                DataType: Color
-                ModellingRule: Optional
-                Value: "#030c79"
-            - Name: Frequency
-              Type: TrendPen
-              DataType: BaseDataType
-              Children:
-              - Name: Thickness
-                Type: BaseDataVariableType
-                DataType: Size
-                Value: -1.0
-              - Name: Enabled
-                Type: BaseDataVariableType
-                DataType: Boolean
-                Value: true
-              - Name: Thresholds
-                Type: BaseObjectType
-              - Name: Color
-                Type: BaseDataVariableType
-                DataType: Color
-                ModellingRule: Optional
-                Value: "#680eb8"
-          - Name: XAxis
-            Type: DateTimeAxis
-            Children:
-            - Name: Follow
-              Type: BaseDataVariableType
-              DataType: Boolean
-              Value: true
-            - Name: Window
-              Type: BaseDataVariableType
-              DataType: Duration
-              Value: "0:00:00:5.0000000"
-            - Name: Interactive
-              Type: BaseDataVariableType
-              DataType: Boolean
-              Value: true
-            - Name: Time
-              Type: BaseDataVariableType
-              DataType: DateTime
-              Value: "1601-01-01T00:00:00.0000000"
-          - Name: YAxis
-            Type: ValueAxis
-            Children:
-            - Name: Position
-              Type: BaseDataVariableType
-              DataType: HorizontalPositionEnum
-              Value: 0
-            - Name: MinValue
-              Type: BaseDataVariableType
-              DataType: Size
-              Value: -100.0
-            - Name: MaxValue
-              Type: BaseDataVariableType
-              DataType: Size
-              Value: 100.0
-            - Name: AutoScale
-              Type: BaseDataVariableType
-              DataType: Boolean
-              Value: false
-            - Name: Interactive
-              Type: BaseDataVariableType
-              DataType: Boolean
-              Value: true
-          - Name: LegendVisible
-            Type: BaseDataVariableType
-            DataType: Boolean
-            Value: true
-          - Name: TimeRanges
-            Type: BaseObjectType
-          - Name: Width
-            Type: BaseVariableType
-            DataType: Size
-            ModellingRule: Optional
-            Value: 782.0
-          - Name: Height
-            Type: BaseVariableType
-            DataType: Size
-            ModellingRule: Optional
-            Value: 130.0
-          - Name: ReferenceTimeZone
-            Type: BaseDataVariableType
-            DataType: ReferenceTimeZone
-            ModellingRule: Optional
-            Value: 1
-          - Name: TopMargin
-            Type: BaseVariableType
-            DataType: Size
-            ModellingRule: Optional
-            Value: 762.0
-          - Name: LeftMargin
-            Type: BaseVariableType
-            DataType: Size
-            ModellingRule: Optional
-            Value: 710.0
-          - Name: ChartStyle
-            Type: BaseDataVariableType
-            DataType: String
-            ModellingRule: Optional
-            Value: "ChartStyle1"
-          - Class: Reference
-            Target: ns=5;i=1129
-            Direction: Forward
-          - Class: Reference
-            Target: ns=5;i=1201
-            Direction: Forward
-          - Class: Reference
-            Target: ns=5;i=1209
-            Direction: Forward
         - Name: HorizontalLayout1
           Type: RowLayout
           Children:
@@ -29442,348 +28196,6 @@ Children:
                 DataType: Size
                 ModellingRule: Optional
                 Value: 40.0
-              - Name: Label1
-                Type: Label
-                Children:
-                - Name: Text
-                  Type: BaseDataVariableType
-                  DataType: LocalizedText
-                  Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
-                  Children:
-                  - Name: DynamicLink
-                    Type: DynamicLink
-                    DataType: NodePath
-                    Value: "/Objects/Tata_Energy_Management/Model/HomePageHistogram/HomePage2/Target"
-                - Name: TopMargin
-                  Type: BaseVariableType
-                  DataType: Size
-                  ModellingRule: Optional
-                  Value: 229.0
-                - Name: FontSize
-                  Type: BaseDataVariableType
-                  DataType: Size
-                  ModellingRule: Optional
-                  Value: 30.0
-                - Name: LeftMargin
-                  Type: BaseVariableType
-                  DataType: Size
-                  ModellingRule: Optional
-                  Value: 50.0
-                - Name: TextColor
-                  Type: BaseDataVariableType
-                  DataType: Color
-                  ModellingRule: Optional
-                  Value: "#ffffff"
-                - Name: FontFamily
-                  Type: BaseDataVariableType
-                  DataType: Font
-                  ModellingRule: Optional
-                  Value: "Lucida Fax"
-                - Name: Width
-                  Type: BaseVariableType
-                  DataType: Size
-                  ModellingRule: Optional
-                  Value: 210.0
-                - Name: Height
-                  Type: BaseVariableType
-                  DataType: Size
-                  ModellingRule: Optional
-                  Value: 40.0
-                - Name: TextHorizontalAlignment
-                  Type: BaseVariableType
-                  DataType: TextHorizontalAlignment
-                  ModellingRule: Optional
-                  Value: 1
-                - Name: TextVerticalAlignment
-                  Type: BaseVariableType
-                  DataType: TextVerticalAlignment
-                  ModellingRule: Optional
-                  Value: 1
-              - Name: Label4
-                Type: Label
-                Children:
-                - Name: Text
-                  Type: BaseDataVariableType
-                  DataType: LocalizedText
-                  Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
-                  Children:
-                  - Name: DynamicLink
-                    Type: DynamicLink
-                    DataType: NodePath
-                    Value: "/Objects/Tata_Energy_Management/Model/HomePageHistogram/HomePage2/Consumption"
-                - Name: TopMargin
-                  Type: BaseVariableType
-                  DataType: Size
-                  ModellingRule: Optional
-                  Value: 348.0
-                - Name: FontSize
-                  Type: BaseDataVariableType
-                  DataType: Size
-                  ModellingRule: Optional
-                  Value: 30.0
-                - Name: LeftMargin
-                  Type: BaseVariableType
-                  DataType: Size
-                  ModellingRule: Optional
-                  Value: 50.0
-                - Name: TextColor
-                  Type: BaseDataVariableType
-                  DataType: Color
-                  ModellingRule: Optional
-                  Value: "#ffffff"
-                - Name: FontFamily
-                  Type: BaseDataVariableType
-                  DataType: Font
-                  ModellingRule: Optional
-                  Value: "Lucida Fax"
-                - Name: Width
-                  Type: BaseVariableType
-                  DataType: Size
-                  ModellingRule: Optional
-                  Value: 210.0
-                - Name: Height
-                  Type: BaseVariableType
-                  DataType: Size
-                  ModellingRule: Optional
-                  Value: 40.0
-                - Name: TextHorizontalAlignment
-                  Type: BaseVariableType
-                  DataType: TextHorizontalAlignment
-                  ModellingRule: Optional
-                  Value: 1
-                - Name: TextVerticalAlignment
-                  Type: BaseVariableType
-                  DataType: TextVerticalAlignment
-                  ModellingRule: Optional
-                  Value: 1
-              - Name: Label5
-                Type: Label
-                Children:
-                - Name: Text
-                  Type: BaseDataVariableType
-                  DataType: LocalizedText
-                  Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
-                  Children:
-                  - Name: DynamicLink
-                    Type: DynamicLink
-                    DataType: NodePath
-                    Value: "/Objects/Tata_Energy_Management/Model/HomePageHistogram/HomePage2/AveragePF"
-                - Name: TopMargin
-                  Type: BaseVariableType
-                  DataType: Size
-                  ModellingRule: Optional
-                  Value: 468.0
-                - Name: FontSize
-                  Type: BaseDataVariableType
-                  DataType: Size
-                  ModellingRule: Optional
-                  Value: 30.0
-                - Name: LeftMargin
-                  Type: BaseVariableType
-                  DataType: Size
-                  ModellingRule: Optional
-                  Value: 50.0
-                - Name: TextColor
-                  Type: BaseDataVariableType
-                  DataType: Color
-                  ModellingRule: Optional
-                  Value: "#ffffff"
-                - Name: FontFamily
-                  Type: BaseDataVariableType
-                  DataType: Font
-                  ModellingRule: Optional
-                  Value: "Lucida Fax"
-                - Name: Width
-                  Type: BaseVariableType
-                  DataType: Size
-                  ModellingRule: Optional
-                  Value: 210.0
-                - Name: Height
-                  Type: BaseVariableType
-                  DataType: Size
-                  ModellingRule: Optional
-                  Value: 40.0
-                - Name: TextHorizontalAlignment
-                  Type: BaseVariableType
-                  DataType: TextHorizontalAlignment
-                  ModellingRule: Optional
-                  Value: 1
-                - Name: TextVerticalAlignment
-                  Type: BaseVariableType
-                  DataType: TextVerticalAlignment
-                  ModellingRule: Optional
-                  Value: 1
-              - Name: Label6
-                Type: Label
-                Children:
-                - Name: Text
-                  Type: BaseDataVariableType
-                  DataType: LocalizedText
-                  Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
-                  Children:
-                  - Name: DynamicLink
-                    Type: DynamicLink
-                    DataType: NodePath
-                    Value: "/Objects/Tata_Energy_Management/Model/HomePageHistogram/HomePage2/AverageFrequency"
-                - Name: TopMargin
-                  Type: BaseVariableType
-                  DataType: Size
-                  ModellingRule: Optional
-                  Value: 598.0
-                - Name: FontSize
-                  Type: BaseDataVariableType
-                  DataType: Size
-                  ModellingRule: Optional
-                  Value: 30.0
-                - Name: LeftMargin
-                  Type: BaseVariableType
-                  DataType: Size
-                  ModellingRule: Optional
-                  Value: 50.0
-                - Name: TextColor
-                  Type: BaseDataVariableType
-                  DataType: Color
-                  ModellingRule: Optional
-                  Value: "#ffffff"
-                - Name: FontFamily
-                  Type: BaseDataVariableType
-                  DataType: Font
-                  ModellingRule: Optional
-                  Value: "Lucida Fax"
-                - Name: Width
-                  Type: BaseVariableType
-                  DataType: Size
-                  ModellingRule: Optional
-                  Value: 210.0
-                - Name: Height
-                  Type: BaseVariableType
-                  DataType: Size
-                  ModellingRule: Optional
-                  Value: 40.0
-                - Name: TextHorizontalAlignment
-                  Type: BaseVariableType
-                  DataType: TextHorizontalAlignment
-                  ModellingRule: Optional
-                  Value: 1
-                - Name: TextVerticalAlignment
-                  Type: BaseVariableType
-                  DataType: TextVerticalAlignment
-                  ModellingRule: Optional
-                  Value: 1
-              - Name: Label7
-                Type: Label
-                Children:
-                - Name: Text
-                  Type: BaseDataVariableType
-                  DataType: LocalizedText
-                  Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
-                  Children:
-                  - Name: DynamicLink
-                    Type: DynamicLink
-                    DataType: NodePath
-                    Value: "/Objects/Tata_Energy_Management/Model/HomePageHistogram/HomePage2/AverageVoltageLL"
-                - Name: TopMargin
-                  Type: BaseVariableType
-                  DataType: Size
-                  ModellingRule: Optional
-                  Value: 718.0
-                - Name: FontSize
-                  Type: BaseDataVariableType
-                  DataType: Size
-                  ModellingRule: Optional
-                  Value: 30.0
-                - Name: LeftMargin
-                  Type: BaseVariableType
-                  DataType: Size
-                  ModellingRule: Optional
-                  Value: 50.0
-                - Name: TextColor
-                  Type: BaseDataVariableType
-                  DataType: Color
-                  ModellingRule: Optional
-                  Value: "#ffffff"
-                - Name: FontFamily
-                  Type: BaseDataVariableType
-                  DataType: Font
-                  ModellingRule: Optional
-                  Value: "Lucida Fax"
-                - Name: Width
-                  Type: BaseVariableType
-                  DataType: Size
-                  ModellingRule: Optional
-                  Value: 210.0
-                - Name: Height
-                  Type: BaseVariableType
-                  DataType: Size
-                  ModellingRule: Optional
-                  Value: 40.0
-                - Name: TextHorizontalAlignment
-                  Type: BaseVariableType
-                  DataType: TextHorizontalAlignment
-                  ModellingRule: Optional
-                  Value: 1
-                - Name: TextVerticalAlignment
-                  Type: BaseVariableType
-                  DataType: TextVerticalAlignment
-                  ModellingRule: Optional
-                  Value: 1
-              - Name: Label8
-                Type: Label
-                Children:
-                - Name: Text
-                  Type: BaseDataVariableType
-                  DataType: LocalizedText
-                  Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
-                  Children:
-                  - Name: DynamicLink
-                    Type: DynamicLink
-                    DataType: NodePath
-                    Value: "/Objects/Tata_Energy_Management/Model/HomePageHistogram/HomePage2/AverageVoltageLN"
-                - Name: TopMargin
-                  Type: BaseVariableType
-                  DataType: Size
-                  ModellingRule: Optional
-                  Value: 838.0
-                - Name: FontSize
-                  Type: BaseDataVariableType
-                  DataType: Size
-                  ModellingRule: Optional
-                  Value: 30.0
-                - Name: LeftMargin
-                  Type: BaseVariableType
-                  DataType: Size
-                  ModellingRule: Optional
-                  Value: 50.0
-                - Name: TextColor
-                  Type: BaseDataVariableType
-                  DataType: Color
-                  ModellingRule: Optional
-                  Value: "#ffffff"
-                - Name: FontFamily
-                  Type: BaseDataVariableType
-                  DataType: Font
-                  ModellingRule: Optional
-                  Value: "Lucida Fax"
-                - Name: Width
-                  Type: BaseVariableType
-                  DataType: Size
-                  ModellingRule: Optional
-                  Value: 210.0
-                - Name: Height
-                  Type: BaseVariableType
-                  DataType: Size
-                  ModellingRule: Optional
-                  Value: 40.0
-                - Name: TextHorizontalAlignment
-                  Type: BaseVariableType
-                  DataType: TextHorizontalAlignment
-                  ModellingRule: Optional
-                  Value: 1
-                - Name: TextVerticalAlignment
-                  Type: BaseVariableType
-                  DataType: TextVerticalAlignment
-                  ModellingRule: Optional
-                  Value: 1
             - Name: MonthlyConsumption
               Type: Rectangle
               Children:
@@ -31712,54 +30124,6 @@ Children:
           DataType: Size
           ModellingRule: Optional
           Value: 0.0
-        - Name: Label2
-          Type: Label
-          Children:
-          - Name: Text
-            Type: BaseDataVariableType
-            DataType: LocalizedText
-            ModellingRule: Optional
-            Value: {"LocaleId":"en-US","Text":"Power Factor"}
-          - Name: FontSize
-            Type: BaseDataVariableType
-            DataType: Size
-            ModellingRule: Optional
-            Value: 20.0
-          - Name: FontFamily
-            Type: BaseDataVariableType
-            DataType: Font
-            ModellingRule: Optional
-            Value: "Lucida Fax"
-          - Name: HorizontalAlignment
-            Type: BaseVariableType
-            DataType: HorizontalAlignment
-            ModellingRule: Optional
-            Value: 2
-          - Name: TextColor
-            Type: BaseDataVariableType
-            DataType: Color
-            ModellingRule: Optional
-            Value: "#ffffff"
-          - Name: FontWeight
-            Type: BaseDataVariableType
-            DataType: FontWeightEnum
-            ModellingRule: Optional
-            Value: 700
-          - Name: LeftMargin
-            Type: BaseVariableType
-            DataType: Size
-            ModellingRule: Optional
-            Value: -443.0
-          - Name: RightMargin
-            Type: BaseVariableType
-            DataType: Size
-            ModellingRule: Optional
-            Value: 0.0
-          - Name: TopMargin
-            Type: BaseVariableType
-            DataType: Size
-            ModellingRule: Optional
-            Value: 345.0
         - Name: CircularGauge1
           Type: CircularGauge
           Children:
@@ -31875,246 +30239,2461 @@ Children:
             DataType: String
             ModellingRule: Optional
             Value: "GaugeStyle1"
-        - Name: Label3
-          Type: Label
+        - Name: JacewisePanel
+          Type: Rectangle
           Children:
-          - Name: Text
-            Type: BaseDataVariableType
-            DataType: LocalizedText
-            ModellingRule: Optional
-            Value: {"LocaleId":"en-US","Text":"Frequency"}
-          - Name: FontSize
-            Type: BaseDataVariableType
-            DataType: Size
-            ModellingRule: Optional
-            Value: 20.0
-          - Name: FontFamily
-            Type: BaseDataVariableType
-            DataType: Font
-            ModellingRule: Optional
-            Value: "Lucida Fax"
-          - Name: HorizontalAlignment
-            Type: BaseVariableType
-            DataType: HorizontalAlignment
-            ModellingRule: Optional
-            Value: 2
-          - Name: TextColor
-            Type: BaseDataVariableType
-            DataType: Color
-            ModellingRule: Optional
-            Value: "#ffffff"
-          - Name: FontWeight
-            Type: BaseDataVariableType
-            DataType: FontWeightEnum
-            ModellingRule: Optional
-            Value: 700
-          - Name: LeftMargin
-            Type: BaseVariableType
-            DataType: Size
-            ModellingRule: Optional
-            Value: -438.0
-          - Name: RightMargin
-            Type: BaseVariableType
-            DataType: Size
-            ModellingRule: Optional
-            Value: 0.0
-          - Name: TopMargin
-            Type: BaseVariableType
-            DataType: Size
-            ModellingRule: Optional
-            Value: 545.0
-        - Name: CircularGauge2
-          Type: CircularGauge
-          Children:
-          - Name: Value
-            Type: BaseDataVariableType
-            DataType: Float
-            Value: 0.0
-          - Name: MinValue
-            Type: BaseDataVariableType
-            DataType: Float
-            Value: 0.0
-          - Name: MaxValue
-            Type: BaseDataVariableType
-            DataType: Float
-            Value: 60.0
-          - Name: WarningZones
-            Type: BaseObjectType
           - Name: Width
             Type: BaseVariableType
             DataType: Size
             ModellingRule: Optional
-            Value: 210.0
+            Value: 1500.0
           - Name: Height
             Type: BaseVariableType
             DataType: Size
             ModellingRule: Optional
-            Value: 180.0
+            Value: 825.0
+          - Name: BorderThickness
+            Type: BaseDataVariableType
+            DataType: Size
+            ModellingRule: Optional
+            Value: 1.0
           - Name: LeftMargin
             Type: BaseVariableType
             DataType: Size
             ModellingRule: Optional
-            Value: 430.0
+            Value: -10.0
           - Name: TopMargin
             Type: BaseVariableType
             DataType: Size
             ModellingRule: Optional
-            Value: 600.0
-          - Name: StartAngle
+            Value: 175.0
+          - Name: Image3
+            Type: Image
+            Children:
+            - Name: Path
+              Type: BaseDataVariableType
+              DataType: ResourceUri
+              Value: "ns=36;%PROJECTDIR%/imgs/Untitled1.png"
+            - Name: Width
+              Type: BaseVariableType
+              DataType: Size
+              ModellingRule: Optional
+              Value: 270.0
+            - Name: Height
+              Type: BaseVariableType
+              DataType: Size
+              ModellingRule: Optional
+              Value: 25.0
+            - Name: LeftMargin
+              Type: BaseVariableType
+              DataType: Size
+              ModellingRule: Optional
+              Value: 380.0
+            - Name: TopMargin
+              Type: BaseVariableType
+              DataType: Size
+              ModellingRule: Optional
+              Value: 625.0
+            - Name: FillMode
+              Type: BaseDataVariableType
+              DataType: FillModeEnum
+              ModellingRule: Optional
+              Value: 1
+          - Name: Image2
+            Type: Image
+            Children:
+            - Name: Path
+              Type: BaseDataVariableType
+              DataType: ResourceUri
+              Value: "ns=36;%PROJECTDIR%/imgs/Untitled1.png"
+            - Name: Width
+              Type: BaseVariableType
+              DataType: Size
+              ModellingRule: Optional
+              Value: 270.0
+            - Name: Height
+              Type: BaseVariableType
+              DataType: Size
+              ModellingRule: Optional
+              Value: 25.0
+            - Name: LeftMargin
+              Type: BaseVariableType
+              DataType: Size
+              ModellingRule: Optional
+              Value: 400.0
+            - Name: TopMargin
+              Type: BaseVariableType
+              DataType: Size
+              ModellingRule: Optional
+              Value: 450.0
+            - Name: FillMode
+              Type: BaseDataVariableType
+              DataType: FillModeEnum
+              ModellingRule: Optional
+              Value: 1
+          - Name: Image1
+            Type: Image
+            Children:
+            - Name: Path
+              Type: BaseDataVariableType
+              DataType: ResourceUri
+              Value: "ns=36;%PROJECTDIR%/imgs/Untitled1.png"
+            - Name: Width
+              Type: BaseVariableType
+              DataType: Size
+              ModellingRule: Optional
+              Value: 270.0
+            - Name: Height
+              Type: BaseVariableType
+              DataType: Size
+              ModellingRule: Optional
+              Value: 25.0
+            - Name: LeftMargin
+              Type: BaseVariableType
+              DataType: Size
+              ModellingRule: Optional
+              Value: 400.0
+            - Name: TopMargin
+              Type: BaseVariableType
+              DataType: Size
+              ModellingRule: Optional
+              Value: 240.0
+            - Name: FillMode
+              Type: BaseDataVariableType
+              DataType: FillModeEnum
+              ModellingRule: Optional
+              Value: 1
+          - Name: Rectangle1
+            Type: Rectangle
+            Children:
+            - Name: Width
+              Type: BaseVariableType
+              DataType: Size
+              ModellingRule: Optional
+              Value: 1500.0
+            - Name: Height
+              Type: BaseVariableType
+              DataType: Size
+              ModellingRule: Optional
+              Value: 50.0
+            - Name: BorderThickness
+              Type: BaseDataVariableType
+              DataType: Size
+              ModellingRule: Optional
+              Value: 3.0
+            - Name: LeftMargin
+              Type: BaseVariableType
+              DataType: Size
+              ModellingRule: Optional
+              Value: 0.0
+            - Name: TopMargin
+              Type: BaseVariableType
+              DataType: Size
+              ModellingRule: Optional
+              Value: -1.0
+            - Name: CornerRadius
+              Type: BaseDataVariableType
+              DataType: Size
+              ModellingRule: Optional
+              Value: 5.0
+            - Name: SpinBox1
+              Type: SpinBox
+              Children:
+              - Name: Value
+                Type: BaseDataVariableType
+                DataType: Double
+                Value: 0.0
+                Children:
+                - Name: DynamicLink
+                  Type: DynamicLink
+                  DataType: NodePath
+                  Value: "/Objects/Tata_Energy_Management/Model/HomePageHistogram/HomePage2/SpinBoxValue"
+                  Children:
+                  - Name: Mode
+                    Type: BaseVariableType
+                    DataType: DynamicLinkMode
+                    ModellingRule: Optional
+                    Value: 2
+              - Name: Width
+                Type: BaseVariableType
+                DataType: Size
+                ModellingRule: Optional
+                Value: 1470.0
+              - Name: LeftMargin
+                Type: BaseVariableType
+                DataType: Size
+                ModellingRule: Optional
+                Value: 3.5
+              - Name: TopMargin
+                Type: BaseVariableType
+                DataType: Size
+                ModellingRule: Optional
+                Value: 4.0
+              - Name: Height
+                Type: BaseVariableType
+                DataType: Size
+                ModellingRule: Optional
+                Value: 42.0
+              - Name: MinValue
+                Type: BaseDataVariableType
+                DataType: Double
+                ModellingRule: Optional
+                Value: 0.0
+              - Name: MaxValue
+                Type: BaseDataVariableType
+                DataType: Double
+                ModellingRule: Optional
+                Value: 8.0
+              - Name: TextColor
+                Type: BaseDataVariableType
+                DataType: Color
+                ModellingRule: Optional
+                Value: "#010425"
+              - Name: InputBoxStyle
+                Type: BaseDataVariableType
+                DataType: String
+                ModellingRule: Optional
+                Value: "InputBoxStyle1"
+              - Name: ButtonStyle
+                Type: BaseDataVariableType
+                DataType: String
+                ModellingRule: Optional
+                Value: "SpinBoxButton"
+              - Name: HorizontalAlignment
+                Type: BaseVariableType
+                DataType: HorizontalAlignment
+                ModellingRule: Optional
+                Value: 3
+              - Name: RightMargin
+                Type: BaseVariableType
+                DataType: Size
+                ModellingRule: Optional
+                Value: 3.5
+            - Name: Image1
+              Type: Image
+              Children:
+              - Name: Path
+                Type: BaseDataVariableType
+                DataType: ResourceUri
+                Value: "ns=36;%PROJECTDIR%/imgs/Untitled1.png"
+              - Name: Width
+                Type: BaseVariableType
+                DataType: Size
+                ModellingRule: Optional
+                Value: 50.0
+              - Name: Height
+                Type: BaseVariableType
+                DataType: Size
+                ModellingRule: Optional
+                Value: 41.0
+              - Name: HorizontalAlignment
+                Type: BaseVariableType
+                DataType: HorizontalAlignment
+                ModellingRule: Optional
+                Value: 3
+              - Name: FillMode
+                Type: BaseDataVariableType
+                DataType: FillModeEnum
+                ModellingRule: Optional
+                Value: 1
+              - Name: TopMargin
+                Type: BaseVariableType
+                DataType: Size
+                ModellingRule: Optional
+                Value: 0.0
+              - Name: RightMargin
+                Type: BaseVariableType
+                DataType: Size
+                ModellingRule: Optional
+                Value: 40.0
+              - Name: LeftMargin
+                Type: BaseVariableType
+                DataType: Size
+                ModellingRule: Optional
+                Value: 40.0
+              - Name: VerticalAlignment
+                Type: BaseVariableType
+                DataType: VerticalAlignment
+                ModellingRule: Optional
+                Value: 2
+              - Name: BottomMargin
+                Type: BaseVariableType
+                DataType: Size
+                ModellingRule: Optional
+                Value: 0.0
+            - Name: Label1
+              Type: Label
+              Children:
+              - Name: Width
+                Type: BaseVariableType
+                DataType: Size
+                ModellingRule: Optional
+                Value: 299.0
+              - Name: Height
+                Type: BaseVariableType
+                DataType: Size
+                ModellingRule: Optional
+                Value: 34.0
+              - Name: LeftMargin
+                Type: BaseVariableType
+                DataType: Size
+                ModellingRule: Optional
+                Value: 600.0
+              - Name: TopMargin
+                Type: BaseVariableType
+                DataType: Size
+                ModellingRule: Optional
+                Value: 7.0
+              - Name: Text
+                Type: BaseDataVariableType
+                DataType: LocalizedText
+                Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+                Children:
+                - Name: KeyValueConverter1
+                  Type: ValueMapConverter
+                  Children:
+                  - Name: Source
+                    Type: BaseDataVariableType
+                    DataType: BaseDataType
+                    ReferenceType: HasSource
+                    Children:
+                    - Name: DynamicLink
+                      Type: DynamicLink
+                      DataType: NodePath
+                      Value: "/Objects/Tata_Energy_Management/Model/HomePageHistogram/HomePage2/SpinBoxValue"
+                  - Name: Pairs
+                    Type: BaseObjectType
+                    Children:
+                    - Name: Pair
+                      Type: ValueMapPair
+                      Children:
+                      - Name: Key
+                        Type: BaseDataVariableType
+                        DataType: UInt32
+                        Value: 0
+                      - Name: Value
+                        Type: BaseDataVariableType
+                        DataType: String
+                        Value: "33KV"
+                    - Name: Pair1
+                      Type: ValueMapPair
+                      Children:
+                      - Name: Key
+                        Type: BaseDataVariableType
+                        DataType: UInt32
+                        Value: 1
+                      - Name: Value
+                        Type: BaseDataVariableType
+                        DataType: String
+                        Value: "UTILITY"
+                    - Name: Pair2
+                      Type: ValueMapPair
+                      Children:
+                      - Name: Key
+                        Type: BaseDataVariableType
+                        DataType: UInt32
+                        Value: 2
+                      - Name: Value
+                        Type: BaseDataVariableType
+                        DataType: String
+                        Value: "PUMP ROOM"
+                    - Name: Pair3
+                      Type: ValueMapPair
+                      Children:
+                      - Name: Key
+                        Type: BaseDataVariableType
+                        DataType: UInt32
+                        Value: 3
+                      - Name: Value
+                        Type: BaseDataVariableType
+                        DataType: String
+                        Value: "PAINT SHOP"
+                    - Name: Pair4
+                      Type: ValueMapPair
+                      Children:
+                      - Name: Key
+                        Type: BaseDataVariableType
+                        DataType: UInt32
+                        Value: 4
+                      - Name: Value
+                        Type: BaseDataVariableType
+                        DataType: String
+                        Value: "BODY SHOP"
+                    - Name: Pair5
+                      Type: ValueMapPair
+                      Children:
+                      - Name: Key
+                        Type: BaseDataVariableType
+                        DataType: UInt32
+                        Value: 5
+                      - Name: Value
+                        Type: BaseDataVariableType
+                        DataType: String
+                        Value: "TCF STATION"
+                    - Name: Pair6
+                      Type: ValueMapPair
+                      Children:
+                      - Name: Key
+                        Type: BaseDataVariableType
+                        DataType: UInt32
+                        Value: 6
+                      - Name: Value
+                        Type: BaseDataVariableType
+                        DataType: String
+                        Value: "STAMPING"
+                    - Name: Pair7
+                      Type: ValueMapPair
+                      Children:
+                      - Name: Key
+                        Type: BaseDataVariableType
+                        DataType: UInt32
+                        Value: 7
+                      - Name: Value
+                        Type: BaseDataVariableType
+                        DataType: String
+                        Value: "ADMIN"
+                    - Name: Pair8
+                      Type: ValueMapPair
+                      Children:
+                      - Name: Key
+                        Type: BaseDataVariableType
+                        DataType: UInt32
+                        Value: 8
+                      - Name: Value
+                        Type: BaseDataVariableType
+                        DataType: String
+                        Value: "SPP"
+              - Name: TextHorizontalAlignment
+                Type: BaseVariableType
+                DataType: TextHorizontalAlignment
+                ModellingRule: Optional
+                Value: 1
+              - Name: TextVerticalAlignment
+                Type: BaseVariableType
+                DataType: TextVerticalAlignment
+                ModellingRule: Optional
+                Value: 1
+              - Name: FontSize
+                Type: BaseDataVariableType
+                DataType: Size
+                ModellingRule: Optional
+                Value: 25.0
+              - Name: TextColor
+                Type: BaseDataVariableType
+                DataType: Color
+                ModellingRule: Optional
+                Value: "#ffffff"
+            - Name: HorizontalAlignment
+              Type: BaseVariableType
+              DataType: HorizontalAlignment
+              ModellingRule: Optional
+              Value: 3
+          - Name: VerticalLayout1
+            Type: ColumnLayout
+            Children:
+            - Name: Width
+              Type: BaseVariableType
+              DataType: Size
+              ModellingRule: Optional
+              Value: 370.0
+            - Name: Height
+              Type: BaseVariableType
+              DataType: Size
+              ModellingRule: Optional
+              Value: 790.0
+            - Name: LeftMargin
+              Type: BaseVariableType
+              DataType: Size
+              ModellingRule: Optional
+              Value: 10.0
+            - Name: TopMargin
+              Type: BaseVariableType
+              DataType: Size
+              ModellingRule: Optional
+              Value: 49.0
+            - Name: Image1
+              Type: Image
+              Children:
+              - Name: Path
+                Type: BaseDataVariableType
+                DataType: ResourceUri
+                Value: "ns=36;%PROJECTDIR%/imgs/Screenshot (181).png"
+              - Name: Width
+                Type: BaseVariableType
+                DataType: Size
+                ModellingRule: Optional
+                Value: 371.0
+              - Name: Height
+                Type: BaseVariableType
+                DataType: Size
+                ModellingRule: Optional
+                Value: 790.0
+              - Name: FillMode
+                Type: BaseDataVariableType
+                DataType: FillModeEnum
+                ModellingRule: Optional
+                Value: 1
+              - Name: LeftMargin
+                Type: BaseVariableType
+                DataType: Size
+                ModellingRule: Optional
+                Value: -1.0
+              - Name: TopMargin
+                Type: BaseVariableType
+                DataType: Size
+                ModellingRule: Optional
+                Value: 0.0
+              - Name: Label1
+                Type: Label
+                Children:
+                - Name: Text
+                  Type: BaseDataVariableType
+                  DataType: LocalizedText
+                  ModellingRule: Optional
+                  Value: {"LocaleId":"en-US","Text":"Target"}
+                - Name: Width
+                  Type: BaseVariableType
+                  DataType: Size
+                  ModellingRule: Optional
+                  Value: 160.0
+                - Name: Height
+                  Type: BaseVariableType
+                  DataType: Size
+                  ModellingRule: Optional
+                  Value: 30.0
+                - Name: LeftMargin
+                  Type: BaseVariableType
+                  DataType: Size
+                  ModellingRule: Optional
+                  Value: 100.0
+                - Name: TopMargin
+                  Type: BaseVariableType
+                  DataType: Size
+                  ModellingRule: Optional
+                  Value: 109.0
+                - Name: TextColor
+                  Type: BaseDataVariableType
+                  DataType: Color
+                  ModellingRule: Optional
+                  Value: "#ffffff"
+                - Name: TextHorizontalAlignment
+                  Type: BaseVariableType
+                  DataType: TextHorizontalAlignment
+                  ModellingRule: Optional
+                  Value: 1
+                - Name: TextVerticalAlignment
+                  Type: BaseVariableType
+                  DataType: TextVerticalAlignment
+                  ModellingRule: Optional
+                  Value: 1
+                - Name: FontSize
+                  Type: BaseDataVariableType
+                  DataType: Size
+                  ModellingRule: Optional
+                  Value: 25.0
+              - Name: Label2
+                Type: Label
+                Children:
+                - Name: Text
+                  Type: BaseDataVariableType
+                  DataType: LocalizedText
+                  ModellingRule: Optional
+                  Value: {"NamespaceIndex":36,"TextId":"Consumption"}
+                - Name: Width
+                  Type: BaseVariableType
+                  DataType: Size
+                  ModellingRule: Optional
+                  Value: 160.0
+                - Name: Height
+                  Type: BaseVariableType
+                  DataType: Size
+                  ModellingRule: Optional
+                  Value: 30.0
+                - Name: LeftMargin
+                  Type: BaseVariableType
+                  DataType: Size
+                  ModellingRule: Optional
+                  Value: 110.0
+                - Name: TopMargin
+                  Type: BaseVariableType
+                  DataType: Size
+                  ModellingRule: Optional
+                  Value: 229.0
+                - Name: TextColor
+                  Type: BaseDataVariableType
+                  DataType: Color
+                  ModellingRule: Optional
+                  Value: "#ffffff"
+                - Name: TextHorizontalAlignment
+                  Type: BaseVariableType
+                  DataType: TextHorizontalAlignment
+                  ModellingRule: Optional
+                  Value: 1
+                - Name: TextVerticalAlignment
+                  Type: BaseVariableType
+                  DataType: TextVerticalAlignment
+                  ModellingRule: Optional
+                  Value: 1
+                - Name: FontSize
+                  Type: BaseDataVariableType
+                  DataType: Size
+                  ModellingRule: Optional
+                  Value: 25.0
+              - Name: Label3
+                Type: Label
+                Children:
+                - Name: Text
+                  Type: BaseDataVariableType
+                  DataType: LocalizedText
+                  ModellingRule: Optional
+                  Value: {"LocaleId":"en-US","Text":"Average PowerFactor"}
+                - Name: Width
+                  Type: BaseVariableType
+                  DataType: Size
+                  ModellingRule: Optional
+                  Value: 290.0
+                - Name: Height
+                  Type: BaseVariableType
+                  DataType: Size
+                  ModellingRule: Optional
+                  Value: 30.0
+                - Name: LeftMargin
+                  Type: BaseVariableType
+                  DataType: Size
+                  ModellingRule: Optional
+                  Value: 50.0
+                - Name: TopMargin
+                  Type: BaseVariableType
+                  DataType: Size
+                  ModellingRule: Optional
+                  Value: 349.0
+                - Name: TextColor
+                  Type: BaseDataVariableType
+                  DataType: Color
+                  ModellingRule: Optional
+                  Value: "#ffffff"
+                - Name: TextHorizontalAlignment
+                  Type: BaseVariableType
+                  DataType: TextHorizontalAlignment
+                  ModellingRule: Optional
+                  Value: 1
+                - Name: TextVerticalAlignment
+                  Type: BaseVariableType
+                  DataType: TextVerticalAlignment
+                  ModellingRule: Optional
+                  Value: 1
+                - Name: FontSize
+                  Type: BaseDataVariableType
+                  DataType: Size
+                  ModellingRule: Optional
+                  Value: 25.0
+              - Name: Label4
+                Type: Label
+                Children:
+                - Name: Text
+                  Type: BaseDataVariableType
+                  DataType: LocalizedText
+                  ModellingRule: Optional
+                  Value: {"LocaleId":"en-US","Text":"Average Frequency"}
+                - Name: Width
+                  Type: BaseVariableType
+                  DataType: Size
+                  ModellingRule: Optional
+                  Value: 290.0
+                - Name: Height
+                  Type: BaseVariableType
+                  DataType: Size
+                  ModellingRule: Optional
+                  Value: 30.0
+                - Name: LeftMargin
+                  Type: BaseVariableType
+                  DataType: Size
+                  ModellingRule: Optional
+                  Value: 50.0
+                - Name: TopMargin
+                  Type: BaseVariableType
+                  DataType: Size
+                  ModellingRule: Optional
+                  Value: 472.0
+                - Name: TextColor
+                  Type: BaseDataVariableType
+                  DataType: Color
+                  ModellingRule: Optional
+                  Value: "#ffffff"
+                - Name: TextHorizontalAlignment
+                  Type: BaseVariableType
+                  DataType: TextHorizontalAlignment
+                  ModellingRule: Optional
+                  Value: 1
+                - Name: TextVerticalAlignment
+                  Type: BaseVariableType
+                  DataType: TextVerticalAlignment
+                  ModellingRule: Optional
+                  Value: 1
+                - Name: FontSize
+                  Type: BaseDataVariableType
+                  DataType: Size
+                  ModellingRule: Optional
+                  Value: 25.0
+              - Name: Label5
+                Type: Label
+                Children:
+                - Name: Text
+                  Type: BaseDataVariableType
+                  DataType: LocalizedText
+                  ModellingRule: Optional
+                  Value: {"LocaleId":"en-US","Text":"Average Voltage LL"}
+                - Name: Width
+                  Type: BaseVariableType
+                  DataType: Size
+                  ModellingRule: Optional
+                  Value: 290.0
+                - Name: Height
+                  Type: BaseVariableType
+                  DataType: Size
+                  ModellingRule: Optional
+                  Value: 30.0
+                - Name: LeftMargin
+                  Type: BaseVariableType
+                  DataType: Size
+                  ModellingRule: Optional
+                  Value: 50.0
+                - Name: TopMargin
+                  Type: BaseVariableType
+                  DataType: Size
+                  ModellingRule: Optional
+                  Value: 597.0
+                - Name: TextColor
+                  Type: BaseDataVariableType
+                  DataType: Color
+                  ModellingRule: Optional
+                  Value: "#ffffff"
+                - Name: TextHorizontalAlignment
+                  Type: BaseVariableType
+                  DataType: TextHorizontalAlignment
+                  ModellingRule: Optional
+                  Value: 1
+                - Name: TextVerticalAlignment
+                  Type: BaseVariableType
+                  DataType: TextVerticalAlignment
+                  ModellingRule: Optional
+                  Value: 1
+                - Name: FontSize
+                  Type: BaseDataVariableType
+                  DataType: Size
+                  ModellingRule: Optional
+                  Value: 25.0
+              - Name: Label6
+                Type: Label
+                Children:
+                - Name: Text
+                  Type: BaseDataVariableType
+                  DataType: LocalizedText
+                  ModellingRule: Optional
+                  Value: {"LocaleId":"en-US","Text":"Average Voltage LN"}
+                - Name: Width
+                  Type: BaseVariableType
+                  DataType: Size
+                  ModellingRule: Optional
+                  Value: 290.0
+                - Name: Height
+                  Type: BaseVariableType
+                  DataType: Size
+                  ModellingRule: Optional
+                  Value: 30.0
+                - Name: LeftMargin
+                  Type: BaseVariableType
+                  DataType: Size
+                  ModellingRule: Optional
+                  Value: 50.0
+                - Name: TopMargin
+                  Type: BaseVariableType
+                  DataType: Size
+                  ModellingRule: Optional
+                  Value: 709.0
+                - Name: TextColor
+                  Type: BaseDataVariableType
+                  DataType: Color
+                  ModellingRule: Optional
+                  Value: "#ffffff"
+                - Name: TextHorizontalAlignment
+                  Type: BaseVariableType
+                  DataType: TextHorizontalAlignment
+                  ModellingRule: Optional
+                  Value: 1
+                - Name: TextVerticalAlignment
+                  Type: BaseVariableType
+                  DataType: TextVerticalAlignment
+                  ModellingRule: Optional
+                  Value: 1
+                - Name: FontSize
+                  Type: BaseDataVariableType
+                  DataType: Size
+                  ModellingRule: Optional
+                  Value: 25.0
+          - Name: HistogramChart1
+            Type: HistogramChart
+            Children:
+            - Name: Model
+              Type: NodePointer
+              DataType: NodeId
+              Value: {"IdType":0,"Id":0,"Namespace":-1}
+              Children:
+              - Name: ItemKind
+                Type: PropertyType
+                DataType: NodeId
+                Value: {"IdType":0,"Id":0,"Namespace":-1}
+              - Name: Kind
+                Type: PropertyType
+                DataType: NodeId
+                Value: {"IdType":0,"Id":0,"Namespace":-1}
+            - Name: Label
+              Type: BaseDataVariableType
+              DataType: LocalizedText
+              Value: {"NamespaceIndex":36,"TextId":"Daily Consumption Report"}
+            - Name: Value
+              Type: BaseDataVariableType
+              DataType: Double
+              Value: 0.0
+            - Name: Item
+              Type: Alias
+              DataType: NodeId
+              Value: {"IdType":0,"Id":0,"Namespace":-1}
+              Children:
+              - Name: Kind
+                Type: PropertyType
+                DataType: NodeId
+                Value: {"IdType":0,"Id":0,"Namespace":-1}
+            - Name: LeftMargin
+              Type: BaseVariableType
+              DataType: Size
+              ModellingRule: Optional
+              Value: 407.0
+            - Name: TopMargin
+              Type: BaseVariableType
+              DataType: Size
+              ModellingRule: Optional
+              Value: 69.0
+            - Name: Width
+              Type: BaseVariableType
+              DataType: Size
+              ModellingRule: Optional
+              Value: 1073.0
+            - Name: Height
+              Type: BaseVariableType
+              DataType: Size
+              ModellingRule: Optional
+              Value: 110.0
+            - Class: Reference
+              Target: ns=5;i=1105
+              Direction: Forward
+          - Name: Trend1
+            Type: Trend
+            Children:
+            - Name: Pens
+              Type: BaseObjectType
+              Children:
+              - Name: R Phase Voltage
+                Type: TrendPen
+                DataType: BaseDataType
+                Children:
+                - Name: Thickness
+                  Type: BaseDataVariableType
+                  DataType: Size
+                  Value: -1.0
+                - Name: Enabled
+                  Type: BaseDataVariableType
+                  DataType: Boolean
+                  Value: true
+                - Name: Thresholds
+                  Type: BaseObjectType
+                - Name: Color
+                  Type: BaseDataVariableType
+                  DataType: Color
+                  ModellingRule: Optional
+                  Value: "#eb001b"
+              - Name: Y Phase Voltage
+                Type: TrendPen
+                DataType: BaseDataType
+                Children:
+                - Name: Thickness
+                  Type: BaseDataVariableType
+                  DataType: Size
+                  Value: -1.0
+                - Name: Enabled
+                  Type: BaseDataVariableType
+                  DataType: Boolean
+                  Value: true
+                - Name: Thresholds
+                  Type: BaseObjectType
+                - Name: Color
+                  Type: BaseDataVariableType
+                  DataType: Color
+                  ModellingRule: Optional
+                  Value: "#f0fa08"
+              - Name: B Phase Voltage
+                Type: TrendPen
+                DataType: BaseDataType
+                Children:
+                - Name: Thickness
+                  Type: BaseDataVariableType
+                  DataType: Size
+                  Value: -1.0
+                - Name: Enabled
+                  Type: BaseDataVariableType
+                  DataType: Boolean
+                  Value: true
+                - Name: Thresholds
+                  Type: BaseObjectType
+                - Name: Color
+                  Type: BaseDataVariableType
+                  DataType: Color
+                  ModellingRule: Optional
+                  Value: "#032dca"
+            - Name: XAxis
+              Type: DateTimeAxis
+              Children:
+              - Name: Follow
+                Type: BaseDataVariableType
+                DataType: Boolean
+                Value: true
+              - Name: Window
+                Type: BaseDataVariableType
+                DataType: Duration
+                Value: "0:00:00:5.0000000"
+              - Name: Interactive
+                Type: BaseDataVariableType
+                DataType: Boolean
+                Value: true
+              - Name: Time
+                Type: BaseDataVariableType
+                DataType: DateTime
+                Value: "1601-01-01T00:00:00.0000000"
+            - Name: YAxis
+              Type: ValueAxis
+              Children:
+              - Name: Position
+                Type: BaseDataVariableType
+                DataType: HorizontalPositionEnum
+                Value: 0
+              - Name: MinValue
+                Type: BaseDataVariableType
+                DataType: Size
+                Value: -100.0
+              - Name: MaxValue
+                Type: BaseDataVariableType
+                DataType: Size
+                Value: 100.0
+              - Name: AutoScale
+                Type: BaseDataVariableType
+                DataType: Boolean
+                Value: false
+              - Name: Interactive
+                Type: BaseDataVariableType
+                DataType: Boolean
+                Value: true
+            - Name: LegendVisible
+              Type: BaseDataVariableType
+              DataType: Boolean
+              Value: true
+            - Name: TimeRanges
+              Type: BaseObjectType
+            - Name: Width
+              Type: BaseVariableType
+              DataType: Size
+              ModellingRule: Optional
+              Value: 783.0
+            - Name: Height
+              Type: BaseVariableType
+              DataType: Size
+              ModellingRule: Optional
+              Value: 130.0
+            - Name: ReferenceTimeZone
+              Type: BaseDataVariableType
+              DataType: ReferenceTimeZone
+              ModellingRule: Optional
+              Value: 1
+            - Name: TopMargin
+              Type: BaseVariableType
+              DataType: Size
+              ModellingRule: Optional
+              Value: 280.0
+            - Name: LeftMargin
+              Type: BaseVariableType
+              DataType: Size
+              ModellingRule: Optional
+              Value: 710.0
+            - Name: ChartStyle
+              Type: BaseDataVariableType
+              DataType: String
+              ModellingRule: Optional
+              Value: "ChartStyle1"
+            - Class: Reference
+              Target: ns=5;i=1129
+              Direction: Forward
+            - Class: Reference
+              Target: ns=5;i=1201
+              Direction: Forward
+            - Class: Reference
+              Target: ns=5;i=1209
+              Direction: Forward
+          - Name: Trend2
+            Type: Trend
+            Children:
+            - Name: Pens
+              Type: BaseObjectType
+              Children:
+              - Name: R Phase Current
+                Type: TrendPen
+                DataType: BaseDataType
+                Children:
+                - Name: Thickness
+                  Type: BaseDataVariableType
+                  DataType: Size
+                  Value: -1.0
+                - Name: Enabled
+                  Type: BaseDataVariableType
+                  DataType: Boolean
+                  Value: true
+                - Name: Thresholds
+                  Type: BaseObjectType
+                - Name: Color
+                  Type: BaseDataVariableType
+                  DataType: Color
+                  ModellingRule: Optional
+                  Value: "#eb001b"
+              - Name: Y Phase Current
+                Type: TrendPen
+                DataType: BaseDataType
+                Children:
+                - Name: Thickness
+                  Type: BaseDataVariableType
+                  DataType: Size
+                  Value: -1.0
+                - Name: Enabled
+                  Type: BaseDataVariableType
+                  DataType: Boolean
+                  Value: true
+                - Name: Thresholds
+                  Type: BaseObjectType
+                - Name: Color
+                  Type: BaseDataVariableType
+                  DataType: Color
+                  ModellingRule: Optional
+                  Value: "#f0fa08"
+              - Name: B Phase Current
+                Type: TrendPen
+                DataType: BaseDataType
+                Children:
+                - Name: Thickness
+                  Type: BaseDataVariableType
+                  DataType: Size
+                  Value: -1.0
+                - Name: Enabled
+                  Type: BaseDataVariableType
+                  DataType: Boolean
+                  Value: true
+                - Name: Thresholds
+                  Type: BaseObjectType
+                - Name: Color
+                  Type: BaseDataVariableType
+                  DataType: Color
+                  ModellingRule: Optional
+                  Value: "#032dca"
+            - Name: XAxis
+              Type: DateTimeAxis
+              Children:
+              - Name: Follow
+                Type: BaseDataVariableType
+                DataType: Boolean
+                Value: true
+              - Name: Window
+                Type: BaseDataVariableType
+                DataType: Duration
+                Value: "0:00:00:5.0000000"
+              - Name: Interactive
+                Type: BaseDataVariableType
+                DataType: Boolean
+                Value: true
+              - Name: Time
+                Type: BaseDataVariableType
+                DataType: DateTime
+                Value: "1601-01-01T00:00:00.0000000"
+            - Name: YAxis
+              Type: ValueAxis
+              Children:
+              - Name: Position
+                Type: BaseDataVariableType
+                DataType: HorizontalPositionEnum
+                Value: 0
+              - Name: MinValue
+                Type: BaseDataVariableType
+                DataType: Size
+                Value: -100.0
+              - Name: MaxValue
+                Type: BaseDataVariableType
+                DataType: Size
+                Value: 100.0
+              - Name: AutoScale
+                Type: BaseDataVariableType
+                DataType: Boolean
+                Value: false
+              - Name: Interactive
+                Type: BaseDataVariableType
+                DataType: Boolean
+                Value: true
+            - Name: LegendVisible
+              Type: BaseDataVariableType
+              DataType: Boolean
+              Value: true
+            - Name: TimeRanges
+              Type: BaseObjectType
+            - Name: Width
+              Type: BaseVariableType
+              DataType: Size
+              ModellingRule: Optional
+              Value: 784.0
+            - Name: Height
+              Type: BaseVariableType
+              DataType: Size
+              ModellingRule: Optional
+              Value: 130.0
+            - Name: ReferenceTimeZone
+              Type: BaseDataVariableType
+              DataType: ReferenceTimeZone
+              ModellingRule: Optional
+              Value: 1
+            - Name: TopMargin
+              Type: BaseVariableType
+              DataType: Size
+              ModellingRule: Optional
+              Value: 479.0
+            - Name: LeftMargin
+              Type: BaseVariableType
+              DataType: Size
+              ModellingRule: Optional
+              Value: 706.0
+            - Name: ChartStyle
+              Type: BaseDataVariableType
+              DataType: String
+              ModellingRule: Optional
+              Value: "ChartStyle1"
+            - Class: Reference
+              Target: ns=5;i=1129
+              Direction: Forward
+            - Class: Reference
+              Target: ns=5;i=1201
+              Direction: Forward
+            - Class: Reference
+              Target: ns=5;i=1209
+              Direction: Forward
+          - Name: Trend3
+            Type: Trend
+            Children:
+            - Name: Pens
+              Type: BaseObjectType
+              Children:
+              - Name: Power Factor
+                Type: TrendPen
+                DataType: BaseDataType
+                Children:
+                - Name: Thickness
+                  Type: BaseDataVariableType
+                  DataType: Size
+                  Value: -1.0
+                - Name: Enabled
+                  Type: BaseDataVariableType
+                  DataType: Boolean
+                  Value: true
+                - Name: Thresholds
+                  Type: BaseObjectType
+                - Name: Color
+                  Type: BaseDataVariableType
+                  DataType: Color
+                  ModellingRule: Optional
+                  Value: "#030c79"
+              - Name: Frequency
+                Type: TrendPen
+                DataType: BaseDataType
+                Children:
+                - Name: Thickness
+                  Type: BaseDataVariableType
+                  DataType: Size
+                  Value: -1.0
+                - Name: Enabled
+                  Type: BaseDataVariableType
+                  DataType: Boolean
+                  Value: true
+                - Name: Thresholds
+                  Type: BaseObjectType
+                - Name: Color
+                  Type: BaseDataVariableType
+                  DataType: Color
+                  ModellingRule: Optional
+                  Value: "#680eb8"
+            - Name: XAxis
+              Type: DateTimeAxis
+              Children:
+              - Name: Follow
+                Type: BaseDataVariableType
+                DataType: Boolean
+                Value: true
+              - Name: Window
+                Type: BaseDataVariableType
+                DataType: Duration
+                Value: "0:00:00:5.0000000"
+              - Name: Interactive
+                Type: BaseDataVariableType
+                DataType: Boolean
+                Value: true
+              - Name: Time
+                Type: BaseDataVariableType
+                DataType: DateTime
+                Value: "1601-01-01T00:00:00.0000000"
+            - Name: YAxis
+              Type: ValueAxis
+              Children:
+              - Name: Position
+                Type: BaseDataVariableType
+                DataType: HorizontalPositionEnum
+                Value: 0
+              - Name: MinValue
+                Type: BaseDataVariableType
+                DataType: Size
+                Value: -100.0
+              - Name: MaxValue
+                Type: BaseDataVariableType
+                DataType: Size
+                Value: 100.0
+              - Name: AutoScale
+                Type: BaseDataVariableType
+                DataType: Boolean
+                Value: false
+              - Name: Interactive
+                Type: BaseDataVariableType
+                DataType: Boolean
+                Value: true
+            - Name: LegendVisible
+              Type: BaseDataVariableType
+              DataType: Boolean
+              Value: true
+            - Name: TimeRanges
+              Type: BaseObjectType
+            - Name: Width
+              Type: BaseVariableType
+              DataType: Size
+              ModellingRule: Optional
+              Value: 782.0
+            - Name: Height
+              Type: BaseVariableType
+              DataType: Size
+              ModellingRule: Optional
+              Value: 130.0
+            - Name: ReferenceTimeZone
+              Type: BaseDataVariableType
+              DataType: ReferenceTimeZone
+              ModellingRule: Optional
+              Value: 1
+            - Name: TopMargin
+              Type: BaseVariableType
+              DataType: Size
+              ModellingRule: Optional
+              Value: 660.0
+            - Name: LeftMargin
+              Type: BaseVariableType
+              DataType: Size
+              ModellingRule: Optional
+              Value: 698.0
+            - Name: ChartStyle
+              Type: BaseDataVariableType
+              DataType: String
+              ModellingRule: Optional
+              Value: "ChartStyle1"
+            - Class: Reference
+              Target: ns=5;i=1129
+              Direction: Forward
+            - Class: Reference
+              Target: ns=5;i=1201
+              Direction: Forward
+            - Class: Reference
+              Target: ns=5;i=1209
+              Direction: Forward
+          - Name: Label2
+            Type: Label
+            Children:
+            - Name: Text
+              Type: BaseDataVariableType
+              DataType: LocalizedText
+              ModellingRule: Optional
+              Value: {"LocaleId":"en-US","Text":"Power Factor"}
+            - Name: FontSize
+              Type: BaseDataVariableType
+              DataType: Size
+              ModellingRule: Optional
+              Value: 20.0
+            - Name: FontFamily
+              Type: BaseDataVariableType
+              DataType: Font
+              ModellingRule: Optional
+              Value: "Lucida Fax"
+            - Name: HorizontalAlignment
+              Type: BaseVariableType
+              DataType: HorizontalAlignment
+              ModellingRule: Optional
+              Value: 2
+            - Name: TextColor
+              Type: BaseDataVariableType
+              DataType: Color
+              ModellingRule: Optional
+              Value: "#ffffff"
+            - Name: FontWeight
+              Type: BaseDataVariableType
+              DataType: FontWeightEnum
+              ModellingRule: Optional
+              Value: 700
+            - Name: LeftMargin
+              Type: BaseVariableType
+              DataType: Size
+              ModellingRule: Optional
+              Value: -422.0
+            - Name: RightMargin
+              Type: BaseVariableType
+              DataType: Size
+              ModellingRule: Optional
+              Value: 0.0
+            - Name: TopMargin
+              Type: BaseVariableType
+              DataType: Size
+              ModellingRule: Optional
+              Value: 240.0
+          - Name: CircularGauge1
+            Type: CircularGauge
+            Children:
+            - Name: Value
+              Type: BaseDataVariableType
+              DataType: Float
+              Value: 0.0
+            - Name: MinValue
+              Type: BaseDataVariableType
+              DataType: Float
+              Value: 0.0
+            - Name: MaxValue
+              Type: BaseDataVariableType
+              DataType: Float
+              Value: 1.0
+            - Name: WarningZones
+              Type: BaseObjectType
+            - Name: Width
+              Type: BaseVariableType
+              DataType: Size
+              ModellingRule: Optional
+              Value: 210.0
+            - Name: Height
+              Type: BaseVariableType
+              DataType: Size
+              ModellingRule: Optional
+              Value: 180.0
+            - Name: LeftMargin
+              Type: BaseVariableType
+              DataType: Size
+              ModellingRule: Optional
+              Value: 430.0
+            - Name: TopMargin
+              Type: BaseVariableType
+              DataType: Size
+              ModellingRule: Optional
+              Value: 300.0
+            - Name: StartAngle
+              Type: BaseDataVariableType
+              DataType: Size
+              ModellingRule: Optional
+              Value: -110.0
+            - Name: EndAngle
+              Type: BaseDataVariableType
+              DataType: Size
+              ModellingRule: Optional
+              Value: 110.0
+            - Name: MajorTickCount
+              Type: BaseDataVariableType
+              DataType: Float
+              ModellingRule: Optional
+              Value: 10.0
+            - Name: Editable
+              Type: BaseDataVariableType
+              DataType: Boolean
+              ModellingRule: Optional
+              Value: false
+            - Name: MinorTickCount
+              Type: BaseDataVariableType
+              DataType: Float
+              ModellingRule: Optional
+              Value: 2.0
+            - Name: ScalePadding
+              Type: BaseDataVariableType
+              DataType: Size
+              ModellingRule: Optional
+              Value: 30.0
+            - Name: GaugeStyle
+              Type: BaseDataVariableType
+              DataType: String
+              ModellingRule: Optional
+              Value: "GaugeStyle1"
+          - Name: Label3
+            Type: Label
+            Children:
+            - Name: Text
+              Type: BaseDataVariableType
+              DataType: LocalizedText
+              ModellingRule: Optional
+              Value: {"LocaleId":"en-US","Text":"Frequency"}
+            - Name: FontSize
+              Type: BaseDataVariableType
+              DataType: Size
+              ModellingRule: Optional
+              Value: 20.0
+            - Name: FontFamily
+              Type: BaseDataVariableType
+              DataType: Font
+              ModellingRule: Optional
+              Value: "Lucida Fax"
+            - Name: HorizontalAlignment
+              Type: BaseVariableType
+              DataType: HorizontalAlignment
+              ModellingRule: Optional
+              Value: 2
+            - Name: TextColor
+              Type: BaseDataVariableType
+              DataType: Color
+              ModellingRule: Optional
+              Value: "#ffffff"
+            - Name: FontWeight
+              Type: BaseDataVariableType
+              DataType: FontWeightEnum
+              ModellingRule: Optional
+              Value: 700
+            - Name: LeftMargin
+              Type: BaseVariableType
+              DataType: Size
+              ModellingRule: Optional
+              Value: -469.0
+            - Name: RightMargin
+              Type: BaseVariableType
+              DataType: Size
+              ModellingRule: Optional
+              Value: 0.0
+            - Name: TopMargin
+              Type: BaseVariableType
+              DataType: Size
+              ModellingRule: Optional
+              Value: 447.0
+          - Name: CircularGauge2
+            Type: CircularGauge
+            Children:
+            - Name: Value
+              Type: BaseDataVariableType
+              DataType: Float
+              Value: 0.0
+            - Name: MinValue
+              Type: BaseDataVariableType
+              DataType: Float
+              Value: 0.0
+            - Name: MaxValue
+              Type: BaseDataVariableType
+              DataType: Float
+              Value: 60.0
+            - Name: WarningZones
+              Type: BaseObjectType
+            - Name: Width
+              Type: BaseVariableType
+              DataType: Size
+              ModellingRule: Optional
+              Value: 210.0
+            - Name: Height
+              Type: BaseVariableType
+              DataType: Size
+              ModellingRule: Optional
+              Value: 180.0
+            - Name: LeftMargin
+              Type: BaseVariableType
+              DataType: Size
+              ModellingRule: Optional
+              Value: 420.0
+            - Name: TopMargin
+              Type: BaseVariableType
+              DataType: Size
+              ModellingRule: Optional
+              Value: 490.0
+            - Name: StartAngle
+              Type: BaseDataVariableType
+              DataType: Size
+              ModellingRule: Optional
+              Value: -110.0
+            - Name: EndAngle
+              Type: BaseDataVariableType
+              DataType: Size
+              ModellingRule: Optional
+              Value: 110.0
+            - Name: MajorTickCount
+              Type: BaseDataVariableType
+              DataType: Float
+              ModellingRule: Optional
+              Value: 5.0
+            - Name: Editable
+              Type: BaseDataVariableType
+              DataType: Boolean
+              ModellingRule: Optional
+              Value: false
+            - Name: MinorTickCount
+              Type: BaseDataVariableType
+              DataType: Float
+              ModellingRule: Optional
+              Value: 2.0
+            - Name: ScalePadding
+              Type: BaseDataVariableType
+              DataType: Size
+              ModellingRule: Optional
+              Value: 30.0
+            - Name: GaugeStyle
+              Type: BaseDataVariableType
+              DataType: String
+              ModellingRule: Optional
+              Value: "GaugeStyle1"
+          - Name: Label4
+            Type: Label
+            Children:
+            - Name: Text
+              Type: BaseDataVariableType
+              DataType: LocalizedText
+              ModellingRule: Optional
+              Value: {"LocaleId":"en-US","Text":"TOD Consumption"}
+            - Name: FontSize
+              Type: BaseDataVariableType
+              DataType: Size
+              ModellingRule: Optional
+              Value: 20.0
+            - Name: FontFamily
+              Type: BaseDataVariableType
+              DataType: Font
+              ModellingRule: Optional
+              Value: "Lucida Fax"
+            - Name: HorizontalAlignment
+              Type: BaseVariableType
+              DataType: HorizontalAlignment
+              ModellingRule: Optional
+              Value: 2
+            - Name: TextColor
+              Type: BaseDataVariableType
+              DataType: Color
+              ModellingRule: Optional
+              Value: "#ffffff"
+            - Name: FontWeight
+              Type: BaseDataVariableType
+              DataType: FontWeightEnum
+              ModellingRule: Optional
+              Value: 700
+            - Name: LeftMargin
+              Type: BaseVariableType
+              DataType: Size
+              ModellingRule: Optional
+              Value: -476.0
+            - Name: RightMargin
+              Type: BaseVariableType
+              DataType: Size
+              ModellingRule: Optional
+              Value: 0.0
+            - Name: TopMargin
+              Type: BaseVariableType
+              DataType: Size
+              ModellingRule: Optional
+              Value: 628.0
+          - Name: CircularGauge3
+            Type: CircularGauge
+            Children:
+            - Name: Value
+              Type: BaseDataVariableType
+              DataType: Float
+              Value: 0.0
+            - Name: MinValue
+              Type: BaseDataVariableType
+              DataType: Float
+              Value: 0.0
+            - Name: MaxValue
+              Type: BaseDataVariableType
+              DataType: Float
+              Value: 100.0
+            - Name: WarningZones
+              Type: BaseObjectType
+            - Name: Width
+              Type: BaseVariableType
+              DataType: Size
+              ModellingRule: Optional
+              Value: 210.0
+            - Name: Height
+              Type: BaseVariableType
+              DataType: Size
+              ModellingRule: Optional
+              Value: 180.0
+            - Name: LeftMargin
+              Type: BaseVariableType
+              DataType: Size
+              ModellingRule: Optional
+              Value: 419.0
+            - Name: TopMargin
+              Type: BaseVariableType
+              DataType: Size
+              ModellingRule: Optional
+              Value: 680.0
+            - Name: StartAngle
+              Type: BaseDataVariableType
+              DataType: Size
+              ModellingRule: Optional
+              Value: -110.0
+            - Name: EndAngle
+              Type: BaseDataVariableType
+              DataType: Size
+              ModellingRule: Optional
+              Value: 110.0
+            - Name: MajorTickCount
+              Type: BaseDataVariableType
+              DataType: Float
+              ModellingRule: Optional
+              Value: 5.0
+            - Name: Editable
+              Type: BaseDataVariableType
+              DataType: Boolean
+              ModellingRule: Optional
+              Value: false
+            - Name: MinorTickCount
+              Type: BaseDataVariableType
+              DataType: Float
+              ModellingRule: Optional
+              Value: 2.0
+            - Name: ScalePadding
+              Type: BaseDataVariableType
+              DataType: Size
+              ModellingRule: Optional
+              Value: 30.0
+            - Name: GaugeStyle
+              Type: BaseDataVariableType
+              DataType: String
+              ModellingRule: Optional
+              Value: "GaugeStyle1"
+          - Name: FillColor
             Type: BaseDataVariableType
-            DataType: Size
+            DataType: Color
             ModellingRule: Optional
-            Value: -110.0
-          - Name: EndAngle
-            Type: BaseDataVariableType
-            DataType: Size
-            ModellingRule: Optional
-            Value: 110.0
-          - Name: MajorTickCount
-            Type: BaseDataVariableType
-            DataType: Float
-            ModellingRule: Optional
-            Value: 5.0
-          - Name: Editable
+            Value: "#010425"
+          - Name: Label1
+            Type: Label
+            Children:
+            - Name: Text
+              Type: BaseDataVariableType
+              DataType: LocalizedText
+              Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+              Children:
+              - Name: DynamicLink
+                Type: DynamicLink
+                DataType: NodePath
+                Value: "/Objects/Tata_Energy_Management/Model/HomePageHistogram/HomePage2/Target"
+            - Name: TopMargin
+              Type: BaseVariableType
+              DataType: Size
+              ModellingRule: Optional
+              Value: 110.0
+            - Name: FontSize
+              Type: BaseDataVariableType
+              DataType: Size
+              ModellingRule: Optional
+              Value: 30.0
+            - Name: LeftMargin
+              Type: BaseVariableType
+              DataType: Size
+              ModellingRule: Optional
+              Value: 69.0
+            - Name: TextColor
+              Type: BaseDataVariableType
+              DataType: Color
+              ModellingRule: Optional
+              Value: "#ffffff"
+            - Name: FontFamily
+              Type: BaseDataVariableType
+              DataType: Font
+              ModellingRule: Optional
+              Value: "Lucida Fax"
+            - Name: Width
+              Type: BaseVariableType
+              DataType: Size
+              ModellingRule: Optional
+              Value: 210.0
+            - Name: Height
+              Type: BaseVariableType
+              DataType: Size
+              ModellingRule: Optional
+              Value: 40.0
+            - Name: TextHorizontalAlignment
+              Type: BaseVariableType
+              DataType: TextHorizontalAlignment
+              ModellingRule: Optional
+              Value: 1
+            - Name: TextVerticalAlignment
+              Type: BaseVariableType
+              DataType: TextVerticalAlignment
+              ModellingRule: Optional
+              Value: 1
+          - Name: Label5
+            Type: Label
+            Children:
+            - Name: Text
+              Type: BaseDataVariableType
+              DataType: LocalizedText
+              Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+              Children:
+              - Name: DynamicLink
+                Type: DynamicLink
+                DataType: NodePath
+                Value: "/Objects/Tata_Energy_Management/Model/HomePageNew1/Consumption"
+            - Name: TopMargin
+              Type: BaseVariableType
+              DataType: Size
+              ModellingRule: Optional
+              Value: 230.0
+            - Name: FontSize
+              Type: BaseDataVariableType
+              DataType: Size
+              ModellingRule: Optional
+              Value: 30.0
+            - Name: LeftMargin
+              Type: BaseVariableType
+              DataType: Size
+              ModellingRule: Optional
+              Value: 46.0
+            - Name: TextColor
+              Type: BaseDataVariableType
+              DataType: Color
+              ModellingRule: Optional
+              Value: "#ffffff"
+            - Name: FontFamily
+              Type: BaseDataVariableType
+              DataType: Font
+              ModellingRule: Optional
+              Value: "Lucida Fax"
+            - Name: Width
+              Type: BaseVariableType
+              DataType: Size
+              ModellingRule: Optional
+              Value: 274.0
+            - Name: Height
+              Type: BaseVariableType
+              DataType: Size
+              ModellingRule: Optional
+              Value: 40.0
+            - Name: TextHorizontalAlignment
+              Type: BaseVariableType
+              DataType: TextHorizontalAlignment
+              ModellingRule: Optional
+              Value: 1
+            - Name: TextVerticalAlignment
+              Type: BaseVariableType
+              DataType: TextVerticalAlignment
+              ModellingRule: Optional
+              Value: 1
+          - Name: Label6
+            Type: Label
+            Children:
+            - Name: Text
+              Type: BaseDataVariableType
+              DataType: LocalizedText
+              Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+              Children:
+              - Name: DynamicLink
+                Type: DynamicLink
+                DataType: NodePath
+                Value: "/Objects/Tata_Energy_Management/Model/HomePageHistogram/HomePage2/AveragePF"
+            - Name: TopMargin
+              Type: BaseVariableType
+              DataType: Size
+              ModellingRule: Optional
+              Value: 350.0
+            - Name: FontSize
+              Type: BaseDataVariableType
+              DataType: Size
+              ModellingRule: Optional
+              Value: 30.0
+            - Name: LeftMargin
+              Type: BaseVariableType
+              DataType: Size
+              ModellingRule: Optional
+              Value: 80.0
+            - Name: TextColor
+              Type: BaseDataVariableType
+              DataType: Color
+              ModellingRule: Optional
+              Value: "#ffffff"
+            - Name: FontFamily
+              Type: BaseDataVariableType
+              DataType: Font
+              ModellingRule: Optional
+              Value: "Lucida Fax"
+            - Name: Width
+              Type: BaseVariableType
+              DataType: Size
+              ModellingRule: Optional
+              Value: 210.0
+            - Name: Height
+              Type: BaseVariableType
+              DataType: Size
+              ModellingRule: Optional
+              Value: 40.0
+            - Name: TextHorizontalAlignment
+              Type: BaseVariableType
+              DataType: TextHorizontalAlignment
+              ModellingRule: Optional
+              Value: 1
+            - Name: TextVerticalAlignment
+              Type: BaseVariableType
+              DataType: TextVerticalAlignment
+              ModellingRule: Optional
+              Value: 1
+          - Name: Label7
+            Type: Label
+            Children:
+            - Name: Text
+              Type: BaseDataVariableType
+              DataType: LocalizedText
+              Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+              Children:
+              - Name: DynamicLink
+                Type: DynamicLink
+                DataType: NodePath
+                Value: "/Objects/Tata_Energy_Management/Model/HomePageHistogram/HomePage2/AverageFrequency"
+            - Name: TopMargin
+              Type: BaseVariableType
+              DataType: Size
+              ModellingRule: Optional
+              Value: 480.0
+            - Name: FontSize
+              Type: BaseDataVariableType
+              DataType: Size
+              ModellingRule: Optional
+              Value: 30.0
+            - Name: LeftMargin
+              Type: BaseVariableType
+              DataType: Size
+              ModellingRule: Optional
+              Value: 70.0
+            - Name: TextColor
+              Type: BaseDataVariableType
+              DataType: Color
+              ModellingRule: Optional
+              Value: "#ffffff"
+            - Name: FontFamily
+              Type: BaseDataVariableType
+              DataType: Font
+              ModellingRule: Optional
+              Value: "Lucida Fax"
+            - Name: Width
+              Type: BaseVariableType
+              DataType: Size
+              ModellingRule: Optional
+              Value: 210.0
+            - Name: Height
+              Type: BaseVariableType
+              DataType: Size
+              ModellingRule: Optional
+              Value: 40.0
+            - Name: TextHorizontalAlignment
+              Type: BaseVariableType
+              DataType: TextHorizontalAlignment
+              ModellingRule: Optional
+              Value: 1
+            - Name: TextVerticalAlignment
+              Type: BaseVariableType
+              DataType: TextVerticalAlignment
+              ModellingRule: Optional
+              Value: 1
+          - Name: Label8
+            Type: Label
+            Children:
+            - Name: Text
+              Type: BaseDataVariableType
+              DataType: LocalizedText
+              Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+              Children:
+              - Name: DynamicLink
+                Type: DynamicLink
+                DataType: NodePath
+                Value: "/Objects/Tata_Energy_Management/Model/HomePageHistogram/HomePage2/AverageVoltageLL"
+            - Name: TopMargin
+              Type: BaseVariableType
+              DataType: Size
+              ModellingRule: Optional
+              Value: 600.0
+            - Name: FontSize
+              Type: BaseDataVariableType
+              DataType: Size
+              ModellingRule: Optional
+              Value: 30.0
+            - Name: LeftMargin
+              Type: BaseVariableType
+              DataType: Size
+              ModellingRule: Optional
+              Value: 70.0
+            - Name: TextColor
+              Type: BaseDataVariableType
+              DataType: Color
+              ModellingRule: Optional
+              Value: "#ffffff"
+            - Name: FontFamily
+              Type: BaseDataVariableType
+              DataType: Font
+              ModellingRule: Optional
+              Value: "Lucida Fax"
+            - Name: Width
+              Type: BaseVariableType
+              DataType: Size
+              ModellingRule: Optional
+              Value: 210.0
+            - Name: Height
+              Type: BaseVariableType
+              DataType: Size
+              ModellingRule: Optional
+              Value: 40.0
+            - Name: TextHorizontalAlignment
+              Type: BaseVariableType
+              DataType: TextHorizontalAlignment
+              ModellingRule: Optional
+              Value: 1
+            - Name: TextVerticalAlignment
+              Type: BaseVariableType
+              DataType: TextVerticalAlignment
+              ModellingRule: Optional
+              Value: 1
+          - Name: Label9
+            Type: Label
+            Children:
+            - Name: Text
+              Type: BaseDataVariableType
+              DataType: LocalizedText
+              Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+              Children:
+              - Name: DynamicLink
+                Type: DynamicLink
+                DataType: NodePath
+                Value: "/Objects/Tata_Energy_Management/Model/HomePageHistogram/HomePage2/AverageVoltageLN"
+            - Name: TopMargin
+              Type: BaseVariableType
+              DataType: Size
+              ModellingRule: Optional
+              Value: 710.0
+            - Name: FontSize
+              Type: BaseDataVariableType
+              DataType: Size
+              ModellingRule: Optional
+              Value: 30.0
+            - Name: LeftMargin
+              Type: BaseVariableType
+              DataType: Size
+              ModellingRule: Optional
+              Value: 79.0
+            - Name: TextColor
+              Type: BaseDataVariableType
+              DataType: Color
+              ModellingRule: Optional
+              Value: "#ffffff"
+            - Name: FontFamily
+              Type: BaseDataVariableType
+              DataType: Font
+              ModellingRule: Optional
+              Value: "Lucida Fax"
+            - Name: Width
+              Type: BaseVariableType
+              DataType: Size
+              ModellingRule: Optional
+              Value: 210.0
+            - Name: Height
+              Type: BaseVariableType
+              DataType: Size
+              ModellingRule: Optional
+              Value: 40.0
+            - Name: TextHorizontalAlignment
+              Type: BaseVariableType
+              DataType: TextHorizontalAlignment
+              ModellingRule: Optional
+              Value: 1
+            - Name: TextVerticalAlignment
+              Type: BaseVariableType
+              DataType: TextVerticalAlignment
+              ModellingRule: Optional
+              Value: 1
+          - Name: Label10
+            Type: Label
+            Children:
+            - Name: Text
+              Type: BaseDataVariableType
+              DataType: LocalizedText
+              Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+              Children:
+              - Name: DynamicLink
+                Type: DynamicLink
+                DataType: NodePath
+                Value: "/Objects/Tata_Energy_Management/Model/HomePageHistogram/HomePage2/SpinBoxValue"
+            - Name: TopMargin
+              Type: BaseVariableType
+              DataType: Size
+              ModellingRule: Optional
+              Value: 50.0
+            - Name: FontSize
+              Type: BaseDataVariableType
+              DataType: Size
+              ModellingRule: Optional
+              Value: 30.0
+            - Name: LeftMargin
+              Type: BaseVariableType
+              DataType: Size
+              ModellingRule: Optional
+              Value: 620.0
+            - Name: TextColor
+              Type: BaseDataVariableType
+              DataType: Color
+              ModellingRule: Optional
+              Value: "#ffffff"
+            - Name: FontFamily
+              Type: BaseDataVariableType
+              DataType: Font
+              ModellingRule: Optional
+              Value: "Lucida Fax"
+            - Name: Width
+              Type: BaseVariableType
+              DataType: Size
+              ModellingRule: Optional
+              Value: 329.0
+            - Name: Height
+              Type: BaseVariableType
+              DataType: Size
+              ModellingRule: Optional
+              Value: 40.0
+            - Name: TextHorizontalAlignment
+              Type: BaseVariableType
+              DataType: TextHorizontalAlignment
+              ModellingRule: Optional
+              Value: 1
+            - Name: TextVerticalAlignment
+              Type: BaseVariableType
+              DataType: TextVerticalAlignment
+              ModellingRule: Optional
+              Value: 1
+          - Name: Label11
+            Type: Label
+            Children:
+            - Name: Text
+              Type: BaseDataVariableType
+              DataType: LocalizedText
+              Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+              Children:
+              - Name: DynamicLink
+                Type: DynamicLink
+                DataType: NodePath
+                Value: "/Objects/Tata_Energy_Management/Model/HomePageNew1/Selection"
+            - Name: TopMargin
+              Type: BaseVariableType
+              DataType: Size
+              ModellingRule: Optional
+              Value: 143.0
+            - Name: FontSize
+              Type: BaseDataVariableType
+              DataType: Size
+              ModellingRule: Optional
+              Value: 30.0
+            - Name: LeftMargin
+              Type: BaseVariableType
+              DataType: Size
+              ModellingRule: Optional
+              Value: 830.0
+            - Name: TextColor
+              Type: BaseDataVariableType
+              DataType: Color
+              ModellingRule: Optional
+              Value: "#ffffff"
+            - Name: FontFamily
+              Type: BaseDataVariableType
+              DataType: Font
+              ModellingRule: Optional
+              Value: "Lucida Fax"
+            - Name: Width
+              Type: BaseVariableType
+              DataType: Size
+              ModellingRule: Optional
+              Value: 329.0
+            - Name: Height
+              Type: BaseVariableType
+              DataType: Size
+              ModellingRule: Optional
+              Value: 40.0
+            - Name: TextHorizontalAlignment
+              Type: BaseVariableType
+              DataType: TextHorizontalAlignment
+              ModellingRule: Optional
+              Value: 1
+            - Name: TextVerticalAlignment
+              Type: BaseVariableType
+              DataType: TextVerticalAlignment
+              ModellingRule: Optional
+              Value: 1
+          - Name: Visible
             Type: BaseDataVariableType
             DataType: Boolean
-            ModellingRule: Optional
-            Value: false
-          - Name: MinorTickCount
+            Value: true
+            Children:
+            - Name: KeyValueConverter1
+              Type: ValueMapConverter
+              Children:
+              - Name: Source
+                Type: BaseDataVariableType
+                DataType: BaseDataType
+                ReferenceType: HasSource
+                Children:
+                - Name: DynamicLink
+                  Type: DynamicLink
+                  DataType: NodePath
+                  Value: "/Objects/Tata_Energy_Management/Model/HomePageHistogram/HomePage2/Button1"
+              - Name: Pairs
+                Type: BaseObjectType
+                ModellingRule: None
+                Children:
+                - Name: Pair
+                  Type: ValueMapPair
+                  ModellingRule: None
+                  Children:
+                  - Name: Key
+                    Type: BaseDataVariableType
+                    DataType: Boolean
+                    ModellingRule: None
+                    Value: true
+                  - Name: Value
+                    Type: BaseDataVariableType
+                    DataType: Boolean
+                    ModellingRule: None
+                    Value: false
+                - Name: Pair1
+                  Type: ValueMapPair
+                  ModellingRule: None
+                  Children:
+                  - Name: Key
+                    Type: BaseDataVariableType
+                    DataType: Boolean
+                    ModellingRule: None
+                    Value: false
+                  - Name: Value
+                    Type: BaseDataVariableType
+                    DataType: Boolean
+                    ModellingRule: None
+                    Value: true
+          - Name: Enabled
             Type: BaseDataVariableType
-            DataType: Float
+            DataType: Boolean
+            Value: true
+            Children:
+            - Name: KeyValueConverter1
+              Type: ValueMapConverter
+              Children:
+              - Name: Source
+                Type: BaseDataVariableType
+                DataType: BaseDataType
+                ReferenceType: HasSource
+                Children:
+                - Name: DynamicLink
+                  Type: DynamicLink
+                  DataType: NodePath
+                  Value: "/Objects/Tata_Energy_Management/Model/HomePageHistogram/HomePage2/Button1"
+              - Name: Pairs
+                Type: BaseObjectType
+                Children:
+                - Name: Pair
+                  Type: ValueMapPair
+                  Children:
+                  - Name: Key
+                    Type: BaseDataVariableType
+                    DataType: Boolean
+                    Value: true
+                  - Name: Value
+                    Type: BaseDataVariableType
+                    DataType: Boolean
+                    Value: false
+                - Name: Pair1
+                  Type: ValueMapPair
+                  Children:
+                  - Name: Key
+                    Type: BaseDataVariableType
+                    DataType: Boolean
+                    Value: false
+                  - Name: Value
+                    Type: BaseDataVariableType
+                    DataType: Boolean
+                    Value: true
+        - Name: Plant
+          Type: Rectangle
+          Children:
+          - Name: Width
+            Type: BaseVariableType
+            DataType: Size
             ModellingRule: Optional
-            Value: 2.0
-          - Name: ScalePadding
+            Value: 1500.0
+          - Name: Height
+            Type: BaseVariableType
+            DataType: Size
+            ModellingRule: Optional
+            Value: 825.0
+          - Name: BorderThickness
             Type: BaseDataVariableType
             DataType: Size
             ModellingRule: Optional
-            Value: 30.0
-          - Name: GaugeStyle
-            Type: BaseDataVariableType
-            DataType: String
+            Value: 1.0
+          - Name: LeftMargin
+            Type: BaseVariableType
+            DataType: Size
             ModellingRule: Optional
-            Value: "GaugeStyle1"
-        - Name: Label4
-          Type: Label
+            Value: -10.0
+          - Name: TopMargin
+            Type: BaseVariableType
+            DataType: Size
+            ModellingRule: Optional
+            Value: 170.0
+          - Name: FillColor
+            Type: BaseDataVariableType
+            DataType: Color
+            ModellingRule: Optional
+            Value: "#010425"
+          - Name: Visible
+            Type: BaseDataVariableType
+            DataType: Boolean
+            Value: true
+            Children:
+            - Name: KeyValueConverter1
+              Type: ValueMapConverter
+              Children:
+              - Name: Source
+                Type: BaseDataVariableType
+                DataType: BaseDataType
+                ReferenceType: HasSource
+                Children:
+                - Name: DynamicLink
+                  Type: DynamicLink
+                  DataType: NodePath
+                  Value: "/Objects/Tata_Energy_Management/Model/HomePageHistogram/HomePage2/Button1"
+              - Name: Pairs
+                Type: BaseObjectType
+                Children:
+                - Name: Pair
+                  Type: ValueMapPair
+                  Children:
+                  - Name: Key
+                    Type: BaseDataVariableType
+                    DataType: Boolean
+                    Value: true
+                  - Name: Value
+                    Type: BaseDataVariableType
+                    DataType: Boolean
+                    Value: true
+                - Name: Pair1
+                  Type: ValueMapPair
+                  Children:
+                  - Name: Key
+                    Type: BaseDataVariableType
+                    DataType: Boolean
+                    Value: false
+                  - Name: Value
+                    Type: BaseDataVariableType
+                    DataType: Boolean
+                    Value: false
+          - Name: Enabled
+            Type: BaseDataVariableType
+            DataType: Boolean
+            Value: true
+            Children:
+            - Name: KeyValueConverter1
+              Type: ValueMapConverter
+              Children:
+              - Name: Source
+                Type: BaseDataVariableType
+                DataType: BaseDataType
+                ReferenceType: HasSource
+                Children:
+                - Name: DynamicLink
+                  Type: DynamicLink
+                  DataType: NodePath
+                  Value: "/Objects/Tata_Energy_Management/Model/HomePageHistogram/HomePage2/Button2"
+              - Name: Pairs
+                Type: BaseObjectType
+                Children:
+                - Name: Pair
+                  Type: ValueMapPair
+                  Children:
+                  - Name: Key
+                    Type: BaseDataVariableType
+                    DataType: Boolean
+                    Value: true
+                  - Name: Value
+                    Type: BaseDataVariableType
+                    DataType: Boolean
+                    Value: true
+                - Name: Pair1
+                  Type: ValueMapPair
+                  Children:
+                  - Name: Key
+                    Type: BaseDataVariableType
+                    DataType: Boolean
+                    Value: false
+                  - Name: Value
+                    Type: BaseDataVariableType
+                    DataType: Boolean
+                    Value: false
+        - Name: Button1
+          Type: Button
           Children:
           - Name: Text
             Type: BaseDataVariableType
             DataType: LocalizedText
-            ModellingRule: Optional
-            Value: {"LocaleId":"en-US","Text":"TOD Consumption"}
-          - Name: FontSize
-            Type: BaseDataVariableType
+            Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+            Children:
+            - Name: KeyValueConverter1
+              Type: ValueMapConverter
+              Children:
+              - Name: Source
+                Type: BaseDataVariableType
+                DataType: BaseDataType
+                ReferenceType: HasSource
+                Children:
+                - Name: DynamicLink
+                  Type: DynamicLink
+                  DataType: NodePath
+                  Value: "/Objects/Tata_Energy_Management/Model/HomePageHistogram/HomePage2/Button1"
+              - Name: Pairs
+                Type: BaseObjectType
+                ModellingRule: None
+                Children:
+                - Name: Pair
+                  Type: ValueMapPair
+                  ModellingRule: None
+                  Children:
+                  - Name: Key
+                    Type: BaseDataVariableType
+                    DataType: UInt32
+                    ModellingRule: None
+                    Value: 0
+                  - Name: Value
+                    Type: BaseDataVariableType
+                    DataType: String
+                    ModellingRule: None
+                    Value: "Plant Stastics"
+                - Name: Pair1
+                  Type: ValueMapPair
+                  ModellingRule: None
+                  Children:
+                  - Name: Key
+                    Type: BaseDataVariableType
+                    DataType: UInt32
+                    ModellingRule: None
+                    Value: 1
+                  - Name: Value
+                    Type: BaseDataVariableType
+                    DataType: String
+                    ModellingRule: None
+                    Value: "Jace Stastics"
+          - Name: Width
+            Type: BaseVariableType
             DataType: Size
             ModellingRule: Optional
-            Value: 20.0
-          - Name: FontFamily
-            Type: BaseDataVariableType
-            DataType: Font
-            ModellingRule: Optional
-            Value: "Lucida Fax"
-          - Name: HorizontalAlignment
+            Value: 1480.0
+          - Name: Height
             Type: BaseVariableType
-            DataType: HorizontalAlignment
+            DataType: Size
             ModellingRule: Optional
-            Value: 2
-          - Name: TextColor
-            Type: BaseDataVariableType
-            DataType: Color
-            ModellingRule: Optional
-            Value: "#ffffff"
-          - Name: FontWeight
-            Type: BaseDataVariableType
-            DataType: FontWeightEnum
-            ModellingRule: Optional
-            Value: 700
+            Value: 50.0
           - Name: LeftMargin
             Type: BaseVariableType
             DataType: Size
             ModellingRule: Optional
-            Value: -435.0
-          - Name: RightMargin
-            Type: BaseVariableType
-            DataType: Size
-            ModellingRule: Optional
-            Value: 0.0
+            Value: 10.0
           - Name: TopMargin
             Type: BaseVariableType
             DataType: Size
             ModellingRule: Optional
-            Value: 756.0
-        - Name: CircularGauge3
-          Type: CircularGauge
-          Children:
-          - Name: Value
-            Type: BaseDataVariableType
-            DataType: Float
-            Value: 0.0
-          - Name: MinValue
-            Type: BaseDataVariableType
-            DataType: Float
-            Value: 0.0
-          - Name: MaxValue
-            Type: BaseDataVariableType
-            DataType: Float
             Value: 100.0
-          - Name: WarningZones
-            Type: BaseObjectType
-          - Name: Width
-            Type: BaseVariableType
-            DataType: Size
-            ModellingRule: Optional
-            Value: 210.0
-          - Name: Height
-            Type: BaseVariableType
-            DataType: Size
-            ModellingRule: Optional
-            Value: 180.0
-          - Name: LeftMargin
-            Type: BaseVariableType
-            DataType: Size
-            ModellingRule: Optional
-            Value: 430.0
-          - Name: TopMargin
-            Type: BaseVariableType
-            DataType: Size
-            ModellingRule: Optional
-            Value: 820.0
-          - Name: StartAngle
-            Type: BaseDataVariableType
-            DataType: Size
-            ModellingRule: Optional
-            Value: -110.0
-          - Name: EndAngle
-            Type: BaseDataVariableType
-            DataType: Size
-            ModellingRule: Optional
-            Value: 110.0
-          - Name: MajorTickCount
-            Type: BaseDataVariableType
-            DataType: Float
-            ModellingRule: Optional
-            Value: 5.0
-          - Name: Editable
-            Type: BaseDataVariableType
-            DataType: Boolean
-            ModellingRule: Optional
-            Value: false
-          - Name: MinorTickCount
-            Type: BaseDataVariableType
-            DataType: Float
-            ModellingRule: Optional
-            Value: 2.0
-          - Name: ScalePadding
-            Type: BaseDataVariableType
-            DataType: Size
-            ModellingRule: Optional
-            Value: 30.0
-          - Name: GaugeStyle
-            Type: BaseDataVariableType
-            DataType: String
-            ModellingRule: Optional
-            Value: "GaugeStyle1"
+          - Name: MouseClickEventHandler1
+            Type: EventHandler
+            Children:
+            - Name: ListenEventType
+              Type: PropertyType
+              DataType: NodeId
+              Value: "/Types/EventTypes/BaseEventType/MouseEvent/MouseClickEvent"
+            - Name: MethodsToCall
+              Type: BaseObjectType
+              Children:
+              - Name: MethodContainer1
+                Type: BaseObjectType
+                Children:
+                - Name: ns=3;ObjectPointer
+                  Type: NodePointer
+                  DataType: NodeId
+                  Value: "/Objects/Commands/VariableCommands"
+                  Children:
+                  - Name: Kind
+                    Type: PropertyType
+                    DataType: NodeId
+                    Value: "/Types/ObjectTypes/BaseObjectType"
+                - Name: ns=3;Method
+                  Type: BaseDataVariableType
+                  DataType: String
+                  Value: "Toggle"
+                - Name: InputArguments
+                  Type: BaseObjectType
+                  Children:
+                  - Name: VariableToModify
+                    Type: BaseDataVariableType
+                    DataType: VariablePointer
+                    Description: {"NamespaceIndex":3,"TextId":"ToggleVariableToModifyDescription"}
+                    Value: "/Objects/Tata_Energy_Management/Model/HomePageHistogram/HomePage2/Button1"
+                  - Name: ArrayIndex
+                    Type: BaseDataVariableType
+                    DataType: UInt32
+                    Description: {"NamespaceIndex":3,"TextId":"ToggleArrayIndexDescription"}
+                    ValueRank: ScalarOrOneDimension
+                    Value: 0
+            - Name: EventArguments
+              Type: MouseClickEvent
+              Children:
+              - Name: EventId
+                Type: PropertyType
+                DataType: ByteString
+                Value: ""
+              - Name: EventType
+                Type: PropertyType
+                DataType: NodeId
+                Value: {"IdType":0,"Id":0,"Namespace":-1}
+              - Name: SourceNode
+                Type: PropertyType
+                DataType: NodeId
+                Value: {"IdType":0,"Id":0,"Namespace":-1}
+              - Name: SourceName
+                Type: PropertyType
+                DataType: String
+                Value: ""
+              - Name: Time
+                Type: PropertyType
+                DataType: UtcTime
+                Value: "1601-01-01T00:00:00.0000000"
+              - Name: ReceiveTime
+                Type: PropertyType
+                DataType: UtcTime
+                Value: "1601-01-01T00:00:00.0000000"
+              - Name: Message
+                Type: PropertyType
+                DataType: LocalizedText
+                Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+              - Name: Severity
+                Type: PropertyType
+                DataType: UInt16
+                Value: 0
       - Name: HorizontalAlignment
         Type: BaseVariableType
         DataType: HorizontalAlignment
