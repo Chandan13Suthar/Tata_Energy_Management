@@ -71,7 +71,7 @@ public class RuntimeNetLogic1 : BaseNetLogic
         bool button1 = button1Variable.Value;
         DateTime datefrom = datefromVariable.Value;
         DateTime dateto = datetoVariable.Value;
-       string timerange = timerangeVariable.Value;
+        string timerange = timerangeVariable.Value;
 
 
         var project = FTOptix.HMIProject.Project.Current;
@@ -112,7 +112,7 @@ public class RuntimeNetLogic1 : BaseNetLogic
             string new123 = datefrom.ToString("yyyy-MMM-dd");
             string new321 = dateto.ToString("yyyy-MMM-dd");
             string jace1 = jace.ToString();
-            TimeSpan difference = dateto - datefrom;
+            TimeSpan difference = dateto - datefrom; /// Date substraction
             timerange = difference.ToString(@"dd\:hh\:mm\:ss"); // ya aap apne hisab se date format mein set karein
 
 
@@ -154,7 +154,7 @@ public class RuntimeNetLogic1 : BaseNetLogic
             var columnCount3 = header3 != null ? header3.Length : 0;
             if (rowCount3 > 0 && columnCount3 > 0)
             {
-                var column1 = Convert.ToInt32(resultSet3[0, 0]);
+                var column1 = Convert.ToSingle(resultSet3[0, 0]);
                 var Avgpf = column1;
                 avgpf = Avgpf;
             }
@@ -164,7 +164,7 @@ public class RuntimeNetLogic1 : BaseNetLogic
             var columnCount4 = header4 != null ? header4.Length : 0;
             if (rowCount4 > 0 && columnCount4 > 0)
             {
-                var column1 = Convert.ToInt32(resultSet4[0, 0]);
+                var column1 = Convert.ToSingle(resultSet4[0, 0]);
                 var Avgfrequency = column1;
                 avgfrequency = Avgfrequency;
             }
@@ -238,7 +238,7 @@ public class RuntimeNetLogic1 : BaseNetLogic
             var columnCount7 = header7 != null ? header7.Length : 0;
             if (rowCount7 > 0 && columnCount7 > 0)
             {
-                var column1 = Convert.ToInt32(resultSet7[0, 0]);
+                var column1 = Convert.ToSingle(resultSet7[0, 0]);
                 var Avgpf = column1;
                 avgpf = Avgpf;
             }
@@ -248,7 +248,7 @@ public class RuntimeNetLogic1 : BaseNetLogic
             var columnCount8 = header8 != null ? header8.Length : 0;
             if (rowCount8 > 0 && columnCount8 > 0)
             {
-                var column1 = Convert.ToInt32(resultSet8[0, 0]);
+                var column1 = Convert.ToSingle(resultSet8[0, 0]);
                 var Avgfrequency = column1;
                 avgfrequency = Avgfrequency;
             }

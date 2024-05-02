@@ -1498,7 +1498,6 @@ Children:
     DataType: Boolean
     Value: true
 - Name: DailyConsumption
-  Id: g=bb804f6db590edabd0028986531bc1a4
   Type: DataLogger
   Children:
   - Name: SamplingMode

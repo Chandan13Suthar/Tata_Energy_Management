@@ -259,8 +259,8 @@ Children:
           Value: 0
         - Name: Value
           Type: BaseDataVariableType
-          DataType: String
-          Value: ""
+          DataType: Float
+          Value: 0.0
           Children:
           - Name: DynamicLink
             Type: DynamicLink
@@ -280,8 +280,8 @@ Children:
           Value: 1
         - Name: Value
           Type: BaseDataVariableType
-          DataType: String
-          Value: ""
+          DataType: Float
+          Value: 0.0
           Children:
           - Name: DynamicLink
             Type: DynamicLink
@@ -301,8 +301,8 @@ Children:
           Value: 2
         - Name: Value
           Type: BaseDataVariableType
-          DataType: String
-          Value: ""
+          DataType: Float
+          Value: 0.0
           Children:
           - Name: DynamicLink
             Type: DynamicLink
@@ -322,8 +322,8 @@ Children:
           Value: 3
         - Name: Value
           Type: BaseDataVariableType
-          DataType: String
-          Value: ""
+          DataType: Float
+          Value: 0.0
           Children:
           - Name: DynamicLink
             Type: DynamicLink
@@ -343,8 +343,8 @@ Children:
           Value: 4
         - Name: Value
           Type: BaseDataVariableType
-          DataType: String
-          Value: ""
+          DataType: Float
+          Value: 0.0
           Children:
           - Name: DynamicLink
             Type: DynamicLink
@@ -364,8 +364,8 @@ Children:
           Value: 5
         - Name: Value
           Type: BaseDataVariableType
-          DataType: String
-          Value: ""
+          DataType: Float
+          Value: 0.0
           Children:
           - Name: DynamicLink
             Type: DynamicLink
@@ -385,8 +385,8 @@ Children:
           Value: 6
         - Name: Value
           Type: BaseDataVariableType
-          DataType: String
-          Value: ""
+          DataType: Float
+          Value: 0.0
           Children:
           - Name: DynamicLink
             Type: DynamicLink
@@ -406,8 +406,8 @@ Children:
           Value: 7
         - Name: Value
           Type: BaseDataVariableType
-          DataType: String
-          Value: ""
+          DataType: Float
+          Value: 0.0
           Children:
           - Name: DynamicLink
             Type: DynamicLink
@@ -427,8 +427,8 @@ Children:
           Value: 8
         - Name: Value
           Type: BaseDataVariableType
-          DataType: String
-          Value: ""
+          DataType: Float
+          Value: 0.0
           Children:
           - Name: DynamicLink
             Type: DynamicLink
@@ -1314,7 +1314,25 @@ Children:
 - Name: Consumption33KV
   Type: BaseDataVariableType
   DataType: Float
-  Value: 1.0
+  Value: 0.0
+  Children:
+  - Name: ExpressionEvaluator1
+    Type: ExpressionEvaluator
+    Children:
+    - Name: Expression
+      Type: BaseDataVariableType
+      DataType: String
+      ReferenceType: HasParameter
+      Value: "SELECT Consumption FROM \"DailyJaceDataLogger\" WHERE TimeStamp {0:sql_literal}"
+    - Name: ns=3;Source0
+      Type: BaseDataVariableType
+      DataType: BaseDataType
+      ReferenceType: HasSource
+      Children:
+      - Name: DynamicLink
+        Type: DynamicLink
+        DataType: NodePath
+        Value: "../../../Variable1"
 - Name: ConsumptionUtility
   Type: BaseDataVariableType
   DataType: Float
@@ -1491,3 +1509,16 @@ Children:
   Type: BaseDataVariableType
   DataType: Float
   Value: 9.0
+- Name: Variable1
+  Type: BaseDataVariableType
+  DataType: DateTime
+  Value: "1601-01-01T00:00:00.0000000"
+- Name: Button1
+  Id: g=b3524b4ef36728fc2d164071a981139b
+  Type: BaseDataVariableType
+  DataType: Boolean
+  Value: true
+- Name: Button2
+  Type: BaseDataVariableType
+  DataType: Boolean
+  Value: false

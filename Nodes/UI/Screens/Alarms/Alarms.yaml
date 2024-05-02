@@ -3156,6 +3156,17 @@ Children:
         - Name: SelectedValue
           Type: BaseDataVariableType
           DataType: BaseDataType
+          Children:
+          - Name: DynamicLink
+            Type: DynamicLink
+            DataType: NodePath
+            Value: "/Objects/Tata_Energy_Management/Model/Alarms/Selection/Filter_Meter"
+            Children:
+            - Name: Mode
+              Type: BaseVariableType
+              DataType: DynamicLinkMode
+              ModellingRule: Optional
+              Value: 2
         - Name: SelectedItem
           Type: NodePointer
           DataType: NodeId
