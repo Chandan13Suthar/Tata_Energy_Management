@@ -504,7 +504,11 @@ Children:
       - Name: BorderWidth
         Type: BaseDataVariableType
         DataType: Size
-        Value: 1.0
+        Value: 2.0
+      - Name: BorderColor
+        Type: BaseDataVariableType
+        DataType: Color
+        Value: "#ffffff"
     - Name: Accent
       Type: ButtonStyle
       Children:
