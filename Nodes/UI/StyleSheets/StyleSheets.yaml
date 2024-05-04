@@ -867,7 +867,7 @@ Children:
       - Name: TextColor
         Type: BaseDataVariableType
         DataType: Color
-        Value: "#ffffff"
+        Value: "#000000"
       - Name: AxisColor
         Type: BaseDataVariableType
         DataType: Color

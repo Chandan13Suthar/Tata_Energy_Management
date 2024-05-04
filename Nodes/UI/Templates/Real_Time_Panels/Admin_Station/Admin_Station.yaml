@@ -860,7 +860,7 @@ Children:
             - Name: Active
               Type: BaseDataVariableType
               DataType: Boolean
-              Value: false
+              Value: true
             - Name: Width
               Type: BaseVariableType
               DataType: Size
@@ -881,13 +881,57 @@ Children:
               DataType: Size
               ModellingRule: Optional
               Value: 93.0
+            - Name: Color
+              Type: BaseDataVariableType
+              DataType: Color
+              Value: "#ff0000"
+              Children:
+              - Name: ConditionalConverter1
+                Type: ConditionalConverter
+                Children:
+                - Name: Condition
+                  Type: BaseDataVariableType
+                  DataType: Boolean
+                  ReferenceType: HasSource
+                  Value: false
+                  Children:
+                  - Name: ExpressionEvaluator1
+                    Type: ExpressionEvaluator
+                    Children:
+                    - Name: Expression
+                      Type: BaseDataVariableType
+                      DataType: String
+                      ReferenceType: HasParameter
+                      ModellingRule: Optional
+                      Value: "{0} > 180"
+                    - Name: ns=3;Source0
+                      Type: BaseDataVariableType
+                      DataType: BaseDataType
+                      ReferenceType: HasSource
+                      Children:
+                      - Name: DynamicLink
+                        Type: DynamicLink
+                        DataType: NodePath
+                        Value: "/Objects/Tata_Energy_Management/Model/Tags/RealTimePanelTags/Admin/ADM-DB-01_INF1/Voltage_RN"
+                - Name: TrueValue
+                  Type: BaseDataVariableType
+                  DataType: Color
+                  ReferenceType: HasParameter
+                  ModellingRule: Optional
+                  Value: "#ff0000"
+                - Name: FalseValue
+                  Type: BaseDataVariableType
+                  DataType: Color
+                  ReferenceType: HasParameter
+                  ModellingRule: Optional
+                  Value: "#ffffff"
           - Name: phase2_led
             Type: Led
             Children:
             - Name: Active
               Type: BaseDataVariableType
               DataType: Boolean
-              Value: false
+              Value: true
             - Name: Width
               Type: BaseVariableType
               DataType: Size
@@ -913,13 +957,57 @@ Children:
               DataType: String
               ModellingRule: Optional
               Value: ""
+            - Name: Color
+              Type: BaseDataVariableType
+              DataType: Color
+              Value: "#ff0000"
+              Children:
+              - Name: ConditionalConverter1
+                Type: ConditionalConverter
+                Children:
+                - Name: Condition
+                  Type: BaseDataVariableType
+                  DataType: Boolean
+                  ReferenceType: HasSource
+                  Value: false
+                  Children:
+                  - Name: ExpressionEvaluator1
+                    Type: ExpressionEvaluator
+                    Children:
+                    - Name: Expression
+                      Type: BaseDataVariableType
+                      DataType: String
+                      ReferenceType: HasParameter
+                      ModellingRule: Optional
+                      Value: "{0} > 180"
+                    - Name: ns=3;Source0
+                      Type: BaseDataVariableType
+                      DataType: BaseDataType
+                      ReferenceType: HasSource
+                      Children:
+                      - Name: DynamicLink
+                        Type: DynamicLink
+                        DataType: NodePath
+                        Value: "/Objects/Tata_Energy_Management/Model/Tags/RealTimePanelTags/Admin/ADM-DB-01_INF1/Voltage_YN"
+                - Name: TrueValue
+                  Type: BaseDataVariableType
+                  DataType: Color
+                  ReferenceType: HasParameter
+                  ModellingRule: Optional
+                  Value: "#ffff00"
+                - Name: FalseValue
+                  Type: BaseDataVariableType
+                  DataType: Color
+                  ReferenceType: HasParameter
+                  ModellingRule: Optional
+                  Value: "#ffffff"
           - Name: phase3_led
             Type: Led
             Children:
             - Name: Active
               Type: BaseDataVariableType
               DataType: Boolean
-              Value: false
+              Value: true
             - Name: Width
               Type: BaseVariableType
               DataType: Size
@@ -940,14 +1028,62 @@ Children:
               DataType: Size
               ModellingRule: Optional
               Value: 188.0
+            - Name: Color
+              Type: BaseDataVariableType
+              DataType: Color
+              Value: "#ff0000"
+              Children:
+              - Name: ConditionalConverter1
+                Type: ConditionalConverter
+                Children:
+                - Name: Condition
+                  Type: BaseDataVariableType
+                  DataType: Boolean
+                  ReferenceType: HasSource
+                  Value: false
+                  Children:
+                  - Name: ExpressionEvaluator1
+                    Type: ExpressionEvaluator
+                    Children:
+                    - Name: Expression
+                      Type: BaseDataVariableType
+                      DataType: String
+                      ReferenceType: HasParameter
+                      ModellingRule: Optional
+                      Value: "{0} > 180"
+                    - Name: ns=3;Source0
+                      Type: BaseDataVariableType
+                      DataType: BaseDataType
+                      ReferenceType: HasSource
+                      Children:
+                      - Name: DynamicLink
+                        Type: DynamicLink
+                        DataType: NodePath
+                        Value: "/Objects/Tata_Energy_Management/Model/Tags/RealTimePanelTags/Admin/ADM-DB-01_INF1/Voltage_BN"
+                - Name: TrueValue
+                  Type: BaseDataVariableType
+                  DataType: Color
+                  ReferenceType: HasParameter
+                  ModellingRule: Optional
+                  Value: "#0000ff"
+                - Name: FalseValue
+                  Type: BaseDataVariableType
+                  DataType: Color
+                  ReferenceType: HasParameter
+                  ModellingRule: Optional
+                  Value: "#ffffff"
           - Name: Consumption
             Type: Label
             Children:
             - Name: Text
               Type: BaseDataVariableType
               DataType: LocalizedText
-              ModellingRule: Optional
-              Value: {"LocaleId":"en-US","Text":"#####"}
+              Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+              Children:
+              - Name: DynamicLink
+                Type: DynamicLink
+                DataType: NodePath
+                Value: "/Objects/Tata_Energy_Management/Model/Tags/RealTimePanelTags/Admin/ADM-DB-01_INF1/Active_Energy_Total"
             - Name: Width
               Type: BaseVariableType
               DataType: Size
@@ -969,8 +1105,26 @@ Children:
             - Name: Text
               Type: BaseDataVariableType
               DataType: LocalizedText
-              ModellingRule: Optional
               Value: {"LocaleId":"en-US","Text":"#####"}
+              Children:
+              - Name: StringFormatter1
+                Type: StringFormatter
+                Children:
+                - Name: Format
+                  Type: BaseDataVariableType
+                  DataType: LocalizedText
+                  ReferenceType: HasParameter
+                  ModellingRule: Optional
+                  Value: {"LocaleId":"","Text":"{0:n1}"}
+                - Name: ns=3;Source0
+                  Type: BaseDataVariableType
+                  DataType: BaseDataType
+                  ReferenceType: HasSource
+                  Children:
+                  - Name: DynamicLink
+                    Type: DynamicLink
+                    DataType: NodePath
+                    Value: "/Objects/Tata_Energy_Management/Model/Tags/RealTimePanelTags/Admin/ADM-DB-01_INF1/Avg_Current"
             - Name: Width
               Type: BaseVariableType
               DataType: Size
@@ -992,8 +1146,26 @@ Children:
             - Name: Text
               Type: BaseDataVariableType
               DataType: LocalizedText
-              ModellingRule: Optional
               Value: {"LocaleId":"en-US","Text":"#####"}
+              Children:
+              - Name: StringFormatter1
+                Type: StringFormatter
+                Children:
+                - Name: Format
+                  Type: BaseDataVariableType
+                  DataType: LocalizedText
+                  ReferenceType: HasParameter
+                  ModellingRule: Optional
+                  Value: {"LocaleId":"","Text":"{0:n2}"}
+                - Name: ns=3;Source0
+                  Type: BaseDataVariableType
+                  DataType: BaseDataType
+                  ReferenceType: HasSource
+                  Children:
+                  - Name: DynamicLink
+                    Type: DynamicLink
+                    DataType: NodePath
+                    Value: "/Objects/Tata_Energy_Management/Model/Tags/RealTimePanelTags/Admin/ADM-DB-01_INF1/Avg_PF"
             - Name: Width
               Type: BaseVariableType
               DataType: Size
@@ -1578,7 +1750,7 @@ Children:
             - Name: Active
               Type: BaseDataVariableType
               DataType: Boolean
-              Value: false
+              Value: true
             - Name: Width
               Type: BaseVariableType
               DataType: Size
@@ -1599,13 +1771,57 @@ Children:
               DataType: Size
               ModellingRule: Optional
               Value: 93.0
+            - Name: Color
+              Type: BaseDataVariableType
+              DataType: Color
+              Value: "#ff0000"
+              Children:
+              - Name: ConditionalConverter1
+                Type: ConditionalConverter
+                Children:
+                - Name: Condition
+                  Type: BaseDataVariableType
+                  DataType: Boolean
+                  ReferenceType: HasSource
+                  Value: false
+                  Children:
+                  - Name: ExpressionEvaluator1
+                    Type: ExpressionEvaluator
+                    Children:
+                    - Name: Expression
+                      Type: BaseDataVariableType
+                      DataType: String
+                      ReferenceType: HasParameter
+                      ModellingRule: Optional
+                      Value: "{0} > 180"
+                    - Name: ns=3;Source0
+                      Type: BaseDataVariableType
+                      DataType: BaseDataType
+                      ReferenceType: HasSource
+                      Children:
+                      - Name: DynamicLink
+                        Type: DynamicLink
+                        DataType: NodePath
+                        Value: "/Objects/Tata_Energy_Management/Model/Tags/RealTimePanelTags/Admin/ADM-EDB-01_INF2/Voltage_RN"
+                - Name: TrueValue
+                  Type: BaseDataVariableType
+                  DataType: Color
+                  ReferenceType: HasParameter
+                  ModellingRule: Optional
+                  Value: "#ff0000"
+                - Name: FalseValue
+                  Type: BaseDataVariableType
+                  DataType: Color
+                  ReferenceType: HasParameter
+                  ModellingRule: Optional
+                  Value: "#ffffff"
           - Name: phase2_led
             Type: Led
             Children:
             - Name: Active
               Type: BaseDataVariableType
               DataType: Boolean
-              Value: false
+              Value: true
             - Name: Width
               Type: BaseVariableType
               DataType: Size
@@ -1631,13 +1847,57 @@ Children:
               DataType: String
               ModellingRule: Optional
               Value: ""
+            - Name: Color
+              Type: BaseDataVariableType
+              DataType: Color
+              Value: "#ff0000"
+              Children:
+              - Name: ConditionalConverter1
+                Type: ConditionalConverter
+                Children:
+                - Name: Condition
+                  Type: BaseDataVariableType
+                  DataType: Boolean
+                  ReferenceType: HasSource
+                  Value: false
+                  Children:
+                  - Name: ExpressionEvaluator1
+                    Type: ExpressionEvaluator
+                    Children:
+                    - Name: Expression
+                      Type: BaseDataVariableType
+                      DataType: String
+                      ReferenceType: HasParameter
+                      ModellingRule: Optional
+                      Value: "{0} > 180"
+                    - Name: ns=3;Source0
+                      Type: BaseDataVariableType
+                      DataType: BaseDataType
+                      ReferenceType: HasSource
+                      Children:
+                      - Name: DynamicLink
+                        Type: DynamicLink
+                        DataType: NodePath
+                        Value: "/Objects/Tata_Energy_Management/Model/Tags/RealTimePanelTags/Admin/ADM-EDB-01_INF2/Voltage_YN"
+                - Name: TrueValue
+                  Type: BaseDataVariableType
+                  DataType: Color
+                  ReferenceType: HasParameter
+                  ModellingRule: Optional
+                  Value: "#ffff00"
+                - Name: FalseValue
+                  Type: BaseDataVariableType
+                  DataType: Color
+                  ReferenceType: HasParameter
+                  ModellingRule: Optional
+                  Value: "#ffffff"
           - Name: phase3_led
             Type: Led
             Children:
             - Name: Active
               Type: BaseDataVariableType
               DataType: Boolean
-              Value: false
+              Value: true
             - Name: Width
               Type: BaseVariableType
               DataType: Size
@@ -1658,14 +1918,62 @@ Children:
               DataType: Size
               ModellingRule: Optional
               Value: 188.0
+            - Name: Color
+              Type: BaseDataVariableType
+              DataType: Color
+              Value: "#ff0000"
+              Children:
+              - Name: ConditionalConverter1
+                Type: ConditionalConverter
+                Children:
+                - Name: Condition
+                  Type: BaseDataVariableType
+                  DataType: Boolean
+                  ReferenceType: HasSource
+                  Value: false
+                  Children:
+                  - Name: ExpressionEvaluator1
+                    Type: ExpressionEvaluator
+                    Children:
+                    - Name: Expression
+                      Type: BaseDataVariableType
+                      DataType: String
+                      ReferenceType: HasParameter
+                      ModellingRule: Optional
+                      Value: "{0} > 180"
+                    - Name: ns=3;Source0
+                      Type: BaseDataVariableType
+                      DataType: BaseDataType
+                      ReferenceType: HasSource
+                      Children:
+                      - Name: DynamicLink
+                        Type: DynamicLink
+                        DataType: NodePath
+                        Value: "/Objects/Tata_Energy_Management/Model/Tags/RealTimePanelTags/Admin/ADM-EDB-01_INF2/Voltage_BN"
+                - Name: TrueValue
+                  Type: BaseDataVariableType
+                  DataType: Color
+                  ReferenceType: HasParameter
+                  ModellingRule: Optional
+                  Value: "#0000ff"
+                - Name: FalseValue
+                  Type: BaseDataVariableType
+                  DataType: Color
+                  ReferenceType: HasParameter
+                  ModellingRule: Optional
+                  Value: "#ffffff"
           - Name: Consumption
             Type: Label
             Children:
             - Name: Text
               Type: BaseDataVariableType
               DataType: LocalizedText
-              ModellingRule: Optional
-              Value: {"LocaleId":"en-US","Text":"#####"}
+              Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+              Children:
+              - Name: DynamicLink
+                Type: DynamicLink
+                DataType: NodePath
+                Value: "/Objects/Tata_Energy_Management/Model/Tags/RealTimePanelTags/Admin/ADM-EDB-01_INF2/Active_Energy_Total"
             - Name: Width
               Type: BaseVariableType
               DataType: Size
@@ -1687,8 +1995,26 @@ Children:
             - Name: Text
               Type: BaseDataVariableType
               DataType: LocalizedText
-              ModellingRule: Optional
               Value: {"LocaleId":"en-US","Text":"#####"}
+              Children:
+              - Name: StringFormatter1
+                Type: StringFormatter
+                Children:
+                - Name: Format
+                  Type: BaseDataVariableType
+                  DataType: LocalizedText
+                  ReferenceType: HasParameter
+                  ModellingRule: Optional
+                  Value: {"LocaleId":"","Text":"{0:n1}"}
+                - Name: ns=3;Source0
+                  Type: BaseDataVariableType
+                  DataType: BaseDataType
+                  ReferenceType: HasSource
+                  Children:
+                  - Name: DynamicLink
+                    Type: DynamicLink
+                    DataType: NodePath
+                    Value: "/Objects/Tata_Energy_Management/Model/Tags/RealTimePanelTags/Admin/ADM-EDB-01_INF2/Avg_Current"
             - Name: Width
               Type: BaseVariableType
               DataType: Size
@@ -1710,8 +2036,26 @@ Children:
             - Name: Text
               Type: BaseDataVariableType
               DataType: LocalizedText
-              ModellingRule: Optional
               Value: {"LocaleId":"en-US","Text":"#####"}
+              Children:
+              - Name: StringFormatter1
+                Type: StringFormatter
+                Children:
+                - Name: Format
+                  Type: BaseDataVariableType
+                  DataType: LocalizedText
+                  ReferenceType: HasParameter
+                  ModellingRule: Optional
+                  Value: {"LocaleId":"","Text":"{0:n2}"}
+                - Name: ns=3;Source0
+                  Type: BaseDataVariableType
+                  DataType: BaseDataType
+                  ReferenceType: HasSource
+                  Children:
+                  - Name: DynamicLink
+                    Type: DynamicLink
+                    DataType: NodePath
+                    Value: "/Objects/Tata_Energy_Management/Model/Tags/RealTimePanelTags/Admin/ADM-EDB-01_INF2/Avg_PF"
             - Name: Width
               Type: BaseVariableType
               DataType: Size
