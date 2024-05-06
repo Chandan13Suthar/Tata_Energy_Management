@@ -394,7 +394,6 @@ Children:
       ModellingRule: Optional
       Value: 20.0
   - Name: MoveTarget
-    Id: g=830fdf672864ee7267b269b1d22d8fd3
     Type: NodePointer
     DataType: NodeId
     Value: {"IdType":0,"Id":0,"Namespace":-1}
@@ -827,7 +826,6 @@ Children:
       ModellingRule: Optional
       Value: 20.0
   - Name: MoveTarget
-    Id: g=1a57fd6c47d7fa8c7210487b0adc1ef8
     Type: NodePointer
     DataType: NodeId
     Value: {"IdType":0,"Id":0,"Namespace":-1}
@@ -1090,7 +1088,7 @@ Children:
                 - Name: NewPanel
                   Type: BaseDataVariableType
                   DataType: NodeId
-                  Value: {"IdType":0,"Id":0,"Namespace":-1}
+                  Value: "/Objects/Tata_Energy_Management/UI/Templates/Real Time Panels/Admin Station/Individual_Panel_Layout7"
                 - Name: AliasNode
                   Type: BaseDataVariableType
                   DataType: NodeId
@@ -1161,6 +1159,11 @@ Children:
           DataType: Font
           ModellingRule: Optional
           Value: ""
+        - Name: Text
+          Type: BaseDataVariableType
+          DataType: LocalizedText
+          ModellingRule: Optional
+          Value: {"LocaleId":"en-US","Text":"Go To Admin\nSub Meters Tree"}
       - Name: Button3
         Type: Button
         Children:
@@ -1265,7 +1268,6 @@ Children:
       ModellingRule: Optional
       Value: "#e4e4e4"
   - Name: MoveTarget
-    Id: g=772bfef7aa24b8a5d9514e57582a3ba0
     Type: NodePointer
     DataType: NodeId
     Value: {"IdType":0,"Id":0,"Namespace":-1}
@@ -1662,7 +1664,6 @@ Children:
       ModellingRule: Optional
       Value: 20.0
   - Name: MoveTarget
-    Id: g=ae2c02a962d6b430280dc6d201ced1fe
     Type: NodePointer
     DataType: NodeId
     Value: {"IdType":0,"Id":0,"Namespace":-1}
@@ -2079,7 +2080,6 @@ Children:
       ModellingRule: Optional
       Value: 20.0
   - Name: MoveTarget
-    Id: g=ab6217dd9794306929f9301b168e76bb
     Type: NodePointer
     DataType: NodeId
     Value: {"IdType":0,"Id":0,"Namespace":-1}
@@ -2496,7 +2496,6 @@ Children:
       ModellingRule: Optional
       Value: 20.0
   - Name: MoveTarget
-    Id: g=103ae486cac120db2a2580ac9b170e14
     Type: NodePointer
     DataType: NodeId
     Value: {"IdType":0,"Id":0,"Namespace":-1}
@@ -2893,7 +2892,6 @@ Children:
       ModellingRule: Optional
       Value: 20.0
   - Name: MoveTarget
-    Id: g=ea3b6cbf3af470e1f0965a7257f3db45
     Type: NodePointer
     DataType: NodeId
     Value: {"IdType":0,"Id":0,"Namespace":-1}
@@ -3120,7 +3118,7 @@ Children:
                 - Name: NewPanel
                   Type: BaseDataVariableType
                   DataType: NodeId
-                  Value: {"IdType":0,"Id":0,"Namespace":-1}
+                  Value: "/Objects/Tata_Energy_Management/UI/Templates/Real Time Panels/Pump Room/Individual_Panel_Layout8"
                 - Name: AliasNode
                   Type: BaseDataVariableType
                   DataType: NodeId
@@ -3191,6 +3189,11 @@ Children:
           DataType: Font
           ModellingRule: Optional
           Value: ""
+        - Name: Text
+          Type: BaseDataVariableType
+          DataType: LocalizedText
+          ModellingRule: Optional
+          Value: {"LocaleId":"en-US","Text":"Go To Pump Room\nSub Meters Tree"}
       - Name: Button3
         Type: Button
         Children:
@@ -3295,7 +3298,6 @@ Children:
       ModellingRule: Optional
       Value: 20.0
   - Name: MoveTarget
-    Id: g=bb52273b39de7009425496e35a7c4b29
     Type: NodePointer
     DataType: NodeId
     Value: {"IdType":0,"Id":0,"Namespace":-1}
@@ -3308,7 +3310,7 @@ Children:
     Type: BaseVariableType
     DataType: Size
     ModellingRule: Optional
-    Value: 20.0
+    Value: 0.0
 - Name: PaintShop
   Id: g=67a8b49e94e66d937e34aa649884e33a
   Supertype: Popup1
@@ -3697,7 +3699,6 @@ Children:
       ModellingRule: Optional
       Value: 20.0
   - Name: MoveTarget
-    Id: g=13e585c909b1b07f293bbea9dfb32630
     Type: NodePointer
     DataType: NodeId
     Value: {"IdType":0,"Id":0,"Namespace":-1}
@@ -3919,7 +3920,7 @@ Children:
                 - Name: NewPanel
                   Type: BaseDataVariableType
                   DataType: NodeId
-                  Value: {"IdType":0,"Id":0,"Namespace":-1}
+                  Value: "/Objects/Tata_Energy_Management/UI/Templates/Real Time Panels/SPP/Individual_Panel_Layout2"
                 - Name: AliasNode
                   Type: BaseDataVariableType
                   DataType: NodeId
@@ -4094,7 +4095,6 @@ Children:
       ModellingRule: Optional
       Value: 20.0
   - Name: MoveTarget
-    Id: g=2da1e5eff8cad05766dda8f7e70e0f6c
     Type: NodePointer
     DataType: NodeId
     Value: {"IdType":0,"Id":0,"Namespace":-1}
@@ -4284,7 +4284,7 @@ Children:
                 - Name: NewPanel
                   Type: BaseDataVariableType
                   DataType: NodeId
-                  Value: {"IdType":0,"Id":0,"Namespace":-1}
+                  Value: "/Objects/Tata_Energy_Management/UI/Templates/Real Time Panels/Admin Station/Individual_Panel_Layout7"
                 - Name: AliasNode
                   Type: BaseDataVariableType
                   DataType: NodeId
@@ -4345,6 +4345,11 @@ Children:
               Type: PropertyType
               DataType: UInt16
               Value: 0
+        - Name: Text
+          Type: BaseDataVariableType
+          DataType: LocalizedText
+          ModellingRule: Optional
+          Value: {"LocaleId":"en-US","Text":"Go To Admin\nSub Meters Tree"}
       - Name: Button3
         Type: Button
         Children:
@@ -4414,7 +4419,6 @@ Children:
               DataType: UInt16
               Value: 0
   - Name: MoveTarget
-    Id: g=2bc6c2e623ff6c31579721ab9df8fea5
     Type: NodePointer
     DataType: NodeId
     Value: {"IdType":0,"Id":0,"Namespace":-1}
@@ -4708,7 +4712,6 @@ Children:
               DataType: UInt16
               Value: 0
   - Name: MoveTarget
-    Id: g=2faf0b7e4a76f70bad84c00f60663cc1
     Type: NodePointer
     DataType: NodeId
     Value: {"IdType":0,"Id":0,"Namespace":-1}
@@ -5012,7 +5015,6 @@ Children:
               DataType: UInt16
               Value: 0
   - Name: MoveTarget
-    Id: g=7c6efd09d703eeadce8d9706634197b0
     Type: NodePointer
     DataType: NodeId
     Value: {"IdType":0,"Id":0,"Namespace":-1}
@@ -5306,7 +5308,6 @@ Children:
               DataType: UInt16
               Value: 0
   - Name: MoveTarget
-    Id: g=b0103409f9bad8a89ed6bc6d29f16a7b
     Type: NodePointer
     DataType: NodeId
     Value: {"IdType":0,"Id":0,"Namespace":-1}
@@ -5600,7 +5601,6 @@ Children:
               DataType: UInt16
               Value: 0
   - Name: MoveTarget
-    Id: g=ad8084edea842ebddb8857dc13289877
     Type: NodePointer
     DataType: NodeId
     Value: {"IdType":0,"Id":0,"Namespace":-1}
@@ -5764,7 +5764,7 @@ Children:
                 - Name: NewPanel
                   Type: BaseDataVariableType
                   DataType: NodeId
-                  Value: {"IdType":0,"Id":0,"Namespace":-1}
+                  Value: "/Objects/Tata_Energy_Management/UI/Templates/Real Time Panels/Pump Room/Individual_Panel_Layout8"
                 - Name: AliasNode
                   Type: BaseDataVariableType
                   DataType: NodeId
@@ -5825,6 +5825,11 @@ Children:
               Type: PropertyType
               DataType: UInt16
               Value: 0
+        - Name: Text
+          Type: BaseDataVariableType
+          DataType: LocalizedText
+          ModellingRule: Optional
+          Value: {"LocaleId":"en-US","Text":"Go To Engine Room\nSub Meters Tree"}
       - Name: Button3
         Type: Button
         Children:
@@ -5894,7 +5899,6 @@ Children:
               DataType: UInt16
               Value: 0
   - Name: MoveTarget
-    Id: g=c2b722605b70c9bf56e75a6e08cb4ce2
     Type: NodePointer
     DataType: NodeId
     Value: {"IdType":0,"Id":0,"Namespace":-1}
@@ -6188,7 +6192,6 @@ Children:
               DataType: UInt16
               Value: 0
   - Name: MoveTarget
-    Id: g=f275dacfce14cf9fa1a55cd0e54754c0
     Type: NodePointer
     DataType: NodeId
     Value: {"IdType":0,"Id":0,"Namespace":-1}
