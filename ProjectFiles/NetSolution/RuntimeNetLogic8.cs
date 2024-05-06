@@ -42,8 +42,9 @@ public class RuntimeNetLogic8 : BaseNetLogic
     private IUAVariable todconsumptionVariable;
     private IUAVariable selectionVariable;
     private IUAVariable buttonVariable;
+   
     private PeriodicTask periodicTask;
-
+   
     public override void Start()
     {
         
@@ -60,6 +61,12 @@ public class RuntimeNetLogic8 : BaseNetLogic
         todconsumptionVariable = owner.TODConsumptionVariable;
         selectionVariable = owner.SelectionVariable;
         buttonVariable  = owner.ButtonVariable;
+       
+
+
+
+
+
 
         periodicTask = new PeriodicTask(HomePageCalculationTask, 1000, LogicObject);
         periodicTask.Start();
@@ -84,30 +91,31 @@ public class RuntimeNetLogic8 : BaseNetLogic
         float pf = pfVariable.Value;
         float frequency = frequencyVariable.Value;
         float todconsumption = todconsumptionVariable.Value;
-        float selection = selectionVariable.Value;
+        string selection = selectionVariable.Value;
         bool button = buttonVariable.Value;
+        
 
         var project = FTOptix.HMIProject.Project.Current;
 
 
         var myStore1 = project.GetObject("DataStores").Get<Store.Store>("ODBCDatabase");
-        //var myStore2 = project.GetObject("DataStores").Get<Store.Store>("ODBCDatabase");
-        //var myStore3 = project.GetObject("DataStores").Get<Store.Store>("ODBCDatabase");
-        //var myStore4 = project.GetObject("DataStores").Get<Store.Store>("ODBCDatabase");
-        //var myStore5 = project.GetObject("DataStores").Get<Store.Store>("ODBCDatabase");
+        var myStore2 = project.GetObject("DataStores").Get<Store.Store>("ODBCDatabase");
+        var myStore3 = project.GetObject("DataStores").Get<Store.Store>("ODBCDatabase");
+       // var myStore4 = project.GetObject("DataStores").Get<Store.Store>("ODBCDatabase");
+       // var myStore5 = project.GetObject("DataStores").Get<Store.Store>("ODBCDatabase");
 
 
         object[,] resultSet1;
         string[] header1;
 
-       // object[,] resultSet2;
-       // string[] header2;
+        object[,] resultSet2;
+        string[] header2;
 
-       // object[,] resultSet3;
-        //string[] header3;
+        object[,] resultSet3;
+        string[] header3;
 
-       // object[,] resultSet4;
-        //string[] header4;
+        //object[,] resultSet4;
+       // string[] header4;
 
        // object[,] resultSet5;
        // string[] header5;
@@ -116,38 +124,37 @@ public class RuntimeNetLogic8 : BaseNetLogic
       if(button == true)
       {
 
-            if(selection == 0)
-            {
+            
+            
 
                 DateTime currentTime = DateTime.Now;
                 string currentDate = DateTime.Now.ToString("yyyy-MM-dd");
-
-                // Calculate start and end times for the current day
+               string jace1 = selection.ToString();
+               // Calculate start and end times for the current day
                 DateTime startTime = new DateTime(currentTime.Year, currentTime.Month, currentTime.Day, 0, 0, 0);
                 DateTime endTime = new DateTime(currentTime.Year, currentTime.Month, currentTime.Day, 7, 59, 59).AddDays(1);
 
                 string new123 = startTime.ToString("yyyy-MM-dd");
+                
 
-                string query1 = $"SELECT Consumption FROM DailyJaceDataLogger WHERE Timestamp = '" + new123 + " 00:00:00.000' AND Jace = '33KV'";
-                // string query2 = $"SELECT AVG_PF FROM DailyJaceDataLogger WHERE LocalDate = '" + new123 + " 00:00:00' AND Jace = '33KV'";
-                // string query3 = $"SELECT Frequency FROM DailyJaceDataLogger WHERE LocalDate = '" + new123 + " 00:00:00' AND Jace = '33KV'";
-                // string query4 = $"SELECT Voltage_LL FROM DailyJaceDataLogger WHERE LocalDate = '" + new123 + " 00:00:00' AND Jace = '33KV'";
-                // string query5 = $"SELECT Voltage_LN FROM DailyJaceDataLogger WHERE LocalDate = '" + new123 + " 00:00:00' AND Jace = '33KV'";
+                string query1 = $"SELECT Consumption FROM DailyJaceDataLogger WHERE Timestamp = '" + new123 + " 00:00:00.000' AND Jace = '" + jace1 + "' ";
+                string query2 = $"SELECT AVG_PF FROM DailyJaceDataLogger WHERE Timestamp = '" + new123 + " 00:00:00' AND Jace = '" + jace1 + "' ";
+                string query3 = $"SELECT Frequency FROM DailyJaceDataLogger WHERE Timestamp = '" + new123 + " 00:00:00' AND Jace = '" + jace1 + "' ";
+                //string query4 = $"SELECT Voltage_LL FROM DailyJaceDataLogger WHERE Timestamp = '" + new123 + " 00:00:00' AND Jace = '" + jace1 + "' ";
+                //string query5 = $"SELECT Voltage_LN FROM DailyJaceDataLogger WHERE Timestamp = '" + new123 + " 00:00:00' AND Jace = '" + jace1 + "' ";
 
 
-                myStore1.Query(query1, out header1, out resultSet1);
-                // myStore2.Query(query2, out header2, out resultSet2);
-                // myStore3.Query(query3, out header3, out resultSet3);
+                 myStore1.Query(query1, out header1, out resultSet1);
+                 myStore2.Query(query2, out header2, out resultSet2);
+                 myStore3.Query(query3, out header3, out resultSet3);
                 // myStore4.Query(query4, out header4, out resultSet4);
-                // myStore5.Query(query5, out header5, out resultSet5);
+                 //myStore5.Query(query5, out header5, out resultSet5);
 
 
                 if (resultSet1 != null && resultSet1.GetLength(0) > 0 && header1 != null && header1.Length > 0)
                 {
                     float.TryParse(resultSet1[0, 0]?.ToString(), out consumption);
                 }
-
-                /*
 
                 if (resultSet2 != null && resultSet2.GetLength(0) > 0 && header2 != null && header2.Length > 0)
                 {
@@ -159,26 +166,25 @@ public class RuntimeNetLogic8 : BaseNetLogic
                     float.TryParse(resultSet3[0, 0]?.ToString(), out frequency);
                 }
 
-                // Process resultSet4 (Avg_PF)
-                if (resultSet4 != null && resultSet4.GetLength(0) > 0 && header4 != null && header4.Length > 0)
-                {
-                    float.TryParse(resultSet4[0, 0]?.ToString(), out avgll);
-                }
+            // Process resultSet4 (Avg_PF)
 
-                if (resultSet5 != null && resultSet5.GetLength(0) > 0 && header5 != null && header5.Length > 0)
-                {
-                    float.TryParse(resultSet5[0, 0]?.ToString(), out avgln);
-
-                }
-
-                */
-
-                float tod = (consumption / target) * 100;
-
-
+            /*
+            if (resultSet4 != null && resultSet4.GetLength(0) > 0 && header4 != null && header4.Length > 0)
+            {
+                float.TryParse(resultSet4[0, 0]?.ToString(), out avgll);
             }
 
-      }
+            if (resultSet5 != null && resultSet5.GetLength(0) > 0 && header5 != null && header5.Length > 0)
+            {
+                float.TryParse(resultSet5[0, 0]?.ToString(), out avgln);
+
+            }
+            */
+
+           
+                float tod = (consumption / target) * 100;
+
+        }
 
         targetVariable.Value = target;
         consumptionVariable.Value = consumption;
@@ -191,6 +197,9 @@ public class RuntimeNetLogic8 : BaseNetLogic
         frequencyVariable.Value = frequency;
         todconsumptionVariable.Value = todconsumption;
         selectionVariable.Value = selection;
+        buttonVariable.Value = button;
+       
+
 
 
     }

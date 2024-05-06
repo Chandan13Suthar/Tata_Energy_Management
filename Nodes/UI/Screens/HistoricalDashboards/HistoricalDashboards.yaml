@@ -6750,6 +6750,30 @@ Children:
                             DataType: DynamicLinkMode
                             ModellingRule: Optional
                             Value: 2
+                      - Name: TrendPen1
+                        Type: TrendPen
+                        DataType: BaseDataType
+                        Children:
+                        - Name: Thickness
+                          Type: BaseDataVariableType
+                          DataType: Size
+                          Value: -1.0
+                        - Name: Enabled
+                          Type: BaseDataVariableType
+                          DataType: Boolean
+                          Value: true
+                        - Name: Thresholds
+                          Type: BaseObjectType
+                        - Name: DynamicLink
+                          Type: DynamicLink
+                          DataType: NodePath
+                          Value: "../../../CircularGauge1/Value"
+                          Children:
+                          - Name: Mode
+                            Type: BaseVariableType
+                            DataType: DynamicLinkMode
+                            ModellingRule: Optional
+                            Value: 2
                     - Class: Reference
                       Target: ns=5;i=1129
                       Direction: Forward
@@ -6759,16 +6783,11 @@ Children:
                       - Name: Follow
                         Type: BaseDataVariableType
                         DataType: Boolean
-                        Value: false
+                        Value: true
                       - Name: Window
                         Type: BaseDataVariableType
                         DataType: Duration
-                        Value: "1:00:00:0.0000000"
-                        Children:
-                        - Name: DynamicLink
-                          Type: DynamicLink
-                          DataType: NodePath
-                          Value: "../../../../S2_TotalConsumption3/Variable1"
+                        Value: "0:00:00:30.0000000"
                       - Name: Interactive
                         Type: BaseDataVariableType
                         DataType: Boolean
@@ -6797,7 +6816,7 @@ Children:
                       - Name: MinValue
                         Type: BaseDataVariableType
                         DataType: Size
-                        Value: 50.0
+                        Value: 0.0
                       - Name: MaxValue
                         Type: BaseDataVariableType
                         DataType: Size
@@ -6846,7 +6865,7 @@ Children:
                       Type: BaseVariableType
                       DataType: Size
                       ModellingRule: Optional
-                      Value: 19.0
+                      Value: 26.0
                     - Name: RefreshTime
                       Type: BaseDataVariableType
                       DataType: UInt32
@@ -6890,19 +6909,6 @@ Children:
                             Type: DynamicLink
                             DataType: NodePath
                             Value: "/Objects/Tata_Energy_Management/Model/Comparision_Dashboard/Comparision_Selection"
-                    - Name: Model
-                      Type: NodePointer
-                      DataType: NodeId
-                      Value: "/Objects/Tata_Energy_Management/DataStores/ODBCDatabase"
-                      Children:
-                      - Name: ItemKind
-                        Type: PropertyType
-                        DataType: NodeId
-                        Value: {"IdType":0,"Id":0,"Namespace":-1}
-                      - Name: Kind
-                        Type: PropertyType
-                        DataType: NodeId
-                        Value: {"IdType":0,"Id":0,"Namespace":-1}
                     - Name: Query
                       Type: BaseDataVariableType
                       DataType: String
@@ -7248,6 +7254,35 @@ Children:
                             DataType: DynamicLinkMode
                             ModellingRule: Optional
                             Value: 2
+                      - Name: TrendPen1
+                        Type: TrendPen
+                        DataType: BaseDataType
+                        Children:
+                        - Name: Thickness
+                          Type: BaseDataVariableType
+                          DataType: Size
+                          Value: -1.0
+                        - Name: Enabled
+                          Type: BaseDataVariableType
+                          DataType: Boolean
+                          Value: true
+                        - Name: Thresholds
+                          Type: BaseObjectType
+                        - Name: DynamicLink
+                          Type: DynamicLink
+                          DataType: NodePath
+                          Value: "../../../CircularGauge2/Value"
+                          Children:
+                          - Name: Mode
+                            Type: BaseVariableType
+                            DataType: DynamicLinkMode
+                            ModellingRule: Optional
+                            Value: 2
+                        - Name: Color
+                          Type: BaseDataVariableType
+                          DataType: Color
+                          ModellingRule: Optional
+                          Value: "#ff0000"
                     - Class: Reference
                       Target: ns=5;i=1129
                       Direction: Forward
@@ -7257,16 +7292,11 @@ Children:
                       - Name: Follow
                         Type: BaseDataVariableType
                         DataType: Boolean
-                        Value: false
+                        Value: true
                       - Name: Window
                         Type: BaseDataVariableType
                         DataType: Duration
-                        Value: "0:00:00:5.0000000"
-                        Children:
-                        - Name: DynamicLink
-                          Type: DynamicLink
-                          DataType: NodePath
-                          Value: "../../../../S2_TotalConsumption3/Variable1"
+                        Value: "0:00:00:30.0000000"
                       - Name: Interactive
                         Type: BaseDataVariableType
                         DataType: Boolean
@@ -7295,11 +7325,11 @@ Children:
                       - Name: MinValue
                         Type: BaseDataVariableType
                         DataType: Size
-                        Value: 50.0
+                        Value: 0.0
                       - Name: MaxValue
                         Type: BaseDataVariableType
                         DataType: Size
-                        Value: 500.0
+                        Value: 100.0
                       - Name: AutoScale
                         Type: BaseDataVariableType
                         DataType: Boolean
@@ -7344,7 +7374,7 @@ Children:
                       Type: BaseVariableType
                       DataType: Size
                       ModellingRule: Optional
-                      Value: 19.0
+                      Value: 26.0
                     - Name: RefreshTime
                       Type: BaseDataVariableType
                       DataType: UInt32
@@ -7388,19 +7418,6 @@ Children:
                             Type: DynamicLink
                             DataType: NodePath
                             Value: "/Objects/Tata_Energy_Management/Model/Comparision_Dashboard/Comparision_Selection"
-                    - Name: Model
-                      Type: NodePointer
-                      DataType: NodeId
-                      Value: "/Objects/Tata_Energy_Management/DataStores/ODBCDatabase"
-                      Children:
-                      - Name: ItemKind
-                        Type: PropertyType
-                        DataType: NodeId
-                        Value: {"IdType":0,"Id":0,"Namespace":-1}
-                      - Name: Kind
-                        Type: PropertyType
-                        DataType: NodeId
-                        Value: {"IdType":0,"Id":0,"Namespace":-1}
                     - Name: Query
                       Type: BaseDataVariableType
                       DataType: String
@@ -40260,7 +40277,7 @@ Children:
                       Type: BaseVariableType
                       DataType: Size
                       ModellingRule: Optional
-                      Value: 50.0
+                      Value: 45.0
                     - Name: MaxHoldTime
                       Type: BaseDataVariableType
                       DataType: Duration
@@ -45604,12 +45621,12 @@ Children:
                     Type: BaseVariableType
                     DataType: Size
                     ModellingRule: Optional
-                    Value: 780.0
+                    Value: 580.0
                   - Name: TopMargin
                     Type: BaseVariableType
                     DataType: Size
                     ModellingRule: Optional
-                    Value: -402.0
+                    Value: -409.0
                   - Name: Width
                     Type: BaseVariableType
                     DataType: Size
@@ -48444,7 +48461,7 @@ Children:
                   Type: BaseVariableType
                   DataType: Size
                   ModellingRule: Optional
-                  Value: 305.0
+                  Value: 301.0
               - Name: TopMargin
                 Type: BaseVariableType
                 DataType: Size

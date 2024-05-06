@@ -478,7 +478,7 @@ Children:
   - Name: DisabledOpacity
     Type: BaseDataVariableType
     DataType: Float
-    Value: 0.6499999761581421
+    Value: 0.5
   - Name: ButtonStyles
     Type: BaseObjectType
     Children:
@@ -504,7 +504,11 @@ Children:
       - Name: BorderWidth
         Type: BaseDataVariableType
         DataType: Size
-        Value: 1.0
+        Value: 2.0
+      - Name: BorderColor
+        Type: BaseDataVariableType
+        DataType: Color
+        Value: "#ffffff"
     - Name: Accent
       Type: ButtonStyle
       Children:
@@ -872,6 +876,10 @@ Children:
         Type: BaseDataVariableType
         DataType: Size
         Value: 12.0
+      - Name: GridColor
+        Type: BaseDataVariableType
+        DataType: Color
+        Value: "#f8e71c"
     - Name: ChartStyle2
       Type: ChartStyle
       Children:

@@ -1,9 +1,7 @@
-Name: HomePageHistogram
-Id: g=f054d5fc781d5241136cd99fdac8bc30
+Name: eCharts
 Type: FolderType
 Children:
-- Name: Day1
-  Id: g=8dcef63486ea12ac16810576950b7bcd
+- Name: Day
   Type: BaseDataVariableType
   DataType: Int32
   Value: 51
@@ -427,4 +425,3 @@ Children:
       Type: BaseVariableType
       DataType: DynamicLinkMode
       Value: 2
-- File: HomePage2/HomePage2.yaml
