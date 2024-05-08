@@ -39390,13 +39390,13 @@ Children:
             DataType: HorizontalAlignment
             ModellingRule: Optional
             Value: 2
-        - Name: WebBrowser1
+        - Name: WebBrowser
           Type: WebBrowser
           Children:
           - Name: URL
             Type: BaseDataVariableType
             DataType: ResourceUri
-            Value: "ns=36;%PROJECTDIR%/eCharts/echart2/bar-animation-delay.html"
+            Value: "ns=36;%PROJECTDIR%/eCharts/Test.html"
           - Class: Reference
             Target: ns=5;i=354
             Direction: Forward
@@ -39426,6 +39426,11 @@ Children:
             DataType: Size
             ModellingRule: Optional
             Value: 350.0
+        - Name: eChartTestLogic
+          Type: NetLogic
+          Children:
+          - Class: Method
+            Name: RefreshRadarGraph
       - Name: HorizontalAlignment
         Type: BaseVariableType
         DataType: HorizontalAlignment
@@ -39446,8 +39451,3 @@ Children:
       DataType: Size
       ModellingRule: Optional
       Value: 30.0
-    - Name: eChartTestLogic
-      Type: NetLogic
-      Children:
-      - Class: Method
-        Name: RefreshRadarGraph

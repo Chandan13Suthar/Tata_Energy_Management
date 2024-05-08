@@ -1,24 +1,14 @@
 Name: eCharts
 Type: FolderType
 Children:
-- Name: Day
+- Name: Day1
   Type: BaseDataVariableType
   DataType: Int32
   Value: 51
 - Name: Day2
   Type: BaseDataVariableType
   DataType: Int32
-  Value: 0
-  Children:
-  - Name: DynamicLink
-    Type: DynamicLink
-    DataType: NodePath
-    Value: "../../HomePageTagsInstance/Day2"
-    Children:
-    - Name: Mode
-      Type: BaseVariableType
-      DataType: DynamicLinkMode
-      Value: 2
+  Value: 102
 - Name: Day3
   Type: BaseDataVariableType
   DataType: Int32
@@ -344,17 +334,7 @@ Children:
 - Name: Day26
   Type: BaseDataVariableType
   DataType: Int32
-  Value: 0
-  Children:
-  - Name: DynamicLink
-    Type: DynamicLink
-    DataType: NodePath
-    Value: "../../HomePageTagsInstance/Day26"
-    Children:
-    - Name: Mode
-      Type: BaseVariableType
-      DataType: DynamicLinkMode
-      Value: 2
+  Value: 152
 - Name: Day27
   Type: BaseDataVariableType
   DataType: Int32

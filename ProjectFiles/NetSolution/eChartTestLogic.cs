@@ -54,8 +54,8 @@ public class eChartTestLogic : BaseNetLogic
         String folderSeparator = Path.DirectorySeparatorChar.ToString();
 
         // Get template name and create destination path
-        string templatePath = projectPath + folderSeparator + "eCharts" + folderSeparator + "eChart2" + folderSeparator + "Template-data.js";
-        string filePath = projectPath + folderSeparator + "eCharts" + folderSeparator + "eChart2" + folderSeparator + "data.js";
+        string templatePath = projectPath + folderSeparator + "eCharts" + folderSeparator + "Template-data.js";
+        string filePath = projectPath + folderSeparator + "eCharts" + folderSeparator + "data.js";
 
         // Read template page content
         string text = File.ReadAllText(templatePath);
@@ -71,7 +71,7 @@ public class eChartTestLogic : BaseNetLogic
        // text = text.Replace(i < 10 ? "$0" + i : "$" + i, value.ToString());
 
          {
-           text = text.Replace(i < 32 ? "$0" + i : "$" + i, (Project.Current.GetVariable("Model/eCharts/Day" + i).Value * 1).ToString());
+           text = text.Replace(i < 10 ? "$0" + i : "$" + i, (Project.Current.GetVariable("Model/eCharts/Day" + i).Value * 1).ToString());
          }
 
         // Write to file
