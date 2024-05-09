@@ -15994,7 +15994,7 @@ Children:
   - Name: GBUTTON
     Type: BaseDataVariableType
     DataType: Boolean
-    Value: false
+    Value: true
   - Name: JaceStamping
     Type: BaseDataVariableType
     DataType: Int32
@@ -16271,7 +16271,7 @@ Children:
   - Name: GBUTTON
     Type: BaseDataVariableType
     DataType: Boolean
-    Value: false
+    Value: true
   - Name: JaceStamping
     Type: BaseDataVariableType
     DataType: Int32
@@ -16548,7 +16548,7 @@ Children:
   - Name: GBUTTON
     Type: BaseDataVariableType
     DataType: Boolean
-    Value: false
+    Value: true
   - Name: JaceStamping
     Type: BaseDataVariableType
     DataType: Int32
