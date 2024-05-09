@@ -15962,7 +15962,6 @@ Children:
             DataType: String
             Value: "SPP"
 - File: eCharts/eCharts.yaml
-- File: eCharts1/eCharts1.yaml
 - Name: HomePageComparisionPanel
   Id: g=4130c04dc48e2f4b6a05645c7d2b48e1
   Supertype: BaseObjectType
