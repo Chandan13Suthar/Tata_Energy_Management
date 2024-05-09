@@ -1522,3 +1522,7 @@ Children:
   Type: BaseDataVariableType
   DataType: Boolean
   Value: false
+- Name: Refresh
+  Type: BaseDataVariableType
+  DataType: Boolean
+  Value: false
