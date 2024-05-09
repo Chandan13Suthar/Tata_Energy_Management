@@ -80,7 +80,7 @@ public class eChartTestLogic : BaseNetLogic
         // Insert values
         for (int i = 1; i < 32; i++)
         {
-            text = text.Replace(i < 10 ? "$0" + i : "$" + i, (Project.Current.GetVariable("Model/eCharts/Day" + i).Value * 1).ToString());
+            text = text.Replace(i < 10 ? "$0" + i : "$" + i, (Project.Current.GetVariable("Model/eCharts/eCharts1/Day" + i).Value * 1).ToString());
         }
 
         // Write to file
