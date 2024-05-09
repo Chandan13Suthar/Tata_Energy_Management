@@ -29895,6 +29895,108 @@ Children:
                 DataType: Size
                 ModellingRule: Optional
                 Value: 3.5
+              - Name: ModifiedValueHandler1
+                Type: EventHandler
+                Children:
+                - Name: ListenEventType
+                  Type: PropertyType
+                  DataType: NodeId
+                  Value: "/Types/EventTypes/BaseEventType/UserValueChanged"
+                - Name: MethodsToCall
+                  Type: BaseObjectType
+                  Children:
+                  - Name: MethodContainer1
+                    Type: BaseObjectType
+                    Children:
+                    - Name: ns=3;ObjectPointer
+                      Type: NodePointer
+                      DataType: NodeId
+                      Value: {"IdType":0,"Id":0,"Namespace":-1}
+                      Children:
+                      - Name: Kind
+                        Type: PropertyType
+                        DataType: NodeId
+                        Value: "/Types/ObjectTypes/BaseObjectType"
+                      - Name: DynamicLink
+                        Type: DynamicLink
+                        DataType: NodePath
+                        Value: "../../../../../../WebBrowser@NodeId"
+                        Children:
+                        - Name: Mode
+                          Type: BaseVariableType
+                          DataType: DynamicLinkMode
+                          ModellingRule: Optional
+                          Value: 2
+                    - Name: ns=3;Method
+                      Type: BaseDataVariableType
+                      DataType: String
+                      Value: "Refresh"
+                    - Name: InputArguments
+                      Type: BaseObjectType
+                  - Name: MethodContainer2
+                    Type: BaseObjectType
+                    Children:
+                    - Name: ns=3;ObjectPointer
+                      Type: NodePointer
+                      DataType: NodeId
+                      Value: {"IdType":0,"Id":0,"Namespace":-1}
+                      Children:
+                      - Name: Kind
+                        Type: PropertyType
+                        DataType: NodeId
+                        Value: "/Types/ObjectTypes/BaseObjectType"
+                      - Name: DynamicLink
+                        Type: DynamicLink
+                        DataType: NodePath
+                        Value: "../../../../../../eChartTestLogic@NodeId"
+                        Children:
+                        - Name: Mode
+                          Type: BaseVariableType
+                          DataType: DynamicLinkMode
+                          ModellingRule: Optional
+                          Value: 2
+                    - Name: ns=3;Method
+                      Type: BaseDataVariableType
+                      DataType: String
+                      Value: "OnRefreshButtonClicked"
+                - Name: EventArguments
+                  Type: UserValueChanged
+                  Children:
+                  - Name: NewValue
+                    Type: BaseDataVariableType
+                    DataType: BaseDataType
+                  - Name: EventId
+                    Type: PropertyType
+                    DataType: ByteString
+                    Value: ""
+                  - Name: EventType
+                    Type: PropertyType
+                    DataType: NodeId
+                    Value: {"IdType":0,"Id":0,"Namespace":-1}
+                  - Name: SourceNode
+                    Type: PropertyType
+                    DataType: NodeId
+                    Value: {"IdType":0,"Id":0,"Namespace":-1}
+                  - Name: SourceName
+                    Type: PropertyType
+                    DataType: String
+                    Value: ""
+                  - Name: Time
+                    Type: PropertyType
+                    DataType: UtcTime
+                    Value: "1601-01-01T00:00:00.0000000"
+                  - Name: ReceiveTime
+                    Type: PropertyType
+                    DataType: UtcTime
+                    Value: "1601-01-01T00:00:00.0000000"
+                  - Name: Message
+                    Type: PropertyType
+                    DataType: LocalizedText
+                    Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+                  - Name: Severity
+                    Type: PropertyType
+                    DataType: UInt16
+                    Value: 0
             - Name: Image1
               Type: Image
               Children:
@@ -30114,1006 +30216,6 @@ Children:
                 DataType: Color
                 ModellingRule: Optional
                 Value: "#ffffff"
-          - Name: HistogramChart1
-            Type: HistogramChart
-            Children:
-            - Name: Model
-              Type: NodePointer
-              DataType: NodeId
-              Value: "/Objects/Tata_Energy_Management/Model/HomePageHistogram"
-              Children:
-              - Name: ItemKind
-                Type: PropertyType
-                DataType: NodeId
-                Value: "/Objects/Tata_Energy_Management/Model/HomePageHistogram/Day1"
-              - Name: Kind
-                Type: PropertyType
-                DataType: NodeId
-                Value: {"IdType":0,"Id":0,"Namespace":-1}
-            - Name: Label
-              Type: BaseDataVariableType
-              DataType: LocalizedText
-              Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
-              Children:
-              - Name: DynamicLink
-                Type: DynamicLink
-                DataType: NodePath
-                Value: "{Item}@BrowseName"
-            - Name: Value
-              Type: BaseDataVariableType
-              DataType: Double
-              Value: 0.0
-              Children:
-              - Name: DynamicLink
-                Type: DynamicLink
-                DataType: NodePath
-                Value: "{Item}@Value"
-            - Name: Item
-              Type: Alias
-              DataType: NodeId
-              Value: {"IdType":0,"Id":0,"Namespace":-1}
-              Children:
-              - Name: Kind
-                Type: PropertyType
-                DataType: NodeId
-                Value: "/Objects/Tata_Energy_Management/Model/HomePageHistogram/Day1"
-            - Name: LeftMargin
-              Type: BaseVariableType
-              DataType: Size
-              ModellingRule: Optional
-              Value: 60.0
-            - Name: TopMargin
-              Type: BaseVariableType
-              DataType: Size
-              ModellingRule: Optional
-              Value: 70.0
-            - Name: Width
-              Type: BaseVariableType
-              DataType: Size
-              ModellingRule: Optional
-              Value: 1420.0
-            - Name: Height
-              Type: BaseVariableType
-              DataType: Size
-              ModellingRule: Optional
-              Value: 160.0
-            - Class: Reference
-              Target: ns=5;i=1105
-              Direction: Forward
-          - Name: Trend1
-            Type: Trend
-            Children:
-            - Name: Pens
-              Type: BaseObjectType
-              Children:
-              - Name: Voltage_RN
-                Type: TrendPen
-                DataType: BaseDataType
-                Children:
-                - Name: Thickness
-                  Type: BaseDataVariableType
-                  DataType: Size
-                  Value: 2.0
-                - Name: Enabled
-                  Type: BaseDataVariableType
-                  DataType: Boolean
-                  Value: true
-                - Name: Thresholds
-                  Type: BaseObjectType
-                - Name: Color
-                  Type: BaseDataVariableType
-                  DataType: Color
-                  ModellingRule: Optional
-                  Value: "#eb001b"
-                - Name: DynamicLink
-                  Type: DynamicLink
-                  DataType: NodePath
-                  Value: "/Objects/Tata_Energy_Management/Loggers/HourlyJaceDataLogger/VariablesToLog/Voltage_RN/LastValue"
-                  Children:
-                  - Name: Mode
-                    Type: BaseVariableType
-                    DataType: DynamicLinkMode
-                    ModellingRule: Optional
-                    Value: 2
-              - Name: Voltage_YN
-                Type: TrendPen
-                DataType: BaseDataType
-                Children:
-                - Name: Thickness
-                  Type: BaseDataVariableType
-                  DataType: Size
-                  Value: 2.0
-                - Name: Enabled
-                  Type: BaseDataVariableType
-                  DataType: Boolean
-                  Value: true
-                - Name: Thresholds
-                  Type: BaseObjectType
-                - Name: Color
-                  Type: BaseDataVariableType
-                  DataType: Color
-                  ModellingRule: Optional
-                  Value: "#f0fa08"
-                - Name: DynamicLink
-                  Type: DynamicLink
-                  DataType: NodePath
-                  Value: "/Objects/Tata_Energy_Management/Loggers/HourlyJaceDataLogger/VariablesToLog/Voltage_YN/LastValue"
-                  Children:
-                  - Name: Mode
-                    Type: BaseVariableType
-                    DataType: DynamicLinkMode
-                    ModellingRule: Optional
-                    Value: 2
-              - Name: Voltage_BN
-                Type: TrendPen
-                DataType: BaseDataType
-                Children:
-                - Name: Thickness
-                  Type: BaseDataVariableType
-                  DataType: Size
-                  Value: 2.0
-                - Name: Enabled
-                  Type: BaseDataVariableType
-                  DataType: Boolean
-                  Value: true
-                - Name: Thresholds
-                  Type: BaseObjectType
-                - Name: Color
-                  Type: BaseDataVariableType
-                  DataType: Color
-                  ModellingRule: Optional
-                  Value: "#032dca"
-                - Name: DynamicLink
-                  Type: DynamicLink
-                  DataType: NodePath
-                  Value: "/Objects/Tata_Energy_Management/Loggers/HourlyJaceDataLogger/VariablesToLog/Voltage_BN/LastValue"
-                  Children:
-                  - Name: Mode
-                    Type: BaseVariableType
-                    DataType: DynamicLinkMode
-                    ModellingRule: Optional
-                    Value: 2
-            - Name: XAxis
-              Type: DateTimeAxis
-              Children:
-              - Name: Follow
-                Type: BaseDataVariableType
-                DataType: Boolean
-                Value: false
-              - Name: Window
-                Type: BaseDataVariableType
-                DataType: Duration
-                Value: "0:23:59:59.0000000"
-              - Name: Interactive
-                Type: BaseDataVariableType
-                DataType: Boolean
-                Value: true
-              - Name: Time
-                Type: BaseDataVariableType
-                DataType: DateTime
-                Value: "1601-01-01T00:00:00.0000000"
-              - Name: SnapPosition
-                Type: BaseDataVariableType
-                DataType: SnapPositionEnum
-                ModellingRule: Optional
-                Value: 0
-            - Name: YAxis
-              Type: ValueAxis
-              Children:
-              - Name: Position
-                Type: BaseDataVariableType
-                DataType: HorizontalPositionEnum
-                Value: 0
-              - Name: MinValue
-                Type: BaseDataVariableType
-                DataType: Size
-                Value: 0.0
-                Children:
-                - Name: ExpressionEvaluator1
-                  Type: ExpressionEvaluator
-                  Children:
-                  - Name: Expression
-                    Type: BaseDataVariableType
-                    DataType: String
-                    ReferenceType: HasParameter
-                    ModellingRule: Optional
-                    Value: "3000 * 5"
-              - Name: MaxValue
-                Type: BaseDataVariableType
-                DataType: Size
-                Value: 100.0
-                Children:
-                - Name: ExpressionEvaluator1
-                  Type: ExpressionEvaluator
-                  Children:
-                  - Name: Expression
-                    Type: BaseDataVariableType
-                    DataType: String
-                    ReferenceType: HasParameter
-                    ModellingRule: Optional
-                    Value: "4000 * 5"
-              - Name: AutoScale
-                Type: BaseDataVariableType
-                DataType: Boolean
-                Value: true
-              - Name: Interactive
-                Type: BaseDataVariableType
-                DataType: Boolean
-                Value: true
-            - Name: LegendVisible
-              Type: BaseDataVariableType
-              DataType: Boolean
-              Value: true
-            - Name: TimeRanges
-              Type: BaseObjectType
-            - Name: Width
-              Type: BaseVariableType
-              DataType: Size
-              ModellingRule: Optional
-              Value: 900.0
-            - Name: Height
-              Type: BaseVariableType
-              DataType: Size
-              ModellingRule: Optional
-              Value: 170.0
-            - Name: ReferenceTimeZone
-              Type: BaseDataVariableType
-              DataType: ReferenceTimeZone
-              ModellingRule: Optional
-              Value: 1
-            - Name: TopMargin
-              Type: BaseVariableType
-              DataType: Size
-              ModellingRule: Optional
-              Value: 310.0
-            - Name: LeftMargin
-              Type: BaseVariableType
-              DataType: Size
-              ModellingRule: Optional
-              Value: 580.0
-            - Name: ChartStyle
-              Type: BaseDataVariableType
-              DataType: String
-              ModellingRule: Optional
-              Value: "ChartStyle1"
-            - Class: Reference
-              Target: ns=5;i=1129
-              Direction: Forward
-            - Class: Reference
-              Target: ns=5;i=1201
-              Direction: Forward
-            - Class: Reference
-              Target: ns=5;i=1209
-              Direction: Forward
-            - Name: Query
-              Type: BaseDataVariableType
-              DataType: String
-              Value: ""
-              Children:
-              - Name: KeyValueConverter1
-                Type: ValueMapConverter
-                Children:
-                - Name: Source
-                  Type: BaseDataVariableType
-                  DataType: BaseDataType
-                  ReferenceType: HasSource
-                  Children:
-                  - Name: DynamicLink
-                    Type: DynamicLink
-                    DataType: NodePath
-                    Value: "/Objects/Tata_Energy_Management/Model/HomePageHistogram/HomePage2/SpinBoxValue"
-                - Name: Pairs
-                  Type: BaseObjectType
-                  Children:
-                  - Name: Pair
-                    Type: ValueMapPair
-                    Children:
-                    - Name: Key
-                      Type: BaseDataVariableType
-                      DataType: Int32
-                      Value: 0
-                    - Name: Value
-                      Type: BaseDataVariableType
-                      DataType: String
-                      Value: "SELECT * FROM \"HourlyJaceDataLogger\" WHERE Jace =  '33KV'"
-                  - Name: Pair1
-                    Type: ValueMapPair
-                    Children:
-                    - Name: Key
-                      Type: BaseDataVariableType
-                      DataType: Int32
-                      Value: 1
-                    - Name: Value
-                      Type: BaseDataVariableType
-                      DataType: String
-                      Value: "SELECT * FROM \"HourlyJaceDataLogger\" WHERE Jace =  'UTILITY'"
-                  - Name: Pair2
-                    Type: ValueMapPair
-                    Children:
-                    - Name: Key
-                      Type: BaseDataVariableType
-                      DataType: Int32
-                      Value: 2
-                    - Name: Value
-                      Type: BaseDataVariableType
-                      DataType: String
-                      Value: "SELECT * FROM \"HourlyJaceDataLogger\" WHERE Jace =  'PUMPROOM'"
-                  - Name: Pair3
-                    Type: ValueMapPair
-                    Children:
-                    - Name: Key
-                      Type: BaseDataVariableType
-                      DataType: Int32
-                      Value: 3
-                    - Name: Value
-                      Type: BaseDataVariableType
-                      DataType: String
-                      Value: "SELECT * FROM \"HourlyJaceDataLogger\" WHERE Jace =  'PAINTSHOP'"
-                  - Name: Pair4
-                    Type: ValueMapPair
-                    Children:
-                    - Name: Key
-                      Type: BaseDataVariableType
-                      DataType: Int32
-                      Value: 4
-                    - Name: Value
-                      Type: BaseDataVariableType
-                      DataType: String
-                      Value: "SELECT * FROM \"HourlyJaceDataLogger\" WHERE Jace =  'BODYSHOP'"
-                  - Name: Pair5
-                    Type: ValueMapPair
-                    Children:
-                    - Name: Key
-                      Type: BaseDataVariableType
-                      DataType: Int32
-                      Value: 5
-                    - Name: Value
-                      Type: BaseDataVariableType
-                      DataType: String
-                      Value: "SELECT * FROM \"HourlyJaceDataLogger\" WHERE Jace =  'TCF'"
-                  - Name: Pair6
-                    Type: ValueMapPair
-                    Children:
-                    - Name: Key
-                      Type: BaseDataVariableType
-                      DataType: Int32
-                      Value: 6
-                    - Name: Value
-                      Type: BaseDataVariableType
-                      DataType: String
-                      Value: "SELECT * FROM \"HourlyJaceDataLogger\" WHERE Jace =  'STAMPING'"
-                  - Name: Pair7
-                    Type: ValueMapPair
-                    Children:
-                    - Name: Key
-                      Type: BaseDataVariableType
-                      DataType: Int32
-                      Value: 7
-                    - Name: Value
-                      Type: BaseDataVariableType
-                      DataType: String
-                      Value: "SELECT * FROM \"HourlyJaceDataLogger\" WHERE Jace =  'ADMIN'"
-                  - Name: Pair8
-                    Type: ValueMapPair
-                    Children:
-                    - Name: Key
-                      Type: BaseDataVariableType
-                      DataType: Int32
-                      Value: 8
-                    - Name: Value
-                      Type: BaseDataVariableType
-                      DataType: String
-                      Value: "SELECT * FROM \"HourlyJaceDataLogger\" WHERE Jace =  'SPP'"
-            - Name: Model
-              Type: NodePointer
-              DataType: NodeId
-              Value: "/Objects/Tata_Energy_Management/DataStores/ODBCDatabase"
-              Children:
-              - Name: ItemKind
-                Type: PropertyType
-                DataType: NodeId
-                Value: {"IdType":0,"Id":0,"Namespace":-1}
-              - Name: Kind
-                Type: PropertyType
-                DataType: NodeId
-                Value: {"IdType":0,"Id":0,"Namespace":-1}
-          - Name: Trend2
-            Type: Trend
-            Children:
-            - Name: Pens
-              Type: BaseObjectType
-              Children:
-              - Name: Phase_R_Current
-                Type: TrendPen
-                DataType: BaseDataType
-                Children:
-                - Name: Thickness
-                  Type: BaseDataVariableType
-                  DataType: Size
-                  Value: -1.0
-                - Name: Enabled
-                  Type: BaseDataVariableType
-                  DataType: Boolean
-                  Value: true
-                - Name: Thresholds
-                  Type: BaseObjectType
-                - Name: Color
-                  Type: BaseDataVariableType
-                  DataType: Color
-                  ModellingRule: Optional
-                  Value: "#eb001b"
-                - Name: DynamicLink
-                  Type: DynamicLink
-                  DataType: NodePath
-                  Value: "/Objects/Tata_Energy_Management/Loggers/HourlyJaceDataLogger/VariablesToLog/Phase_R_Current/LastValue"
-                  Children:
-                  - Name: Mode
-                    Type: BaseVariableType
-                    DataType: DynamicLinkMode
-                    ModellingRule: Optional
-                    Value: 2
-              - Name: Phase_Y_Current
-                Type: TrendPen
-                DataType: BaseDataType
-                Children:
-                - Name: Thickness
-                  Type: BaseDataVariableType
-                  DataType: Size
-                  Value: -1.0
-                - Name: Enabled
-                  Type: BaseDataVariableType
-                  DataType: Boolean
-                  Value: true
-                - Name: Thresholds
-                  Type: BaseObjectType
-                - Name: Color
-                  Type: BaseDataVariableType
-                  DataType: Color
-                  ModellingRule: Optional
-                  Value: "#f0fa08"
-                - Name: DynamicLink
-                  Type: DynamicLink
-                  DataType: NodePath
-                  Value: "/Objects/Tata_Energy_Management/Loggers/HourlyJaceDataLogger/VariablesToLog/Phase_Y_Current/LastValue"
-                  Children:
-                  - Name: Mode
-                    Type: BaseVariableType
-                    DataType: DynamicLinkMode
-                    ModellingRule: Optional
-                    Value: 2
-              - Name: Phase_B_Current
-                Type: TrendPen
-                DataType: BaseDataType
-                Children:
-                - Name: Thickness
-                  Type: BaseDataVariableType
-                  DataType: Size
-                  Value: -1.0
-                - Name: Enabled
-                  Type: BaseDataVariableType
-                  DataType: Boolean
-                  Value: true
-                - Name: Thresholds
-                  Type: BaseObjectType
-                - Name: Color
-                  Type: BaseDataVariableType
-                  DataType: Color
-                  ModellingRule: Optional
-                  Value: "#032dca"
-                - Name: DynamicLink
-                  Type: DynamicLink
-                  DataType: NodePath
-                  Value: "/Objects/Tata_Energy_Management/Loggers/HourlyJaceDataLogger/VariablesToLog/Phase_B_Current/LastValue"
-                  Children:
-                  - Name: Mode
-                    Type: BaseVariableType
-                    DataType: DynamicLinkMode
-                    ModellingRule: Optional
-                    Value: 2
-            - Name: XAxis
-              Type: DateTimeAxis
-              Children:
-              - Name: Follow
-                Type: BaseDataVariableType
-                DataType: Boolean
-                Value: true
-              - Name: Window
-                Type: BaseDataVariableType
-                DataType: Duration
-                Value: "0:23:59:59.0000000"
-              - Name: Interactive
-                Type: BaseDataVariableType
-                DataType: Boolean
-                Value: true
-              - Name: Time
-                Type: BaseDataVariableType
-                DataType: DateTime
-                Value: "1601-01-01T00:00:00.0000000"
-            - Name: YAxis
-              Type: ValueAxis
-              Children:
-              - Name: Position
-                Type: BaseDataVariableType
-                DataType: HorizontalPositionEnum
-                Value: 0
-              - Name: MinValue
-                Type: BaseDataVariableType
-                DataType: Size
-                Value: 100.0
-              - Name: MaxValue
-                Type: BaseDataVariableType
-                DataType: Size
-                Value: 500.0
-              - Name: AutoScale
-                Type: BaseDataVariableType
-                DataType: Boolean
-                Value: true
-              - Name: Interactive
-                Type: BaseDataVariableType
-                DataType: Boolean
-                Value: true
-            - Name: LegendVisible
-              Type: BaseDataVariableType
-              DataType: Boolean
-              Value: true
-            - Name: TimeRanges
-              Type: BaseObjectType
-            - Name: Width
-              Type: BaseVariableType
-              DataType: Size
-              ModellingRule: Optional
-              Value: 910.0
-            - Name: Height
-              Type: BaseVariableType
-              DataType: Size
-              ModellingRule: Optional
-              Value: 170.0
-            - Name: ReferenceTimeZone
-              Type: BaseDataVariableType
-              DataType: ReferenceTimeZone
-              ModellingRule: Optional
-              Value: 1
-            - Name: TopMargin
-              Type: BaseVariableType
-              DataType: Size
-              ModellingRule: Optional
-              Value: 539.0
-            - Name: LeftMargin
-              Type: BaseVariableType
-              DataType: Size
-              ModellingRule: Optional
-              Value: 570.0
-            - Name: ChartStyle
-              Type: BaseDataVariableType
-              DataType: String
-              ModellingRule: Optional
-              Value: "ChartStyle1"
-            - Class: Reference
-              Target: ns=5;i=1129
-              Direction: Forward
-            - Class: Reference
-              Target: ns=5;i=1201
-              Direction: Forward
-            - Class: Reference
-              Target: ns=5;i=1209
-              Direction: Forward
-            - Name: Model
-              Type: NodePointer
-              DataType: NodeId
-              ModellingRule: Optional
-              Value: "/Objects/Tata_Energy_Management/DataStores/ODBCDatabase"
-              Children:
-              - Name: ItemKind
-                Type: PropertyType
-                DataType: NodeId
-                Value: {"IdType":0,"Id":0,"Namespace":-1}
-              - Name: Kind
-                Type: PropertyType
-                DataType: NodeId
-                Value: {"IdType":0,"Id":0,"Namespace":-1}
-            - Name: Query
-              Type: BaseDataVariableType
-              DataType: String
-              Value: ""
-              Children:
-              - Name: KeyValueConverter1
-                Type: ValueMapConverter
-                Children:
-                - Name: Source
-                  Type: BaseDataVariableType
-                  DataType: BaseDataType
-                  ReferenceType: HasSource
-                  Children:
-                  - Name: DynamicLink
-                    Type: DynamicLink
-                    DataType: NodePath
-                    Value: "/Objects/Tata_Energy_Management/Model/HomePageHistogram/HomePage2/SpinBoxValue"
-                - Name: Pairs
-                  Type: BaseObjectType
-                  Children:
-                  - Name: Pair
-                    Type: ValueMapPair
-                    Children:
-                    - Name: Key
-                      Type: BaseDataVariableType
-                      DataType: Int32
-                      Value: 0
-                    - Name: Value
-                      Type: BaseDataVariableType
-                      DataType: String
-                      Value: "SELECT * FROM \"HourlyJaceDataLogger\" WHERE Jace =  '33KV'"
-                  - Name: Pair1
-                    Type: ValueMapPair
-                    Children:
-                    - Name: Key
-                      Type: BaseDataVariableType
-                      DataType: Int32
-                      Value: 1
-                    - Name: Value
-                      Type: BaseDataVariableType
-                      DataType: String
-                      Value: "SELECT * FROM \"HourlyJaceDataLogger\" WHERE Jace =  'UTILITY'"
-                  - Name: Pair2
-                    Type: ValueMapPair
-                    Children:
-                    - Name: Key
-                      Type: BaseDataVariableType
-                      DataType: Int32
-                      Value: 2
-                    - Name: Value
-                      Type: BaseDataVariableType
-                      DataType: String
-                      Value: "SELECT * FROM \"HourlyJaceDataLogger\" WHERE Jace =  'PUMPROOM'"
-                  - Name: Pair3
-                    Type: ValueMapPair
-                    Children:
-                    - Name: Key
-                      Type: BaseDataVariableType
-                      DataType: Int32
-                      Value: 3
-                    - Name: Value
-                      Type: BaseDataVariableType
-                      DataType: String
-                      Value: "SELECT * FROM \"HourlyJaceDataLogger\" WHERE Jace =  'PAINTSHOP'"
-                  - Name: Pair4
-                    Type: ValueMapPair
-                    Children:
-                    - Name: Key
-                      Type: BaseDataVariableType
-                      DataType: Int32
-                      Value: 4
-                    - Name: Value
-                      Type: BaseDataVariableType
-                      DataType: String
-                      Value: "SELECT * FROM \"HourlyJaceDataLogger\" WHERE Jace =  'BODYSHOP'"
-                  - Name: Pair5
-                    Type: ValueMapPair
-                    Children:
-                    - Name: Key
-                      Type: BaseDataVariableType
-                      DataType: Int32
-                      Value: 5
-                    - Name: Value
-                      Type: BaseDataVariableType
-                      DataType: String
-                      Value: "SELECT * FROM \"HourlyJaceDataLogger\" WHERE Jace =  'TCF'"
-                  - Name: Pair6
-                    Type: ValueMapPair
-                    Children:
-                    - Name: Key
-                      Type: BaseDataVariableType
-                      DataType: Int32
-                      Value: 6
-                    - Name: Value
-                      Type: BaseDataVariableType
-                      DataType: String
-                      Value: "SELECT * FROM \"HourlyJaceDataLogger\" WHERE Jace =  'STAMPING'"
-                  - Name: Pair7
-                    Type: ValueMapPair
-                    Children:
-                    - Name: Key
-                      Type: BaseDataVariableType
-                      DataType: Int32
-                      Value: 7
-                    - Name: Value
-                      Type: BaseDataVariableType
-                      DataType: String
-                      Value: "SELECT * FROM \"HourlyJaceDataLogger\" WHERE Jace =  'ADMIN'"
-                  - Name: Pair8
-                    Type: ValueMapPair
-                    Children:
-                    - Name: Key
-                      Type: BaseDataVariableType
-                      DataType: Int32
-                      Value: 8
-                    - Name: Value
-                      Type: BaseDataVariableType
-                      DataType: String
-                      Value: "SELECT * FROM \"HourlyJaceDataLogger\" WHERE Jace =  'SPP'"
-          - Name: Trend3
-            Type: Trend
-            Children:
-            - Name: Pens
-              Type: BaseObjectType
-              Children:
-              - Name: Avg_PF
-                Type: TrendPen
-                DataType: BaseDataType
-                Children:
-                - Name: Thickness
-                  Type: BaseDataVariableType
-                  DataType: Size
-                  Value: -1.0
-                - Name: Enabled
-                  Type: BaseDataVariableType
-                  DataType: Boolean
-                  Value: true
-                - Name: Thresholds
-                  Type: BaseObjectType
-                - Name: Color
-                  Type: BaseDataVariableType
-                  DataType: Color
-                  ModellingRule: Optional
-                  Value: "#030c79"
-                - Name: DynamicLink
-                  Type: DynamicLink
-                  DataType: NodePath
-                  Value: "/Objects/Tata_Energy_Management/Loggers/HourlyJaceDataLogger/VariablesToLog/Avg_PF/LastValue"
-                  Children:
-                  - Name: Mode
-                    Type: BaseVariableType
-                    DataType: DynamicLinkMode
-                    ModellingRule: Optional
-                    Value: 2
-              - Name: Frequency
-                Type: TrendPen
-                DataType: BaseDataType
-                Children:
-                - Name: Thickness
-                  Type: BaseDataVariableType
-                  DataType: Size
-                  Value: -1.0
-                - Name: Enabled
-                  Type: BaseDataVariableType
-                  DataType: Boolean
-                  Value: true
-                - Name: Thresholds
-                  Type: BaseObjectType
-                - Name: Color
-                  Type: BaseDataVariableType
-                  DataType: Color
-                  ModellingRule: Optional
-                  Value: "#680eb8"
-                - Name: DynamicLink
-                  Type: DynamicLink
-                  DataType: NodePath
-                  Value: "/Objects/Tata_Energy_Management/Loggers/HourlyJaceDataLogger/VariablesToLog/Frequency/LastValue"
-                  Children:
-                  - Name: Mode
-                    Type: BaseVariableType
-                    DataType: DynamicLinkMode
-                    ModellingRule: Optional
-                    Value: 2
-            - Name: XAxis
-              Type: DateTimeAxis
-              Children:
-              - Name: Follow
-                Type: BaseDataVariableType
-                DataType: Boolean
-                Value: true
-              - Name: Window
-                Type: BaseDataVariableType
-                DataType: Duration
-                Value: "0:23:59:59.0000000"
-              - Name: Interactive
-                Type: BaseDataVariableType
-                DataType: Boolean
-                Value: true
-              - Name: Time
-                Type: BaseDataVariableType
-                DataType: DateTime
-                Value: "1601-01-01T00:00:00.0000000"
-            - Name: YAxis
-              Type: ValueAxis
-              Children:
-              - Name: Position
-                Type: BaseDataVariableType
-                DataType: HorizontalPositionEnum
-                Value: 0
-              - Name: MinValue
-                Type: BaseDataVariableType
-                DataType: Size
-                Value: 0.0
-              - Name: MaxValue
-                Type: BaseDataVariableType
-                DataType: Size
-                Value: 2.0
-              - Name: AutoScale
-                Type: BaseDataVariableType
-                DataType: Boolean
-                Value: true
-              - Name: Interactive
-                Type: BaseDataVariableType
-                DataType: Boolean
-                Value: true
-            - Name: LegendVisible
-              Type: BaseDataVariableType
-              DataType: Boolean
-              Value: true
-            - Name: TimeRanges
-              Type: BaseObjectType
-            - Name: Width
-              Type: BaseVariableType
-              DataType: Size
-              ModellingRule: Optional
-              Value: 890.0
-            - Name: Height
-              Type: BaseVariableType
-              DataType: Size
-              ModellingRule: Optional
-              Value: 170.0
-            - Name: ReferenceTimeZone
-              Type: BaseDataVariableType
-              DataType: ReferenceTimeZone
-              ModellingRule: Optional
-              Value: 1
-            - Name: TopMargin
-              Type: BaseVariableType
-              DataType: Size
-              ModellingRule: Optional
-              Value: 770.0
-            - Name: LeftMargin
-              Type: BaseVariableType
-              DataType: Size
-              ModellingRule: Optional
-              Value: 590.0
-            - Name: ChartStyle
-              Type: BaseDataVariableType
-              DataType: String
-              ModellingRule: Optional
-              Value: "ChartStyle1"
-            - Class: Reference
-              Target: ns=5;i=1129
-              Direction: Forward
-            - Class: Reference
-              Target: ns=5;i=1201
-              Direction: Forward
-            - Class: Reference
-              Target: ns=5;i=1209
-              Direction: Forward
-            - Name: Model
-              Type: NodePointer
-              DataType: NodeId
-              ModellingRule: Optional
-              Value: "/Objects/Tata_Energy_Management/DataStores/ODBCDatabase"
-              Children:
-              - Name: ItemKind
-                Type: PropertyType
-                DataType: NodeId
-                Value: {"IdType":0,"Id":0,"Namespace":-1}
-              - Name: Kind
-                Type: PropertyType
-                DataType: NodeId
-                Value: {"IdType":0,"Id":0,"Namespace":-1}
-            - Name: Query
-              Type: BaseDataVariableType
-              DataType: String
-              Value: ""
-              Children:
-              - Name: KeyValueConverter1
-                Type: ValueMapConverter
-                Children:
-                - Name: Source
-                  Type: BaseDataVariableType
-                  DataType: BaseDataType
-                  ReferenceType: HasSource
-                  Children:
-                  - Name: DynamicLink
-                    Type: DynamicLink
-                    DataType: NodePath
-                    Value: "/Objects/Tata_Energy_Management/Model/HomePageHistogram/HomePage2/SpinBoxValue"
-                - Name: Pairs
-                  Type: BaseObjectType
-                  Children:
-                  - Name: Pair
-                    Type: ValueMapPair
-                    Children:
-                    - Name: Key
-                      Type: BaseDataVariableType
-                      DataType: Int32
-                      Value: 0
-                    - Name: Value
-                      Type: BaseDataVariableType
-                      DataType: String
-                      Value: "SELECT * FROM \"HourlyJaceDataLogger\" WHERE Jace =  '33KV'"
-                  - Name: Pair1
-                    Type: ValueMapPair
-                    Children:
-                    - Name: Key
-                      Type: BaseDataVariableType
-                      DataType: Int32
-                      Value: 1
-                    - Name: Value
-                      Type: BaseDataVariableType
-                      DataType: String
-                      Value: "SELECT * FROM \"HourlyJaceDataLogger\" WHERE Jace =  'UTILITY'"
-                  - Name: Pair2
-                    Type: ValueMapPair
-                    Children:
-                    - Name: Key
-                      Type: BaseDataVariableType
-                      DataType: Int32
-                      Value: 2
-                    - Name: Value
-                      Type: BaseDataVariableType
-                      DataType: String
-                      Value: "SELECT * FROM \"HourlyJaceDataLogger\" WHERE Jace =  'PUMPROOM'"
-                  - Name: Pair3
-                    Type: ValueMapPair
-                    Children:
-                    - Name: Key
-                      Type: BaseDataVariableType
-                      DataType: Int32
-                      Value: 3
-                    - Name: Value
-                      Type: BaseDataVariableType
-                      DataType: String
-                      Value: "SELECT * FROM \"HourlyJaceDataLogger\" WHERE Jace =  'PAINTSHOP'"
-                  - Name: Pair4
-                    Type: ValueMapPair
-                    Children:
-                    - Name: Key
-                      Type: BaseDataVariableType
-                      DataType: Int32
-                      Value: 4
-                    - Name: Value
-                      Type: BaseDataVariableType
-                      DataType: String
-                      Value: "SELECT * FROM \"HourlyJaceDataLogger\" WHERE Jace =  'BODYSHOP'"
-                  - Name: Pair5
-                    Type: ValueMapPair
-                    Children:
-                    - Name: Key
-                      Type: BaseDataVariableType
-                      DataType: Int32
-                      Value: 5
-                    - Name: Value
-                      Type: BaseDataVariableType
-                      DataType: String
-                      Value: "SELECT * FROM \"HourlyJaceDataLogger\" WHERE Jace =  'TCF'"
-                  - Name: Pair6
-                    Type: ValueMapPair
-                    Children:
-                    - Name: Key
-                      Type: BaseDataVariableType
-                      DataType: Int32
-                      Value: 6
-                    - Name: Value
-                      Type: BaseDataVariableType
-                      DataType: String
-                      Value: "SELECT * FROM \"HourlyJaceDataLogger\" WHERE Jace =  'STAMPING'"
-                  - Name: Pair7
-                    Type: ValueMapPair
-                    Children:
-                    - Name: Key
-                      Type: BaseDataVariableType
-                      DataType: Int32
-                      Value: 7
-                    - Name: Value
-                      Type: BaseDataVariableType
-                      DataType: String
-                      Value: "SELECT * FROM \"HourlyJaceDataLogger\" WHERE Jace =  'ADMIN'"
-                  - Name: Pair8
-                    Type: ValueMapPair
-                    Children:
-                    - Name: Key
-                      Type: BaseDataVariableType
-                      DataType: Int32
-                      Value: 8
-                    - Name: Value
-                      Type: BaseDataVariableType
-                      DataType: String
-                      Value: "SELECT * FROM \"HourlyJaceDataLogger\" WHERE Jace =  'SPP'"
           - Name: Label2
             Type: Label
             Children:
@@ -31898,6 +31000,171 @@ Children:
                   DataType: Size
                   ModellingRule: Optional
                   Value: -30.0
+          - Name: WebBrowser
+            Type: WebBrowser
+            Children:
+            - Name: URL
+              Type: BaseDataVariableType
+              DataType: ResourceUri
+              Value: "ns=36;%PROJECTDIR%/eCharts/Test.html"
+            - Class: Reference
+              Target: ns=5;i=354
+              Direction: Forward
+            - Class: Reference
+              Target: ns=5;i=356
+              Direction: Forward
+            - Class: Reference
+              Target: ns=5;i=358
+              Direction: Forward
+            - Name: Width
+              Type: BaseVariableType
+              DataType: Size
+              ModellingRule: Optional
+              Value: 1450.0
+            - Name: Height
+              Type: BaseVariableType
+              DataType: Size
+              ModellingRule: Optional
+              Value: 200.0
+            - Name: LeftMargin
+              Type: BaseVariableType
+              DataType: Size
+              ModellingRule: Optional
+              Value: 20.0
+            - Name: TopMargin
+              Type: BaseVariableType
+              DataType: Size
+              ModellingRule: Optional
+              Value: 70.0
+            - Name: HorizontalAlignment
+              Type: BaseVariableType
+              DataType: HorizontalAlignment
+              ModellingRule: Optional
+              Value: 3
+            - Name: RightMargin
+              Type: BaseVariableType
+              DataType: Size
+              ModellingRule: Optional
+              Value: 20.0
+          - Name: eChartTestLogic
+            Type: NetLogic
+            Children:
+            - Class: Method
+              Name: OnRefreshButtonClicked
+          - Name: Rectangle3
+            Type: Rectangle
+            Children:
+            - Name: Width
+              Type: BaseVariableType
+              DataType: Size
+              ModellingRule: Optional
+              Value: 630.0
+            - Name: Height
+              Type: BaseVariableType
+              DataType: Size
+              ModellingRule: Optional
+              Value: 203.0
+            - Name: BorderThickness
+              Type: BaseDataVariableType
+              DataType: Size
+              ModellingRule: Optional
+              Value: 1.0
+            - Name: LeftMargin
+              Type: BaseVariableType
+              DataType: Size
+              ModellingRule: Optional
+              Value: 580.0
+            - Name: TopMargin
+              Type: BaseVariableType
+              DataType: Size
+              ModellingRule: Optional
+              Value: 537.0
+            - Name: HorizontalAlignment
+              Type: BaseVariableType
+              DataType: HorizontalAlignment
+              ModellingRule: Optional
+              Value: 3
+            - Name: RightMargin
+              Type: BaseVariableType
+              DataType: Size
+              ModellingRule: Optional
+              Value: 15.0
+          - Name: Rectangle4
+            Type: Rectangle
+            Children:
+            - Name: Width
+              Type: BaseVariableType
+              DataType: Size
+              ModellingRule: Optional
+              Value: 630.0
+            - Name: Height
+              Type: BaseVariableType
+              DataType: Size
+              ModellingRule: Optional
+              Value: 203.0
+            - Name: BorderThickness
+              Type: BaseDataVariableType
+              DataType: Size
+              ModellingRule: Optional
+              Value: 1.0
+            - Name: LeftMargin
+              Type: BaseVariableType
+              DataType: Size
+              ModellingRule: Optional
+              Value: 580.0
+            - Name: TopMargin
+              Type: BaseVariableType
+              DataType: Size
+              ModellingRule: Optional
+              Value: 770.0
+            - Name: HorizontalAlignment
+              Type: BaseVariableType
+              DataType: HorizontalAlignment
+              ModellingRule: Optional
+              Value: 3
+            - Name: RightMargin
+              Type: BaseVariableType
+              DataType: Size
+              ModellingRule: Optional
+              Value: 15.0
+          - Name: Rectangle2
+            Type: Rectangle
+            Children:
+            - Name: Width
+              Type: BaseVariableType
+              DataType: Size
+              ModellingRule: Optional
+              Value: 630.0
+            - Name: Height
+              Type: BaseVariableType
+              DataType: Size
+              ModellingRule: Optional
+              Value: 203.0
+            - Name: BorderThickness
+              Type: BaseDataVariableType
+              DataType: Size
+              ModellingRule: Optional
+              Value: 1.0
+            - Name: LeftMargin
+              Type: BaseVariableType
+              DataType: Size
+              ModellingRule: Optional
+              Value: 580.0
+            - Name: TopMargin
+              Type: BaseVariableType
+              DataType: Size
+              ModellingRule: Optional
+              Value: 307.0
+            - Name: HorizontalAlignment
+              Type: BaseVariableType
+              DataType: HorizontalAlignment
+              ModellingRule: Optional
+              Value: 3
+            - Name: RightMargin
+              Type: BaseVariableType
+              DataType: Size
+              ModellingRule: Optional
+              Value: 15.0
         - Name: Plant
           Type: Rectangle
           Children:
@@ -38931,47 +38198,6 @@ Children:
             DataType: HorizontalAlignment
             ModellingRule: Optional
             Value: 2
-        - Name: WebBrowser
-          Type: WebBrowser
-          Children:
-          - Name: URL
-            Type: BaseDataVariableType
-            DataType: ResourceUri
-            Value: "ns=36;%PROJECTDIR%/eCharts/Test.html"
-          - Class: Reference
-            Target: ns=5;i=354
-            Direction: Forward
-          - Class: Reference
-            Target: ns=5;i=356
-            Direction: Forward
-          - Class: Reference
-            Target: ns=5;i=358
-            Direction: Forward
-          - Name: Width
-            Type: BaseVariableType
-            DataType: Size
-            ModellingRule: Optional
-            Value: 1500.0
-          - Name: Height
-            Type: BaseVariableType
-            DataType: Size
-            ModellingRule: Optional
-            Value: 405.0
-          - Name: LeftMargin
-            Type: BaseVariableType
-            DataType: Size
-            ModellingRule: Optional
-            Value: 0.0
-          - Name: TopMargin
-            Type: BaseVariableType
-            DataType: Size
-            ModellingRule: Optional
-            Value: 245.0
-        - Name: eChartTestLogic
-          Type: NetLogic
-          Children:
-          - Class: Method
-            Name: RefreshRadarGraph
       - Name: HorizontalAlignment
         Type: BaseVariableType
         DataType: HorizontalAlignment

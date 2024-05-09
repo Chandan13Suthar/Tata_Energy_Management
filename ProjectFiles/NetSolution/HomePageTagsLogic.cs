@@ -71,6 +71,7 @@ public class HomePageTagsLogic : BaseNetLogic
     private IUAVariable day29Variable;
     private IUAVariable day30Variable;
     private IUAVariable day31Variable;
+    private IUAVariable jaceVariable;
 
     public override void Start()
     {
@@ -117,8 +118,9 @@ public class HomePageTagsLogic : BaseNetLogic
         day29Variable = owner.Day29Variable;
         day30Variable = owner.Day30Variable;
         day31Variable = owner.Day31Variable;
+        jaceVariable = owner.JaceVariable;
 
-        periodicTask = new PeriodicTask(HomePageCalculationTask, 10000, LogicObject);
+        periodicTask = new PeriodicTask(HomePageCalculationTask, 100, LogicObject);
         periodicTask.Start();
     }
 
@@ -173,10 +175,10 @@ public class HomePageTagsLogic : BaseNetLogic
         float day29 = day29Variable.Value;
         float day30 = day30Variable.Value;
         float day31 = day31Variable.Value;
+        string jace = jaceVariable.Value;
 
-            
 
-        
+
 
         var project = FTOptix.HMIProject.Project.Current;
         var myStore1 = project.GetObject("DataStores").Get<Store.Store>("ODBCDatabase");
@@ -342,6 +344,7 @@ public class HomePageTagsLogic : BaseNetLogic
             string new123 = startTime.ToString("yyyy-MM-dd");
             string new12 = startTime.ToString("yyyy-MM");
             string new1 = startTime.ToString("dd");
+            string jace1 = jace.ToString();
 
             string query1 = $"SELECT SUM(Consumption) FROM DailyConsumptionAgg WHERE LocalDate = '" + new123 + " 00:00:00' AND Jace = '33KV' AND Meter = 'J1_INCOMER1'";
             string query2 = $"SELECT SUM(Consumption) FROM DailyConsumptionAgg WHERE LocalDate = '" + new123 + " 00:00:00' AND Jace = '33KV' AND Meter = 'J1_INCOMER2'";
@@ -349,37 +352,37 @@ public class HomePageTagsLogic : BaseNetLogic
             string query4 = $"SELECT Avg_PF FROM DailyConsumptionAgg WHERE LocalDate = '" + new123 + " 00:00:00' AND Jace = '33KV' AND Meter = 'J1_INCOMER1'";
             string query5 = $"SELECT SUM(Consumption) FROM DailyConsumptionAgg WHERE MonthYear = '" + new12 + "' AND Jace = '33KV' AND Meter = 'J1_INCOMER1'";
             string query6 = $"SELECT SUM(Consumption) FROM DailyConsumptionAgg WHERE MonthYear = '" + new12 + "' AND Jace = '33KV' AND Meter = 'J1_INCOMER2'";
-            string query7 = $"SELECT Consumption FROM DailyJaceDataLogger WHERE Day = '1' AND MonthYear = '" + new12 + "' AND Jace = '33KV'";
-            string query8 = $"SELECT Consumption FROM DailyJaceDataLogger WHERE Day = '2' AND MonthYear = '" + new12 + "' AND Jace = '33KV'";
-            string query9 = $"SELECT Consumption FROM DailyJaceDataLogger WHERE Day = '3' AND MonthYear = '" + new12 + "' AND Jace = '33KV'";
-            string query10 = $"SELECT Consumption FROM DailyJaceDataLogger WHERE Day = '4' AND MonthYear = '" + new12 + "' AND Jace = '33KV'";
-            string query11 = $"SELECT Consumption FROM DailyJaceDataLogger WHERE Day = '5' AND MonthYear = '" + new12 + "' AND Jace = '33KV'";
-            string query12 = $"SELECT Consumption FROM DailyJaceDataLogger WHERE Day = '6' AND MonthYear = '" + new12 + "' AND Jace = '33KV'";
-            string query13 = $"SELECT Consumption FROM DailyJaceDataLogger WHERE Day = '7' AND MonthYear = '" + new12 + "' AND Jace = '33KV'";
-            string query14 = $"SELECT Consumption FROM DailyJaceDataLogger WHERE Day = '8' AND MonthYear = '" + new12 + "' AND Jace = '33KV'";
-            string query15 = $"SELECT Consumption FROM DailyJaceDataLogger WHERE Day = '9' AND MonthYear = '" + new12 + "' AND Jace = '33KV'";
-            string query16 = $"SELECT Consumption FROM DailyJaceDataLogger WHERE Day = '10' AND MonthYear = '" + new12 + "' AND Jace = '33KV'";
-            string query17 = $"SELECT Consumption FROM DailyJaceDataLogger WHERE Day = '11' AND MonthYear = '" + new12 + "' AND Jace = '33KV'";
-            string query18 = $"SELECT Consumption FROM DailyJaceDataLogger WHERE Day = '12' AND MonthYear = '" + new12 + "' AND Jace = '33KV'";
-            string query19 = $"SELECT Consumption FROM DailyJaceDataLogger WHERE Day = '13' AND MonthYear = '" + new12 + "' AND Jace = '33KV'";
-            string query20 = $"SELECT Consumption FROM DailyJaceDataLogger WHERE Day = '14' AND MonthYear = '" + new12 + "' AND Jace = '33KV'";
-            string query21 = $"SELECT Consumption FROM DailyJaceDataLogger WHERE Day = '15' AND MonthYear = '" + new12 + "' AND Jace = '33KV'";
-            string query22 = $"SELECT Consumption FROM DailyJaceDataLogger WHERE Day = '16' AND MonthYear = '" + new12 + "' AND Jace = '33KV'";
-            string query23 = $"SELECT Consumption FROM DailyJaceDataLogger WHERE Day = '17' AND MonthYear = '" + new12 + "' AND Jace = '33KV'";
-            string query24 = $"SELECT Consumption FROM DailyJaceDataLogger WHERE Day = '18' AND MonthYear = '" + new12 + "' AND Jace = '33KV'";
-            string query25 = $"SELECT Consumption FROM DailyJaceDataLogger WHERE Day = '19' AND MonthYear = '" + new12 + "' AND Jace = '33KV'";
-            string query26 = $"SELECT Consumption FROM DailyJaceDataLogger WHERE Day = '20' AND MonthYear = '" + new12 + "' AND Jace = '33KV'";
-            string query27 = $"SELECT Consumption FROM DailyJaceDataLogger WHERE Day = '21' AND MonthYear = '" + new12 + "' AND Jace = '33KV'";
-            string query28 = $"SELECT Consumption FROM DailyJaceDataLogger WHERE Day = '22' AND MonthYear = '" + new12 + "' AND Jace = '33KV'";
-            string query29 = $"SELECT Consumption FROM DailyJaceDataLogger WHERE Day = '23' AND MonthYear = '" + new12 + "' AND Jace = '33KV'";
-            string query30 = $"SELECT Consumption FROM DailyJaceDataLogger WHERE Day = '24' AND MonthYear = '" + new12 + "' AND Jace = '33KV'";
-            string query31 = $"SELECT Consumption FROM DailyJaceDataLogger WHERE Day = '25' AND MonthYear = '" + new12 + "' AND Jace = '33KV'";
-            string query32 = $"SELECT Consumption FROM DailyJaceDataLogger WHERE Day = '26' AND MonthYear = '" + new12 + "' AND Jace = '33KV'";
-            string query33 = $"SELECT Consumption FROM DailyJaceDataLogger WHERE Day = '27' AND MonthYear = '" + new12 + "' AND Jace = '33KV'";
-            string query34 = $"SELECT Consumption FROM DailyJaceDataLogger WHERE Day = '28' AND MonthYear = '" + new12 + "' AND Jace = '33KV'";
-            string query35 = $"SELECT Consumption FROM DailyJaceDataLogger WHERE Day = '29' AND MonthYear = '" + new12 + "' AND Jace = '33KV'";
-            string query36 = $"SELECT Consumption FROM DailyJaceDataLogger WHERE Day = '30' AND MonthYear = '" + new12 + "' AND Jace = '33KV'";
-            string query37 = $"SELECT Consumption FROM DailyJaceDataLogger WHERE Day = '31' AND MonthYear = '" + new12 + "' AND Jace = '33KV'";
+            string query7 = $"SELECT Consumption FROM DailyJaceDataLogger WHERE Day = '1' AND MonthYear = '" + new12 + "' AND Jace = '" + jace1 + "' ";
+            string query8 = $"SELECT Consumption FROM DailyJaceDataLogger WHERE Day = '2' AND MonthYear = '" + new12 + "' AND Jace = '" + jace1 + "' ";
+            string query9 = $"SELECT Consumption FROM DailyJaceDataLogger WHERE Day = '3' AND MonthYear = '" + new12 + "' AND Jace = '" + jace1 + "' ";
+            string query10 = $"SELECT Consumption FROM DailyJaceDataLogger WHERE Day = '4' AND MonthYear = '" + new12 + "' AND Jace = '" + jace1 + "' ";
+            string query11 = $"SELECT Consumption FROM DailyJaceDataLogger WHERE Day = '5' AND MonthYear = '" + new12 + "' AND Jace = '" + jace1 + "' ";
+            string query12 = $"SELECT Consumption FROM DailyJaceDataLogger WHERE Day = '6' AND MonthYear = '" + new12 + "' AND Jace = '" + jace1 + "' ";
+            string query13 = $"SELECT Consumption FROM DailyJaceDataLogger WHERE Day = '7' AND MonthYear = '" + new12 + "' AND Jace = '" + jace1 + "' ";
+            string query14 = $"SELECT Consumption FROM DailyJaceDataLogger WHERE Day = '8' AND MonthYear = '" + new12 + "' AND Jace = '" + jace1 + "' ";
+            string query15 = $"SELECT Consumption FROM DailyJaceDataLogger WHERE Day = '9' AND MonthYear = '" + new12 + "' AND Jace = '" + jace1 + "' ";
+            string query16 = $"SELECT Consumption FROM DailyJaceDataLogger WHERE Day = '10' AND MonthYear = '" + new12 + "' AND Jace = '" + jace1 + "' ";
+            string query17 = $"SELECT Consumption FROM DailyJaceDataLogger WHERE Day = '11' AND MonthYear = '" + new12 + "' AND Jace = '" + jace1 + "' ";
+            string query18 = $"SELECT Consumption FROM DailyJaceDataLogger WHERE Day = '12' AND MonthYear = '" + new12 + "' AND Jace = '" + jace1 + "' ";
+            string query19 = $"SELECT Consumption FROM DailyJaceDataLogger WHERE Day = '13' AND MonthYear = '" + new12 + "' AND Jace = '" + jace1 + "' ";
+            string query20 = $"SELECT Consumption FROM DailyJaceDataLogger WHERE Day = '14' AND MonthYear = '" + new12 + "' AND Jace = '" + jace1 + "' ";
+            string query21 = $"SELECT Consumption FROM DailyJaceDataLogger WHERE Day = '15' AND MonthYear = '" + new12 + "' AND Jace = '" + jace1 + "' ";
+            string query22 = $"SELECT Consumption FROM DailyJaceDataLogger WHERE Day = '16' AND MonthYear = '" + new12 + "' AND Jace = '" + jace1 + "' ";
+            string query23 = $"SELECT Consumption FROM DailyJaceDataLogger WHERE Day = '17' AND MonthYear = '" + new12 + "' AND Jace = '" + jace1 + "' ";
+            string query24 = $"SELECT Consumption FROM DailyJaceDataLogger WHERE Day = '18' AND MonthYear = '" + new12 + "' AND Jace = '" + jace1 + "' ";
+            string query25 = $"SELECT Consumption FROM DailyJaceDataLogger WHERE Day = '19' AND MonthYear = '" + new12 + "' AND Jace = '" + jace1 + "' ";
+            string query26 = $"SELECT Consumption FROM DailyJaceDataLogger WHERE Day = '20' AND MonthYear = '" + new12 + "' AND Jace = '" + jace1 + "' ";
+            string query27 = $"SELECT Consumption FROM DailyJaceDataLogger WHERE Day = '21' AND MonthYear = '" + new12 + "' AND Jace = '" + jace1 + "' ";
+            string query28 = $"SELECT Consumption FROM DailyJaceDataLogger WHERE Day = '22' AND MonthYear = '" + new12 + "' AND Jace = '" + jace1 + "' ";
+            string query29 = $"SELECT Consumption FROM DailyJaceDataLogger WHERE Day = '23' AND MonthYear = '" + new12 + "' AND Jace = '" + jace1 + "' ";
+            string query30 = $"SELECT Consumption FROM DailyJaceDataLogger WHERE Day = '24' AND MonthYear = '" + new12 + "' AND Jace = '" + jace1 + "' ";
+            string query31 = $"SELECT Consumption FROM DailyJaceDataLogger WHERE Day = '25' AND MonthYear = '" + new12 + "' AND Jace = '" + jace1 + "' ";
+            string query32 = $"SELECT Consumption FROM DailyJaceDataLogger WHERE Day = '26' AND MonthYear = '" + new12 + "' AND Jace = '" + jace1 + "' ";
+            string query33 = $"SELECT Consumption FROM DailyJaceDataLogger WHERE Day = '27' AND MonthYear = '" + new12 + "' AND Jace = '" + jace1 + "' ";
+            string query34 = $"SELECT Consumption FROM DailyJaceDataLogger WHERE Day = '28' AND MonthYear = '" + new12 + "' AND Jace = '" + jace1 + "' ";
+            string query35 = $"SELECT Consumption FROM DailyJaceDataLogger WHERE Day = '29' AND MonthYear = '" + new12 + "' AND Jace = '" + jace1 + "' ";
+            string query36 = $"SELECT Consumption FROM DailyJaceDataLogger WHERE Day = '30' AND MonthYear = '" + new12 + "' AND Jace = '" + jace1 + "' ";
+            string query37 = $"SELECT Consumption FROM DailyJaceDataLogger WHERE Day = '31' AND MonthYear = '" + new12 + "' AND Jace = '" + jace1 + "' ";
             
 
 
