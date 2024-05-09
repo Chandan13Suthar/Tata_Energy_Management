@@ -29920,7 +29920,7 @@ Children:
                       - Name: DynamicLink
                         Type: DynamicLink
                         DataType: NodePath
-                        Value: "../../../../../../WebBrowser1@NodeId"
+                        Value: "../../../../../../WebBrowser@NodeId"
                         Children:
                         - Name: Mode
                           Type: BaseVariableType
@@ -31051,85 +31051,6 @@ Children:
             Children:
             - Class: Method
               Name: OnRefreshButtonClicked
-          - Name: Rectangle2
-            Type: Rectangle
-            Children:
-            - Name: Width
-              Type: BaseVariableType
-              DataType: Size
-              ModellingRule: Optional
-              Value: 630.0
-            - Name: Height
-              Type: BaseVariableType
-              DataType: Size
-              ModellingRule: Optional
-              Value: 203.0
-            - Name: BorderThickness
-              Type: BaseDataVariableType
-              DataType: Size
-              ModellingRule: Optional
-              Value: 1.0
-            - Name: LeftMargin
-              Type: BaseVariableType
-              DataType: Size
-              ModellingRule: Optional
-              Value: 580.0
-            - Name: TopMargin
-              Type: BaseVariableType
-              DataType: Size
-              ModellingRule: Optional
-              Value: 307.0
-            - Name: HorizontalAlignment
-              Type: BaseVariableType
-              DataType: HorizontalAlignment
-              ModellingRule: Optional
-              Value: 3
-            - Name: RightMargin
-              Type: BaseVariableType
-              DataType: Size
-              ModellingRule: Optional
-              Value: 15.0
-            - Name: WebBrowser
-              Type: WebBrowser
-              Children:
-              - Name: URL
-                Type: BaseDataVariableType
-                DataType: ResourceUri
-                Value: ""
-              - Class: Reference
-                Target: ns=5;i=354
-                Direction: Forward
-              - Class: Reference
-                Target: ns=5;i=356
-                Direction: Forward
-              - Class: Reference
-                Target: ns=5;i=358
-                Direction: Forward
-              - Name: Width
-                Type: BaseVariableType
-                DataType: Size
-                ModellingRule: Optional
-                Value: 300.0
-              - Name: Height
-                Type: BaseVariableType
-                DataType: Size
-                ModellingRule: Optional
-                Value: 300.0
-              - Name: HorizontalAlignment
-                Type: BaseVariableType
-                DataType: HorizontalAlignment
-                ModellingRule: Optional
-                Value: 3
-              - Name: VerticalAlignment
-                Type: BaseVariableType
-                DataType: VerticalAlignment
-                ModellingRule: Optional
-                Value: 3
-            - Name: eChartTestLogic
-              Type: NetLogic
-              Children:
-              - Class: Method
-                Name: OnRefreshButtonClicked
           - Name: Rectangle3
             Type: Rectangle
             Children:
@@ -31168,47 +31089,6 @@ Children:
               DataType: Size
               ModellingRule: Optional
               Value: 15.0
-            - Name: WebBrowser
-              Type: WebBrowser
-              Children:
-              - Name: URL
-                Type: BaseDataVariableType
-                DataType: ResourceUri
-                Value: ""
-              - Class: Reference
-                Target: ns=5;i=354
-                Direction: Forward
-              - Class: Reference
-                Target: ns=5;i=356
-                Direction: Forward
-              - Class: Reference
-                Target: ns=5;i=358
-                Direction: Forward
-              - Name: Width
-                Type: BaseVariableType
-                DataType: Size
-                ModellingRule: Optional
-                Value: 300.0
-              - Name: Height
-                Type: BaseVariableType
-                DataType: Size
-                ModellingRule: Optional
-                Value: 300.0
-              - Name: HorizontalAlignment
-                Type: BaseVariableType
-                DataType: HorizontalAlignment
-                ModellingRule: Optional
-                Value: 3
-              - Name: VerticalAlignment
-                Type: BaseVariableType
-                DataType: VerticalAlignment
-                ModellingRule: Optional
-                Value: 3
-            - Name: eChartTestLogic
-              Type: NetLogic
-              Children:
-              - Class: Method
-                Name: OnRefreshButtonClicked
           - Name: Rectangle4
             Type: Rectangle
             Children:
@@ -31247,47 +31127,44 @@ Children:
               DataType: Size
               ModellingRule: Optional
               Value: 15.0
-            - Name: WebBrowser
-              Type: WebBrowser
-              Children:
-              - Name: URL
-                Type: BaseDataVariableType
-                DataType: ResourceUri
-                Value: ""
-              - Class: Reference
-                Target: ns=5;i=354
-                Direction: Forward
-              - Class: Reference
-                Target: ns=5;i=356
-                Direction: Forward
-              - Class: Reference
-                Target: ns=5;i=358
-                Direction: Forward
-              - Name: Width
-                Type: BaseVariableType
-                DataType: Size
-                ModellingRule: Optional
-                Value: 300.0
-              - Name: Height
-                Type: BaseVariableType
-                DataType: Size
-                ModellingRule: Optional
-                Value: 300.0
-              - Name: HorizontalAlignment
-                Type: BaseVariableType
-                DataType: HorizontalAlignment
-                ModellingRule: Optional
-                Value: 3
-              - Name: VerticalAlignment
-                Type: BaseVariableType
-                DataType: VerticalAlignment
-                ModellingRule: Optional
-                Value: 3
-            - Name: eChartTestLogic
-              Type: NetLogic
-              Children:
-              - Class: Method
-                Name: OnRefreshButtonClicked
+          - Name: Rectangle2
+            Type: Rectangle
+            Children:
+            - Name: Width
+              Type: BaseVariableType
+              DataType: Size
+              ModellingRule: Optional
+              Value: 630.0
+            - Name: Height
+              Type: BaseVariableType
+              DataType: Size
+              ModellingRule: Optional
+              Value: 203.0
+            - Name: BorderThickness
+              Type: BaseDataVariableType
+              DataType: Size
+              ModellingRule: Optional
+              Value: 1.0
+            - Name: LeftMargin
+              Type: BaseVariableType
+              DataType: Size
+              ModellingRule: Optional
+              Value: 580.0
+            - Name: TopMargin
+              Type: BaseVariableType
+              DataType: Size
+              ModellingRule: Optional
+              Value: 307.0
+            - Name: HorizontalAlignment
+              Type: BaseVariableType
+              DataType: HorizontalAlignment
+              ModellingRule: Optional
+              Value: 3
+            - Name: RightMargin
+              Type: BaseVariableType
+              DataType: Size
+              ModellingRule: Optional
+              Value: 15.0
         - Name: Plant
           Type: Rectangle
           Children:

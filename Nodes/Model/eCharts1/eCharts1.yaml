@@ -435,3 +435,15 @@ Children:
       Type: BaseVariableType
       DataType: DynamicLinkMode
       Value: 2
+- Name: Day32
+  Type: BaseDataVariableType
+  DataType: Int32
+  Value: 56
+- Name: Day33
+  Type: BaseDataVariableType
+  DataType: Int32
+  Value: 85
+- Name: Day34
+  Type: BaseDataVariableType
+  DataType: Int32
+  Value: 82
