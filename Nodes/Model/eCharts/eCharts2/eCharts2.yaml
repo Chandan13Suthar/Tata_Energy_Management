@@ -1,22 +1,22 @@
-Name: eCharts1
+Name: eCharts2
 Type: FolderType
 Children:
 - Name: Day1
   Type: BaseDataVariableType
   DataType: Int32
-  Value: 51
+  Value: 0
 - Name: Day2
   Type: BaseDataVariableType
   DataType: Int32
-  Value: 102
+  Value: 0
 - Name: Day3
   Type: BaseDataVariableType
   DataType: Int32
-  Value: 0
+  Value: 123
 - Name: Day4
   Type: BaseDataVariableType
   DataType: Int32
-  Value: 0
+  Value: 321
 - Name: Day5
   Type: BaseDataVariableType
   DataType: Int32
@@ -52,11 +52,11 @@ Children:
 - Name: Day13
   Type: BaseDataVariableType
   DataType: Int32
-  Value: 0
+  Value: 123
 - Name: Day14
   Type: BaseDataVariableType
   DataType: Int32
-  Value: 0
+  Value: 321
 - Name: Day15
   Type: BaseDataVariableType
   DataType: Int32
@@ -104,11 +104,11 @@ Children:
 - Name: Day26
   Type: BaseDataVariableType
   DataType: Int32
-  Value: 152
+  Value: 0
 - Name: Day27
   Type: BaseDataVariableType
   DataType: Int32
-  Value: 0
+  Value: 142
 - Name: Day28
   Type: BaseDataVariableType
   DataType: Int32
@@ -124,11 +124,11 @@ Children:
 - Name: Day31
   Type: BaseDataVariableType
   DataType: Int32
-  Value: 85
+  Value: 0
 - Name: Day32
   Type: BaseDataVariableType
   DataType: Int32
-  Value: 0
+  Value: 175
 - Name: Day33
   Type: BaseDataVariableType
   DataType: Int32
@@ -140,15 +140,15 @@ Children:
 - Name: Day35
   Type: BaseDataVariableType
   DataType: Int32
-  Value: 54
+  Value: 0
 - Name: Day36
   Type: BaseDataVariableType
   DataType: Int32
-  Value: 135
+  Value: 0
 - Name: Day37
   Type: BaseDataVariableType
   DataType: Int32
-  Value: 0
+  Value: 325
 - Name: Day38
   Type: BaseDataVariableType
   DataType: Int32
@@ -164,7 +164,7 @@ Children:
 - Name: Day41
   Type: BaseDataVariableType
   DataType: Int32
-  Value: 0
+  Value: 222
 - Name: Day42
   Type: BaseDataVariableType
   DataType: Int32
@@ -212,7 +212,7 @@ Children:
 - Name: Day53
   Type: BaseDataVariableType
   DataType: Int32
-  Value: 156
+  Value: 214
 - Name: Day54
   Type: BaseDataVariableType
   DataType: Int32
@@ -248,7 +248,7 @@ Children:
 - Name: Day62
   Type: BaseDataVariableType
   DataType: Int32
-  Value: 150
+  Value: 0
 - Name: Day63
   Type: BaseDataVariableType
   DataType: Int32
@@ -256,7 +256,7 @@ Children:
 - Name: Day64
   Type: BaseDataVariableType
   DataType: Int32
-  Value: 0
+  Value: 235
 - Name: Day65
   Type: BaseDataVariableType
   DataType: Int32
@@ -272,15 +272,15 @@ Children:
 - Name: Day68
   Type: BaseDataVariableType
   DataType: Int32
-  Value: 125
+  Value: 0
 - Name: Day69
   Type: BaseDataVariableType
   DataType: Int32
-  Value: 0
+  Value: 245
 - Name: Day70
   Type: BaseDataVariableType
   DataType: Int32
-  Value: 152
+  Value: 0
 - Name: Day71
   Type: BaseDataVariableType
   DataType: Int32
@@ -336,7 +336,7 @@ Children:
 - Name: Day84
   Type: BaseDataVariableType
   DataType: Int32
-  Value: 201
+  Value: 0
 - Name: Day85
   Type: BaseDataVariableType
   DataType: Int32
@@ -352,11 +352,11 @@ Children:
 - Name: Day88
   Type: BaseDataVariableType
   DataType: Int32
-  Value: 0
+  Value: 124
 - Name: Day89
   Type: BaseDataVariableType
   DataType: Int32
-  Value: 74
+  Value: 125
 - Name: Day90
   Type: BaseDataVariableType
   DataType: Int32
@@ -372,4 +372,4 @@ Children:
 - Name: Day93
   Type: BaseDataVariableType
   DataType: Int32
-  Value: 40
+  Value: 321

@@ -1,22 +1,31 @@
+
 using System;
 using UAManagedCore;
 using OpcUa = UAManagedCore.OpcUa;
 using FTOptix.HMIProject;
-using FTOptix.Retentivity;
-using FTOptix.NativeUI;
 using FTOptix.NetLogic;
+using FTOptix.NativeUI;
+using FTOptix.WebUI;
 using FTOptix.UI;
 using FTOptix.CoreBase;
+using FTOptix.DataLogger;
+using FTOptix.EventLogger;
+using FTOptix.SQLiteStore;
+using FTOptix.Store;
+using FTOptix.ODBCStore;
+using FTOptix.Report;
+using FTOptix.MicroController;
+using FTOptix.Retentivity;
+using FTOptix.AuditSigning;
+using FTOptix.Alarm;
+using FTOptix.CommunicationDriver;
 using FTOptix.Core;
 using System.IO;
 using FTOptix.OPCUAServer;
 using System.Threading;
 using System.Timers;
-using FTOptix.EventLogger;
-using FTOptix.Alarm;
-using FTOptix.MicroController;
 
-public class eChartTestLogic : BaseNetLogic
+public class eChartTest3Logic : BaseNetLogic
 {
     private System.Timers.Timer refreshTimer;
     public override void Start()
@@ -66,13 +75,13 @@ public class eChartTestLogic : BaseNetLogic
     private void RefreshRadarGraph()
     {
         Owner.Get<WebBrowser>("WebBrowser").Visible = false;
-        Log.Debug("eCharts", "Starting");
+        Log.Debug("eCharts3", "Starting");
         String projectPath = (ResourceUri.FromProjectRelativePath("").Uri);
         String folderSeparator = Path.DirectorySeparatorChar.ToString();
 
         // Get template name and create destination path
-        string templatePath = projectPath + folderSeparator + "eCharts" + folderSeparator + "Template-data.js";
-        string filePath = projectPath + folderSeparator + "eCharts" + folderSeparator + "data.js";
+        string templatePath = projectPath + folderSeparator + "eCharts3" + folderSeparator + "Template-data.js";
+        string filePath = projectPath + folderSeparator + "eCharts3" + folderSeparator + "data.js";
 
         // Read template page content
         string text = File.ReadAllText(templatePath);
@@ -80,7 +89,7 @@ public class eChartTestLogic : BaseNetLogic
         // Insert values
         for (int i = 1; i < 32; i++)
         {
-            text = text.Replace(i < 10 ? "$0" + i : "$" + i, (Project.Current.GetVariable("Model/eCharts/Day" + i).Value * 1).ToString());
+            text = text.Replace(i < 10 ? "$0" + i : "$" + i, (Project.Current.GetVariable("Model/eCharts/eCharts3/Day" + i).Value * 1).ToString());
         }
 
         // Write to file
@@ -88,7 +97,7 @@ public class eChartTestLogic : BaseNetLogic
 
         // Refresh WebBrowser page
         Owner.Get<WebBrowser>("WebBrowser").Refresh();
-        Log.Debug("eCharts", "Finished");
+        Log.Debug("eCharts3", "Finished");
         Thread.Sleep(500);
         Owner.Get<WebBrowser>("WebBrowser").Visible = true;
     }

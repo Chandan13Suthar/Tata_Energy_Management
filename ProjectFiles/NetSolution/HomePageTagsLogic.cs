@@ -64,7 +64,6 @@ public class HomePageTagsLogic : BaseNetLogic
     private IUAVariable day23Variable;
     private IUAVariable day24Variable;
     private IUAVariable day25Variable;
-    private IUAVariable day25Varibale;
     private IUAVariable day26Variable;
     private IUAVariable day27Variable;
     private IUAVariable day28Variable;

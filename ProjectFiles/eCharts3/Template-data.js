@@ -14,7 +14,7 @@ option = { // Define the chart configuration options
     tooltip: { // Configure the tooltip
         trigger: 'axis', // Trigger the tooltip on axes
         axisPointer: { // Configure the axis pointer for the tooltip
-            type: 'line' // Use 'line' type for the axis pointer; it can also be 'shadow'
+            type: 'line' // Use 'shadow' type for the axis pointer; it can also be 'line' or 'shadow'
         }
     },
 
@@ -25,8 +25,8 @@ option = { // Define the chart configuration options
         bottom: '3%', // Bottom margin
         containLabel: true // Allow labels to be contained within the grid
     },
-    yAxis: { // Configure the Y-axis
-        type: 'value', // Use a numeric Y-axis
+    yAxis: { // Configure the X-axis
+        type: 'value', // Use a numeric X-axis
         axisLabel: { // Configure the axis label
             textStyle: { // Configure text style for the axis label
                 color: '#000000', // Set text color to black
@@ -34,9 +34,9 @@ option = { // Define the chart configuration options
             }
         }
     },
-    xAxis: { // Configure the X-axis
-        type: 'category', // Use a category (text) X-axis
-        data: ['Day 01', 'Day 02', 'Day 03', 'Day 04', 'Day 05', 'Day 06', 'Day 07', 'Day 08', 'Day 09', 'Day 10', 'Day 11', 'Day 12', 'Day 13', 'Day 14', 'Day 15', 'Day 16', 'Day 17', 'Day 18', 'Day 19', 'Day 20', 'Day 21', 'Day 22', 'Day 23', 'Day 24', 'Day 25', 'Day 26', 'Day 27', 'Day 28', 'Day 29', 'Day 30', 'Day 31'], // Specify X-axis data labels
+    xAxis: { // Configure the Y-axis
+        type: 'category', // Use a category (text) Y-axis
+        data: ['Day 01', 'Day 02', 'Day 03', 'Day 04', 'Day 05', 'Day 06', 'Day 07', 'Day 08', 'Day 09', 'Day 10', 'Day 11', 'Day 12', 'Day 13', 'Day 14', 'Day 15', 'Day 16', 'Day 17', 'Day 18', 'Day 19', 'Day 20', 'Day 21', 'Day 22', 'Day 23', 'Day 24', 'Day 25', 'Day 26', 'Day 27', 'Day 28', 'Day 29', 'Day 30', 'Day 31'], // Specify Y-axis data labels
         axisLabel: { // Configure the axis label
             textStyle: { // Configure text style for the axis label
                 color: '#000000', // Set text color to black
@@ -46,13 +46,14 @@ option = { // Define the chart configuration options
     },
     series: [ // Configure chart series data
         {
-            name: 'V_RPhase', // Series name
-            type: 'line', // Line chart type
-            // If you want to stack lines, you can use the stack property here
-            label: { // Configure labels for lines
+            name: 'Frequency', // Series name
+            type: 'line', // Change chart type to line
+            stack: 'total',
+            Refresh: 'Auto', // Stack bars in the 'total' group
+            label: { // Configure labels for bars
                 show: true // Show labels
             },
-            emphasis: { // Configure emphasis settings for lines
+            emphasis: { // Configure emphasis settings for bars
                 focus: 'series', // Emphasize the entire series on interaction
                 itemStyle: { // Modify item style on emphasis (hover)
                     borderColor: '#000000', // Set border color to black
@@ -60,10 +61,12 @@ option = { // Define the chart configuration options
                 }
             },
             itemStyle: {
-                color: '#0080ff' // Set the line color
+                color: '#ff0000', // Solid color for the bars
+                borderRadius: [5, 5, 0, 0] // Set the border radius for the bars (top-left, top-right, bottom-right, bottom-left)
             },
             data: [$01, $02, $03, $04, $05, $06, $07, $08, $09, $10, $11, $12, $13, $14, $15, $16, $17, $18, $19, $20, $21, $22, $23, $24, $25, $26, $27, $28, $29, $30, $31]
         },
+       
         // Similar configurations for other series...
     ]
 };

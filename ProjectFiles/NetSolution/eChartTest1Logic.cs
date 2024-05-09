@@ -16,7 +16,7 @@ using FTOptix.EventLogger;
 using FTOptix.Alarm;
 using FTOptix.MicroController;
 
-public class eChartTestLogic : BaseNetLogic
+public class eChartTest1Logic : BaseNetLogic
 {
     private System.Timers.Timer refreshTimer;
     public override void Start()
@@ -66,21 +66,21 @@ public class eChartTestLogic : BaseNetLogic
     private void RefreshRadarGraph()
     {
         Owner.Get<WebBrowser>("WebBrowser").Visible = false;
-        Log.Debug("eCharts", "Starting");
+        Log.Debug("eCharts1", "Starting");
         String projectPath = (ResourceUri.FromProjectRelativePath("").Uri);
         String folderSeparator = Path.DirectorySeparatorChar.ToString();
 
         // Get template name and create destination path
-        string templatePath = projectPath + folderSeparator + "eCharts" + folderSeparator + "Template-data.js";
-        string filePath = projectPath + folderSeparator + "eCharts" + folderSeparator + "data.js";
+        string templatePath = projectPath + folderSeparator + "eCharts1" + folderSeparator + "Template-data.js";
+        string filePath = projectPath + folderSeparator + "eCharts1" + folderSeparator + "data.js";
 
         // Read template page content
         string text = File.ReadAllText(templatePath);
 
         // Insert values
-        for (int i = 1; i < 32; i++)
+        for (int i = 1; i < 94; i++)
         {
-            text = text.Replace(i < 10 ? "$0" + i : "$" + i, (Project.Current.GetVariable("Model/eCharts/Day" + i).Value * 1).ToString());
+            text = text.Replace(i < 10 ? "$0" + i : "$" + i, (Project.Current.GetVariable("Model/eCharts/eCharts1/Day" + i).Value * 1).ToString());
         }
 
         // Write to file
@@ -88,7 +88,7 @@ public class eChartTestLogic : BaseNetLogic
 
         // Refresh WebBrowser page
         Owner.Get<WebBrowser>("WebBrowser").Refresh();
-        Log.Debug("eCharts", "Finished");
+        Log.Debug("eCharts1", "Finished");
         Thread.Sleep(500);
         Owner.Get<WebBrowser>("WebBrowser").Visible = true;
     }
