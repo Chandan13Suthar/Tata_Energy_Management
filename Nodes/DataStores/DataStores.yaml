@@ -835,6 +835,10 @@ Children:
           Type: StoreColumn
           DataType: DateString
           Value: ""
+        - Name: Year
+          Type: StoreColumn
+          DataType: DateString
+          Value: ""
         - Name: Jace
           Type: StoreColumn
           DataType: String
@@ -848,6 +852,30 @@ Children:
           DataType: Float
           Value: 0.0
         - Name: Frequency
+          Type: StoreColumn
+          DataType: Float
+          Value: 0.0
+        - Name: Voltage_RN
+          Type: StoreColumn
+          DataType: Float
+          Value: 0.0
+        - Name: Voltage_YN
+          Type: StoreColumn
+          DataType: Float
+          Value: 0.0
+        - Name: Voltage_BN
+          Type: StoreColumn
+          DataType: Float
+          Value: 0.0
+        - Name: Phase_B_Current
+          Type: StoreColumn
+          DataType: Float
+          Value: 0.0
+        - Name: Phase_Y_Current
+          Type: StoreColumn
+          DataType: Float
+          Value: 0.0
+        - Name: Phase_R_Current
           Type: StoreColumn
           DataType: Float
           Value: 0.0

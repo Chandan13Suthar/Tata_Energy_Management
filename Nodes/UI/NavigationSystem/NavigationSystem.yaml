@@ -31804,12 +31804,7 @@ Children:
                 - Name: Text
                   Type: BaseDataVariableType
                   DataType: LocalizedText
-                  Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
-                  Children:
-                  - Name: DynamicLink
-                    Type: DynamicLink
-                    DataType: NodePath
-                    Value: "/Objects/Tata_Energy_Management/Model/ComparisionInstance/Utilitypercentage"
+                  Value: {"LocaleId":"en-US","Text":"100"}
               - Name: Label2
                 Type: Label
                 Children:
@@ -31919,7 +31914,7 @@ Children:
                   - Name: DynamicLink
                     Type: DynamicLink
                     DataType: NodePath
-                    Value: "/Objects/Tata_Energy_Management/Model/ComparisionInstance/Consumption"
+                    Value: "/Objects/Tata_Energy_Management/Model/HomePageComparisionPanelInstance/Consumption33KV"
               - Name: Target1
                 Type: Label
                 Children:
@@ -32023,7 +32018,7 @@ Children:
                   - Name: DynamicLink
                     Type: DynamicLink
                     DataType: NodePath
-                    Value: "/Objects/Tata_Energy_Management/Model/ComparisionInstance/Yearlowest"
+                    Value: "/Objects/Tata_Energy_Management/Model/HomePageComparisionPanelInstance/Yearlowest33KV"
               - Name: MonthLowest
                 Type: Label
                 Children:
@@ -32075,7 +32070,7 @@ Children:
                   - Name: DynamicLink
                     Type: DynamicLink
                     DataType: NodePath
-                    Value: "/Objects/Tata_Energy_Management/Model/ComparisionInstance/Monthlowest"
+                    Value: "/Objects/Tata_Energy_Management/Model/HomePageComparisionPanelInstance/Monthlowest33KV"
               - Name: Average
                 Type: Label
                 Children:
@@ -32127,7 +32122,7 @@ Children:
                   - Name: DynamicLink
                     Type: DynamicLink
                     DataType: NodePath
-                    Value: "/Objects/Tata_Energy_Management/Model/ComparisionInstance/Average"
+                    Value: "/Objects/Tata_Energy_Management/Model/HomePageComparisionPanelInstance/Average33KV"
               - Name: Consumption1
                 Type: Label
                 Children:
@@ -32458,6 +32453,17 @@ Children:
                   Type: BaseDataVariableType
                   DataType: Float
                   Value: 50.0
+                  Children:
+                  - Name: DynamicLink
+                    Type: DynamicLink
+                    DataType: NodePath
+                    Value: "/Objects/Tata_Energy_Management/Model/HomePageComparisionPanelInstance/Utilitypercentage"
+                    Children:
+                    - Name: Mode
+                      Type: BaseVariableType
+                      DataType: DynamicLinkMode
+                      ModellingRule: Optional
+                      Value: 2
                 - Name: MinValue
                   Type: BaseDataVariableType
                   DataType: Float
@@ -32670,7 +32676,7 @@ Children:
                   - Name: DynamicLink
                     Type: DynamicLink
                     DataType: NodePath
-                    Value: "/Objects/Tata_Energy_Management/Model/ComparisionInstance/Stampingpercentage"
+                    Value: "/Objects/Tata_Energy_Management/Model/HomePageComparisionPanelInstance/Utilitypercentage"
               - Name: Label2
                 Type: Label
                 Children:
@@ -32780,7 +32786,7 @@ Children:
                   - Name: DynamicLink
                     Type: DynamicLink
                     DataType: NodePath
-                    Value: "/Objects/Tata_Energy_Management/Model/ComparisionInstance/ConsumptionStamping"
+                    Value: "/Objects/Tata_Energy_Management/Model/HomePageComparisionPanelInstance/Consumption"
               - Name: Target1
                 Type: Label
                 Children:
@@ -32884,7 +32890,7 @@ Children:
                   - Name: DynamicLink
                     Type: DynamicLink
                     DataType: NodePath
-                    Value: "/Objects/Tata_Energy_Management/Model/ComparisionInstance/YearlowestStamping"
+                    Value: "/Objects/Tata_Energy_Management/Model/HomePageComparisionPanelInstance/Yearlowest"
               - Name: MonthLowest
                 Type: Label
                 Children:
@@ -32936,7 +32942,7 @@ Children:
                   - Name: DynamicLink
                     Type: DynamicLink
                     DataType: NodePath
-                    Value: "/Objects/Tata_Energy_Management/Model/ComparisionInstance/MonthlowestStamping"
+                    Value: "/Objects/Tata_Energy_Management/Model/HomePageComparisionPanelInstance/Monthlowest"
               - Name: Average
                 Type: Label
                 Children:
@@ -32988,7 +32994,7 @@ Children:
                   - Name: DynamicLink
                     Type: DynamicLink
                     DataType: NodePath
-                    Value: "/Objects/Tata_Energy_Management/Model/ComparisionInstance/AverageStamping"
+                    Value: "/Objects/Tata_Energy_Management/Model/HomePageComparisionPanelInstance/Average"
             - Name: Tcf Shop
               Type: Image
               Children:
@@ -33276,6 +33282,17 @@ Children:
                   Type: BaseDataVariableType
                   DataType: Float
                   Value: 50.0
+                  Children:
+                  - Name: DynamicLink
+                    Type: DynamicLink
+                    DataType: NodePath
+                    Value: "/Objects/Tata_Energy_Management/Model/HomePageComparisionPanelInstance/Bodyshoppercentage"
+                    Children:
+                    - Name: Mode
+                      Type: BaseVariableType
+                      DataType: DynamicLinkMode
+                      ModellingRule: Optional
+                      Value: 2
                 - Name: MinValue
                   Type: BaseDataVariableType
                   DataType: Float
@@ -33488,7 +33505,7 @@ Children:
                   - Name: DynamicLink
                     Type: DynamicLink
                     DataType: NodePath
-                    Value: "/Objects/Tata_Energy_Management/Model/ComparisionInstance/Tcfpercentage"
+                    Value: "/Objects/Tata_Energy_Management/Model/HomePageComparisionPanelInstance/Bodyshoppercentage"
               - Name: Label2
                 Type: Label
                 Children:
@@ -33598,7 +33615,7 @@ Children:
                   - Name: DynamicLink
                     Type: DynamicLink
                     DataType: NodePath
-                    Value: "/Objects/Tata_Energy_Management/Model/ComparisionInstance/ConsumptionTcf"
+                    Value: "/Objects/Tata_Energy_Management/Model/HomePageComparisionPanelInstance/ConsumptionBodyshop"
               - Name: Target1
                 Type: Label
                 Children:
@@ -33702,7 +33719,7 @@ Children:
                   - Name: DynamicLink
                     Type: DynamicLink
                     DataType: NodePath
-                    Value: "/Objects/Tata_Energy_Management/Model/ComparisionInstance/YearlowestTcf"
+                    Value: "/Objects/Tata_Energy_Management/Model/HomePageComparisionPanelInstance/YearlowestBodyshop"
               - Name: MonthLowest
                 Type: Label
                 Children:
@@ -33754,7 +33771,7 @@ Children:
                   - Name: DynamicLink
                     Type: DynamicLink
                     DataType: NodePath
-                    Value: "/Objects/Tata_Energy_Management/Model/ComparisionInstance/MonthlowestTcf"
+                    Value: "/Objects/Tata_Energy_Management/Model/HomePageComparisionPanelInstance/MonthlowestBodyshop"
               - Name: Average
                 Type: Label
                 Children:
@@ -33806,7 +33823,7 @@ Children:
                   - Name: DynamicLink
                     Type: DynamicLink
                     DataType: NodePath
-                    Value: "/Objects/Tata_Energy_Management/Model/ComparisionInstance/AverageTcf"
+                    Value: "/Objects/Tata_Energy_Management/Model/HomePageComparisionPanelInstance/AverageBodyshop"
             - Name: Body Shop
               Type: Image
               Children:
@@ -34094,6 +34111,17 @@ Children:
                   Type: BaseDataVariableType
                   DataType: Float
                   Value: 50.0
+                  Children:
+                  - Name: DynamicLink
+                    Type: DynamicLink
+                    DataType: NodePath
+                    Value: "/Objects/Tata_Energy_Management/Model/HomePageComparisionPanelInstance/Stampingpercentage"
+                    Children:
+                    - Name: Mode
+                      Type: BaseVariableType
+                      DataType: DynamicLinkMode
+                      ModellingRule: Optional
+                      Value: 2
                 - Name: MinValue
                   Type: BaseDataVariableType
                   DataType: Float
@@ -34306,7 +34334,7 @@ Children:
                   - Name: DynamicLink
                     Type: DynamicLink
                     DataType: NodePath
-                    Value: "/Objects/Tata_Energy_Management/Model/ComparisionInstance/Bodyshoppercentage"
+                    Value: "/Objects/Tata_Energy_Management/Model/HomePageComparisionPanelInstance/Bodyshoppercentage"
               - Name: Label2
                 Type: Label
                 Children:
@@ -34416,7 +34444,7 @@ Children:
                   - Name: DynamicLink
                     Type: DynamicLink
                     DataType: NodePath
-                    Value: "/Objects/Tata_Energy_Management/Model/ComparisionInstance/ConsumptionBodyshop"
+                    Value: "/Objects/Tata_Energy_Management/Model/HomePageComparisionPanelInstance/ConsumptionStamping"
               - Name: Target1
                 Type: Label
                 Children:
@@ -34520,7 +34548,7 @@ Children:
                   - Name: DynamicLink
                     Type: DynamicLink
                     DataType: NodePath
-                    Value: "/Objects/Tata_Energy_Management/Model/ComparisionInstance/YearlowestBodyshop"
+                    Value: "/Objects/Tata_Energy_Management/Model/HomePageComparisionPanelInstance/YearlowestStamping"
               - Name: MonthLowest
                 Type: Label
                 Children:
@@ -34572,7 +34600,7 @@ Children:
                   - Name: DynamicLink
                     Type: DynamicLink
                     DataType: NodePath
-                    Value: "/Objects/Tata_Energy_Management/Model/ComparisionInstance/MonthlowestBodyshop"
+                    Value: "/Objects/Tata_Energy_Management/Model/HomePageComparisionPanelInstance/MonthlowestStamping"
               - Name: Average
                 Type: Label
                 Children:
@@ -34624,7 +34652,7 @@ Children:
                   - Name: DynamicLink
                     Type: DynamicLink
                     DataType: NodePath
-                    Value: "/Objects/Tata_Energy_Management/Model/ComparisionInstance/AverageBodyshop"
+                    Value: "/Objects/Tata_Energy_Management/Model/HomePageComparisionPanelInstance/AverageStamping"
             - Name: HorizontalAlignment
               Type: BaseVariableType
               DataType: HorizontalAlignment
@@ -34722,7 +34750,7 @@ Children:
                   Type: BaseDataVariableType
                   DataType: LocalizedText
                   ModellingRule: Optional
-                  Value: {"LocaleId":"en-US","Text":"ADMIN"}
+                  Value: {"LocaleId":"en-US","Text":"ENGINESHOP"}
                 - Name: LeftMargin
                   Type: BaseVariableType
                   DataType: Size
@@ -34965,6 +34993,17 @@ Children:
                   Type: BaseDataVariableType
                   DataType: Float
                   Value: 50.0
+                  Children:
+                  - Name: DynamicLink
+                    Type: DynamicLink
+                    DataType: NodePath
+                    Value: "/Objects/Tata_Energy_Management/Model/HomePageComparisionPanelInstance/Engineshoppercentage"
+                    Children:
+                    - Name: Mode
+                      Type: BaseVariableType
+                      DataType: DynamicLinkMode
+                      ModellingRule: Optional
+                      Value: 2
                 - Name: MinValue
                   Type: BaseDataVariableType
                   DataType: Float
@@ -35119,11 +35158,6 @@ Children:
               - Name: Label1
                 Type: Label
                 Children:
-                - Name: Text
-                  Type: BaseDataVariableType
-                  DataType: LocalizedText
-                  ModellingRule: Optional
-                  Value: {"LocaleId":"en-US","Text":"50"}
                 - Name: LeftMargin
                   Type: BaseVariableType
                   DataType: Size
@@ -35174,6 +35208,15 @@ Children:
                   DataType: Font
                   ModellingRule: Optional
                   Value: "Lucida Fax"
+                - Name: Text
+                  Type: BaseDataVariableType
+                  DataType: LocalizedText
+                  Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+                  Children:
+                  - Name: DynamicLink
+                    Type: DynamicLink
+                    DataType: NodePath
+                    Value: "/Objects/Tata_Energy_Management/Model/HomePageComparisionPanelInstance/Engineshoppercentage"
               - Name: Label2
                 Type: Label
                 Children:
@@ -35283,7 +35326,7 @@ Children:
                   - Name: DynamicLink
                     Type: DynamicLink
                     DataType: NodePath
-                    Value: "/Objects/Tata_Energy_Management/Model/ComparisionInstance/ConsumptionSpare"
+                    Value: "/Objects/Tata_Energy_Management/Model/HomePageComparisionPanelInstance/ConsumptionEngineshop"
               - Name: Target1
                 Type: Label
                 Children:
@@ -35331,11 +35374,6 @@ Children:
                   Type: BaseDataVariableType
                   DataType: LocalizedText
                   Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
-                  Children:
-                  - Name: DynamicLink
-                    Type: DynamicLink
-                    DataType: NodePath
-                    Value: "/Objects/Tata_Energy_Management/Model/ComparisionInstance/TargetSpare"
               - Name: YearLowest
                 Type: Label
                 Children:
@@ -35387,7 +35425,7 @@ Children:
                   - Name: DynamicLink
                     Type: DynamicLink
                     DataType: NodePath
-                    Value: "/Objects/Tata_Energy_Management/Model/ComparisionInstance/YearlowestSpare"
+                    Value: "/Objects/Tata_Energy_Management/Model/HomePageComparisionPanelInstance/YearlowestEngineshop"
               - Name: MonthLowest
                 Type: Label
                 Children:
@@ -35439,7 +35477,7 @@ Children:
                   - Name: DynamicLink
                     Type: DynamicLink
                     DataType: NodePath
-                    Value: "/Objects/Tata_Energy_Management/Model/ComparisionInstance/MonthlowestSpare"
+                    Value: "/Objects/Tata_Energy_Management/Model/HomePageComparisionPanelInstance/MonthlowestEngineshop"
               - Name: Average
                 Type: Label
                 Children:
@@ -35491,7 +35529,7 @@ Children:
                   - Name: DynamicLink
                     Type: DynamicLink
                     DataType: NodePath
-                    Value: "/Objects/Tata_Energy_Management/Model/ComparisionInstance/AverageSpare"
+                    Value: "/Objects/Tata_Energy_Management/Model/HomePageComparisionPanelInstance/AverageEngineshop"
             - Name: Paint Shop
               Type: Image
               Children:
@@ -35779,6 +35817,17 @@ Children:
                   Type: BaseDataVariableType
                   DataType: Float
                   Value: 50.0
+                  Children:
+                  - Name: DynamicLink
+                    Type: DynamicLink
+                    DataType: NodePath
+                    Value: "/Objects/Tata_Energy_Management/Model/HomePageComparisionPanelInstance/Paintshoppercentage"
+                    Children:
+                    - Name: Mode
+                      Type: BaseVariableType
+                      DataType: DynamicLinkMode
+                      ModellingRule: Optional
+                      Value: 2
                 - Name: MinValue
                   Type: BaseDataVariableType
                   DataType: Float
@@ -35991,7 +36040,7 @@ Children:
                   - Name: DynamicLink
                     Type: DynamicLink
                     DataType: NodePath
-                    Value: "/Objects/Tata_Energy_Management/Model/ComparisionInstance/Paintshoppercentage"
+                    Value: "/Objects/Tata_Energy_Management/Model/HomePageComparisionPanelInstance/Paintshoppercentage"
               - Name: Label2
                 Type: Label
                 Children:
@@ -36101,7 +36150,7 @@ Children:
                   - Name: DynamicLink
                     Type: DynamicLink
                     DataType: NodePath
-                    Value: "/Objects/Tata_Energy_Management/Model/ComparisionInstance/ConsumptionPaintshop"
+                    Value: "/Objects/Tata_Energy_Management/Model/HomePageComparisionPanelInstance/ConsumptionPaintshop"
               - Name: Target1
                 Type: Label
                 Children:
@@ -36205,7 +36254,7 @@ Children:
                   - Name: DynamicLink
                     Type: DynamicLink
                     DataType: NodePath
-                    Value: "/Objects/Tata_Energy_Management/Model/ComparisionInstance/YearlowestPaintshop"
+                    Value: "/Objects/Tata_Energy_Management/Model/HomePageComparisionPanelInstance/YearlowestPaintshop"
               - Name: MonthLowest
                 Type: Label
                 Children:
@@ -36257,7 +36306,7 @@ Children:
                   - Name: DynamicLink
                     Type: DynamicLink
                     DataType: NodePath
-                    Value: "/Objects/Tata_Energy_Management/Model/ComparisionInstance/MonthlowestPaintshop"
+                    Value: "/Objects/Tata_Energy_Management/Model/HomePageComparisionPanelInstance/MonthlowestPaintshop"
               - Name: Average
                 Type: Label
                 Children:
@@ -36309,7 +36358,7 @@ Children:
                   - Name: DynamicLink
                     Type: DynamicLink
                     DataType: NodePath
-                    Value: "/Objects/Tata_Energy_Management/Model/ComparisionInstance/AveragePaintshop"
+                    Value: "/Objects/Tata_Energy_Management/Model/HomePageComparisionPanelInstance/AveragePaintshop"
             - Name: SPP Shop
               Type: Image
               Children:
@@ -36597,6 +36646,17 @@ Children:
                   Type: BaseDataVariableType
                   DataType: Float
                   Value: 50.0
+                  Children:
+                  - Name: DynamicLink
+                    Type: DynamicLink
+                    DataType: NodePath
+                    Value: "/Objects/Tata_Energy_Management/Model/HomePageComparisionPanelInstance/Spppercentage"
+                    Children:
+                    - Name: Mode
+                      Type: BaseVariableType
+                      DataType: DynamicLinkMode
+                      ModellingRule: Optional
+                      Value: 2
                 - Name: MinValue
                   Type: BaseDataVariableType
                   DataType: Float
@@ -36809,7 +36869,7 @@ Children:
                   - Name: DynamicLink
                     Type: DynamicLink
                     DataType: NodePath
-                    Value: "/Objects/Tata_Energy_Management/Model/ComparisionInstance/Spppercentage"
+                    Value: "/Objects/Tata_Energy_Management/Model/HomePageComparisionPanelInstance/Spppercentage"
               - Name: Label2
                 Type: Label
                 Children:
@@ -36919,7 +36979,7 @@ Children:
                   - Name: DynamicLink
                     Type: DynamicLink
                     DataType: NodePath
-                    Value: "/Objects/Tata_Energy_Management/Model/ComparisionInstance/ConsumptionSpp"
+                    Value: "/Objects/Tata_Energy_Management/Model/HomePageComparisionPanelInstance/ConsumptionSpp"
               - Name: Target1
                 Type: Label
                 Children:
@@ -37023,7 +37083,7 @@ Children:
                   - Name: DynamicLink
                     Type: DynamicLink
                     DataType: NodePath
-                    Value: "/Objects/Tata_Energy_Management/Model/ComparisionInstance/YearlowestSpp"
+                    Value: "/Objects/Tata_Energy_Management/Model/HomePageComparisionPanelInstance/YearlowestSpp"
               - Name: MonthLowest
                 Type: Label
                 Children:
@@ -37075,7 +37135,7 @@ Children:
                   - Name: DynamicLink
                     Type: DynamicLink
                     DataType: NodePath
-                    Value: "/Objects/Tata_Energy_Management/Model/ComparisionInstance/MonthlowestSpp"
+                    Value: "/Objects/Tata_Energy_Management/Model/HomePageComparisionPanelInstance/MonthlowestSpp"
               - Name: Average
                 Type: Label
                 Children:
@@ -37127,7 +37187,7 @@ Children:
                   - Name: DynamicLink
                     Type: DynamicLink
                     DataType: NodePath
-                    Value: "/Objects/Tata_Energy_Management/Model/ComparisionInstance/AverageSpp"
+                    Value: "/Objects/Tata_Energy_Management/Model/HomePageComparisionPanelInstance/AverageSpp"
             - Name: HorizontalAlignment
               Type: BaseVariableType
               DataType: HorizontalAlignment
@@ -37643,11 +37703,6 @@ Children:
                   Type: BaseDataVariableType
                   DataType: LocalizedText
                   Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
-                  Children:
-                  - Name: DynamicLink
-                    Type: DynamicLink
-                    DataType: NodePath
-                    Value: "/Objects/Tata_Energy_Management/Model/ComparisionInstance/Spppercentage"
               - Name: Label2
                 Type: Label
                 Children:
@@ -37753,11 +37808,6 @@ Children:
                   Type: BaseDataVariableType
                   DataType: LocalizedText
                   Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
-                  Children:
-                  - Name: DynamicLink
-                    Type: DynamicLink
-                    DataType: NodePath
-                    Value: "/Objects/Tata_Energy_Management/Model/ComparisionInstance/ConsumptionSpp"
               - Name: Target1
                 Type: Label
                 Children:
@@ -37805,11 +37855,6 @@ Children:
                   Type: BaseDataVariableType
                   DataType: LocalizedText
                   Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
-                  Children:
-                  - Name: DynamicLink
-                    Type: DynamicLink
-                    DataType: NodePath
-                    Value: "/Objects/Tata_Energy_Management/Model/ComparisionInstance/TargetSpp"
               - Name: YearLowest
                 Type: Label
                 Children:
@@ -37857,11 +37902,6 @@ Children:
                   Type: BaseDataVariableType
                   DataType: LocalizedText
                   Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
-                  Children:
-                  - Name: DynamicLink
-                    Type: DynamicLink
-                    DataType: NodePath
-                    Value: "/Objects/Tata_Energy_Management/Model/ComparisionInstance/YearlowestSpp"
               - Name: MonthLowest
                 Type: Label
                 Children:
@@ -37909,11 +37949,6 @@ Children:
                   Type: BaseDataVariableType
                   DataType: LocalizedText
                   Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
-                  Children:
-                  - Name: DynamicLink
-                    Type: DynamicLink
-                    DataType: NodePath
-                    Value: "/Objects/Tata_Energy_Management/Model/ComparisionInstance/MonthlowestSpp"
               - Name: Average
                 Type: Label
                 Children:
@@ -37961,11 +37996,6 @@ Children:
                   Type: BaseDataVariableType
                   DataType: LocalizedText
                   Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
-                  Children:
-                  - Name: DynamicLink
-                    Type: DynamicLink
-                    DataType: NodePath
-                    Value: "/Objects/Tata_Energy_Management/Model/ComparisionInstance/AverageSpp"
             - Name: BorderColor
               Type: BaseDataVariableType
               DataType: Color
