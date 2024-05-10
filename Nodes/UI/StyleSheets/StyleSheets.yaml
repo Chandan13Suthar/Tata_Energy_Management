@@ -745,7 +745,7 @@ Children:
       - Name: TextColor
         Type: BaseDataVariableType
         DataType: Color
-        Value: "#ffffff"
+        Value: "#01042c"
       - Name: FontSize
         Type: BaseDataVariableType
         DataType: Size

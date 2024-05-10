@@ -3890,7 +3890,7 @@ Children:
         Type: BaseDataVariableType
         DataType: Color
         ModellingRule: Optional
-        Value: "#01042c"
+        Value: "#f0f0f0"
       - Name: VerticalAlignment
         Type: BaseVariableType
         DataType: VerticalAlignment
@@ -4594,7 +4594,7 @@ Children:
           Type: BaseDataVariableType
           DataType: Size
           ModellingRule: Optional
-          Value: 1.0
+          Value: 0.0
         - Name: LeftMargin
           Type: BaseVariableType
           DataType: Size
@@ -4629,7 +4629,39 @@ Children:
           Type: BaseDataVariableType
           DataType: Color
           ModellingRule: Optional
-          Value: "#01042c"
+          Value: "#f0f0f0"
+        - Name: Image1
+          Type: Image
+          Children:
+          - Name: Path
+            Type: BaseDataVariableType
+            DataType: ResourceUri
+            Value: "ns=36;%PROJECTDIR%/imgs/white_tile_2.svg"
+          - Name: Width
+            Type: BaseVariableType
+            DataType: Size
+            ModellingRule: Optional
+            Value: 289.0
+          - Name: Height
+            Type: BaseVariableType
+            DataType: Size
+            ModellingRule: Optional
+            Value: 99.0
+          - Name: LeftMargin
+            Type: BaseVariableType
+            DataType: Size
+            ModellingRule: Optional
+            Value: 11.0
+          - Name: HorizontalAlignment
+            Type: BaseVariableType
+            DataType: HorizontalAlignment
+            ModellingRule: Optional
+            Value: 3
+          - Name: FillMode
+            Type: BaseDataVariableType
+            DataType: FillModeEnum
+            ModellingRule: Optional
+            Value: 1
         - Name: Label4
           Type: Label
           Children:
@@ -4662,7 +4694,7 @@ Children:
             Type: BaseDataVariableType
             DataType: Color
             ModellingRule: Optional
-            Value: "#ffffff"
+            Value: "#01042c"
         - Name: Label2
           Type: Label
           Children:
@@ -4723,7 +4755,7 @@ Children:
             Type: BaseDataVariableType
             DataType: Color
             ModellingRule: Optional
-            Value: "#ffffff"
+            Value: "#01042c"
           - Name: Width
             Type: BaseVariableType
             DataType: Size
@@ -4756,7 +4788,7 @@ Children:
           Type: BaseDataVariableType
           DataType: Size
           ModellingRule: Optional
-          Value: 1.0
+          Value: 0.0
         - Name: LeftMargin
           Type: BaseVariableType
           DataType: Size
@@ -4792,6 +4824,38 @@ Children:
           DataType: Color
           ModellingRule: Optional
           Value: "#01042c"
+        - Name: Image1
+          Type: Image
+          Children:
+          - Name: Path
+            Type: BaseDataVariableType
+            DataType: ResourceUri
+            Value: "ns=36;%PROJECTDIR%/imgs/white_tile_2.svg"
+          - Name: Width
+            Type: BaseVariableType
+            DataType: Size
+            ModellingRule: Optional
+            Value: 289.0
+          - Name: Height
+            Type: BaseVariableType
+            DataType: Size
+            ModellingRule: Optional
+            Value: 99.0
+          - Name: LeftMargin
+            Type: BaseVariableType
+            DataType: Size
+            ModellingRule: Optional
+            Value: -1.0
+          - Name: HorizontalAlignment
+            Type: BaseVariableType
+            DataType: HorizontalAlignment
+            ModellingRule: Optional
+            Value: 3
+          - Name: FillMode
+            Type: BaseDataVariableType
+            DataType: FillModeEnum
+            ModellingRule: Optional
+            Value: 1
         - Name: Label2
           Type: Label
           Children:
@@ -4852,7 +4916,7 @@ Children:
             Type: BaseDataVariableType
             DataType: Color
             ModellingRule: Optional
-            Value: "#ffffff"
+            Value: "#01042c"
           - Name: Width
             Type: BaseVariableType
             DataType: Size
@@ -4900,7 +4964,7 @@ Children:
             Type: BaseDataVariableType
             DataType: Color
             ModellingRule: Optional
-            Value: "#ffffff"
+            Value: "#01042c"
       - Name: Rectangle2
         Type: Rectangle
         Children:
@@ -4918,7 +4982,7 @@ Children:
           Type: BaseDataVariableType
           DataType: Size
           ModellingRule: Optional
-          Value: 1.0
+          Value: 0.0
         - Name: LeftMargin
           Type: BaseVariableType
           DataType: Size
@@ -4954,6 +5018,38 @@ Children:
           DataType: Color
           ModellingRule: Optional
           Value: "#01042c"
+        - Name: Image1
+          Type: Image
+          Children:
+          - Name: Path
+            Type: BaseDataVariableType
+            DataType: ResourceUri
+            Value: "ns=36;%PROJECTDIR%/imgs/white_tile_2.svg"
+          - Name: Width
+            Type: BaseVariableType
+            DataType: Size
+            ModellingRule: Optional
+            Value: 289.0
+          - Name: Height
+            Type: BaseVariableType
+            DataType: Size
+            ModellingRule: Optional
+            Value: 99.0
+          - Name: LeftMargin
+            Type: BaseVariableType
+            DataType: Size
+            ModellingRule: Optional
+            Value: -1.0
+          - Name: HorizontalAlignment
+            Type: BaseVariableType
+            DataType: HorizontalAlignment
+            ModellingRule: Optional
+            Value: 3
+          - Name: FillMode
+            Type: BaseDataVariableType
+            DataType: FillModeEnum
+            ModellingRule: Optional
+            Value: 1
         - Name: Label2
           Type: Label
           Children:
@@ -5014,7 +5110,7 @@ Children:
             Type: BaseDataVariableType
             DataType: Color
             ModellingRule: Optional
-            Value: "#ffffff"
+            Value: "#01042c"
           - Name: Width
             Type: BaseVariableType
             DataType: Size
@@ -5062,7 +5158,7 @@ Children:
             Type: BaseDataVariableType
             DataType: Color
             ModellingRule: Optional
-            Value: "#ffffff"
+            Value: "#01042c"
       - Name: Rectangle3
         Type: Rectangle
         Children:
@@ -5080,7 +5176,7 @@ Children:
           Type: BaseDataVariableType
           DataType: Size
           ModellingRule: Optional
-          Value: 1.0
+          Value: 0.0
         - Name: LeftMargin
           Type: BaseVariableType
           DataType: Size
@@ -5116,6 +5212,38 @@ Children:
           DataType: Color
           ModellingRule: Optional
           Value: "#01042c"
+        - Name: Image1
+          Type: Image
+          Children:
+          - Name: Path
+            Type: BaseDataVariableType
+            DataType: ResourceUri
+            Value: "ns=36;%PROJECTDIR%/imgs/white_tile_2.svg"
+          - Name: Width
+            Type: BaseVariableType
+            DataType: Size
+            ModellingRule: Optional
+            Value: 289.0
+          - Name: Height
+            Type: BaseVariableType
+            DataType: Size
+            ModellingRule: Optional
+            Value: 99.0
+          - Name: LeftMargin
+            Type: BaseVariableType
+            DataType: Size
+            ModellingRule: Optional
+            Value: -6.0
+          - Name: HorizontalAlignment
+            Type: BaseVariableType
+            DataType: HorizontalAlignment
+            ModellingRule: Optional
+            Value: 3
+          - Name: FillMode
+            Type: BaseDataVariableType
+            DataType: FillModeEnum
+            ModellingRule: Optional
+            Value: 1
         - Name: Label2
           Type: Label
           Children:
@@ -5176,7 +5304,7 @@ Children:
             Type: BaseDataVariableType
             DataType: Color
             ModellingRule: Optional
-            Value: "#ffffff"
+            Value: "#01042c"
           - Name: Width
             Type: BaseVariableType
             DataType: Size
@@ -5224,7 +5352,7 @@ Children:
             Type: BaseDataVariableType
             DataType: Color
             ModellingRule: Optional
-            Value: "#ffffff"
+            Value: "#01042c"
       - Name: Rectangle4
         Type: Rectangle
         Children:
@@ -5242,7 +5370,7 @@ Children:
           Type: BaseDataVariableType
           DataType: Size
           ModellingRule: Optional
-          Value: 1.0
+          Value: 0.0
         - Name: LeftMargin
           Type: BaseVariableType
           DataType: Size
@@ -5278,6 +5406,38 @@ Children:
           DataType: Color
           ModellingRule: Optional
           Value: "#01042c"
+        - Name: Image1
+          Type: Image
+          Children:
+          - Name: Path
+            Type: BaseDataVariableType
+            DataType: ResourceUri
+            Value: "ns=36;%PROJECTDIR%/imgs/white_tile_2.svg"
+          - Name: Width
+            Type: BaseVariableType
+            DataType: Size
+            ModellingRule: Optional
+            Value: 289.0
+          - Name: Height
+            Type: BaseVariableType
+            DataType: Size
+            ModellingRule: Optional
+            Value: 99.0
+          - Name: LeftMargin
+            Type: BaseVariableType
+            DataType: Size
+            ModellingRule: Optional
+            Value: 0.0
+          - Name: HorizontalAlignment
+            Type: BaseVariableType
+            DataType: HorizontalAlignment
+            ModellingRule: Optional
+            Value: 3
+          - Name: FillMode
+            Type: BaseDataVariableType
+            DataType: FillModeEnum
+            ModellingRule: Optional
+            Value: 1
         - Name: Label2
           Type: Label
           Children:
@@ -5338,7 +5498,7 @@ Children:
             Type: BaseDataVariableType
             DataType: Color
             ModellingRule: Optional
-            Value: "#ffffff"
+            Value: "#01042c"
         - Name: Label1
           Type: Label
           Children:
@@ -5371,7 +5531,7 @@ Children:
             Type: BaseDataVariableType
             DataType: Color
             ModellingRule: Optional
-            Value: "#ffffff"
+            Value: "#01042c"
       - Name: Rectangle11
         Type: Rectangle
         Children:
@@ -5389,7 +5549,7 @@ Children:
           Type: BaseDataVariableType
           DataType: Size
           ModellingRule: Optional
-          Value: 1.0
+          Value: 0.0
         - Name: LeftMargin
           Type: BaseVariableType
           DataType: Size
@@ -5425,6 +5585,38 @@ Children:
           DataType: Color
           ModellingRule: Optional
           Value: "#01042c"
+        - Name: Image1
+          Type: Image
+          Children:
+          - Name: Path
+            Type: BaseDataVariableType
+            DataType: ResourceUri
+            Value: "ns=36;%PROJECTDIR%/imgs/white_tile_2.svg"
+          - Name: Width
+            Type: BaseVariableType
+            DataType: Size
+            ModellingRule: Optional
+            Value: 289.0
+          - Name: Height
+            Type: BaseVariableType
+            DataType: Size
+            ModellingRule: Optional
+            Value: 99.0
+          - Name: LeftMargin
+            Type: BaseVariableType
+            DataType: Size
+            ModellingRule: Optional
+            Value: -1.0
+          - Name: HorizontalAlignment
+            Type: BaseVariableType
+            DataType: HorizontalAlignment
+            ModellingRule: Optional
+            Value: 3
+          - Name: FillMode
+            Type: BaseDataVariableType
+            DataType: FillModeEnum
+            ModellingRule: Optional
+            Value: 1
         - Name: Label2
           Type: Label
           Children:
@@ -5485,7 +5677,7 @@ Children:
             Type: BaseDataVariableType
             DataType: Color
             ModellingRule: Optional
-            Value: "#ffffff"
+            Value: "#01042c"
           - Name: Width
             Type: BaseVariableType
             DataType: Size
@@ -5533,7 +5725,7 @@ Children:
             Type: BaseDataVariableType
             DataType: Color
             ModellingRule: Optional
-            Value: "#ffffff"
+            Value: "#01042c"
       - Name: Rectangle12
         Type: Rectangle
         Children:
@@ -5551,7 +5743,7 @@ Children:
           Type: BaseDataVariableType
           DataType: Size
           ModellingRule: Optional
-          Value: 1.0
+          Value: 0.0
         - Name: LeftMargin
           Type: BaseVariableType
           DataType: Size
@@ -5587,6 +5779,38 @@ Children:
           DataType: Color
           ModellingRule: Optional
           Value: "#01042c"
+        - Name: Image1
+          Type: Image
+          Children:
+          - Name: Path
+            Type: BaseDataVariableType
+            DataType: ResourceUri
+            Value: "ns=36;%PROJECTDIR%/imgs/white_tile_2.svg"
+          - Name: Width
+            Type: BaseVariableType
+            DataType: Size
+            ModellingRule: Optional
+            Value: 289.0
+          - Name: Height
+            Type: BaseVariableType
+            DataType: Size
+            ModellingRule: Optional
+            Value: 99.0
+          - Name: LeftMargin
+            Type: BaseVariableType
+            DataType: Size
+            ModellingRule: Optional
+            Value: -1.0
+          - Name: HorizontalAlignment
+            Type: BaseVariableType
+            DataType: HorizontalAlignment
+            ModellingRule: Optional
+            Value: 3
+          - Name: FillMode
+            Type: BaseDataVariableType
+            DataType: FillModeEnum
+            ModellingRule: Optional
+            Value: 1
         - Name: Label2
           Type: Label
           Children:
@@ -5647,7 +5871,7 @@ Children:
             Type: BaseDataVariableType
             DataType: Color
             ModellingRule: Optional
-            Value: "#ffffff"
+            Value: "#01042c"
           - Name: Width
             Type: BaseVariableType
             DataType: Size
@@ -5695,7 +5919,7 @@ Children:
             Type: BaseDataVariableType
             DataType: Color
             ModellingRule: Optional
-            Value: "#ffffff"
+            Value: "#01042c"
       - Name: Rectangle13
         Type: Rectangle
         Children:
@@ -5713,7 +5937,7 @@ Children:
           Type: BaseDataVariableType
           DataType: Size
           ModellingRule: Optional
-          Value: 1.0
+          Value: 0.0
         - Name: LeftMargin
           Type: BaseVariableType
           DataType: Size
@@ -5749,6 +5973,38 @@ Children:
           DataType: Color
           ModellingRule: Optional
           Value: "#01042c"
+        - Name: Image1
+          Type: Image
+          Children:
+          - Name: Path
+            Type: BaseDataVariableType
+            DataType: ResourceUri
+            Value: "ns=36;%PROJECTDIR%/imgs/white_tile_2.svg"
+          - Name: Width
+            Type: BaseVariableType
+            DataType: Size
+            ModellingRule: Optional
+            Value: 289.0
+          - Name: Height
+            Type: BaseVariableType
+            DataType: Size
+            ModellingRule: Optional
+            Value: 99.0
+          - Name: LeftMargin
+            Type: BaseVariableType
+            DataType: Size
+            ModellingRule: Optional
+            Value: -7.0
+          - Name: HorizontalAlignment
+            Type: BaseVariableType
+            DataType: HorizontalAlignment
+            ModellingRule: Optional
+            Value: 3
+          - Name: FillMode
+            Type: BaseDataVariableType
+            DataType: FillModeEnum
+            ModellingRule: Optional
+            Value: 1
         - Name: Label2
           Type: Label
           Children:
@@ -5809,7 +6065,7 @@ Children:
             Type: BaseDataVariableType
             DataType: Color
             ModellingRule: Optional
-            Value: "#ffffff"
+            Value: "#01042c"
           - Name: Width
             Type: BaseVariableType
             DataType: Size
@@ -5857,14 +6113,14 @@ Children:
             Type: BaseDataVariableType
             DataType: Color
             ModellingRule: Optional
-            Value: "#ffffff"
+            Value: "#01042c"
       - Name: Image1
         Type: Image
         Children:
         - Name: Path
           Type: BaseDataVariableType
           DataType: ResourceUri
-          Value: "ns=36;%PROJECTDIR%/imgs/Untitled1.png"
+          Value: "ns=36;%PROJECTDIR%/imgs/Screenshot (192).png"
         - Name: Width
           Type: BaseVariableType
           DataType: Size
@@ -5927,7 +6183,7 @@ Children:
             Type: BaseDataVariableType
             DataType: Color
             ModellingRule: Optional
-            Value: "#ffffff"
+            Value: "#01042c"
           - Name: HorizontalAlignment
             Type: BaseVariableType
             DataType: HorizontalAlignment
@@ -5944,7 +6200,7 @@ Children:
         - Name: Path
           Type: BaseDataVariableType
           DataType: ResourceUri
-          Value: "ns=36;%PROJECTDIR%/imgs/Untitled1.png"
+          Value: "ns=36;%PROJECTDIR%/imgs/Screenshot (192).png"
         - Name: Width
           Type: BaseVariableType
           DataType: Size
@@ -6007,7 +6263,7 @@ Children:
             Type: BaseDataVariableType
             DataType: Color
             ModellingRule: Optional
-            Value: "#ffffff"
+            Value: "#01042c"
           - Name: HorizontalAlignment
             Type: BaseVariableType
             DataType: HorizontalAlignment
@@ -6055,7 +6311,7 @@ Children:
     Type: BaseDataVariableType
     DataType: Color
     ModellingRule: Optional
-    Value: "#ffffff"
+    Value: "#f0f0f0"
 - Name: Energy___PF
   Id: g=c54b7027c76e47ad1487bb85dc2fbea4
   Supertype: Rectangle

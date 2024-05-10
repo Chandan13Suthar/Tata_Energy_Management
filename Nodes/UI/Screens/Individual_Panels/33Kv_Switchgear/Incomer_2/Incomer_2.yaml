@@ -2079,6 +2079,13 @@ Children:
       - Name: Rectangle10
         Type: Rectangle
         Children:
+        - Name: Image1
+          Type: Image
+          Children:
+          - Name: Path
+            Type: BaseDataVariableType
+            DataType: ResourceUri
+            Value: "ns=36;%PROJECTDIR%/imgs/white_tile_2.svg"
         - Name: Label4
           Type: Label
         - Name: Label2
@@ -2104,6 +2111,13 @@ Children:
       - Name: Rectangle1
         Type: Rectangle
         Children:
+        - Name: Image1
+          Type: Image
+          Children:
+          - Name: Path
+            Type: BaseDataVariableType
+            DataType: ResourceUri
+            Value: "ns=36;%PROJECTDIR%/imgs/white_tile_2.svg"
         - Name: Label2
           Type: Label
           Children:
@@ -2129,6 +2143,13 @@ Children:
       - Name: Rectangle2
         Type: Rectangle
         Children:
+        - Name: Image1
+          Type: Image
+          Children:
+          - Name: Path
+            Type: BaseDataVariableType
+            DataType: ResourceUri
+            Value: "ns=36;%PROJECTDIR%/imgs/white_tile_2.svg"
         - Name: Label2
           Type: Label
           Children:
@@ -2154,6 +2175,13 @@ Children:
       - Name: Rectangle3
         Type: Rectangle
         Children:
+        - Name: Image1
+          Type: Image
+          Children:
+          - Name: Path
+            Type: BaseDataVariableType
+            DataType: ResourceUri
+            Value: "ns=36;%PROJECTDIR%/imgs/white_tile_2.svg"
         - Name: Label2
           Type: Label
           Children:
@@ -2179,6 +2207,13 @@ Children:
       - Name: Rectangle4
         Type: Rectangle
         Children:
+        - Name: Image1
+          Type: Image
+          Children:
+          - Name: Path
+            Type: BaseDataVariableType
+            DataType: ResourceUri
+            Value: "ns=36;%PROJECTDIR%/imgs/white_tile_2.svg"
         - Name: Label2
           Type: Label
           Children:
@@ -2214,6 +2249,13 @@ Children:
       - Name: Rectangle11
         Type: Rectangle
         Children:
+        - Name: Image1
+          Type: Image
+          Children:
+          - Name: Path
+            Type: BaseDataVariableType
+            DataType: ResourceUri
+            Value: "ns=36;%PROJECTDIR%/imgs/white_tile_2.svg"
         - Name: Label2
           Type: Label
           Children:
@@ -2239,6 +2281,13 @@ Children:
       - Name: Rectangle12
         Type: Rectangle
         Children:
+        - Name: Image1
+          Type: Image
+          Children:
+          - Name: Path
+            Type: BaseDataVariableType
+            DataType: ResourceUri
+            Value: "ns=36;%PROJECTDIR%/imgs/white_tile_2.svg"
         - Name: Label2
           Type: Label
           Children:
@@ -2264,6 +2313,13 @@ Children:
       - Name: Rectangle13
         Type: Rectangle
         Children:
+        - Name: Image1
+          Type: Image
+          Children:
+          - Name: Path
+            Type: BaseDataVariableType
+            DataType: ResourceUri
+            Value: "ns=36;%PROJECTDIR%/imgs/white_tile_2.svg"
         - Name: Label2
           Type: Label
           Children:
@@ -2292,7 +2348,7 @@ Children:
         - Name: Path
           Type: BaseDataVariableType
           DataType: ResourceUri
-          Value: "ns=36;%PROJECTDIR%/imgs/Untitled1.png"
+          Value: "ns=36;%PROJECTDIR%/imgs/Screenshot (192).png"
         - Name: Label1
           Type: Label
       - Name: Image2
@@ -2301,7 +2357,7 @@ Children:
         - Name: Path
           Type: BaseDataVariableType
           DataType: ResourceUri
-          Value: "ns=36;%PROJECTDIR%/imgs/Untitled1.png"
+          Value: "ns=36;%PROJECTDIR%/imgs/Screenshot (192).png"
         - Name: Label2
           Type: Label
       - Name: Rectangle9
