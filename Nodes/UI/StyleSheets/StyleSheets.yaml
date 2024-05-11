@@ -766,6 +766,10 @@ Children:
         Type: BaseDataVariableType
         DataType: Color
         Value: "#020b83"
+      - Name: ForegroundColor
+        Type: BaseDataVariableType
+        DataType: Color
+        Value: "#ffffff"
   - Name: NavigationPanelStyles
     Type: BaseObjectType
     Children:

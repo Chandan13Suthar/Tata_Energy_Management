@@ -183,6 +183,8 @@ public class RuntimeNetLogic8 : BaseNetLogic
 
            
                 float tod = (consumption / target) * 100;
+            todconsumption = tod;
+
 
         }
 
