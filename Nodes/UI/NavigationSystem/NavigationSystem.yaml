@@ -30535,7 +30535,7 @@ Children:
               - Name: DynamicLink
                 Type: DynamicLink
                 DataType: NodePath
-                Value: "/Objects/Tata_Energy_Management/Model/HomePageNew1/AvgPF"
+                Value: "/Objects/Tata_Energy_Management/Model/HomePageNewInstance/AvgPF"
                 Children:
                 - Name: Mode
                   Type: BaseVariableType
@@ -30666,7 +30666,7 @@ Children:
               - Name: DynamicLink
                 Type: DynamicLink
                 DataType: NodePath
-                Value: "/Objects/Tata_Energy_Management/Model/HomePageNew1/Frequency"
+                Value: "/Objects/Tata_Energy_Management/Model/HomePageNewInstance/Frequency"
                 Children:
                 - Name: Mode
                   Type: BaseVariableType
