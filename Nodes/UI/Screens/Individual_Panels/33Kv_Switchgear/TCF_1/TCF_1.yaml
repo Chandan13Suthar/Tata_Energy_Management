@@ -19,28 +19,33 @@ Children:
           Type: BaseDataVariableType
           DataType: Duration
           Value: "0:00:00:0.0000000"
+      - Name: Image1
+        Type: Image
+        Children:
+        - Name: Path
+          Type: BaseDataVariableType
+          DataType: ResourceUri
+          Value: "ns=36;%PROJECTDIR%/imgs/Screenshot (192).png"
       - Name: Rectangle8
-        Type: Rectangle
-        Children:
-        - Name: Label1
-          Type: Label
-      - Name: Rectangle1
-        Type: Rectangle
-        Children:
-        - Name: Label1
-          Type: Label
-      - Name: Rectangle2
-        Type: Rectangle
-        Children:
-        - Name: Label1
-          Type: Label
-      - Name: Rectangle3
         Type: Rectangle
         Children:
         - Name: Button1
           Type: Button
-        - Name: Label2
-          Type: Label
+          Children:
+          - Name: Text
+            Type: BaseDataVariableType
+            DataType: LocalizedText
+            Value: {"LocaleId":"en-US","Text":"POWER DISTRIBUTION"}
+      - Name: Rectangle3
+        Type: Rectangle
+        Children:
+        - Name: SVGTileBackground
+          Type: Image
+          Children:
+          - Name: Path
+            Type: BaseDataVariableType
+            DataType: ResourceUri
+            Value: "ns=36;%PROJECTDIR%/imgs/white_tile_2.svg"
         - Name: Label1
           Type: Label
           Children:
@@ -61,49 +66,18 @@ Children:
                   Type: DynamicLink
                   DataType: NodePath
                   Value: "/Objects/Tata_Energy_Management/Model/Tags/RealTimePanelTags/33KVMeters/TCF_1/Active_Power_Total"
-      - Name: Rectangle4
-        Type: Rectangle
-        Children:
-        - Name: Label3
-          Type: Label
         - Name: Label2
           Type: Label
-          Children:
-          - Name: Text
-            Type: BaseDataVariableType
-            DataType: LocalizedText
-            Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
-            Children:
-            - Name: StringFormatter2
-              Type: StringFormatter
-              Children:
-              - Name: Source0
-                Type: BaseDataVariableType
-                DataType: BaseDataType
-                ReferenceType: HasSource
-                Children:
-                - Name: DynamicLink
-                  Type: DynamicLink
-                  DataType: NodePath
-                  Value: "/Objects/Tata_Energy_Management/Model/Tags/RealTimePanelTags/33KVMeters/TCF_1/Apparent_Power_Total"
-          - Name: Width
-            Type: BaseVariableType
-            DataType: Size
-            ModellingRule: Optional
-            Value: 170.0
-          - Name: TextHorizontalAlignment
-            Type: BaseVariableType
-            DataType: TextHorizontalAlignment
-            ModellingRule: Optional
-            Value: 1
-          - Name: TextVerticalAlignment
-            Type: BaseVariableType
-            DataType: TextVerticalAlignment
-            ModellingRule: Optional
-            Value: 1
       - Name: Rectangle5
         Type: Rectangle
         Children:
+        - Name: SVGTileBackground
+          Type: Image
+          Children:
+          - Name: Path
+            Type: BaseDataVariableType
+            DataType: ResourceUri
+            Value: "ns=36;%PROJECTDIR%/imgs/white_tile_2.svg"
         - Name: Label1
           Type: Label
         - Name: Label4
@@ -661,13 +635,53 @@ Children:
                 Value: 0
         - Name: Label1
           Type: Label
-      - Name: Image1
-        Type: Image
+      - Name: Rectangle4
+        Type: Rectangle
         Children:
-        - Name: Path
-          Type: BaseDataVariableType
-          DataType: ResourceUri
-          Value: "ns=36;%PROJECTDIR%/imgs/Untitled1.png"
+        - Name: SVGTileBackground
+          Type: Image
+          Children:
+          - Name: Path
+            Type: BaseDataVariableType
+            DataType: ResourceUri
+            Value: "ns=36;%PROJECTDIR%/imgs/white_tile_2.svg"
+        - Name: Label3
+          Type: Label
+        - Name: Label2
+          Type: Label
+          Children:
+          - Name: Text
+            Type: BaseDataVariableType
+            DataType: LocalizedText
+            Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+            Children:
+            - Name: StringFormatter2
+              Type: StringFormatter
+              Children:
+              - Name: Source0
+                Type: BaseDataVariableType
+                DataType: BaseDataType
+                ReferenceType: HasSource
+                Children:
+                - Name: DynamicLink
+                  Type: DynamicLink
+                  DataType: NodePath
+                  Value: "/Objects/Tata_Energy_Management/Model/Tags/RealTimePanelTags/33KVMeters/TCF_1/Apparent_Power_Total"
+          - Name: Width
+            Type: BaseVariableType
+            DataType: Size
+            ModellingRule: Optional
+            Value: 170.0
+          - Name: TextHorizontalAlignment
+            Type: BaseVariableType
+            DataType: TextHorizontalAlignment
+            ModellingRule: Optional
+            Value: 1
+          - Name: TextVerticalAlignment
+            Type: BaseVariableType
+            DataType: TextVerticalAlignment
+            ModellingRule: Optional
+            Value: 1
 - Name: Current_Panel215
   Id: g=b9617067e404a4729d62b128fdf0294f
   Supertype: Current_Panel
@@ -1611,6 +1625,28 @@ Children:
     - Name: Layout
       Type: Rectangle
       Children:
+      - Name: WebBrowser
+        Type: WebBrowser
+        Children:
+        - Name: URL
+          Type: BaseDataVariableType
+          DataType: ResourceUri
+          Value: "ns=36;%PROJECTDIR%/eCharts4/Test.html"
+        - Class: Reference
+          Target: ns=5;i=354
+          Direction: Forward
+        - Class: Reference
+          Target: ns=5;i=356
+          Direction: Forward
+        - Class: Reference
+          Target: ns=5;i=358
+          Direction: Forward
+      - Name: eChartTest4Logic
+        Type: NetLogic
+        Children:
+        - Class: Reference
+          Target: g=0c0ca328e17282bf9e360fb8ee30536a
+          Direction: Forward
       - Name: Object1
         Type: BaseObjectType
         Children:
