@@ -76,6 +76,7 @@ public class eChartTest4Logic : BaseNetLogic
 
         // Read template page content
         string text = File.ReadAllText(templatePath);
+        //string meter = Project.Current.GetVariable("Model/MeterSelectionForPanels").ToString();
 
         // Insert values
         for (int i = 1; i < 32; i++)

@@ -509,6 +509,10 @@ Children:
         Type: BaseDataVariableType
         DataType: Color
         Value: "#ffffff"
+      - Name: FocusBorderColor
+        Type: BaseDataVariableType
+        DataType: Color
+        Value: "#235d9f"
     - Name: Accent
       Type: ButtonStyle
       Children:

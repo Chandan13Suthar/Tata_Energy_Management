@@ -253,7 +253,7 @@ Children:
       Type: BaseDataVariableType
       DataType: Size
       ModellingRule: Optional
-      Value: 300.0
+      Value: 250.0
     - Class: Reference
       Target: ns=5;i=1181
       Direction: Forward
@@ -269,7 +269,7 @@ Children:
       Type: BaseDataVariableType
       DataType: Size
       ModellingRule: Optional
-      Value: 60.0
+      Value: 50.0
     - Name: AttachedPanelLoader
       Type: NodePointer
       DataType: NodeId
