@@ -16,7 +16,7 @@ using FTOptix.EventLogger;
 using FTOptix.Alarm;
 using FTOptix.MicroController;
 
-public class eChartTest4Logic : BaseNetLogic
+public class eChartTest5Logic : BaseNetLogic
 {
     private System.Timers.Timer refreshTimer;
     public override void Start()
@@ -66,22 +66,21 @@ public class eChartTest4Logic : BaseNetLogic
     private void RefreshRadarGraph()
     {
         Owner.Get<WebBrowser>("WebBrowser").Visible = false;
-        Log.Debug("eCharts4", "Starting");
+        Log.Debug("eCharts5", "Starting");
         String projectPath = (ResourceUri.FromProjectRelativePath("").Uri);
         String folderSeparator = Path.DirectorySeparatorChar.ToString();
 
         // Get template name and create destination path
-        string templatePath = projectPath + folderSeparator + "eCharts4" + folderSeparator + "Template-data.js";
-        string filePath = projectPath + folderSeparator + "eCharts4" + folderSeparator + "data.js";
+        string templatePath = projectPath + folderSeparator + "eCharts5" + folderSeparator + "Template-data.js";
+        string filePath = projectPath + folderSeparator + "eCharts5" + folderSeparator + "data.js";
 
         // Read template page content
         string text = File.ReadAllText(templatePath);
-        //string meter = Project.Current.GetVariable("Model/MeterSelectionForPanels").ToString();
 
         // Insert values
-        for (int i = 1; i < 32; i++)
+        for (int i = 1; i < 2; i++)
         {
-            text = text.Replace(i < 10 ? "$0" + i : "$" + i, (Project.Current.GetVariable("Model/eCharts/eCharts4/Day" + i).Value * 1).ToString());
+            text = text.Replace(i < 10 ? "$0" + i : "$" + i, (Project.Current.GetVariable("Model/eCharts/eCharts5/Day" + i).Value ).ToString());
         }
 
         // Write to file
@@ -89,7 +88,7 @@ public class eChartTest4Logic : BaseNetLogic
 
         // Refresh WebBrowser page
         Owner.Get<WebBrowser>("WebBrowser").Refresh();
-        Log.Debug("eCharts4", "Finished");
+        Log.Debug("eCharts5", "Finished");
         Thread.Sleep(500);
         Owner.Get<WebBrowser>("WebBrowser").Visible = true;
     }

@@ -1,0 +1,38 @@
+#region Using directives
+using System;
+using UAManagedCore;
+using OpcUa = UAManagedCore.OpcUa;
+using FTOptix.HMIProject;
+using FTOptix.NetLogic;
+using FTOptix.NativeUI;
+using FTOptix.WebUI;
+using FTOptix.UI;
+using FTOptix.CoreBase;
+using FTOptix.DataLogger;
+using FTOptix.EventLogger;
+using FTOptix.SQLiteStore;
+using FTOptix.Store;
+using FTOptix.ODBCStore;
+using FTOptix.Report;
+using FTOptix.MicroController;
+using FTOptix.Retentivity;
+using FTOptix.AuditSigning;
+using FTOptix.Alarm;
+using FTOptix.CommunicationDriver;
+using FTOptix.Core;
+using FTOptix.UI;
+using FTOptix.Alarm;
+#endregion
+
+public class VoltagePanelLogic : BaseNetLogic
+{
+    public override void Start()
+    {
+        // Insert code to be executed when the user-defined logic is started
+    }
+
+    public override void Stop()
+    {
+        // Insert code to be executed when the user-defined logic is stopped
+    }
+}

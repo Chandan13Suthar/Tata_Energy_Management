@@ -146,15 +146,15 @@ Project:
    Module: FTOptix.MicroController.Net
    Version: 2.0
  Statistics:
-  TotalNodeCount: 359961
-  Objects: 98572
-  ObjectTypes: 1280
-  Variables: 260005
+  TotalNodeCount: 360994
+  Objects: 98770
+  ObjectTypes: 1282
+  Variables: 260834
   VariableTypes: 0
   DataTypes: 58
-  Methods: 46
-  References: 7303
+  Methods: 50
+  References: 7315
   ReferenceTypes: 0
-  Files: 707
+  Files: 708
  Nodes:
  - File: Nodes/Tata_Energy_Management.yaml

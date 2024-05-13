@@ -16794,3 +16794,1781 @@ Children:
     Type: BaseDataVariableType
     DataType: Int32
     Value: 0
+- Name: MeterSelectionForPanels
+  Id: g=325a923e224c701331f2ef17763539e8
+  Type: BaseDataVariableType
+  DataType: Int32
+  Value: 0
+- Name: MeterSelectionForPanels1
+  Type: BaseDataVariableType
+  DataType: String
+  Value: "0"
+  Children:
+  - Name: KeyValueConverter1
+    Type: ValueMapConverter
+    Children:
+    - Name: Source
+      Type: BaseDataVariableType
+      DataType: BaseDataType
+      ReferenceType: HasSource
+      Children:
+      - Name: DynamicLink
+        Type: DynamicLink
+        DataType: NodePath
+        Value: "../../../MeterSelectionForPanels"
+    - Name: Pairs
+      Type: BaseObjectType
+      Children:
+      - Name: Pair
+        Type: ValueMapPair
+        Children:
+        - Name: Key
+          Type: BaseDataVariableType
+          DataType: UInt32
+          Value: 0
+        - Name: Value
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "eCharts1"
+      - Name: Pair1
+        Type: ValueMapPair
+        Children:
+        - Name: Key
+          Type: BaseDataVariableType
+          DataType: UInt32
+          Value: 1
+        - Name: Value
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "eCharts2"
+      - Name: Pair2
+        Type: ValueMapPair
+        Children:
+        - Name: Key
+          Type: BaseDataVariableType
+          DataType: UInt32
+          Value: 2
+        - Name: Value
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "eCharts4"
+- Name: VoltagePanelTagsInstance
+  Type: VoltagePanelTags
+  Children:
+  - Name: Meter
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "0"
+  - Name: Min1
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: Min2
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: Min3
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: Min4
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: Min5
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: Min6
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: Min7
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: Min8
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: Min9
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: Min10
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: Min11
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: Min12
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: Min13
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: Min14
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: Min15
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: Min16
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: Min17
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: Min18
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: Min19
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: Min20
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: Min21
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: Min22
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: Min23
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: Min24
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: Min25
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: Min26
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: Min27
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: Min28
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: Min29
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: Min30
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: Min31
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: Min32
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: Min33
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: Min34
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: Min35
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: Min36
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: Min37
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: Min38
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: Min39
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: Min40
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: Min41
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: VoltagePanelLogic
+    Type: NetLogic
+  - Name: Min42
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: Min43
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: Min44
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: Min45
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: Min46
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: Min47
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: Min48
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: Min49
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: Min50
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: Min51
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: Min52
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: Min53
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: Min54
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: Min55
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: Min56
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: Min57
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: Min58
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: Min59
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: Min60
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: Min61
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: Min62
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: Min63
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: Min64
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: Min65
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: Min66
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: Min67
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: Min68
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: Min69
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: Min70
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: Min71
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: Min72
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: Min73
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: Min74
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: Min75
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: Min76
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: Min77
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: Min78
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: Min79
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: Min80
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: Min81
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: Min82
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: Min83
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: Min84
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: Min85
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: Min86
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: Min87
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: Min88
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: Min89
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: Min90
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: Min91
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: Min92
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: Min93
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: Min94
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: Min95
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: Min96
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: Min97
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: Min98
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: Min99
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: Min100
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: Min101
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: Min102
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: Min103
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: Min104
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: Min105
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: Min106
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: Min107
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: Min108
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: Min109
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: Min110
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: Min111
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: Min112
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: Min113
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: Min114
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: Min115
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: Min116
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: Min117
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: Min118
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: Min119
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: Min120
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: Min121
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: Min122
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: Min123
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: Min124
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: Min125
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: Min126
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: Min127
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: Min128
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: Min129
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: Min130
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: Min131
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: Min132
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: Min133
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: Min134
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: Min135
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: Min136
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: Min137
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: Min138
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: Min139
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: Min140
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: Button
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: true
+- Name: VoltagePanelTags
+  Id: g=bd6cbb2de1a43931754b6413d99ed5c5
+  Supertype: BaseObjectType
+  Children:
+  - Name: Meter
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "0"
+  - Name: Min1
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: Min2
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: Min3
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: Min4
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: Min5
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: Min6
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: Min7
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: Min8
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: Min9
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: Min10
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: Min11
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: Min12
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: Min13
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: Min14
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: Min15
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: Min16
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: Min17
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: Min18
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: Min19
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: Min20
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: Min21
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: Min22
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: Min23
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: Min24
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: Min25
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: Min26
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: Min27
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: Min28
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: Min29
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: Min30
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: Min31
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: Min32
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: Min33
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: Min34
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: Min35
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: Min36
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: Min37
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: Min38
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: Min39
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: Min40
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: Min41
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: VoltagePanelLogic
+    Type: NetLogic
+  - Name: Min42
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: Min43
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: Min44
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: Min45
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: Min46
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: Min47
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: Min48
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: Min49
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: Min50
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: Min51
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: Min52
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: Min53
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: Min54
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: Min55
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: Min56
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: Min57
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: Min58
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: Min59
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: Min60
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: Min61
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: Min62
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: Min63
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: Min64
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: Min65
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: Min66
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: Min67
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: Min68
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: Min69
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: Min70
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: Min71
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: Min72
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: Min73
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: Min74
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: Min75
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: Min76
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: Min77
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: Min78
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: Min79
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: Min80
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: Min81
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: Min82
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: Min83
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: Min84
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: Min85
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: Min86
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: Min87
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: Min88
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: Min89
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: Min90
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: Min91
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: Min92
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: Min93
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: Min94
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: Min95
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: Min96
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: Min97
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: Min98
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: Min99
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: Min100
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: Min101
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: Min102
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: Min103
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: Min104
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: Min105
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: Min106
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: Min107
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: Min108
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: Min109
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: Min110
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: Min111
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: Min112
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: Min113
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: Min114
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: Min115
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: Min116
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: Min117
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: Min118
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: Min119
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: Min120
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: Min121
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: Min122
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: Min123
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: Min124
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: Min125
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: Min126
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: Min127
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: Min128
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: Min129
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: Min130
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: Min131
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: Min132
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: Min133
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: Min134
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: Min135
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: Min136
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: Min137
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: Min138
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: Min139
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: Min140
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: Button
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: true
+- Name: VoltagePanelTags1
+  Type: VoltagePanelTags
+  Children:
+  - Name: Meter
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "0"
+  - Name: Min1
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: Min2
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: Min3
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: Min4
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: Min5
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: Min6
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: Min7
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: Min8
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: Min9
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: Min10
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: Min11
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: Min12
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: Min13
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: Min14
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: Min15
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: Min16
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: Min17
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: Min18
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: Min19
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: Min20
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: Min21
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: Min22
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: Min23
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: Min24
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: Min25
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: Min26
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: Min27
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: Min28
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: Min29
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: Min30
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: Min31
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: Min32
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: Min33
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: Min34
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: Min35
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: Min36
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: Min37
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: Min38
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: Min39
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: Min40
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: Min41
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: VoltagePanelLogic
+    Type: NetLogic
+  - Name: Min42
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: Min43
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: Min44
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: Min45
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: Min46
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: Min47
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: Min48
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: Min49
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: Min50
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: Min51
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: Min52
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: Min53
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: Min54
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: Min55
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: Min56
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: Min57
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: Min58
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: Min59
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: Min60
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: Min61
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: Min62
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: Min63
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: Min64
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: Min65
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: Min66
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: Min67
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: Min68
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: Min69
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: Min70
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: Min71
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: Min72
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: Min73
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: Min74
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: Min75
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: Min76
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: Min77
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: Min78
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: Min79
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: Min80
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: Min81
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: Min82
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: Min83
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: Min84
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: Min85
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: Min86
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: Min87
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: Min88
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: Min89
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: Min90
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: Min91
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: Min92
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: Min93
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: Min94
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: Min95
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: Min96
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: Min97
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: Min98
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: Min99
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: Min100
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: Min101
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: Min102
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: Min103
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: Min104
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: Min105
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: Min106
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: Min107
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: Min108
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: Min109
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: Min110
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: Min111
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: Min112
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: Min113
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: Min114
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: Min115
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: Min116
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: Min117
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: Min118
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: Min119
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: Min120
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: Min121
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: Min122
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: Min123
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: Min124
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: Min125
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: Min126
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: Min127
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: Min128
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: Min129
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: Min130
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: Min131
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: Min132
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: Min133
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: Min134
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: Min135
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: Min136
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: Min137
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: Min138
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: Min139
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: Min140
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: Button
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: true
