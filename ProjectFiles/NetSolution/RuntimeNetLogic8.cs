@@ -183,6 +183,7 @@ public class RuntimeNetLogic8 : BaseNetLogic
 
            
                 float tod = (consumption / target) * 100;
+            todconsumption = tod;
 
         }
 
@@ -198,6 +199,7 @@ public class RuntimeNetLogic8 : BaseNetLogic
         todconsumptionVariable.Value = todconsumption;
         selectionVariable.Value = selection;
         buttonVariable.Value = button;
+        
        
 
 
