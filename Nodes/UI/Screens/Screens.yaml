@@ -25,7 +25,7 @@ Children:
     Type: BaseVariableType
     DataType: Size
     ModellingRule: Optional
-    Value: 752.0
+    Value: 740.0
   - Name: NavigationPanel
     Type: NavigationPanel
     Children:
@@ -280,6 +280,24 @@ Children:
         Type: PropertyType
         DataType: NodeId
         Value: "/Types/ObjectTypes/BaseObjectType/BaseUIObject/Item/Container/PanelLoader"
+    - Name: MoveTarget
+      Type: NodePointer
+      DataType: NodeId
+      Value: {"IdType":0,"Id":0,"Namespace":-1}
+      Children:
+      - Name: Kind
+        Type: PropertyType
+        DataType: NodeId
+        Value: "/Types/ObjectTypes/BaseObjectType/BaseUIObject/Item/Container"
+      - Name: DynamicLink
+        Type: DynamicLink
+        DataType: NodePath
+        Value: "../..@NodeId"
+    - Name: Rotation
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 0.0
   - Name: BackgroundColor
     Type: BaseDataVariableType
     DataType: Color

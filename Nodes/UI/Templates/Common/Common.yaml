@@ -3036,7 +3036,7 @@ Children:
     Type: BaseVariableType
     DataType: Size
     ModellingRule: Optional
-    Value: 89.0
+    Value: 80.0
   - Name: Height
     Type: BaseVariableType
     DataType: Size
@@ -3215,7 +3215,7 @@ Children:
     Type: BaseVariableType
     DataType: Size
     ModellingRule: Optional
-    Value: 89.0
+    Value: 80.0
   - Name: Height
     Type: BaseVariableType
     DataType: Size
@@ -3413,7 +3413,7 @@ Children:
     Type: BaseVariableType
     DataType: Size
     ModellingRule: Optional
-    Value: 89.0
+    Value: 80.0
   - Name: Height
     Type: BaseVariableType
     DataType: Size
