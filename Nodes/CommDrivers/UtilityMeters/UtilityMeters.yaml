@@ -1,4 +1,4 @@
-Name: MicroControllerDriver1
+Name: UtilityMeters
 Type: MicroControllerDriver
 Children:
 - Name: ControllerType
