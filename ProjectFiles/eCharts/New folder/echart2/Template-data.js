@@ -10,8 +10,8 @@ var option;
 var xAxisData = [];
 var data1 = [];
 var data2 = [];
-for (var i = 0; i < 10; i++) {
-    xAxisData.push('A' + i);
+for (var i = 1; i < 32; i++) {
+    xAxisData.push('Day' + i);
    // data1.push(22);//(Math.sin(i / 5) * (i / 5 - 10) + i / 6) * 5);
     data2 = ["$01"];
 }
@@ -20,7 +20,7 @@ option = {
         text: 'Bar Animation Delay'
     },
     legend: {
-        data: ['Current', 'Voltage']
+        data: ['Consumption']
     },
     toolbox: {
         // y: 'bottom',
@@ -44,7 +44,7 @@ option = {
     yAxis: {},
     series: [
         {
-            name: 'Current',
+            name: 'Consumption',
             type: 'bar',
             data: data1,
             emphasis: {
@@ -54,17 +54,7 @@ option = {
                 return idx * 10;
             }
         },
-        {
-            name: 'Voltage',
-            type: 'bar',
-            data: data2,
-            emphasis: {
-                focus: 'series'
-            },
-            animationDelay: function (idx) {
-                return idx * 10 + 10;
-            }
-        }
+        
     ],
     animationEasing: 'elasticOut',
     animationDelayUpdate: function (idx) {

@@ -1,14 +1,24 @@
 Name: eCharts
 Type: FolderType
 Children:
-- Name: Day
+- Name: Day1
   Type: BaseDataVariableType
   DataType: Int32
   Value: 51
+  Children:
+  - Name: DynamicLink
+    Type: DynamicLink
+    DataType: NodePath
+    Value: "../../HomePageTagsInstance/Day1"
+    Children:
+    - Name: Mode
+      Type: BaseVariableType
+      DataType: DynamicLinkMode
+      Value: 2
 - Name: Day2
   Type: BaseDataVariableType
   DataType: Int32
-  Value: 0
+  Value: 102
   Children:
   - Name: DynamicLink
     Type: DynamicLink
@@ -344,7 +354,7 @@ Children:
 - Name: Day26
   Type: BaseDataVariableType
   DataType: Int32
-  Value: 0
+  Value: 152
   Children:
   - Name: DynamicLink
     Type: DynamicLink
@@ -425,3 +435,8 @@ Children:
       Type: BaseVariableType
       DataType: DynamicLinkMode
       Value: 2
+- File: eCharts1/eCharts1.yaml
+- File: eCharts2/eCharts2.yaml
+- File: eCharts3/eCharts3.yaml
+- File: eCharts4/eCharts4.yaml
+- File: eCharts5/eCharts5.yaml

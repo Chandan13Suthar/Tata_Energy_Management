@@ -509,6 +509,10 @@ Children:
         Type: BaseDataVariableType
         DataType: Color
         Value: "#ffffff"
+      - Name: FocusBorderColor
+        Type: BaseDataVariableType
+        DataType: Color
+        Value: "#235d9f"
     - Name: Accent
       Type: ButtonStyle
       Children:
@@ -745,7 +749,7 @@ Children:
       - Name: TextColor
         Type: BaseDataVariableType
         DataType: Color
-        Value: "#ffffff"
+        Value: "#01042c"
       - Name: FontSize
         Type: BaseDataVariableType
         DataType: Size
@@ -766,6 +770,10 @@ Children:
         Type: BaseDataVariableType
         DataType: Color
         Value: "#020b83"
+      - Name: ForegroundColor
+        Type: BaseDataVariableType
+        DataType: Color
+        Value: "#ffffff"
   - Name: NavigationPanelStyles
     Type: BaseObjectType
     Children:
