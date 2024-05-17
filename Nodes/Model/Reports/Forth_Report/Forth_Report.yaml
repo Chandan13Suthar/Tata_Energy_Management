@@ -18,72 +18,83 @@ Children:
       "Value": 0,
       "DisplayName": {
        "LocaleId": "en-US",
-       "Text": "33KV"
+       "Text": "ALL"
       },
       "Description": {
        "LocaleId": "en-US",
-       "Text": "33KV"
+       "Text": "ALL"
       }
      },{
       "Name": "Value1",
       "Value": 1,
       "DisplayName": {
        "LocaleId": "en-US",
-       "Text": "UTILITY"
+       "Text": "33KV"
       },
       "Description": {
        "LocaleId": "en-US",
-       "Text": "UTILITY"
+       "Text": "33KV"
       }
      },{
       "Name": "Value2",
       "Value": 2,
       "DisplayName": {
        "LocaleId": "en-US",
-       "Text": "PUMPROOM"
+       "Text": "UTILITY"
       },
       "Description": {
        "LocaleId": "en-US",
-       "Text": "PUMPROOM"
+       "Text": "UTILITY"
       }
      },{
       "Name": "Value3",
       "Value": 3,
       "DisplayName": {
        "LocaleId": "en-US",
-       "Text": "PAINTSHOP"
+       "Text": "PUMPROOM"
       },
       "Description": {
        "LocaleId": "en-US",
-       "Text": "PAINTSHOP"
+       "Text": "PUMPROOM"
       }
      },{
       "Name": "Value4",
       "Value": 4,
       "DisplayName": {
        "LocaleId": "en-US",
-       "Text": "BODYSHOP"
+       "Text": "PAINTSHOP"
       },
       "Description": {
        "LocaleId": "en-US",
-       "Text": "BODYSHOP"
+       "Text": "PAINTSHOP"
       }
      },{
       "Name": "Value5",
       "Value": 5,
       "DisplayName": {
        "LocaleId": "en-US",
-       "Text": "TCF"
+       "Text": "BODYSHOP"
       },
       "Description": {
        "LocaleId": "en-US",
-       "Text": "TCF"
+       "Text": "BODYSHOP"
       }
      },{
       "Name": "Value6",
       "Value": 6,
       "DisplayName": {
        "LocaleId": "en-US",
+       "Text": "TCF"
+      },
+      "Description": {
+       "LocaleId": "en-US",
+       "Text": "TCF"
+      }
+     },{
+      "Name": "Value7",
+      "Value": 7,
+      "DisplayName": {
+       "LocaleId": "en-US",
        "Text": "STAMPING"
       },
       "Description": {
@@ -91,8 +102,8 @@ Children:
        "Text": "STAMPING"
       }
      },{
-      "Name": "Value7",
-      "Value": 7,
+      "Name": "Value8",
+      "Value": 8,
       "DisplayName": {
        "LocaleId": "en-US",
        "Text": "ADMIN"
@@ -102,8 +113,8 @@ Children:
        "Text": "ADMIN"
       }
      },{
-      "Name": "Value8",
-      "Value": 8,
+      "Name": "Value9",
+      "Value": 9,
       "DisplayName": {
        "LocaleId": "en-US",
        "Text": "SPP"
@@ -121,7 +132,7 @@ Children:
     ModellingRule: None
     ValueRank: OneDimension
     ArrayDimensions: [0]
-    Value: [{"TypeId":{"Id":7594},"Body":{"Value":0,"DisplayName":{"LocaleId":"en-US","Text":"33KV"},"Description":{"LocaleId":"en-US","Text":"33KV"}}},{"TypeId":{"Id":7594},"Body":{"Value":1,"DisplayName":{"LocaleId":"en-US","Text":"UTILITY"},"Description":{"LocaleId":"en-US","Text":"UTILITY"}}},{"TypeId":{"Id":7594},"Body":{"Value":2,"DisplayName":{"LocaleId":"en-US","Text":"PUMPROOM"},"Description":{"LocaleId":"en-US","Text":"PUMPROOM"}}},{"TypeId":{"Id":7594},"Body":{"Value":3,"DisplayName":{"LocaleId":"en-US","Text":"PAINTSHOP"},"Description":{"LocaleId":"en-US","Text":"PAINTSHOP"}}},{"TypeId":{"Id":7594},"Body":{"Value":4,"DisplayName":{"LocaleId":"en-US","Text":"BODYSHOP"},"Description":{"LocaleId":"en-US","Text":"BODYSHOP"}}},{"TypeId":{"Id":7594},"Body":{"Value":5,"DisplayName":{"LocaleId":"en-US","Text":"TCF"},"Description":{"LocaleId":"en-US","Text":"TCF"}}},{"TypeId":{"Id":7594},"Body":{"Value":6,"DisplayName":{"LocaleId":"en-US","Text":"STAMPING"},"Description":{"LocaleId":"en-US","Text":"STAMPING"}}},{"TypeId":{"Id":7594},"Body":{"Value":7,"DisplayName":{"LocaleId":"en-US","Text":"ADMIN"},"Description":{"LocaleId":"en-US","Text":"ADMIN"}}},{"TypeId":{"Id":7594},"Body":{"Value":8,"DisplayName":{"LocaleId":"en-US","Text":"SPP"},"Description":{"LocaleId":"en-US","Text":"SPP"}}}]
+    Value: [{"TypeId":{"Id":7594},"Body":{"Value":0,"DisplayName":{"LocaleId":"en-US","Text":"ALL"},"Description":{"LocaleId":"en-US","Text":"ALL"}}},{"TypeId":{"Id":7594},"Body":{"Value":1,"DisplayName":{"LocaleId":"en-US","Text":"33KV"},"Description":{"LocaleId":"en-US","Text":"33KV"}}},{"TypeId":{"Id":7594},"Body":{"Value":2,"DisplayName":{"LocaleId":"en-US","Text":"UTILITY"},"Description":{"LocaleId":"en-US","Text":"UTILITY"}}},{"TypeId":{"Id":7594},"Body":{"Value":3,"DisplayName":{"LocaleId":"en-US","Text":"PUMPROOM"},"Description":{"LocaleId":"en-US","Text":"PUMPROOM"}}},{"TypeId":{"Id":7594},"Body":{"Value":4,"DisplayName":{"LocaleId":"en-US","Text":"PAINTSHOP"},"Description":{"LocaleId":"en-US","Text":"PAINTSHOP"}}},{"TypeId":{"Id":7594},"Body":{"Value":5,"DisplayName":{"LocaleId":"en-US","Text":"BODYSHOP"},"Description":{"LocaleId":"en-US","Text":"BODYSHOP"}}},{"TypeId":{"Id":7594},"Body":{"Value":6,"DisplayName":{"LocaleId":"en-US","Text":"TCF"},"Description":{"LocaleId":"en-US","Text":"TCF"}}},{"TypeId":{"Id":7594},"Body":{"Value":7,"DisplayName":{"LocaleId":"en-US","Text":"STAMPING"},"Description":{"LocaleId":"en-US","Text":"STAMPING"}}},{"TypeId":{"Id":7594},"Body":{"Value":8,"DisplayName":{"LocaleId":"en-US","Text":"ADMIN"},"Description":{"LocaleId":"en-US","Text":"ADMIN"}}},{"TypeId":{"Id":7594},"Body":{"Value":9,"DisplayName":{"LocaleId":"en-US","Text":"SPP"},"Description":{"LocaleId":"en-US","Text":"SPP"}}}]
 - Name: Jaceselectionresult
   Type: BaseDataVariableType
   DataType: Int32

@@ -9160,7 +9160,7 @@ Children:
               Type: BaseVariableType
               DataType: Size
               ModellingRule: Optional
-              Value: 149.0
+              Value: 180.0
             - Name: Item
               Type: Alias
               DataType: NodeId
@@ -9291,7 +9291,7 @@ Children:
               Type: BaseVariableType
               DataType: Size
               ModellingRule: Optional
-              Value: -1.0
+              Value: 180.0
             - Name: Item
               Type: Alias
               DataType: NodeId
@@ -9563,7 +9563,7 @@ Children:
               Type: BaseVariableType
               DataType: Size
               ModellingRule: Optional
-              Value: -1.0
+              Value: 180.0
             - Name: Item
               Type: Alias
               DataType: NodeId
@@ -9781,7 +9781,7 @@ Children:
             - Name: Model
               Type: NodePointer
               DataType: NodeId
-              Value: "/Objects/Tata_Energy_Management/Model/Reports/Second_Report_Links/J06Meter"
+              Value: "/Objects/Tata_Energy_Management/Model/Reports/Second_Report_Links/J03Meter"
               Children:
               - Name: ItemKind
                 Type: PropertyType
@@ -9830,7 +9830,7 @@ Children:
               Type: BaseVariableType
               DataType: Size
               ModellingRule: Optional
-              Value: -1.0
+              Value: 180.0
             - Name: Item
               Type: Alias
               DataType: NodeId
@@ -10097,7 +10097,7 @@ Children:
               Type: BaseVariableType
               DataType: Size
               ModellingRule: Optional
-              Value: -1.0
+              Value: 180.0
             - Name: Item
               Type: Alias
               DataType: NodeId
@@ -10364,7 +10364,7 @@ Children:
               Type: BaseVariableType
               DataType: Size
               ModellingRule: Optional
-              Value: -1.0
+              Value: 180.0
             - Name: Item
               Type: Alias
               DataType: NodeId
@@ -10631,7 +10631,7 @@ Children:
               Type: BaseVariableType
               DataType: Size
               ModellingRule: Optional
-              Value: -1.0
+              Value: 180.0
             - Name: Item
               Type: Alias
               DataType: NodeId
@@ -10898,7 +10898,7 @@ Children:
               Type: BaseVariableType
               DataType: Size
               ModellingRule: Optional
-              Value: -1.0
+              Value: 180.0
             - Name: Item
               Type: Alias
               DataType: NodeId
@@ -11165,7 +11165,7 @@ Children:
               Type: BaseVariableType
               DataType: Size
               ModellingRule: Optional
-              Value: -1.0
+              Value: 180.0
             - Name: Item
               Type: Alias
               DataType: NodeId
@@ -11432,7 +11432,7 @@ Children:
               Type: BaseVariableType
               DataType: Size
               ModellingRule: Optional
-              Value: -1.0
+              Value: 180.0
             - Name: Item
               Type: Alias
               DataType: NodeId
@@ -11662,12 +11662,12 @@ Children:
               Type: BaseVariableType
               DataType: Size
               ModellingRule: Optional
-              Value: 291.0
+              Value: 289.0
             - Name: TopMargin
               Type: BaseVariableType
               DataType: Size
               ModellingRule: Optional
-              Value: 11.0
+              Value: 8.0
             - Name: Width
               Type: BaseVariableType
               DataType: Size
@@ -11702,7 +11702,7 @@ Children:
               Type: BaseDataVariableType
               DataType: Size
               ModellingRule: Optional
-              Value: 15.0
+              Value: 18.0
           - Name: Label4
             Type: Label
             Children:
@@ -11715,12 +11715,12 @@ Children:
               Type: BaseVariableType
               DataType: Size
               ModellingRule: Optional
-              Value: 566.0
+              Value: 570.0
             - Name: TopMargin
               Type: BaseVariableType
               DataType: Size
               ModellingRule: Optional
-              Value: 9.0
+              Value: 10.0
             - Name: Width
               Type: BaseVariableType
               DataType: Size
@@ -11880,7 +11880,7 @@ Children:
               Type: BaseDataVariableType
               DataType: Size
               ModellingRule: Optional
-              Value: 15.0
+              Value: 18.0
             - Name: FontFamily
               Type: BaseDataVariableType
               DataType: Font
@@ -12050,7 +12050,7 @@ Children:
               Type: BaseDataVariableType
               DataType: LocalizedText
               ModellingRule: Optional
-              Value: {"LocaleId":"en-US","Text":"Generate"}
+              Value: {"LocaleId":"en-US","Text":"33KV"}
             - Name: LeftMargin
               Type: BaseVariableType
               DataType: Size
@@ -12511,7 +12511,7 @@ Children:
               Type: BaseDataVariableType
               DataType: LocalizedText
               ModellingRule: Optional
-              Value: {"LocaleId":"en-US","Text":"Generate"}
+              Value: {"LocaleId":"en-US","Text":"Jace"}
             - Name: LeftMargin
               Type: BaseVariableType
               DataType: Size
@@ -12594,7 +12594,7 @@ Children:
                               DataType: LocalizedText
                               ReferenceType: HasParameter
                               ModellingRule: Optional
-                              Value: {"LocaleId":"en-US","Text":"SELECT *FROM \"MonthlyConsumptionReport\" WHERE Month {0:sql_literal}"}
+                              Value: {"LocaleId":"en-US","Text":"SELECT *FROM \"DailyConsumptionAgg\" WHERE Month =  {0:sql_literal}"}
                             - Name: ns=3;Source0
                               Type: BaseDataVariableType
                               DataType: BaseDataType
@@ -12618,7 +12618,7 @@ Children:
                               DataType: LocalizedText
                               ReferenceType: HasParameter
                               ModellingRule: Optional
-                              Value: {"LocaleId":"en-US","Text":"SELECT *FROM \"MonthlyConsumptionReport\" WHERE Month {0:sql_literal} AND Jace =  {2:sql_literal}"}
+                              Value: {"LocaleId":"en-US","Text":"SELECT *FROM \"DailyConsumptionAgg\" WHERE Month = {0:sql_literal} AND Jace =  {2:sql_literal}"}
                             - Name: ns=3;Source0
                               Type: BaseDataVariableType
                               DataType: BaseDataType
@@ -12627,7 +12627,7 @@ Children:
                               - Name: DynamicLink
                                 Type: DynamicLink
                                 DataType: NodePath
-                                Value: "/Objects/Tata_Energy_Management/Model/Reports/Second_Report_Links/Month_Selections"
+                                Value: "/Objects/Tata_Energy_Management/Model/Reports/Month"
                             - Name: ns=3;Source2
                               Type: BaseDataVariableType
                               DataType: BaseDataType
@@ -12736,6 +12736,387 @@ Children:
                             Type: DynamicLink
                             DataType: NodePath
                             Value: "/Objects/Tata_Energy_Management/Model/DateTime/CurrDateTime/Second"
+                    - Name: ArrayIndex
+                      Type: BaseDataVariableType
+                      DataType: UInt32
+                      Description: {"NamespaceIndex":3,"TextId":"SetArrayIndexDescription"}
+                      ValueRank: ScalarOrOneDimension
+                      Value: 0
+                - Name: MethodContainer3
+                  Type: BaseObjectType
+                  Children:
+                  - Name: ns=3;ObjectPointer
+                    Type: NodePointer
+                    DataType: NodeId
+                    Value: "/Objects/Commands/VariableCommands"
+                    Children:
+                    - Name: Kind
+                      Type: PropertyType
+                      DataType: NodeId
+                      Value: "/Types/ObjectTypes/BaseObjectType"
+                  - Name: ns=3;Method
+                    Type: BaseDataVariableType
+                    DataType: String
+                    Value: "Set"
+                  - Name: InputArguments
+                    Type: BaseObjectType
+                    Children:
+                    - Name: VariableToModify
+                      Type: BaseDataVariableType
+                      DataType: VariablePointer
+                      Description: {"NamespaceIndex":3,"TextId":"SetVariableToModifyDescription"}
+                      Value: "/Objects/Tata_Energy_Management/Model/Reports/Second_Report_Links/ReportMonthName"
+                    - Name: Value
+                      Type: BaseDataVariableType
+                      DataType: String
+                      Description: {"NamespaceIndex":3,"TextId":"SetValueDescription"}
+                      Value: ""
+                      Children:
+                      - Name: KeyValueConverter1
+                        Type: ValueMapConverter
+                        Children:
+                        - Name: Source
+                          Type: BaseDataVariableType
+                          DataType: BaseDataType
+                          ReferenceType: HasSource
+                          Children:
+                          - Name: DynamicLink
+                            Type: DynamicLink
+                            DataType: NodePath
+                            Value: "/Objects/Tata_Energy_Management/Model/Reports/Second_Report_Links/Month"
+                        - Name: Pairs
+                          Type: BaseObjectType
+                          ModellingRule: None
+                          Children:
+                          - Name: Pair
+                            Type: ValueMapPair
+                            ModellingRule: None
+                            Children:
+                            - Name: Key
+                              Type: BaseDataVariableType
+                              DataType: UInt32
+                              ModellingRule: None
+                              Value: 1
+                            - Name: Value
+                              Type: BaseDataVariableType
+                              DataType: String
+                              ModellingRule: None
+                              Value: "January"
+                          - Name: Pair1
+                            Type: ValueMapPair
+                            ModellingRule: None
+                            Children:
+                            - Name: Key
+                              Type: BaseDataVariableType
+                              DataType: UInt32
+                              ModellingRule: None
+                              Value: 2
+                            - Name: Value
+                              Type: BaseDataVariableType
+                              DataType: String
+                              ModellingRule: None
+                              Value: "February"
+                          - Name: Pair2
+                            Type: ValueMapPair
+                            ModellingRule: None
+                            Children:
+                            - Name: Key
+                              Type: BaseDataVariableType
+                              DataType: UInt32
+                              ModellingRule: None
+                              Value: 3
+                            - Name: Value
+                              Type: BaseDataVariableType
+                              DataType: String
+                              ModellingRule: None
+                              Value: "March"
+                          - Name: Pair3
+                            Type: ValueMapPair
+                            ModellingRule: None
+                            Children:
+                            - Name: Key
+                              Type: BaseDataVariableType
+                              DataType: UInt32
+                              ModellingRule: None
+                              Value: 4
+                            - Name: Value
+                              Type: BaseDataVariableType
+                              DataType: String
+                              ModellingRule: None
+                              Value: "April"
+                          - Name: Pair4
+                            Type: ValueMapPair
+                            ModellingRule: None
+                            Children:
+                            - Name: Key
+                              Type: BaseDataVariableType
+                              DataType: UInt32
+                              ModellingRule: None
+                              Value: 5
+                            - Name: Value
+                              Type: BaseDataVariableType
+                              DataType: String
+                              ModellingRule: None
+                              Value: "May"
+                          - Name: Pair5
+                            Type: ValueMapPair
+                            ModellingRule: None
+                            Children:
+                            - Name: Key
+                              Type: BaseDataVariableType
+                              DataType: UInt32
+                              ModellingRule: None
+                              Value: 6
+                            - Name: Value
+                              Type: BaseDataVariableType
+                              DataType: String
+                              ModellingRule: None
+                              Value: "June"
+                          - Name: Pair6
+                            Type: ValueMapPair
+                            ModellingRule: None
+                            Children:
+                            - Name: Key
+                              Type: BaseDataVariableType
+                              DataType: UInt32
+                              ModellingRule: None
+                              Value: 7
+                            - Name: Value
+                              Type: BaseDataVariableType
+                              DataType: String
+                              ModellingRule: None
+                              Value: "July"
+                          - Name: Pair7
+                            Type: ValueMapPair
+                            ModellingRule: None
+                            Children:
+                            - Name: Key
+                              Type: BaseDataVariableType
+                              DataType: UInt32
+                              ModellingRule: None
+                              Value: 8
+                            - Name: Value
+                              Type: BaseDataVariableType
+                              DataType: String
+                              ModellingRule: None
+                              Value: "August"
+                          - Name: Pair8
+                            Type: ValueMapPair
+                            ModellingRule: None
+                            Children:
+                            - Name: Key
+                              Type: BaseDataVariableType
+                              DataType: UInt32
+                              ModellingRule: None
+                              Value: 9
+                            - Name: Value
+                              Type: BaseDataVariableType
+                              DataType: String
+                              ModellingRule: None
+                              Value: "September"
+                          - Name: Pair9
+                            Type: ValueMapPair
+                            ModellingRule: None
+                            Children:
+                            - Name: Key
+                              Type: BaseDataVariableType
+                              DataType: UInt32
+                              ModellingRule: None
+                              Value: 10
+                            - Name: Value
+                              Type: BaseDataVariableType
+                              DataType: String
+                              ModellingRule: None
+                              Value: "October"
+                          - Name: Pair10
+                            Type: ValueMapPair
+                            ModellingRule: None
+                            Children:
+                            - Name: Key
+                              Type: BaseDataVariableType
+                              DataType: UInt32
+                              ModellingRule: None
+                              Value: 11
+                            - Name: Value
+                              Type: BaseDataVariableType
+                              DataType: String
+                              ModellingRule: None
+                              Value: "November"
+                          - Name: Pair11
+                            Type: ValueMapPair
+                            ModellingRule: None
+                            Children:
+                            - Name: Key
+                              Type: BaseDataVariableType
+                              DataType: UInt32
+                              ModellingRule: None
+                              Value: 12
+                            - Name: Value
+                              Type: BaseDataVariableType
+                              DataType: String
+                              ModellingRule: None
+                              Value: "December"
+                    - Name: ArrayIndex
+                      Type: BaseDataVariableType
+                      DataType: UInt32
+                      Description: {"NamespaceIndex":3,"TextId":"SetArrayIndexDescription"}
+                      ValueRank: ScalarOrOneDimension
+                      Value: 0
+                - Name: MethodContainer5
+                  Type: BaseObjectType
+                  Children:
+                  - Name: ns=3;ObjectPointer
+                    Type: NodePointer
+                    DataType: NodeId
+                    Value: "/Objects/Commands/VariableCommands"
+                    Children:
+                    - Name: Kind
+                      Type: PropertyType
+                      DataType: NodeId
+                      Value: "/Types/ObjectTypes/BaseObjectType"
+                  - Name: ns=3;Method
+                    Type: BaseDataVariableType
+                    DataType: String
+                    Value: "Set"
+                  - Name: InputArguments
+                    Type: BaseObjectType
+                    Children:
+                    - Name: VariableToModify
+                      Type: BaseDataVariableType
+                      DataType: VariablePointer
+                      Description: {"NamespaceIndex":3,"TextId":"SetVariableToModifyDescription"}
+                      Value: "/Objects/Tata_Energy_Management/Model/Reports/Second_Report_Links/ReportJaceName"
+                    - Name: Value
+                      Type: BaseDataVariableType
+                      DataType: String
+                      Description: {"NamespaceIndex":3,"TextId":"SetValueDescription"}
+                      Value: ""
+                      Children:
+                      - Name: KeyValueConverter1
+                        Type: ValueMapConverter
+                        Children:
+                        - Name: Source
+                          Type: BaseDataVariableType
+                          DataType: BaseDataType
+                          ReferenceType: HasSource
+                          Children:
+                          - Name: DynamicLink
+                            Type: DynamicLink
+                            DataType: NodePath
+                            Value: "/Objects/Tata_Energy_Management/Model/Reports/Second_Report_Links/Selection1"
+                        - Name: Pairs
+                          Type: BaseObjectType
+                          Children:
+                          - Name: Pair6
+                            Type: ValueMapPair
+                            Children:
+                            - Name: Key
+                              Type: BaseDataVariableType
+                              DataType: UInt32
+                              Value: 0
+                            - Name: Value
+                              Type: BaseDataVariableType
+                              DataType: String
+                              Value: "ALL"
+                          - Name: Pair7
+                            Type: ValueMapPair
+                            Children:
+                            - Name: Key
+                              Type: BaseDataVariableType
+                              DataType: UInt32
+                              Value: 1
+                            - Name: Value
+                              Type: BaseDataVariableType
+                              DataType: String
+                              Value: "33KV"
+                          - Name: Pair8
+                            Type: ValueMapPair
+                            Children:
+                            - Name: Key
+                              Type: BaseDataVariableType
+                              DataType: UInt32
+                              Value: 2
+                            - Name: Value
+                              Type: BaseDataVariableType
+                              DataType: String
+                              Value: "UTILITY"
+                          - Name: Pair9
+                            Type: ValueMapPair
+                            Children:
+                            - Name: Key
+                              Type: BaseDataVariableType
+                              DataType: UInt32
+                              Value: 3
+                            - Name: Value
+                              Type: BaseDataVariableType
+                              DataType: String
+                              Value: "PUMPROOM"
+                          - Name: Pair10
+                            Type: ValueMapPair
+                            Children:
+                            - Name: Key
+                              Type: BaseDataVariableType
+                              DataType: UInt32
+                              Value: 4
+                            - Name: Value
+                              Type: BaseDataVariableType
+                              DataType: String
+                              Value: "PAINTSHOP"
+                          - Name: Pair11
+                            Type: ValueMapPair
+                            Children:
+                            - Name: Key
+                              Type: BaseDataVariableType
+                              DataType: UInt32
+                              Value: 5
+                            - Name: Value
+                              Type: BaseDataVariableType
+                              DataType: String
+                              Value: "BODYSHOP"
+                          - Name: Pair1
+                            Type: ValueMapPair
+                            Children:
+                            - Name: Key
+                              Type: BaseDataVariableType
+                              DataType: UInt32
+                              Value: 6
+                            - Name: Value
+                              Type: BaseDataVariableType
+                              DataType: String
+                              Value: "TCF"
+                          - Name: Pair2
+                            Type: ValueMapPair
+                            Children:
+                            - Name: Key
+                              Type: BaseDataVariableType
+                              DataType: UInt32
+                              Value: 7
+                            - Name: Value
+                              Type: BaseDataVariableType
+                              DataType: String
+                              Value: "STAMPING"
+                          - Name: Pair3
+                            Type: ValueMapPair
+                            Children:
+                            - Name: Key
+                              Type: BaseDataVariableType
+                              DataType: UInt32
+                              Value: 8
+                            - Name: Value
+                              Type: BaseDataVariableType
+                              DataType: String
+                              Value: "ADMIN"
+                          - Name: Pair4
+                            Type: ValueMapPair
+                            Children:
+                            - Name: Key
+                              Type: BaseDataVariableType
+                              DataType: UInt32
+                              Value: 9
+                            - Name: Value
+                              Type: BaseDataVariableType
+                              DataType: String
+                              Value: "SPP"
                     - Name: ArrayIndex
                       Type: BaseDataVariableType
                       DataType: UInt32
@@ -13437,7 +13818,7 @@ Children:
               Type: BaseDataVariableType
               DataType: LocalizedText
               ModellingRule: Optional
-              Value: {"LocaleId":"en-US","Text":"Generate"}
+              Value: {"LocaleId":"en-US","Text":"UTILITY"}
             - Name: LeftMargin
               Type: BaseVariableType
               DataType: Size
@@ -13501,7 +13882,7 @@ Children:
                           DataType: LocalizedText
                           ReferenceType: HasParameter
                           ModellingRule: Optional
-                          Value: {"LocaleId":"en-US","Text":"SELECT *FROM \"MonthlyConsumptionReport\" WHERE Month = {0:sql_literal} AND Jace =  {2:sql_literal} AND  Meter = {3:sql_literal}"}
+                          Value: {"LocaleId":"en-US","Text":"SELECT *FROM \"DailyConsumptionAgg\" WHERE Month = {0:sql_literal} AND Jace =  {2:sql_literal} AND  Meter = {3:sql_literal}"}
                         - Name: ns=3;Source0
                           Type: BaseDataVariableType
                           DataType: BaseDataType
@@ -13898,7 +14279,7 @@ Children:
               Type: BaseDataVariableType
               DataType: LocalizedText
               ModellingRule: Optional
-              Value: {"LocaleId":"en-US","Text":"Generate"}
+              Value: {"LocaleId":"en-US","Text":"PUMPROOM"}
             - Name: LeftMargin
               Type: BaseVariableType
               DataType: Size
@@ -13962,7 +14343,7 @@ Children:
                           DataType: LocalizedText
                           ReferenceType: HasParameter
                           ModellingRule: Optional
-                          Value: {"LocaleId":"en-US","Text":"SELECT *FROM \"MonthlyConsumptionReport\" WHERE Month = {0:sql_literal} AND Jace =  {2:sql_literal} AND  Meter = {3:sql_literal}"}
+                          Value: {"LocaleId":"en-US","Text":"SELECT *FROM \"DailyConsumptionAgg\" WHERE Month = {0:sql_literal} AND Jace =  {2:sql_literal} AND  Meter = {3:sql_literal}"}
                         - Name: ns=3;Source0
                           Type: BaseDataVariableType
                           DataType: BaseDataType
@@ -14359,7 +14740,7 @@ Children:
               Type: BaseDataVariableType
               DataType: LocalizedText
               ModellingRule: Optional
-              Value: {"LocaleId":"en-US","Text":"Generate"}
+              Value: {"LocaleId":"en-US","Text":"PAINTSHOP"}
             - Name: LeftMargin
               Type: BaseVariableType
               DataType: Size
@@ -14423,7 +14804,7 @@ Children:
                           DataType: LocalizedText
                           ReferenceType: HasParameter
                           ModellingRule: Optional
-                          Value: {"LocaleId":"en-US","Text":"SELECT *FROM \"MonthlyConsumptionReport\" WHERE Month = {0:sql_literal} AND Jace =  {2:sql_literal} AND  Meter = {3:sql_literal}"}
+                          Value: {"LocaleId":"en-US","Text":"SELECT *FROM \"DailyConsumptionAgg\" WHERE Month = {0:sql_literal} AND Jace =  {2:sql_literal} AND  Meter = {3:sql_literal}"}
                         - Name: ns=3;Source0
                           Type: BaseDataVariableType
                           DataType: BaseDataType
@@ -14820,7 +15201,7 @@ Children:
               Type: BaseDataVariableType
               DataType: LocalizedText
               ModellingRule: Optional
-              Value: {"LocaleId":"en-US","Text":"Generate"}
+              Value: {"LocaleId":"en-US","Text":"BODYSHOP"}
             - Name: LeftMargin
               Type: BaseVariableType
               DataType: Size
@@ -14884,7 +15265,7 @@ Children:
                           DataType: LocalizedText
                           ReferenceType: HasParameter
                           ModellingRule: Optional
-                          Value: {"LocaleId":"en-US","Text":"SELECT *FROM \"MonthlyConsumptionReport\" WHERE Month = {0:sql_literal} AND Jace =  {2:sql_literal} AND  Meter = {3:sql_literal}"}
+                          Value: {"LocaleId":"en-US","Text":"SELECT *FROM \"DailyConsumptionAgg\" WHERE Month = {0:sql_literal} AND Jace =  {2:sql_literal} AND  Meter = {3:sql_literal}"}
                         - Name: ns=3;Source0
                           Type: BaseDataVariableType
                           DataType: BaseDataType
@@ -15281,7 +15662,7 @@ Children:
               Type: BaseDataVariableType
               DataType: LocalizedText
               ModellingRule: Optional
-              Value: {"LocaleId":"en-US","Text":"Generate"}
+              Value: {"LocaleId":"en-US","Text":"TCF"}
             - Name: LeftMargin
               Type: BaseVariableType
               DataType: Size
@@ -15345,7 +15726,7 @@ Children:
                           DataType: LocalizedText
                           ReferenceType: HasParameter
                           ModellingRule: Optional
-                          Value: {"LocaleId":"en-US","Text":"SELECT *FROM \"MonthlyConsumptionReport\" WHERE Month = {0:sql_literal} AND Jace =  {2:sql_literal} AND  Meter = {3:sql_literal}"}
+                          Value: {"LocaleId":"en-US","Text":"SELECT *FROM \"DailyConsumptionAgg\" WHERE Month = {0:sql_literal} AND Jace =  {2:sql_literal} AND  Meter = {3:sql_literal}"}
                         - Name: ns=3;Source0
                           Type: BaseDataVariableType
                           DataType: BaseDataType
@@ -15742,7 +16123,7 @@ Children:
               Type: BaseDataVariableType
               DataType: LocalizedText
               ModellingRule: Optional
-              Value: {"LocaleId":"en-US","Text":"Generate"}
+              Value: {"LocaleId":"en-US","Text":"STAMPING"}
             - Name: LeftMargin
               Type: BaseVariableType
               DataType: Size
@@ -15806,7 +16187,7 @@ Children:
                           DataType: LocalizedText
                           ReferenceType: HasParameter
                           ModellingRule: Optional
-                          Value: {"LocaleId":"en-US","Text":"SELECT *FROM \"MonthlyConsumptionReport\" WHERE Month = {0:sql_literal} AND Jace =  {2:sql_literal} AND  Meter = {3:sql_literal}"}
+                          Value: {"LocaleId":"en-US","Text":"SELECT *FROM \"DailyConsumptionAgg\" WHERE Month = {0:sql_literal} AND Jace =  {2:sql_literal} AND  Meter = {3:sql_literal}"}
                         - Name: ns=3;Source0
                           Type: BaseDataVariableType
                           DataType: BaseDataType
@@ -16203,7 +16584,7 @@ Children:
               Type: BaseDataVariableType
               DataType: LocalizedText
               ModellingRule: Optional
-              Value: {"LocaleId":"en-US","Text":"Generate"}
+              Value: {"LocaleId":"en-US","Text":"ADMIN"}
             - Name: LeftMargin
               Type: BaseVariableType
               DataType: Size
@@ -16267,7 +16648,7 @@ Children:
                           DataType: LocalizedText
                           ReferenceType: HasParameter
                           ModellingRule: Optional
-                          Value: {"LocaleId":"en-US","Text":"SELECT *FROM \"MonthlyConsumptionReport\" WHERE Month = {0:sql_literal} AND Jace =  {2:sql_literal} AND  Meter = {3:sql_literal}"}
+                          Value: {"LocaleId":"en-US","Text":"SELECT *FROM \"DailyConsumptionAgg\" WHERE Month = {0:sql_literal} AND Jace =  {2:sql_literal} AND  Meter = {3:sql_literal}"}
                         - Name: ns=3;Source0
                           Type: BaseDataVariableType
                           DataType: BaseDataType
@@ -16664,7 +17045,7 @@ Children:
               Type: BaseDataVariableType
               DataType: LocalizedText
               ModellingRule: Optional
-              Value: {"LocaleId":"en-US","Text":"Generate"}
+              Value: {"LocaleId":"en-US","Text":"SPP"}
             - Name: LeftMargin
               Type: BaseVariableType
               DataType: Size
@@ -16728,7 +17109,7 @@ Children:
                           DataType: LocalizedText
                           ReferenceType: HasParameter
                           ModellingRule: Optional
-                          Value: {"LocaleId":"en-US","Text":"SELECT *FROM \"MonthlyConsumptionReport\" WHERE Month = {0:sql_literal} AND Jace =  {2:sql_literal} AND  Meter = {3:sql_literal}"}
+                          Value: {"LocaleId":"en-US","Text":"SELECT *FROM \"DailyConsumptionAgg\" WHERE Month = {0:sql_literal} AND Jace =  {2:sql_literal} AND  Meter = {3:sql_literal}"}
                         - Name: ns=3;Source0
                           Type: BaseDataVariableType
                           DataType: BaseDataType
@@ -16755,7 +17136,7 @@ Children:
                           - Name: DynamicLink
                             Type: DynamicLink
                             DataType: NodePath
-                            Value: "/Objects/Tata_Energy_Management/Model/Reports/Second_Report_Links/Jace03selection"
+                            Value: "/Objects/Tata_Energy_Management/Model/Reports/Second_Report_Links/Jace09selection"
                     - Name: ArrayIndex
                       Type: BaseDataVariableType
                       DataType: UInt32
@@ -17300,7 +17681,7 @@ Children:
               Type: BaseVariableType
               DataType: Size
               ModellingRule: Optional
-              Value: 149.0
+              Value: 180.0
             - Name: Item
               Type: Alias
               DataType: NodeId
@@ -17314,12 +17695,12 @@ Children:
               Type: BaseVariableType
               DataType: Size
               ModellingRule: Optional
-              Value: 130.0
+              Value: 106.0
             - Name: TopMargin
               Type: BaseVariableType
               DataType: Size
               ModellingRule: Optional
-              Value: 11.0
+              Value: 12.0
             - Name: VerticalAlignment
               Type: BaseVariableType
               DataType: VerticalAlignment
@@ -17384,12 +17765,12 @@ Children:
               Type: BaseVariableType
               DataType: Size
               ModellingRule: Optional
-              Value: 38.0
+              Value: 29.0
             - Name: TopMargin
               Type: BaseVariableType
               DataType: Size
               ModellingRule: Optional
-              Value: 21.0
+              Value: 16.0
             - Name: Width
               Type: BaseVariableType
               DataType: Size
@@ -17404,7 +17785,7 @@ Children:
               Type: BaseDataVariableType
               DataType: Size
               ModellingRule: Optional
-              Value: 15.0
+              Value: 18.0
             - Name: FontFamily
               Type: BaseDataVariableType
               DataType: Font
@@ -17489,17 +17870,22 @@ Children:
             - Name: DynamicLink
               Type: DynamicLink
               DataType: NodePath
-              Value: "/Objects/Tata_EMS_Solution_Old_Version_Running/Model/Reports/Dailyconsumptionreportpath"
+              Value: "/Objects/Tata_Energy_Management/Model/Reports/Second_Report_Links/Selection1"
           - Name: LeftMargin
             Type: BaseVariableType
             DataType: Size
             ModellingRule: Optional
-            Value: 9.0
+            Value: 214.0
           - Name: TopMargin
             Type: BaseVariableType
             DataType: Size
             ModellingRule: Optional
-            Value: 24.0
+            Value: 9.0
+          - Name: Width
+            Type: BaseVariableType
+            DataType: Size
+            ModellingRule: Optional
+            Value: 89.0
         - Name: PanelLoader1
           Type: PanelLoader
           Children:
@@ -17565,6 +17951,284 @@ Children:
             DataType: Size
             ModellingRule: Optional
             Value: 0.0
+        - Name: Label3
+          Type: Label
+          Children:
+          - Name: Text
+            Type: BaseDataVariableType
+            DataType: LocalizedText
+            Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+            Children:
+            - Name: DynamicLink
+              Type: DynamicLink
+              DataType: NodePath
+              Value: "/Objects/Tata_EMS_Solution_Old_Version_Running/Model/Reports/Dailyconsumptionreportpath"
+          - Name: LeftMargin
+            Type: BaseVariableType
+            DataType: Size
+            ModellingRule: Optional
+            Value: 19.0
+          - Name: TopMargin
+            Type: BaseVariableType
+            DataType: Size
+            ModellingRule: Optional
+            Value: 34.0
+        - Name: Label4
+          Type: Label
+          Children:
+          - Name: Text
+            Type: BaseDataVariableType
+            DataType: LocalizedText
+            Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+            Children:
+            - Name: KeyValueConverter1
+              Type: ValueMapConverter
+              Children:
+              - Name: Source
+                Type: BaseDataVariableType
+                DataType: BaseDataType
+                ReferenceType: HasSource
+                Children:
+                - Name: DynamicLink
+                  Type: DynamicLink
+                  DataType: NodePath
+                  Value: "/Objects/Tata_Energy_Management/Model/Reports/Second_Report_Links/Month"
+              - Name: Pairs
+                Type: BaseObjectType
+                ModellingRule: None
+                Children:
+                - Name: Pair
+                  Type: ValueMapPair
+                  ModellingRule: None
+                  Children:
+                  - Name: Key
+                    Type: BaseDataVariableType
+                    DataType: UInt32
+                    ModellingRule: None
+                    Value: 1
+                  - Name: Value
+                    Type: BaseDataVariableType
+                    DataType: String
+                    ModellingRule: None
+                    Value: "January"
+                - Name: Pair1
+                  Type: ValueMapPair
+                  ModellingRule: None
+                  Children:
+                  - Name: Key
+                    Type: BaseDataVariableType
+                    DataType: UInt32
+                    ModellingRule: None
+                    Value: 2
+                  - Name: Value
+                    Type: BaseDataVariableType
+                    DataType: String
+                    ModellingRule: None
+                    Value: "February"
+                - Name: Pair2
+                  Type: ValueMapPair
+                  ModellingRule: None
+                  Children:
+                  - Name: Key
+                    Type: BaseDataVariableType
+                    DataType: UInt32
+                    ModellingRule: None
+                    Value: 3
+                  - Name: Value
+                    Type: BaseDataVariableType
+                    DataType: String
+                    ModellingRule: None
+                    Value: "March"
+                - Name: Pair3
+                  Type: ValueMapPair
+                  ModellingRule: None
+                  Children:
+                  - Name: Key
+                    Type: BaseDataVariableType
+                    DataType: UInt32
+                    ModellingRule: None
+                    Value: 4
+                  - Name: Value
+                    Type: BaseDataVariableType
+                    DataType: String
+                    ModellingRule: None
+                    Value: "April"
+                - Name: Pair4
+                  Type: ValueMapPair
+                  ModellingRule: None
+                  Children:
+                  - Name: Key
+                    Type: BaseDataVariableType
+                    DataType: UInt32
+                    ModellingRule: None
+                    Value: 5
+                  - Name: Value
+                    Type: BaseDataVariableType
+                    DataType: String
+                    ModellingRule: None
+                    Value: "May"
+                - Name: Pair5
+                  Type: ValueMapPair
+                  ModellingRule: None
+                  Children:
+                  - Name: Key
+                    Type: BaseDataVariableType
+                    DataType: UInt32
+                    ModellingRule: None
+                    Value: 6
+                  - Name: Value
+                    Type: BaseDataVariableType
+                    DataType: String
+                    ModellingRule: None
+                    Value: "June"
+                - Name: Pair6
+                  Type: ValueMapPair
+                  ModellingRule: None
+                  Children:
+                  - Name: Key
+                    Type: BaseDataVariableType
+                    DataType: UInt32
+                    ModellingRule: None
+                    Value: 7
+                  - Name: Value
+                    Type: BaseDataVariableType
+                    DataType: String
+                    ModellingRule: None
+                    Value: "July"
+                - Name: Pair7
+                  Type: ValueMapPair
+                  ModellingRule: None
+                  Children:
+                  - Name: Key
+                    Type: BaseDataVariableType
+                    DataType: UInt32
+                    ModellingRule: None
+                    Value: 8
+                  - Name: Value
+                    Type: BaseDataVariableType
+                    DataType: String
+                    ModellingRule: None
+                    Value: "August"
+                - Name: Pair8
+                  Type: ValueMapPair
+                  ModellingRule: None
+                  Children:
+                  - Name: Key
+                    Type: BaseDataVariableType
+                    DataType: UInt32
+                    ModellingRule: None
+                    Value: 9
+                  - Name: Value
+                    Type: BaseDataVariableType
+                    DataType: String
+                    ModellingRule: None
+                    Value: "September"
+                - Name: Pair9
+                  Type: ValueMapPair
+                  ModellingRule: None
+                  Children:
+                  - Name: Key
+                    Type: BaseDataVariableType
+                    DataType: UInt32
+                    ModellingRule: None
+                    Value: 10
+                  - Name: Value
+                    Type: BaseDataVariableType
+                    DataType: String
+                    ModellingRule: None
+                    Value: "October"
+                - Name: Pair10
+                  Type: ValueMapPair
+                  ModellingRule: None
+                  Children:
+                  - Name: Key
+                    Type: BaseDataVariableType
+                    DataType: UInt32
+                    ModellingRule: None
+                    Value: 11
+                  - Name: Value
+                    Type: BaseDataVariableType
+                    DataType: String
+                    ModellingRule: None
+                    Value: "November"
+                - Name: Pair11
+                  Type: ValueMapPair
+                  ModellingRule: None
+                  Children:
+                  - Name: Key
+                    Type: BaseDataVariableType
+                    DataType: UInt32
+                    ModellingRule: None
+                    Value: 12
+                  - Name: Value
+                    Type: BaseDataVariableType
+                    DataType: String
+                    ModellingRule: None
+                    Value: "December"
+          - Name: LeftMargin
+            Type: BaseVariableType
+            DataType: Size
+            ModellingRule: Optional
+            Value: 304.0
+          - Name: TopMargin
+            Type: BaseVariableType
+            DataType: Size
+            ModellingRule: Optional
+            Value: 0.0
+          - Name: Width
+            Type: BaseVariableType
+            DataType: Size
+            ModellingRule: Optional
+            Value: 89.0
+        - Name: Label5
+          Type: Label
+          Children:
+          - Name: Text
+            Type: BaseDataVariableType
+            DataType: LocalizedText
+            Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+          - Name: LeftMargin
+            Type: BaseVariableType
+            DataType: Size
+            ModellingRule: Optional
+            Value: 303.0
+          - Name: TopMargin
+            Type: BaseVariableType
+            DataType: Size
+            ModellingRule: Optional
+            Value: 19.0
+          - Name: Width
+            Type: BaseVariableType
+            DataType: Size
+            ModellingRule: Optional
+            Value: 89.0
+        - Name: Label6
+          Type: Label
+          Children:
+          - Name: Text
+            Type: BaseDataVariableType
+            DataType: LocalizedText
+            Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+            Children:
+            - Name: DynamicLink
+              Type: DynamicLink
+              DataType: NodePath
+              Value: "/Objects/Tata_Energy_Management/Model/Reports/Second_Report_Links/ReportJaceName"
+          - Name: LeftMargin
+            Type: BaseVariableType
+            DataType: Size
+            ModellingRule: Optional
+            Value: 303.0
+          - Name: TopMargin
+            Type: BaseVariableType
+            DataType: Size
+            ModellingRule: Optional
+            Value: 20.0
+          - Name: Width
+            Type: BaseVariableType
+            DataType: Size
+            ModellingRule: Optional
+            Value: 89.0
       - Name: HorizontalAlignment
         Type: BaseVariableType
         DataType: HorizontalAlignment

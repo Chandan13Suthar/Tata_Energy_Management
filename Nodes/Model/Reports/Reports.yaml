@@ -365,7 +365,7 @@ Children:
         - Name: Value
           Type: BaseDataVariableType
           DataType: LocalizedText
-          Value: {"LocaleId":"en-US","Text":"33KV SEGR ROOM"}
+          Value: {"LocaleId":"en-US","Text":"33KV"}
       - Name: Pair2
         Type: ValueMapPair
         Children:
@@ -387,7 +387,7 @@ Children:
         - Name: Value
           Type: BaseDataVariableType
           DataType: LocalizedText
-          Value: {"LocaleId":"en-US","Text":"PAINT SHOP"}
+          Value: {"LocaleId":"en-US","Text":"PUMPROOM"}
       - Name: Pair4
         Type: ValueMapPair
         Children:
@@ -398,7 +398,7 @@ Children:
         - Name: Value
           Type: BaseDataVariableType
           DataType: LocalizedText
-          Value: {"LocaleId":"en-US","Text":"BODY SHOP"}
+          Value: {"LocaleId":"en-US","Text":"PAINTSHOP"}
       - Name: Pair5
         Type: ValueMapPair
         Children:
@@ -409,7 +409,7 @@ Children:
         - Name: Value
           Type: BaseDataVariableType
           DataType: LocalizedText
-          Value: {"LocaleId":"en-US","Text":"STAMPING SHOP"}
+          Value: {"LocaleId":"en-US","Text":"BODYSHOP"}
       - Name: Pair6
         Type: ValueMapPair
         Children:
@@ -420,7 +420,7 @@ Children:
         - Name: Value
           Type: BaseDataVariableType
           DataType: LocalizedText
-          Value: {"LocaleId":"en-US","Text":"PUMP ROOM"}
+          Value: {"LocaleId":"en-US","Text":"TCF"}
       - Name: Pair7
         Type: ValueMapPair
         Children:
@@ -431,7 +431,7 @@ Children:
         - Name: Value
           Type: BaseDataVariableType
           DataType: LocalizedText
-          Value: {"LocaleId":"en-US","Text":"TCF STATION"}
+          Value: {"LocaleId":"en-US","Text":"STAMPING"}
       - Name: Pair8
         Type: ValueMapPair
         Children:

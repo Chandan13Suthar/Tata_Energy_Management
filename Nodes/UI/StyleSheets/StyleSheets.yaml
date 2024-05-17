@@ -504,7 +504,7 @@ Children:
       - Name: BorderWidth
         Type: BaseDataVariableType
         DataType: Size
-        Value: 2.0
+        Value: 0.0
       - Name: BorderColor
         Type: BaseDataVariableType
         DataType: Color
@@ -648,7 +648,7 @@ Children:
       - Name: FontSize
         Type: BaseDataVariableType
         DataType: Size
-        Value: 16.0
+        Value: 12.0
       - Name: SelectionTextColor
         Type: BaseDataVariableType
         DataType: Color
@@ -688,6 +688,37 @@ Children:
         Type: BaseDataVariableType
         DataType: Color
         Value: "#010425"
+    - Name: Default1
+      Type: InputBoxStyle
+      Children:
+      - Name: BorderColor
+        Type: BaseDataVariableType
+        DataType: Color
+        Value: "#021844"
+      - Name: FocusBorderColor
+        Type: BaseDataVariableType
+        DataType: Color
+        Value: "#235d9f00"
+      - Name: TextColor
+        Type: BaseDataVariableType
+        DataType: Color
+        Value: "#000000"
+      - Name: FocusBackgroundColor
+        Type: BaseDataVariableType
+        DataType: Color
+        Value: "#ffffff"
+      - Name: FontSize
+        Type: BaseDataVariableType
+        DataType: Size
+        Value: 16.0
+      - Name: SelectionTextColor
+        Type: BaseDataVariableType
+        DataType: Color
+        Value: "#000000"
+      - Name: Radius
+        Type: BaseDataVariableType
+        DataType: Size
+        Value: 5.0
   - Name: SwitchStyles
     Type: BaseObjectType
     Children:
