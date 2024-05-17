@@ -18,103 +18,92 @@ Children:
       "Value": 0,
       "DisplayName": {
        "LocaleId": "en-US",
-       "Text": "ALL"
+       "Text": "33KV"
       },
       "Description": {
        "LocaleId": "en-US",
-       "Text": "ALL"
+       "Text": "33KV"
       }
      },{
       "Name": "Value1",
       "Value": 1,
       "DisplayName": {
        "LocaleId": "en-US",
-       "Text": "33KV"
+       "Text": "UTILITY"
       },
       "Description": {
        "LocaleId": "en-US",
-       "Text": "33KV"
+       "Text": "UTILITY"
       }
      },{
       "Name": "Value2",
       "Value": 2,
       "DisplayName": {
        "LocaleId": "en-US",
-       "Text": "UTILITY"
+       "Text": "PUMPROOM"
       },
       "Description": {
        "LocaleId": "en-US",
-       "Text": "UTILITY"
+       "Text": "PUMPROOM"
       }
      },{
       "Name": "Value3",
       "Value": 3,
       "DisplayName": {
        "LocaleId": "en-US",
-       "Text": "PUMPROOM"
+       "Text": "PAINTSHOP"
       },
       "Description": {
        "LocaleId": "en-US",
-       "Text": "PUMPROOM"
+       "Text": "PAINTSHOP"
       }
      },{
       "Name": "Value4",
       "Value": 4,
       "DisplayName": {
        "LocaleId": "en-US",
-       "Text": "PAINTSHOP"
+       "Text": "BODYSHOP"
       },
       "Description": {
        "LocaleId": "en-US",
-       "Text": "PAINTSHOP"
+       "Text": "BODYSHOP"
       }
      },{
       "Name": "Value5",
       "Value": 5,
       "DisplayName": {
        "LocaleId": "en-US",
-       "Text": "BODYSHOP"
+       "Text": "TCF"
       },
       "Description": {
        "LocaleId": "en-US",
-       "Text": "BODYSHOP"
+       "Text": "TCF"
       }
      },{
       "Name": "Value6",
       "Value": 6,
       "DisplayName": {
        "LocaleId": "en-US",
-       "Text": "TCF"
+       "Text": "STAMPING"
       },
       "Description": {
        "LocaleId": "en-US",
-       "Text": "TCF"
+       "Text": "STAMPING"
       }
      },{
       "Name": "Value7",
       "Value": 7,
       "DisplayName": {
        "LocaleId": "en-US",
-       "Text": "STAMPING"
+       "Text": "ADMIN"
       },
       "Description": {
        "LocaleId": "en-US",
-       "Text": "STAMPING"
+       "Text": "ADMIN"
       }
      },{
       "Name": "Value8",
       "Value": 8,
-      "DisplayName": {
-       "LocaleId": "en-US",
-       "Text": "ADMIN"
-      },
-      "Description": {
-       "LocaleId": "en-US",
-       "Text": "ADMIN"
-      }
-     },{
-      "Name": "Value9",
-      "Value": 9,
       "DisplayName": {
        "LocaleId": "en-US",
        "Text": "SPP"
