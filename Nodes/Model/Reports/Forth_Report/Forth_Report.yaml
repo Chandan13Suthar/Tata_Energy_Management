@@ -2,12 +2,12 @@ Name: Forth Report
 Type: FolderType
 Children:
 - Class: DataType
-  Name: Jaceselection
+  Name: Jaceselection1
   Id: g=57306442dcd064165b96977ebf794c80
   Supertype: Enumeration
   EnumDefinition: 
    {
-    "Name": "Jace selection",
+    "Name": "Jaceselection1",
     "DataType": {
      "IdType": 2,
      "Id": "57306442dcd064165b96977ebf794c80",
@@ -18,103 +18,92 @@ Children:
       "Value": 0,
       "DisplayName": {
        "LocaleId": "en-US",
-       "Text": "ALL"
+       "Text": "33KV"
       },
       "Description": {
        "LocaleId": "en-US",
-       "Text": "ALL"
+       "Text": "33KV"
       }
      },{
       "Name": "Value1",
       "Value": 1,
       "DisplayName": {
        "LocaleId": "en-US",
-       "Text": "33KV"
+       "Text": "UTILITY"
       },
       "Description": {
        "LocaleId": "en-US",
-       "Text": "33KV SEGR ROOM"
+       "Text": "UTILITY"
       }
      },{
       "Name": "Value2",
       "Value": 2,
       "DisplayName": {
        "LocaleId": "en-US",
-       "Text": "UTILITY"
+       "Text": "PUMPROOM"
       },
       "Description": {
        "LocaleId": "en-US",
-       "Text": "UTILITY"
+       "Text": "PUMPROOM"
       }
      },{
       "Name": "Value3",
       "Value": 3,
       "DisplayName": {
        "LocaleId": "en-US",
-       "Text": "PUMP ROOM"
+       "Text": "PAINTSHOP"
       },
       "Description": {
        "LocaleId": "en-US",
-       "Text": "PUMP ROOM"
+       "Text": "PAINTSHOP"
       }
      },{
       "Name": "Value4",
       "Value": 4,
       "DisplayName": {
        "LocaleId": "en-US",
-       "Text": "PAINT SHOP"
+       "Text": "BODYSHOP"
       },
       "Description": {
        "LocaleId": "en-US",
-       "Text": "PAINT SHOP"
+       "Text": "BODYSHOP"
       }
      },{
       "Name": "Value5",
       "Value": 5,
       "DisplayName": {
        "LocaleId": "en-US",
-       "Text": "BODY SHOP"
+       "Text": "TCF"
       },
       "Description": {
        "LocaleId": "en-US",
-       "Text": "BODY SHOP"
+       "Text": "TCF"
       }
      },{
       "Name": "Value6",
       "Value": 6,
       "DisplayName": {
        "LocaleId": "en-US",
-       "Text": "TCF STATION"
+       "Text": "STAMPING"
       },
       "Description": {
        "LocaleId": "en-US",
-       "Text": "TCF STATION"
+       "Text": "STAMPING"
       }
      },{
       "Name": "Value7",
       "Value": 7,
       "DisplayName": {
        "LocaleId": "en-US",
-       "Text": "STAMPING"
+       "Text": "ADMIN"
       },
       "Description": {
        "LocaleId": "en-US",
-       "Text": "STAMPING"
+       "Text": "ADMIN"
       }
      },{
       "Name": "Value8",
       "Value": 8,
-      "DisplayName": {
-       "LocaleId": "en-US",
-       "Text": "ADMIN"
-      },
-      "Description": {
-       "LocaleId": "en-US",
-       "Text": "ADMIN"
-      }
-     },{
-      "Name": "Value9",
-      "Value": 9,
       "DisplayName": {
        "LocaleId": "en-US",
        "Text": "SPP"
@@ -132,7 +121,7 @@ Children:
     ModellingRule: None
     ValueRank: OneDimension
     ArrayDimensions: [0]
-    Value: [{"TypeId":{"Id":7594},"Body":{"Value":0,"DisplayName":{"LocaleId":"en-US","Text":"33KV"},"Description":{"LocaleId":"en-US","Text":"33KV"}}},{"TypeId":{"Id":7594},"Body":{"Value":1,"DisplayName":{"LocaleId":"en-US","Text":"UTILITY"},"Description":{"LocaleId":"en-US","Text":"UTILITY"}}},{"TypeId":{"Id":7594},"Body":{"Value":2,"DisplayName":{"LocaleId":"en-US","Text":"PUMP ROOM"},"Description":{"LocaleId":"en-US","Text":"PUMP ROOM"}}},{"TypeId":{"Id":7594},"Body":{"Value":3,"DisplayName":{"LocaleId":"en-US","Text":"PAINT SHOP"},"Description":{"LocaleId":"en-US","Text":"PAINT SHOP"}}},{"TypeId":{"Id":7594},"Body":{"Value":4,"DisplayName":{"LocaleId":"en-US","Text":"BODY SHOP"},"Description":{"LocaleId":"en-US","Text":"BODY SHOP"}}},{"TypeId":{"Id":7594},"Body":{"Value":5,"DisplayName":{"LocaleId":"en-US","Text":"TCF STATION"},"Description":{"LocaleId":"en-US","Text":"TCF STATION"}}},{"TypeId":{"Id":7594},"Body":{"Value":6,"DisplayName":{"LocaleId":"en-US","Text":"STAMPING"},"Description":{"LocaleId":"en-US","Text":"STAMPING"}}},{"TypeId":{"Id":7594},"Body":{"Value":7,"DisplayName":{"LocaleId":"en-US","Text":"ADMIN"},"Description":{"LocaleId":"en-US","Text":"ADMIN"}}},{"TypeId":{"Id":7594},"Body":{"Value":8,"DisplayName":{"LocaleId":"en-US","Text":"SPP"},"Description":{"LocaleId":"en-US","Text":"SPP"}}}]
+    Value: [{"TypeId":{"Id":7594},"Body":{"Value":0,"DisplayName":{"LocaleId":"en-US","Text":"33KV"},"Description":{"LocaleId":"en-US","Text":"33KV"}}},{"TypeId":{"Id":7594},"Body":{"Value":1,"DisplayName":{"LocaleId":"en-US","Text":"UTILITY"},"Description":{"LocaleId":"en-US","Text":"UTILITY"}}},{"TypeId":{"Id":7594},"Body":{"Value":2,"DisplayName":{"LocaleId":"en-US","Text":"PUMPROOM"},"Description":{"LocaleId":"en-US","Text":"PUMPROOM"}}},{"TypeId":{"Id":7594},"Body":{"Value":3,"DisplayName":{"LocaleId":"en-US","Text":"PAINTSHOP"},"Description":{"LocaleId":"en-US","Text":"PAINTSHOP"}}},{"TypeId":{"Id":7594},"Body":{"Value":4,"DisplayName":{"LocaleId":"en-US","Text":"BODYSHOP"},"Description":{"LocaleId":"en-US","Text":"BODYSHOP"}}},{"TypeId":{"Id":7594},"Body":{"Value":5,"DisplayName":{"LocaleId":"en-US","Text":"TCF"},"Description":{"LocaleId":"en-US","Text":"TCF"}}},{"TypeId":{"Id":7594},"Body":{"Value":6,"DisplayName":{"LocaleId":"en-US","Text":"STAMPING"},"Description":{"LocaleId":"en-US","Text":"STAMPING"}}},{"TypeId":{"Id":7594},"Body":{"Value":7,"DisplayName":{"LocaleId":"en-US","Text":"ADMIN"},"Description":{"LocaleId":"en-US","Text":"ADMIN"}}},{"TypeId":{"Id":7594},"Body":{"Value":8,"DisplayName":{"LocaleId":"en-US","Text":"SPP"},"Description":{"LocaleId":"en-US","Text":"SPP"}}}]
 - Name: Jaceselectionresult
   Type: BaseDataVariableType
   DataType: Int32

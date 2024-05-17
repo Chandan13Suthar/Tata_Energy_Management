@@ -7348,6 +7348,41 @@ Children:
               - Name: MethodsToCall
                 Type: BaseObjectType
                 Children:
+                - Name: MethodContainer2
+                  Type: BaseObjectType
+                  Children:
+                  - Name: ns=3;ObjectPointer
+                    Type: NodePointer
+                    DataType: NodeId
+                    Value: "/Objects/Commands/VariableCommands"
+                    Children:
+                    - Name: Kind
+                      Type: PropertyType
+                      DataType: NodeId
+                      Value: "/Types/ObjectTypes/BaseObjectType"
+                  - Name: ns=3;Method
+                    Type: BaseDataVariableType
+                    DataType: String
+                    Value: "Set"
+                  - Name: InputArguments
+                    Type: BaseObjectType
+                    Children:
+                    - Name: VariableToModify
+                      Type: BaseDataVariableType
+                      DataType: VariablePointer
+                      Description: {"NamespaceIndex":3,"TextId":"SetVariableToModifyDescription"}
+                      Value: "/Objects/Tata_Energy_Management/Model/MeterSelectionForPanels"
+                    - Name: Value
+                      Type: BaseDataVariableType
+                      DataType: Int32
+                      Description: {"NamespaceIndex":3,"TextId":"SetValueDescription"}
+                      Value: 116
+                    - Name: ArrayIndex
+                      Type: BaseDataVariableType
+                      DataType: UInt32
+                      Description: {"NamespaceIndex":3,"TextId":"SetArrayIndexDescription"}
+                      ValueRank: ScalarOrOneDimension
+                      Value: 0
                 - Name: MethodContainer1
                   Type: BaseObjectType
                   Children:
@@ -8268,6 +8303,41 @@ Children:
               - Name: MethodsToCall
                 Type: BaseObjectType
                 Children:
+                - Name: MethodContainer2
+                  Type: BaseObjectType
+                  Children:
+                  - Name: ns=3;ObjectPointer
+                    Type: NodePointer
+                    DataType: NodeId
+                    Value: "/Objects/Commands/VariableCommands"
+                    Children:
+                    - Name: Kind
+                      Type: PropertyType
+                      DataType: NodeId
+                      Value: "/Types/ObjectTypes/BaseObjectType"
+                  - Name: ns=3;Method
+                    Type: BaseDataVariableType
+                    DataType: String
+                    Value: "Set"
+                  - Name: InputArguments
+                    Type: BaseObjectType
+                    Children:
+                    - Name: VariableToModify
+                      Type: BaseDataVariableType
+                      DataType: VariablePointer
+                      Description: {"NamespaceIndex":3,"TextId":"SetVariableToModifyDescription"}
+                      Value: "/Objects/Tata_Energy_Management/Model/MeterSelectionForPanels"
+                    - Name: Value
+                      Type: BaseDataVariableType
+                      DataType: Int32
+                      Description: {"NamespaceIndex":3,"TextId":"SetValueDescription"}
+                      Value: 139
+                    - Name: ArrayIndex
+                      Type: BaseDataVariableType
+                      DataType: UInt32
+                      Description: {"NamespaceIndex":3,"TextId":"SetArrayIndexDescription"}
+                      ValueRank: ScalarOrOneDimension
+                      Value: 0
                 - Name: MethodContainer1
                   Type: BaseObjectType
                   Children:
@@ -9188,6 +9258,41 @@ Children:
               - Name: MethodsToCall
                 Type: BaseObjectType
                 Children:
+                - Name: MethodContainer2
+                  Type: BaseObjectType
+                  Children:
+                  - Name: ns=3;ObjectPointer
+                    Type: NodePointer
+                    DataType: NodeId
+                    Value: "/Objects/Commands/VariableCommands"
+                    Children:
+                    - Name: Kind
+                      Type: PropertyType
+                      DataType: NodeId
+                      Value: "/Types/ObjectTypes/BaseObjectType"
+                  - Name: ns=3;Method
+                    Type: BaseDataVariableType
+                    DataType: String
+                    Value: "Set"
+                  - Name: InputArguments
+                    Type: BaseObjectType
+                    Children:
+                    - Name: VariableToModify
+                      Type: BaseDataVariableType
+                      DataType: VariablePointer
+                      Description: {"NamespaceIndex":3,"TextId":"SetVariableToModifyDescription"}
+                      Value: "/Objects/Tata_Energy_Management/Model/MeterSelectionForPanels"
+                    - Name: Value
+                      Type: BaseDataVariableType
+                      DataType: Int32
+                      Description: {"NamespaceIndex":3,"TextId":"SetValueDescription"}
+                      Value: 117
+                    - Name: ArrayIndex
+                      Type: BaseDataVariableType
+                      DataType: UInt32
+                      Description: {"NamespaceIndex":3,"TextId":"SetArrayIndexDescription"}
+                      ValueRank: ScalarOrOneDimension
+                      Value: 0
                 - Name: MethodContainer1
                   Type: BaseObjectType
                   Children:
@@ -10108,6 +10213,41 @@ Children:
               - Name: MethodsToCall
                 Type: BaseObjectType
                 Children:
+                - Name: MethodContainer2
+                  Type: BaseObjectType
+                  Children:
+                  - Name: ns=3;ObjectPointer
+                    Type: NodePointer
+                    DataType: NodeId
+                    Value: "/Objects/Commands/VariableCommands"
+                    Children:
+                    - Name: Kind
+                      Type: PropertyType
+                      DataType: NodeId
+                      Value: "/Types/ObjectTypes/BaseObjectType"
+                  - Name: ns=3;Method
+                    Type: BaseDataVariableType
+                    DataType: String
+                    Value: "Set"
+                  - Name: InputArguments
+                    Type: BaseObjectType
+                    Children:
+                    - Name: VariableToModify
+                      Type: BaseDataVariableType
+                      DataType: VariablePointer
+                      Description: {"NamespaceIndex":3,"TextId":"SetVariableToModifyDescription"}
+                      Value: "/Objects/Tata_Energy_Management/Model/MeterSelectionForPanels"
+                    - Name: Value
+                      Type: BaseDataVariableType
+                      DataType: Int32
+                      Description: {"NamespaceIndex":3,"TextId":"SetValueDescription"}
+                      Value: 140
+                    - Name: ArrayIndex
+                      Type: BaseDataVariableType
+                      DataType: UInt32
+                      Description: {"NamespaceIndex":3,"TextId":"SetArrayIndexDescription"}
+                      ValueRank: ScalarOrOneDimension
+                      Value: 0
                 - Name: MethodContainer1
                   Type: BaseObjectType
                   Children:
@@ -11028,6 +11168,41 @@ Children:
               - Name: MethodsToCall
                 Type: BaseObjectType
                 Children:
+                - Name: MethodContainer2
+                  Type: BaseObjectType
+                  Children:
+                  - Name: ns=3;ObjectPointer
+                    Type: NodePointer
+                    DataType: NodeId
+                    Value: "/Objects/Commands/VariableCommands"
+                    Children:
+                    - Name: Kind
+                      Type: PropertyType
+                      DataType: NodeId
+                      Value: "/Types/ObjectTypes/BaseObjectType"
+                  - Name: ns=3;Method
+                    Type: BaseDataVariableType
+                    DataType: String
+                    Value: "Set"
+                  - Name: InputArguments
+                    Type: BaseObjectType
+                    Children:
+                    - Name: VariableToModify
+                      Type: BaseDataVariableType
+                      DataType: VariablePointer
+                      Description: {"NamespaceIndex":3,"TextId":"SetVariableToModifyDescription"}
+                      Value: "/Objects/Tata_Energy_Management/Model/MeterSelectionForPanels"
+                    - Name: Value
+                      Type: BaseDataVariableType
+                      DataType: Int32
+                      Description: {"NamespaceIndex":3,"TextId":"SetValueDescription"}
+                      Value: 141
+                    - Name: ArrayIndex
+                      Type: BaseDataVariableType
+                      DataType: UInt32
+                      Description: {"NamespaceIndex":3,"TextId":"SetArrayIndexDescription"}
+                      ValueRank: ScalarOrOneDimension
+                      Value: 0
                 - Name: MethodContainer1
                   Type: BaseObjectType
                   Children:
@@ -11948,6 +12123,41 @@ Children:
               - Name: MethodsToCall
                 Type: BaseObjectType
                 Children:
+                - Name: MethodContainer2
+                  Type: BaseObjectType
+                  Children:
+                  - Name: ns=3;ObjectPointer
+                    Type: NodePointer
+                    DataType: NodeId
+                    Value: "/Objects/Commands/VariableCommands"
+                    Children:
+                    - Name: Kind
+                      Type: PropertyType
+                      DataType: NodeId
+                      Value: "/Types/ObjectTypes/BaseObjectType"
+                  - Name: ns=3;Method
+                    Type: BaseDataVariableType
+                    DataType: String
+                    Value: "Set"
+                  - Name: InputArguments
+                    Type: BaseObjectType
+                    Children:
+                    - Name: VariableToModify
+                      Type: BaseDataVariableType
+                      DataType: VariablePointer
+                      Description: {"NamespaceIndex":3,"TextId":"SetVariableToModifyDescription"}
+                      Value: "/Objects/Tata_Energy_Management/Model/MeterSelectionForPanels"
+                    - Name: Value
+                      Type: BaseDataVariableType
+                      DataType: Int32
+                      Description: {"NamespaceIndex":3,"TextId":"SetValueDescription"}
+                      Value: 118
+                    - Name: ArrayIndex
+                      Type: BaseDataVariableType
+                      DataType: UInt32
+                      Description: {"NamespaceIndex":3,"TextId":"SetArrayIndexDescription"}
+                      ValueRank: ScalarOrOneDimension
+                      Value: 0
                 - Name: MethodContainer1
                   Type: BaseObjectType
                   Children:
@@ -12898,6 +13108,41 @@ Children:
               - Name: MethodsToCall
                 Type: BaseObjectType
                 Children:
+                - Name: MethodContainer2
+                  Type: BaseObjectType
+                  Children:
+                  - Name: ns=3;ObjectPointer
+                    Type: NodePointer
+                    DataType: NodeId
+                    Value: "/Objects/Commands/VariableCommands"
+                    Children:
+                    - Name: Kind
+                      Type: PropertyType
+                      DataType: NodeId
+                      Value: "/Types/ObjectTypes/BaseObjectType"
+                  - Name: ns=3;Method
+                    Type: BaseDataVariableType
+                    DataType: String
+                    Value: "Set"
+                  - Name: InputArguments
+                    Type: BaseObjectType
+                    Children:
+                    - Name: VariableToModify
+                      Type: BaseDataVariableType
+                      DataType: VariablePointer
+                      Description: {"NamespaceIndex":3,"TextId":"SetVariableToModifyDescription"}
+                      Value: "/Objects/Tata_Energy_Management/Model/MeterSelectionForPanels"
+                    - Name: Value
+                      Type: BaseDataVariableType
+                      DataType: Int32
+                      Description: {"NamespaceIndex":3,"TextId":"SetValueDescription"}
+                      Value: 122
+                    - Name: ArrayIndex
+                      Type: BaseDataVariableType
+                      DataType: UInt32
+                      Description: {"NamespaceIndex":3,"TextId":"SetArrayIndexDescription"}
+                      ValueRank: ScalarOrOneDimension
+                      Value: 0
                 - Name: MethodContainer1
                   Type: BaseObjectType
                   Children:
@@ -13818,6 +14063,41 @@ Children:
               - Name: MethodsToCall
                 Type: BaseObjectType
                 Children:
+                - Name: MethodContainer2
+                  Type: BaseObjectType
+                  Children:
+                  - Name: ns=3;ObjectPointer
+                    Type: NodePointer
+                    DataType: NodeId
+                    Value: "/Objects/Commands/VariableCommands"
+                    Children:
+                    - Name: Kind
+                      Type: PropertyType
+                      DataType: NodeId
+                      Value: "/Types/ObjectTypes/BaseObjectType"
+                  - Name: ns=3;Method
+                    Type: BaseDataVariableType
+                    DataType: String
+                    Value: "Set"
+                  - Name: InputArguments
+                    Type: BaseObjectType
+                    Children:
+                    - Name: VariableToModify
+                      Type: BaseDataVariableType
+                      DataType: VariablePointer
+                      Description: {"NamespaceIndex":3,"TextId":"SetVariableToModifyDescription"}
+                      Value: "/Objects/Tata_Energy_Management/Model/MeterSelectionForPanels"
+                    - Name: Value
+                      Type: BaseDataVariableType
+                      DataType: Int32
+                      Description: {"NamespaceIndex":3,"TextId":"SetValueDescription"}
+                      Value: 145
+                    - Name: ArrayIndex
+                      Type: BaseDataVariableType
+                      DataType: UInt32
+                      Description: {"NamespaceIndex":3,"TextId":"SetArrayIndexDescription"}
+                      ValueRank: ScalarOrOneDimension
+                      Value: 0
                 - Name: MethodContainer1
                   Type: BaseObjectType
                   Children:
@@ -14738,6 +15018,41 @@ Children:
               - Name: MethodsToCall
                 Type: BaseObjectType
                 Children:
+                - Name: MethodContainer2
+                  Type: BaseObjectType
+                  Children:
+                  - Name: ns=3;ObjectPointer
+                    Type: NodePointer
+                    DataType: NodeId
+                    Value: "/Objects/Commands/VariableCommands"
+                    Children:
+                    - Name: Kind
+                      Type: PropertyType
+                      DataType: NodeId
+                      Value: "/Types/ObjectTypes/BaseObjectType"
+                  - Name: ns=3;Method
+                    Type: BaseDataVariableType
+                    DataType: String
+                    Value: "Set"
+                  - Name: InputArguments
+                    Type: BaseObjectType
+                    Children:
+                    - Name: VariableToModify
+                      Type: BaseDataVariableType
+                      DataType: VariablePointer
+                      Description: {"NamespaceIndex":3,"TextId":"SetVariableToModifyDescription"}
+                      Value: "/Objects/Tata_Energy_Management/Model/MeterSelectionForPanels"
+                    - Name: Value
+                      Type: BaseDataVariableType
+                      DataType: Int32
+                      Description: {"NamespaceIndex":3,"TextId":"SetValueDescription"}
+                      Value: 123
+                    - Name: ArrayIndex
+                      Type: BaseDataVariableType
+                      DataType: UInt32
+                      Description: {"NamespaceIndex":3,"TextId":"SetArrayIndexDescription"}
+                      ValueRank: ScalarOrOneDimension
+                      Value: 0
                 - Name: MethodContainer1
                   Type: BaseObjectType
                   Children:
@@ -15658,6 +15973,41 @@ Children:
               - Name: MethodsToCall
                 Type: BaseObjectType
                 Children:
+                - Name: MethodContainer2
+                  Type: BaseObjectType
+                  Children:
+                  - Name: ns=3;ObjectPointer
+                    Type: NodePointer
+                    DataType: NodeId
+                    Value: "/Objects/Commands/VariableCommands"
+                    Children:
+                    - Name: Kind
+                      Type: PropertyType
+                      DataType: NodeId
+                      Value: "/Types/ObjectTypes/BaseObjectType"
+                  - Name: ns=3;Method
+                    Type: BaseDataVariableType
+                    DataType: String
+                    Value: "Set"
+                  - Name: InputArguments
+                    Type: BaseObjectType
+                    Children:
+                    - Name: VariableToModify
+                      Type: BaseDataVariableType
+                      DataType: VariablePointer
+                      Description: {"NamespaceIndex":3,"TextId":"SetVariableToModifyDescription"}
+                      Value: "/Objects/Tata_Energy_Management/Model/MeterSelectionForPanels"
+                    - Name: Value
+                      Type: BaseDataVariableType
+                      DataType: Int32
+                      Description: {"NamespaceIndex":3,"TextId":"SetValueDescription"}
+                      Value: 146
+                    - Name: ArrayIndex
+                      Type: BaseDataVariableType
+                      DataType: UInt32
+                      Description: {"NamespaceIndex":3,"TextId":"SetArrayIndexDescription"}
+                      ValueRank: ScalarOrOneDimension
+                      Value: 0
                 - Name: MethodContainer1
                   Type: BaseObjectType
                   Children:
@@ -16578,6 +16928,41 @@ Children:
               - Name: MethodsToCall
                 Type: BaseObjectType
                 Children:
+                - Name: MethodContainer2
+                  Type: BaseObjectType
+                  Children:
+                  - Name: ns=3;ObjectPointer
+                    Type: NodePointer
+                    DataType: NodeId
+                    Value: "/Objects/Commands/VariableCommands"
+                    Children:
+                    - Name: Kind
+                      Type: PropertyType
+                      DataType: NodeId
+                      Value: "/Types/ObjectTypes/BaseObjectType"
+                  - Name: ns=3;Method
+                    Type: BaseDataVariableType
+                    DataType: String
+                    Value: "Set"
+                  - Name: InputArguments
+                    Type: BaseObjectType
+                    Children:
+                    - Name: VariableToModify
+                      Type: BaseDataVariableType
+                      DataType: VariablePointer
+                      Description: {"NamespaceIndex":3,"TextId":"SetVariableToModifyDescription"}
+                      Value: "/Objects/Tata_Energy_Management/Model/MeterSelectionForPanels"
+                    - Name: Value
+                      Type: BaseDataVariableType
+                      DataType: Int32
+                      Description: {"NamespaceIndex":3,"TextId":"SetValueDescription"}
+                      Value: 119
+                    - Name: ArrayIndex
+                      Type: BaseDataVariableType
+                      DataType: UInt32
+                      Description: {"NamespaceIndex":3,"TextId":"SetArrayIndexDescription"}
+                      ValueRank: ScalarOrOneDimension
+                      Value: 0
                 - Name: MethodContainer1
                   Type: BaseObjectType
                   Children:
@@ -17498,6 +17883,41 @@ Children:
               - Name: MethodsToCall
                 Type: BaseObjectType
                 Children:
+                - Name: MethodContainer2
+                  Type: BaseObjectType
+                  Children:
+                  - Name: ns=3;ObjectPointer
+                    Type: NodePointer
+                    DataType: NodeId
+                    Value: "/Objects/Commands/VariableCommands"
+                    Children:
+                    - Name: Kind
+                      Type: PropertyType
+                      DataType: NodeId
+                      Value: "/Types/ObjectTypes/BaseObjectType"
+                  - Name: ns=3;Method
+                    Type: BaseDataVariableType
+                    DataType: String
+                    Value: "Set"
+                  - Name: InputArguments
+                    Type: BaseObjectType
+                    Children:
+                    - Name: VariableToModify
+                      Type: BaseDataVariableType
+                      DataType: VariablePointer
+                      Description: {"NamespaceIndex":3,"TextId":"SetVariableToModifyDescription"}
+                      Value: "/Objects/Tata_Energy_Management/Model/MeterSelectionForPanels"
+                    - Name: Value
+                      Type: BaseDataVariableType
+                      DataType: Int32
+                      Description: {"NamespaceIndex":3,"TextId":"SetValueDescription"}
+                      Value: 142
+                    - Name: ArrayIndex
+                      Type: BaseDataVariableType
+                      DataType: UInt32
+                      Description: {"NamespaceIndex":3,"TextId":"SetArrayIndexDescription"}
+                      ValueRank: ScalarOrOneDimension
+                      Value: 0
                 - Name: MethodContainer1
                   Type: BaseObjectType
                   Children:
@@ -18418,6 +18838,41 @@ Children:
               - Name: MethodsToCall
                 Type: BaseObjectType
                 Children:
+                - Name: MethodContainer2
+                  Type: BaseObjectType
+                  Children:
+                  - Name: ns=3;ObjectPointer
+                    Type: NodePointer
+                    DataType: NodeId
+                    Value: "/Objects/Commands/VariableCommands"
+                    Children:
+                    - Name: Kind
+                      Type: PropertyType
+                      DataType: NodeId
+                      Value: "/Types/ObjectTypes/BaseObjectType"
+                  - Name: ns=3;Method
+                    Type: BaseDataVariableType
+                    DataType: String
+                    Value: "Set"
+                  - Name: InputArguments
+                    Type: BaseObjectType
+                    Children:
+                    - Name: VariableToModify
+                      Type: BaseDataVariableType
+                      DataType: VariablePointer
+                      Description: {"NamespaceIndex":3,"TextId":"SetVariableToModifyDescription"}
+                      Value: "/Objects/Tata_Energy_Management/Model/MeterSelectionForPanels"
+                    - Name: Value
+                      Type: BaseDataVariableType
+                      DataType: Int32
+                      Description: {"NamespaceIndex":3,"TextId":"SetValueDescription"}
+                      Value: 124
+                    - Name: ArrayIndex
+                      Type: BaseDataVariableType
+                      DataType: UInt32
+                      Description: {"NamespaceIndex":3,"TextId":"SetArrayIndexDescription"}
+                      ValueRank: ScalarOrOneDimension
+                      Value: 0
                 - Name: MethodContainer1
                   Type: BaseObjectType
                   Children:
@@ -19338,6 +19793,41 @@ Children:
               - Name: MethodsToCall
                 Type: BaseObjectType
                 Children:
+                - Name: MethodContainer2
+                  Type: BaseObjectType
+                  Children:
+                  - Name: ns=3;ObjectPointer
+                    Type: NodePointer
+                    DataType: NodeId
+                    Value: "/Objects/Commands/VariableCommands"
+                    Children:
+                    - Name: Kind
+                      Type: PropertyType
+                      DataType: NodeId
+                      Value: "/Types/ObjectTypes/BaseObjectType"
+                  - Name: ns=3;Method
+                    Type: BaseDataVariableType
+                    DataType: String
+                    Value: "Set"
+                  - Name: InputArguments
+                    Type: BaseObjectType
+                    Children:
+                    - Name: VariableToModify
+                      Type: BaseDataVariableType
+                      DataType: VariablePointer
+                      Description: {"NamespaceIndex":3,"TextId":"SetVariableToModifyDescription"}
+                      Value: "/Objects/Tata_Energy_Management/Model/MeterSelectionForPanels"
+                    - Name: Value
+                      Type: BaseDataVariableType
+                      DataType: Int32
+                      Description: {"NamespaceIndex":3,"TextId":"SetValueDescription"}
+                      Value: 147
+                    - Name: ArrayIndex
+                      Type: BaseDataVariableType
+                      DataType: UInt32
+                      Description: {"NamespaceIndex":3,"TextId":"SetArrayIndexDescription"}
+                      ValueRank: ScalarOrOneDimension
+                      Value: 0
                 - Name: MethodContainer1
                   Type: BaseObjectType
                   Children:
@@ -20288,6 +20778,41 @@ Children:
               - Name: MethodsToCall
                 Type: BaseObjectType
                 Children:
+                - Name: MethodContainer2
+                  Type: BaseObjectType
+                  Children:
+                  - Name: ns=3;ObjectPointer
+                    Type: NodePointer
+                    DataType: NodeId
+                    Value: "/Objects/Commands/VariableCommands"
+                    Children:
+                    - Name: Kind
+                      Type: PropertyType
+                      DataType: NodeId
+                      Value: "/Types/ObjectTypes/BaseObjectType"
+                  - Name: ns=3;Method
+                    Type: BaseDataVariableType
+                    DataType: String
+                    Value: "Set"
+                  - Name: InputArguments
+                    Type: BaseObjectType
+                    Children:
+                    - Name: VariableToModify
+                      Type: BaseDataVariableType
+                      DataType: VariablePointer
+                      Description: {"NamespaceIndex":3,"TextId":"SetVariableToModifyDescription"}
+                      Value: "/Objects/Tata_Energy_Management/Model/MeterSelectionForPanels"
+                    - Name: Value
+                      Type: BaseDataVariableType
+                      DataType: Int32
+                      Description: {"NamespaceIndex":3,"TextId":"SetValueDescription"}
+                      Value: 125
+                    - Name: ArrayIndex
+                      Type: BaseDataVariableType
+                      DataType: UInt32
+                      Description: {"NamespaceIndex":3,"TextId":"SetArrayIndexDescription"}
+                      ValueRank: ScalarOrOneDimension
+                      Value: 0
                 - Name: MethodContainer1
                   Type: BaseObjectType
                   Children:
@@ -21238,6 +21763,41 @@ Children:
               - Name: MethodsToCall
                 Type: BaseObjectType
                 Children:
+                - Name: MethodContainer2
+                  Type: BaseObjectType
+                  Children:
+                  - Name: ns=3;ObjectPointer
+                    Type: NodePointer
+                    DataType: NodeId
+                    Value: "/Objects/Commands/VariableCommands"
+                    Children:
+                    - Name: Kind
+                      Type: PropertyType
+                      DataType: NodeId
+                      Value: "/Types/ObjectTypes/BaseObjectType"
+                  - Name: ns=3;Method
+                    Type: BaseDataVariableType
+                    DataType: String
+                    Value: "Set"
+                  - Name: InputArguments
+                    Type: BaseObjectType
+                    Children:
+                    - Name: VariableToModify
+                      Type: BaseDataVariableType
+                      DataType: VariablePointer
+                      Description: {"NamespaceIndex":3,"TextId":"SetVariableToModifyDescription"}
+                      Value: "/Objects/Tata_Energy_Management/Model/MeterSelectionForPanels"
+                    - Name: Value
+                      Type: BaseDataVariableType
+                      DataType: Int32
+                      Description: {"NamespaceIndex":3,"TextId":"SetValueDescription"}
+                      Value: 148
+                    - Name: ArrayIndex
+                      Type: BaseDataVariableType
+                      DataType: UInt32
+                      Description: {"NamespaceIndex":3,"TextId":"SetArrayIndexDescription"}
+                      ValueRank: ScalarOrOneDimension
+                      Value: 0
                 - Name: MethodContainer1
                   Type: BaseObjectType
                   Children:
@@ -22188,6 +22748,41 @@ Children:
               - Name: MethodsToCall
                 Type: BaseObjectType
                 Children:
+                - Name: MethodContainer2
+                  Type: BaseObjectType
+                  Children:
+                  - Name: ns=3;ObjectPointer
+                    Type: NodePointer
+                    DataType: NodeId
+                    Value: "/Objects/Commands/VariableCommands"
+                    Children:
+                    - Name: Kind
+                      Type: PropertyType
+                      DataType: NodeId
+                      Value: "/Types/ObjectTypes/BaseObjectType"
+                  - Name: ns=3;Method
+                    Type: BaseDataVariableType
+                    DataType: String
+                    Value: "Set"
+                  - Name: InputArguments
+                    Type: BaseObjectType
+                    Children:
+                    - Name: VariableToModify
+                      Type: BaseDataVariableType
+                      DataType: VariablePointer
+                      Description: {"NamespaceIndex":3,"TextId":"SetVariableToModifyDescription"}
+                      Value: "/Objects/Tata_Energy_Management/Model/MeterSelectionForPanels"
+                    - Name: Value
+                      Type: BaseDataVariableType
+                      DataType: Int32
+                      Description: {"NamespaceIndex":3,"TextId":"SetValueDescription"}
+                      Value: 149
+                    - Name: ArrayIndex
+                      Type: BaseDataVariableType
+                      DataType: UInt32
+                      Description: {"NamespaceIndex":3,"TextId":"SetArrayIndexDescription"}
+                      ValueRank: ScalarOrOneDimension
+                      Value: 0
                 - Name: MethodContainer1
                   Type: BaseObjectType
                   Children:
@@ -23138,6 +23733,41 @@ Children:
               - Name: MethodsToCall
                 Type: BaseObjectType
                 Children:
+                - Name: MethodContainer2
+                  Type: BaseObjectType
+                  Children:
+                  - Name: ns=3;ObjectPointer
+                    Type: NodePointer
+                    DataType: NodeId
+                    Value: "/Objects/Commands/VariableCommands"
+                    Children:
+                    - Name: Kind
+                      Type: PropertyType
+                      DataType: NodeId
+                      Value: "/Types/ObjectTypes/BaseObjectType"
+                  - Name: ns=3;Method
+                    Type: BaseDataVariableType
+                    DataType: String
+                    Value: "Set"
+                  - Name: InputArguments
+                    Type: BaseObjectType
+                    Children:
+                    - Name: VariableToModify
+                      Type: BaseDataVariableType
+                      DataType: VariablePointer
+                      Description: {"NamespaceIndex":3,"TextId":"SetVariableToModifyDescription"}
+                      Value: "/Objects/Tata_Energy_Management/Model/MeterSelectionForPanels"
+                    - Name: Value
+                      Type: BaseDataVariableType
+                      DataType: Int32
+                      Description: {"NamespaceIndex":3,"TextId":"SetValueDescription"}
+                      Value: 120
+                    - Name: ArrayIndex
+                      Type: BaseDataVariableType
+                      DataType: UInt32
+                      Description: {"NamespaceIndex":3,"TextId":"SetArrayIndexDescription"}
+                      ValueRank: ScalarOrOneDimension
+                      Value: 0
                 - Name: MethodContainer1
                   Type: BaseObjectType
                   Children:
@@ -24058,6 +24688,41 @@ Children:
               - Name: MethodsToCall
                 Type: BaseObjectType
                 Children:
+                - Name: MethodContainer2
+                  Type: BaseObjectType
+                  Children:
+                  - Name: ns=3;ObjectPointer
+                    Type: NodePointer
+                    DataType: NodeId
+                    Value: "/Objects/Commands/VariableCommands"
+                    Children:
+                    - Name: Kind
+                      Type: PropertyType
+                      DataType: NodeId
+                      Value: "/Types/ObjectTypes/BaseObjectType"
+                  - Name: ns=3;Method
+                    Type: BaseDataVariableType
+                    DataType: String
+                    Value: "Set"
+                  - Name: InputArguments
+                    Type: BaseObjectType
+                    Children:
+                    - Name: VariableToModify
+                      Type: BaseDataVariableType
+                      DataType: VariablePointer
+                      Description: {"NamespaceIndex":3,"TextId":"SetVariableToModifyDescription"}
+                      Value: "/Objects/Tata_Energy_Management/Model/MeterSelectionForPanels"
+                    - Name: Value
+                      Type: BaseDataVariableType
+                      DataType: Int32
+                      Description: {"NamespaceIndex":3,"TextId":"SetValueDescription"}
+                      Value: 143
+                    - Name: ArrayIndex
+                      Type: BaseDataVariableType
+                      DataType: UInt32
+                      Description: {"NamespaceIndex":3,"TextId":"SetArrayIndexDescription"}
+                      ValueRank: ScalarOrOneDimension
+                      Value: 0
                 - Name: MethodContainer1
                   Type: BaseObjectType
                   Children:
@@ -25008,6 +25673,41 @@ Children:
               - Name: MethodsToCall
                 Type: BaseObjectType
                 Children:
+                - Name: MethodContainer2
+                  Type: BaseObjectType
+                  Children:
+                  - Name: ns=3;ObjectPointer
+                    Type: NodePointer
+                    DataType: NodeId
+                    Value: "/Objects/Commands/VariableCommands"
+                    Children:
+                    - Name: Kind
+                      Type: PropertyType
+                      DataType: NodeId
+                      Value: "/Types/ObjectTypes/BaseObjectType"
+                  - Name: ns=3;Method
+                    Type: BaseDataVariableType
+                    DataType: String
+                    Value: "Set"
+                  - Name: InputArguments
+                    Type: BaseObjectType
+                    Children:
+                    - Name: VariableToModify
+                      Type: BaseDataVariableType
+                      DataType: VariablePointer
+                      Description: {"NamespaceIndex":3,"TextId":"SetVariableToModifyDescription"}
+                      Value: "/Objects/Tata_Energy_Management/Model/MeterSelectionForPanels"
+                    - Name: Value
+                      Type: BaseDataVariableType
+                      DataType: Int32
+                      Description: {"NamespaceIndex":3,"TextId":"SetValueDescription"}
+                      Value: 126
+                    - Name: ArrayIndex
+                      Type: BaseDataVariableType
+                      DataType: UInt32
+                      Description: {"NamespaceIndex":3,"TextId":"SetArrayIndexDescription"}
+                      ValueRank: ScalarOrOneDimension
+                      Value: 0
                 - Name: MethodContainer1
                   Type: BaseObjectType
                   Children:
@@ -25958,6 +26658,41 @@ Children:
               - Name: MethodsToCall
                 Type: BaseObjectType
                 Children:
+                - Name: MethodContainer2
+                  Type: BaseObjectType
+                  Children:
+                  - Name: ns=3;ObjectPointer
+                    Type: NodePointer
+                    DataType: NodeId
+                    Value: "/Objects/Commands/VariableCommands"
+                    Children:
+                    - Name: Kind
+                      Type: PropertyType
+                      DataType: NodeId
+                      Value: "/Types/ObjectTypes/BaseObjectType"
+                  - Name: ns=3;Method
+                    Type: BaseDataVariableType
+                    DataType: String
+                    Value: "Set"
+                  - Name: InputArguments
+                    Type: BaseObjectType
+                    Children:
+                    - Name: VariableToModify
+                      Type: BaseDataVariableType
+                      DataType: VariablePointer
+                      Description: {"NamespaceIndex":3,"TextId":"SetVariableToModifyDescription"}
+                      Value: "/Objects/Tata_Energy_Management/Model/MeterSelectionForPanels"
+                    - Name: Value
+                      Type: BaseDataVariableType
+                      DataType: Int32
+                      Description: {"NamespaceIndex":3,"TextId":"SetValueDescription"}
+                      Value: 150
+                    - Name: ArrayIndex
+                      Type: BaseDataVariableType
+                      DataType: UInt32
+                      Description: {"NamespaceIndex":3,"TextId":"SetArrayIndexDescription"}
+                      ValueRank: ScalarOrOneDimension
+                      Value: 0
                 - Name: MethodContainer1
                   Type: BaseObjectType
                   Children:
@@ -26908,6 +27643,41 @@ Children:
               - Name: MethodsToCall
                 Type: BaseObjectType
                 Children:
+                - Name: MethodContainer2
+                  Type: BaseObjectType
+                  Children:
+                  - Name: ns=3;ObjectPointer
+                    Type: NodePointer
+                    DataType: NodeId
+                    Value: "/Objects/Commands/VariableCommands"
+                    Children:
+                    - Name: Kind
+                      Type: PropertyType
+                      DataType: NodeId
+                      Value: "/Types/ObjectTypes/BaseObjectType"
+                  - Name: ns=3;Method
+                    Type: BaseDataVariableType
+                    DataType: String
+                    Value: "Set"
+                  - Name: InputArguments
+                    Type: BaseObjectType
+                    Children:
+                    - Name: VariableToModify
+                      Type: BaseDataVariableType
+                      DataType: VariablePointer
+                      Description: {"NamespaceIndex":3,"TextId":"SetVariableToModifyDescription"}
+                      Value: "/Objects/Tata_Energy_Management/Model/MeterSelectionForPanels"
+                    - Name: Value
+                      Type: BaseDataVariableType
+                      DataType: Int32
+                      Description: {"NamespaceIndex":3,"TextId":"SetValueDescription"}
+                      Value: 127
+                    - Name: ArrayIndex
+                      Type: BaseDataVariableType
+                      DataType: UInt32
+                      Description: {"NamespaceIndex":3,"TextId":"SetArrayIndexDescription"}
+                      ValueRank: ScalarOrOneDimension
+                      Value: 0
                 - Name: MethodContainer1
                   Type: BaseObjectType
                   Children:
@@ -27858,6 +28628,41 @@ Children:
               - Name: MethodsToCall
                 Type: BaseObjectType
                 Children:
+                - Name: MethodContainer2
+                  Type: BaseObjectType
+                  Children:
+                  - Name: ns=3;ObjectPointer
+                    Type: NodePointer
+                    DataType: NodeId
+                    Value: "/Objects/Commands/VariableCommands"
+                    Children:
+                    - Name: Kind
+                      Type: PropertyType
+                      DataType: NodeId
+                      Value: "/Types/ObjectTypes/BaseObjectType"
+                  - Name: ns=3;Method
+                    Type: BaseDataVariableType
+                    DataType: String
+                    Value: "Set"
+                  - Name: InputArguments
+                    Type: BaseObjectType
+                    Children:
+                    - Name: VariableToModify
+                      Type: BaseDataVariableType
+                      DataType: VariablePointer
+                      Description: {"NamespaceIndex":3,"TextId":"SetVariableToModifyDescription"}
+                      Value: "/Objects/Tata_Energy_Management/Model/MeterSelectionForPanels"
+                    - Name: Value
+                      Type: BaseDataVariableType
+                      DataType: Int32
+                      Description: {"NamespaceIndex":3,"TextId":"SetValueDescription"}
+                      Value: 151
+                    - Name: ArrayIndex
+                      Type: BaseDataVariableType
+                      DataType: UInt32
+                      Description: {"NamespaceIndex":3,"TextId":"SetArrayIndexDescription"}
+                      ValueRank: ScalarOrOneDimension
+                      Value: 0
                 - Name: MethodContainer1
                   Type: BaseObjectType
                   Children:
@@ -28808,6 +29613,41 @@ Children:
               - Name: MethodsToCall
                 Type: BaseObjectType
                 Children:
+                - Name: MethodContainer2
+                  Type: BaseObjectType
+                  Children:
+                  - Name: ns=3;ObjectPointer
+                    Type: NodePointer
+                    DataType: NodeId
+                    Value: "/Objects/Commands/VariableCommands"
+                    Children:
+                    - Name: Kind
+                      Type: PropertyType
+                      DataType: NodeId
+                      Value: "/Types/ObjectTypes/BaseObjectType"
+                  - Name: ns=3;Method
+                    Type: BaseDataVariableType
+                    DataType: String
+                    Value: "Set"
+                  - Name: InputArguments
+                    Type: BaseObjectType
+                    Children:
+                    - Name: VariableToModify
+                      Type: BaseDataVariableType
+                      DataType: VariablePointer
+                      Description: {"NamespaceIndex":3,"TextId":"SetVariableToModifyDescription"}
+                      Value: "/Objects/Tata_Energy_Management/Model/MeterSelectionForPanels"
+                    - Name: Value
+                      Type: BaseDataVariableType
+                      DataType: Int32
+                      Description: {"NamespaceIndex":3,"TextId":"SetValueDescription"}
+                      Value: 128
+                    - Name: ArrayIndex
+                      Type: BaseDataVariableType
+                      DataType: UInt32
+                      Description: {"NamespaceIndex":3,"TextId":"SetArrayIndexDescription"}
+                      ValueRank: ScalarOrOneDimension
+                      Value: 0
                 - Name: MethodContainer1
                   Type: BaseObjectType
                   Children:
@@ -29758,6 +30598,41 @@ Children:
               - Name: MethodsToCall
                 Type: BaseObjectType
                 Children:
+                - Name: MethodContainer2
+                  Type: BaseObjectType
+                  Children:
+                  - Name: ns=3;ObjectPointer
+                    Type: NodePointer
+                    DataType: NodeId
+                    Value: "/Objects/Commands/VariableCommands"
+                    Children:
+                    - Name: Kind
+                      Type: PropertyType
+                      DataType: NodeId
+                      Value: "/Types/ObjectTypes/BaseObjectType"
+                  - Name: ns=3;Method
+                    Type: BaseDataVariableType
+                    DataType: String
+                    Value: "Set"
+                  - Name: InputArguments
+                    Type: BaseObjectType
+                    Children:
+                    - Name: VariableToModify
+                      Type: BaseDataVariableType
+                      DataType: VariablePointer
+                      Description: {"NamespaceIndex":3,"TextId":"SetVariableToModifyDescription"}
+                      Value: "/Objects/Tata_Energy_Management/Model/MeterSelectionForPanels"
+                    - Name: Value
+                      Type: BaseDataVariableType
+                      DataType: Int32
+                      Description: {"NamespaceIndex":3,"TextId":"SetValueDescription"}
+                      Value: 152
+                    - Name: ArrayIndex
+                      Type: BaseDataVariableType
+                      DataType: UInt32
+                      Description: {"NamespaceIndex":3,"TextId":"SetArrayIndexDescription"}
+                      ValueRank: ScalarOrOneDimension
+                      Value: 0
                 - Name: MethodContainer1
                   Type: BaseObjectType
                   Children:
@@ -30708,6 +31583,41 @@ Children:
               - Name: MethodsToCall
                 Type: BaseObjectType
                 Children:
+                - Name: MethodContainer2
+                  Type: BaseObjectType
+                  Children:
+                  - Name: ns=3;ObjectPointer
+                    Type: NodePointer
+                    DataType: NodeId
+                    Value: "/Objects/Commands/VariableCommands"
+                    Children:
+                    - Name: Kind
+                      Type: PropertyType
+                      DataType: NodeId
+                      Value: "/Types/ObjectTypes/BaseObjectType"
+                  - Name: ns=3;Method
+                    Type: BaseDataVariableType
+                    DataType: String
+                    Value: "Set"
+                  - Name: InputArguments
+                    Type: BaseObjectType
+                    Children:
+                    - Name: VariableToModify
+                      Type: BaseDataVariableType
+                      DataType: VariablePointer
+                      Description: {"NamespaceIndex":3,"TextId":"SetVariableToModifyDescription"}
+                      Value: "/Objects/Tata_Energy_Management/Model/MeterSelectionForPanels"
+                    - Name: Value
+                      Type: BaseDataVariableType
+                      DataType: Int32
+                      Description: {"NamespaceIndex":3,"TextId":"SetValueDescription"}
+                      Value: 129
+                    - Name: ArrayIndex
+                      Type: BaseDataVariableType
+                      DataType: UInt32
+                      Description: {"NamespaceIndex":3,"TextId":"SetArrayIndexDescription"}
+                      ValueRank: ScalarOrOneDimension
+                      Value: 0
                 - Name: MethodContainer1
                   Type: BaseObjectType
                   Children:
@@ -31658,6 +32568,41 @@ Children:
               - Name: MethodsToCall
                 Type: BaseObjectType
                 Children:
+                - Name: MethodContainer2
+                  Type: BaseObjectType
+                  Children:
+                  - Name: ns=3;ObjectPointer
+                    Type: NodePointer
+                    DataType: NodeId
+                    Value: "/Objects/Commands/VariableCommands"
+                    Children:
+                    - Name: Kind
+                      Type: PropertyType
+                      DataType: NodeId
+                      Value: "/Types/ObjectTypes/BaseObjectType"
+                  - Name: ns=3;Method
+                    Type: BaseDataVariableType
+                    DataType: String
+                    Value: "Set"
+                  - Name: InputArguments
+                    Type: BaseObjectType
+                    Children:
+                    - Name: VariableToModify
+                      Type: BaseDataVariableType
+                      DataType: VariablePointer
+                      Description: {"NamespaceIndex":3,"TextId":"SetVariableToModifyDescription"}
+                      Value: "/Objects/Tata_Energy_Management/Model/MeterSelectionForPanels"
+                    - Name: Value
+                      Type: BaseDataVariableType
+                      DataType: Int32
+                      Description: {"NamespaceIndex":3,"TextId":"SetValueDescription"}
+                      Value: 153
+                    - Name: ArrayIndex
+                      Type: BaseDataVariableType
+                      DataType: UInt32
+                      Description: {"NamespaceIndex":3,"TextId":"SetArrayIndexDescription"}
+                      ValueRank: ScalarOrOneDimension
+                      Value: 0
                 - Name: MethodContainer1
                   Type: BaseObjectType
                   Children:
@@ -32608,6 +33553,41 @@ Children:
               - Name: MethodsToCall
                 Type: BaseObjectType
                 Children:
+                - Name: MethodContainer2
+                  Type: BaseObjectType
+                  Children:
+                  - Name: ns=3;ObjectPointer
+                    Type: NodePointer
+                    DataType: NodeId
+                    Value: "/Objects/Commands/VariableCommands"
+                    Children:
+                    - Name: Kind
+                      Type: PropertyType
+                      DataType: NodeId
+                      Value: "/Types/ObjectTypes/BaseObjectType"
+                  - Name: ns=3;Method
+                    Type: BaseDataVariableType
+                    DataType: String
+                    Value: "Set"
+                  - Name: InputArguments
+                    Type: BaseObjectType
+                    Children:
+                    - Name: VariableToModify
+                      Type: BaseDataVariableType
+                      DataType: VariablePointer
+                      Description: {"NamespaceIndex":3,"TextId":"SetVariableToModifyDescription"}
+                      Value: "/Objects/Tata_Energy_Management/Model/MeterSelectionForPanels"
+                    - Name: Value
+                      Type: BaseDataVariableType
+                      DataType: Int32
+                      Description: {"NamespaceIndex":3,"TextId":"SetValueDescription"}
+                      Value: 130
+                    - Name: ArrayIndex
+                      Type: BaseDataVariableType
+                      DataType: UInt32
+                      Description: {"NamespaceIndex":3,"TextId":"SetArrayIndexDescription"}
+                      ValueRank: ScalarOrOneDimension
+                      Value: 0
                 - Name: MethodContainer1
                   Type: BaseObjectType
                   Children:
@@ -33598,6 +34578,41 @@ Children:
                       Description: {"NamespaceIndex":5,"TextId":"ChangePanelAliasNodeDescription"}
                       ValueRank: ScalarOrOneDimension
                       Value: {"IdType":0,"Id":0,"Namespace":-1}
+                - Name: MethodContainer2
+                  Type: BaseObjectType
+                  Children:
+                  - Name: ns=3;ObjectPointer
+                    Type: NodePointer
+                    DataType: NodeId
+                    Value: "/Objects/Commands/VariableCommands"
+                    Children:
+                    - Name: Kind
+                      Type: PropertyType
+                      DataType: NodeId
+                      Value: "/Types/ObjectTypes/BaseObjectType"
+                  - Name: ns=3;Method
+                    Type: BaseDataVariableType
+                    DataType: String
+                    Value: "Set"
+                  - Name: InputArguments
+                    Type: BaseObjectType
+                    Children:
+                    - Name: VariableToModify
+                      Type: BaseDataVariableType
+                      DataType: VariablePointer
+                      Description: {"NamespaceIndex":3,"TextId":"SetVariableToModifyDescription"}
+                      Value: "/Objects/Tata_Energy_Management/Model/MeterSelectionForPanels"
+                    - Name: Value
+                      Type: BaseDataVariableType
+                      DataType: Int32
+                      Description: {"NamespaceIndex":3,"TextId":"SetValueDescription"}
+                      Value: 144
+                    - Name: ArrayIndex
+                      Type: BaseDataVariableType
+                      DataType: UInt32
+                      Description: {"NamespaceIndex":3,"TextId":"SetArrayIndexDescription"}
+                      ValueRank: ScalarOrOneDimension
+                      Value: 0
               - Name: EventArguments
                 Type: MouseClickEvent
                 Children:
@@ -34508,6 +35523,41 @@ Children:
               - Name: MethodsToCall
                 Type: BaseObjectType
                 Children:
+                - Name: MethodContainer2
+                  Type: BaseObjectType
+                  Children:
+                  - Name: ns=3;ObjectPointer
+                    Type: NodePointer
+                    DataType: NodeId
+                    Value: "/Objects/Commands/VariableCommands"
+                    Children:
+                    - Name: Kind
+                      Type: PropertyType
+                      DataType: NodeId
+                      Value: "/Types/ObjectTypes/BaseObjectType"
+                  - Name: ns=3;Method
+                    Type: BaseDataVariableType
+                    DataType: String
+                    Value: "Set"
+                  - Name: InputArguments
+                    Type: BaseObjectType
+                    Children:
+                    - Name: VariableToModify
+                      Type: BaseDataVariableType
+                      DataType: VariablePointer
+                      Description: {"NamespaceIndex":3,"TextId":"SetVariableToModifyDescription"}
+                      Value: "/Objects/Tata_Energy_Management/Model/MeterSelectionForPanels"
+                    - Name: Value
+                      Type: BaseDataVariableType
+                      DataType: Int32
+                      Description: {"NamespaceIndex":3,"TextId":"SetValueDescription"}
+                      Value: 121
+                    - Name: ArrayIndex
+                      Type: BaseDataVariableType
+                      DataType: UInt32
+                      Description: {"NamespaceIndex":3,"TextId":"SetArrayIndexDescription"}
+                      ValueRank: ScalarOrOneDimension
+                      Value: 0
                 - Name: MethodContainer1
                   Type: BaseObjectType
                   Children:
@@ -35458,6 +36508,41 @@ Children:
               - Name: MethodsToCall
                 Type: BaseObjectType
                 Children:
+                - Name: MethodContainer2
+                  Type: BaseObjectType
+                  Children:
+                  - Name: ns=3;ObjectPointer
+                    Type: NodePointer
+                    DataType: NodeId
+                    Value: "/Objects/Commands/VariableCommands"
+                    Children:
+                    - Name: Kind
+                      Type: PropertyType
+                      DataType: NodeId
+                      Value: "/Types/ObjectTypes/BaseObjectType"
+                  - Name: ns=3;Method
+                    Type: BaseDataVariableType
+                    DataType: String
+                    Value: "Set"
+                  - Name: InputArguments
+                    Type: BaseObjectType
+                    Children:
+                    - Name: VariableToModify
+                      Type: BaseDataVariableType
+                      DataType: VariablePointer
+                      Description: {"NamespaceIndex":3,"TextId":"SetVariableToModifyDescription"}
+                      Value: "/Objects/Tata_Energy_Management/Model/MeterSelectionForPanels"
+                    - Name: Value
+                      Type: BaseDataVariableType
+                      DataType: Int32
+                      Description: {"NamespaceIndex":3,"TextId":"SetValueDescription"}
+                      Value: 154
+                    - Name: ArrayIndex
+                      Type: BaseDataVariableType
+                      DataType: UInt32
+                      Description: {"NamespaceIndex":3,"TextId":"SetArrayIndexDescription"}
+                      ValueRank: ScalarOrOneDimension
+                      Value: 0
                 - Name: MethodContainer1
                   Type: BaseObjectType
                   Children:
@@ -36408,6 +37493,41 @@ Children:
               - Name: MethodsToCall
                 Type: BaseObjectType
                 Children:
+                - Name: MethodContainer2
+                  Type: BaseObjectType
+                  Children:
+                  - Name: ns=3;ObjectPointer
+                    Type: NodePointer
+                    DataType: NodeId
+                    Value: "/Objects/Commands/VariableCommands"
+                    Children:
+                    - Name: Kind
+                      Type: PropertyType
+                      DataType: NodeId
+                      Value: "/Types/ObjectTypes/BaseObjectType"
+                  - Name: ns=3;Method
+                    Type: BaseDataVariableType
+                    DataType: String
+                    Value: "Set"
+                  - Name: InputArguments
+                    Type: BaseObjectType
+                    Children:
+                    - Name: VariableToModify
+                      Type: BaseDataVariableType
+                      DataType: VariablePointer
+                      Description: {"NamespaceIndex":3,"TextId":"SetVariableToModifyDescription"}
+                      Value: "/Objects/Tata_Energy_Management/Model/MeterSelectionForPanels"
+                    - Name: Value
+                      Type: BaseDataVariableType
+                      DataType: Int32
+                      Description: {"NamespaceIndex":3,"TextId":"SetValueDescription"}
+                      Value: 131
+                    - Name: ArrayIndex
+                      Type: BaseDataVariableType
+                      DataType: UInt32
+                      Description: {"NamespaceIndex":3,"TextId":"SetArrayIndexDescription"}
+                      ValueRank: ScalarOrOneDimension
+                      Value: 0
                 - Name: MethodContainer1
                   Type: BaseObjectType
                   Children:
@@ -37297,7 +38417,7 @@ Children:
                 ReferenceType: HasParameter
                 ModellingRule: Optional
                 Value: true
-        - Name: BDY_SWB_08_OG_F1
+        - Name: BDY_SWB_08_OG_F2.1
           Type: Rectangle
           Children:
           - Name: Width
@@ -37358,6 +38478,41 @@ Children:
               - Name: MethodsToCall
                 Type: BaseObjectType
                 Children:
+                - Name: MethodContainer2
+                  Type: BaseObjectType
+                  Children:
+                  - Name: ns=3;ObjectPointer
+                    Type: NodePointer
+                    DataType: NodeId
+                    Value: "/Objects/Commands/VariableCommands"
+                    Children:
+                    - Name: Kind
+                      Type: PropertyType
+                      DataType: NodeId
+                      Value: "/Types/ObjectTypes/BaseObjectType"
+                  - Name: ns=3;Method
+                    Type: BaseDataVariableType
+                    DataType: String
+                    Value: "Set"
+                  - Name: InputArguments
+                    Type: BaseObjectType
+                    Children:
+                    - Name: VariableToModify
+                      Type: BaseDataVariableType
+                      DataType: VariablePointer
+                      Description: {"NamespaceIndex":3,"TextId":"SetVariableToModifyDescription"}
+                      Value: "/Objects/Tata_Energy_Management/Model/MeterSelectionForPanels"
+                    - Name: Value
+                      Type: BaseDataVariableType
+                      DataType: Int32
+                      Description: {"NamespaceIndex":3,"TextId":"SetValueDescription"}
+                      Value: 132
+                    - Name: ArrayIndex
+                      Type: BaseDataVariableType
+                      DataType: UInt32
+                      Description: {"NamespaceIndex":3,"TextId":"SetArrayIndexDescription"}
+                      ValueRank: ScalarOrOneDimension
+                      Value: 0
                 - Name: MethodContainer1
                   Type: BaseObjectType
                   Children:
@@ -38308,6 +39463,41 @@ Children:
               - Name: MethodsToCall
                 Type: BaseObjectType
                 Children:
+                - Name: MethodContainer2
+                  Type: BaseObjectType
+                  Children:
+                  - Name: ns=3;ObjectPointer
+                    Type: NodePointer
+                    DataType: NodeId
+                    Value: "/Objects/Commands/VariableCommands"
+                    Children:
+                    - Name: Kind
+                      Type: PropertyType
+                      DataType: NodeId
+                      Value: "/Types/ObjectTypes/BaseObjectType"
+                  - Name: ns=3;Method
+                    Type: BaseDataVariableType
+                    DataType: String
+                    Value: "Set"
+                  - Name: InputArguments
+                    Type: BaseObjectType
+                    Children:
+                    - Name: VariableToModify
+                      Type: BaseDataVariableType
+                      DataType: VariablePointer
+                      Description: {"NamespaceIndex":3,"TextId":"SetVariableToModifyDescription"}
+                      Value: "/Objects/Tata_Energy_Management/Model/MeterSelectionForPanels"
+                    - Name: Value
+                      Type: BaseDataVariableType
+                      DataType: Int32
+                      Description: {"NamespaceIndex":3,"TextId":"SetValueDescription"}
+                      Value: 155
+                    - Name: ArrayIndex
+                      Type: BaseDataVariableType
+                      DataType: UInt32
+                      Description: {"NamespaceIndex":3,"TextId":"SetArrayIndexDescription"}
+                      ValueRank: ScalarOrOneDimension
+                      Value: 0
                 - Name: MethodContainer1
                   Type: BaseObjectType
                   Children:
@@ -39258,6 +40448,41 @@ Children:
               - Name: MethodsToCall
                 Type: BaseObjectType
                 Children:
+                - Name: MethodContainer2
+                  Type: BaseObjectType
+                  Children:
+                  - Name: ns=3;ObjectPointer
+                    Type: NodePointer
+                    DataType: NodeId
+                    Value: "/Objects/Commands/VariableCommands"
+                    Children:
+                    - Name: Kind
+                      Type: PropertyType
+                      DataType: NodeId
+                      Value: "/Types/ObjectTypes/BaseObjectType"
+                  - Name: ns=3;Method
+                    Type: BaseDataVariableType
+                    DataType: String
+                    Value: "Set"
+                  - Name: InputArguments
+                    Type: BaseObjectType
+                    Children:
+                    - Name: VariableToModify
+                      Type: BaseDataVariableType
+                      DataType: VariablePointer
+                      Description: {"NamespaceIndex":3,"TextId":"SetVariableToModifyDescription"}
+                      Value: "/Objects/Tata_Energy_Management/Model/MeterSelectionForPanels"
+                    - Name: Value
+                      Type: BaseDataVariableType
+                      DataType: Int32
+                      Description: {"NamespaceIndex":3,"TextId":"SetValueDescription"}
+                      Value: 156
+                    - Name: ArrayIndex
+                      Type: BaseDataVariableType
+                      DataType: UInt32
+                      Description: {"NamespaceIndex":3,"TextId":"SetArrayIndexDescription"}
+                      ValueRank: ScalarOrOneDimension
+                      Value: 0
                 - Name: MethodContainer1
                   Type: BaseObjectType
                   Children:
@@ -40147,7 +41372,7 @@ Children:
                 ReferenceType: HasParameter
                 ModellingRule: Optional
                 Value: false
-        - Name: BDY_SWB_08_OG_F2
+        - Name: BDY_SWB_08_OG_F3.1
           Type: Rectangle
           Children:
           - Name: Width
@@ -40248,6 +41473,41 @@ Children:
                       Description: {"NamespaceIndex":5,"TextId":"ChangePanelAliasNodeDescription"}
                       ValueRank: ScalarOrOneDimension
                       Value: {"IdType":0,"Id":0,"Namespace":-1}
+                - Name: MethodContainer2
+                  Type: BaseObjectType
+                  Children:
+                  - Name: ns=3;ObjectPointer
+                    Type: NodePointer
+                    DataType: NodeId
+                    Value: "/Objects/Commands/VariableCommands"
+                    Children:
+                    - Name: Kind
+                      Type: PropertyType
+                      DataType: NodeId
+                      Value: "/Types/ObjectTypes/BaseObjectType"
+                  - Name: ns=3;Method
+                    Type: BaseDataVariableType
+                    DataType: String
+                    Value: "Set"
+                  - Name: InputArguments
+                    Type: BaseObjectType
+                    Children:
+                    - Name: VariableToModify
+                      Type: BaseDataVariableType
+                      DataType: VariablePointer
+                      Description: {"NamespaceIndex":3,"TextId":"SetVariableToModifyDescription"}
+                      Value: "/Objects/Tata_Energy_Management/Model/MeterSelectionForPanels"
+                    - Name: Value
+                      Type: BaseDataVariableType
+                      DataType: Int32
+                      Description: {"NamespaceIndex":3,"TextId":"SetValueDescription"}
+                      Value: 133
+                    - Name: ArrayIndex
+                      Type: BaseDataVariableType
+                      DataType: UInt32
+                      Description: {"NamespaceIndex":3,"TextId":"SetArrayIndexDescription"}
+                      ValueRank: ScalarOrOneDimension
+                      Value: 0
               - Name: EventArguments
                 Type: MouseClickEvent
                 Children:
@@ -41158,6 +42418,41 @@ Children:
               - Name: MethodsToCall
                 Type: BaseObjectType
                 Children:
+                - Name: MethodContainer2
+                  Type: BaseObjectType
+                  Children:
+                  - Name: ns=3;ObjectPointer
+                    Type: NodePointer
+                    DataType: NodeId
+                    Value: "/Objects/Commands/VariableCommands"
+                    Children:
+                    - Name: Kind
+                      Type: PropertyType
+                      DataType: NodeId
+                      Value: "/Types/ObjectTypes/BaseObjectType"
+                  - Name: ns=3;Method
+                    Type: BaseDataVariableType
+                    DataType: String
+                    Value: "Set"
+                  - Name: InputArguments
+                    Type: BaseObjectType
+                    Children:
+                    - Name: VariableToModify
+                      Type: BaseDataVariableType
+                      DataType: VariablePointer
+                      Description: {"NamespaceIndex":3,"TextId":"SetVariableToModifyDescription"}
+                      Value: "/Objects/Tata_Energy_Management/Model/MeterSelectionForPanels"
+                    - Name: Value
+                      Type: BaseDataVariableType
+                      DataType: Int32
+                      Description: {"NamespaceIndex":3,"TextId":"SetValueDescription"}
+                      Value: 157
+                    - Name: ArrayIndex
+                      Type: BaseDataVariableType
+                      DataType: UInt32
+                      Description: {"NamespaceIndex":3,"TextId":"SetArrayIndexDescription"}
+                      ValueRank: ScalarOrOneDimension
+                      Value: 0
                 - Name: MethodContainer1
                   Type: BaseObjectType
                   Children:
@@ -42047,7 +43342,7 @@ Children:
                 ReferenceType: HasParameter
                 ModellingRule: Optional
                 Value: false
-        - Name: BDY_SWB_08_OG_F3
+        - Name: BDY_SWB_08_OG_F4
           Type: Rectangle
           Children:
           - Name: Width
@@ -42108,6 +43403,41 @@ Children:
               - Name: MethodsToCall
                 Type: BaseObjectType
                 Children:
+                - Name: MethodContainer2
+                  Type: BaseObjectType
+                  Children:
+                  - Name: ns=3;ObjectPointer
+                    Type: NodePointer
+                    DataType: NodeId
+                    Value: "/Objects/Commands/VariableCommands"
+                    Children:
+                    - Name: Kind
+                      Type: PropertyType
+                      DataType: NodeId
+                      Value: "/Types/ObjectTypes/BaseObjectType"
+                  - Name: ns=3;Method
+                    Type: BaseDataVariableType
+                    DataType: String
+                    Value: "Set"
+                  - Name: InputArguments
+                    Type: BaseObjectType
+                    Children:
+                    - Name: VariableToModify
+                      Type: BaseDataVariableType
+                      DataType: VariablePointer
+                      Description: {"NamespaceIndex":3,"TextId":"SetVariableToModifyDescription"}
+                      Value: "/Objects/Tata_Energy_Management/Model/MeterSelectionForPanels"
+                    - Name: Value
+                      Type: BaseDataVariableType
+                      DataType: Int32
+                      Description: {"NamespaceIndex":3,"TextId":"SetValueDescription"}
+                      Value: 134
+                    - Name: ArrayIndex
+                      Type: BaseDataVariableType
+                      DataType: UInt32
+                      Description: {"NamespaceIndex":3,"TextId":"SetArrayIndexDescription"}
+                      ValueRank: ScalarOrOneDimension
+                      Value: 0
                 - Name: MethodContainer1
                   Type: BaseObjectType
                   Children:
@@ -42997,7 +44327,7 @@ Children:
                 ReferenceType: HasParameter
                 ModellingRule: Optional
                 Value: true
-        - Name: BDY_SWB_08_OG_F4
+        - Name: BDY_SWB_08_OG_F5.1
           Type: Rectangle
           Children:
           - Name: Width
@@ -43058,6 +44388,41 @@ Children:
               - Name: MethodsToCall
                 Type: BaseObjectType
                 Children:
+                - Name: MethodContainer2
+                  Type: BaseObjectType
+                  Children:
+                  - Name: ns=3;ObjectPointer
+                    Type: NodePointer
+                    DataType: NodeId
+                    Value: "/Objects/Commands/VariableCommands"
+                    Children:
+                    - Name: Kind
+                      Type: PropertyType
+                      DataType: NodeId
+                      Value: "/Types/ObjectTypes/BaseObjectType"
+                  - Name: ns=3;Method
+                    Type: BaseDataVariableType
+                    DataType: String
+                    Value: "Set"
+                  - Name: InputArguments
+                    Type: BaseObjectType
+                    Children:
+                    - Name: VariableToModify
+                      Type: BaseDataVariableType
+                      DataType: VariablePointer
+                      Description: {"NamespaceIndex":3,"TextId":"SetVariableToModifyDescription"}
+                      Value: "/Objects/Tata_Energy_Management/Model/MeterSelectionForPanels"
+                    - Name: Value
+                      Type: BaseDataVariableType
+                      DataType: Int32
+                      Description: {"NamespaceIndex":3,"TextId":"SetValueDescription"}
+                      Value: 135
+                    - Name: ArrayIndex
+                      Type: BaseDataVariableType
+                      DataType: UInt32
+                      Description: {"NamespaceIndex":3,"TextId":"SetArrayIndexDescription"}
+                      ValueRank: ScalarOrOneDimension
+                      Value: 0
                 - Name: MethodContainer1
                   Type: BaseObjectType
                   Children:
@@ -44008,6 +45373,41 @@ Children:
               - Name: MethodsToCall
                 Type: BaseObjectType
                 Children:
+                - Name: MethodContainer2
+                  Type: BaseObjectType
+                  Children:
+                  - Name: ns=3;ObjectPointer
+                    Type: NodePointer
+                    DataType: NodeId
+                    Value: "/Objects/Commands/VariableCommands"
+                    Children:
+                    - Name: Kind
+                      Type: PropertyType
+                      DataType: NodeId
+                      Value: "/Types/ObjectTypes/BaseObjectType"
+                  - Name: ns=3;Method
+                    Type: BaseDataVariableType
+                    DataType: String
+                    Value: "Set"
+                  - Name: InputArguments
+                    Type: BaseObjectType
+                    Children:
+                    - Name: VariableToModify
+                      Type: BaseDataVariableType
+                      DataType: VariablePointer
+                      Description: {"NamespaceIndex":3,"TextId":"SetVariableToModifyDescription"}
+                      Value: "/Objects/Tata_Energy_Management/Model/MeterSelectionForPanels"
+                    - Name: Value
+                      Type: BaseDataVariableType
+                      DataType: Int32
+                      Description: {"NamespaceIndex":3,"TextId":"SetValueDescription"}
+                      Value: 135
+                    - Name: ArrayIndex
+                      Type: BaseDataVariableType
+                      DataType: UInt32
+                      Description: {"NamespaceIndex":3,"TextId":"SetArrayIndexDescription"}
+                      ValueRank: ScalarOrOneDimension
+                      Value: 0
                 - Name: MethodContainer1
                   Type: BaseObjectType
                   Children:
@@ -44958,6 +46358,41 @@ Children:
               - Name: MethodsToCall
                 Type: BaseObjectType
                 Children:
+                - Name: MethodContainer2
+                  Type: BaseObjectType
+                  Children:
+                  - Name: ns=3;ObjectPointer
+                    Type: NodePointer
+                    DataType: NodeId
+                    Value: "/Objects/Commands/VariableCommands"
+                    Children:
+                    - Name: Kind
+                      Type: PropertyType
+                      DataType: NodeId
+                      Value: "/Types/ObjectTypes/BaseObjectType"
+                  - Name: ns=3;Method
+                    Type: BaseDataVariableType
+                    DataType: String
+                    Value: "Set"
+                  - Name: InputArguments
+                    Type: BaseObjectType
+                    Children:
+                    - Name: VariableToModify
+                      Type: BaseDataVariableType
+                      DataType: VariablePointer
+                      Description: {"NamespaceIndex":3,"TextId":"SetVariableToModifyDescription"}
+                      Value: "/Objects/Tata_Energy_Management/Model/MeterSelectionForPanels"
+                    - Name: Value
+                      Type: BaseDataVariableType
+                      DataType: Int32
+                      Description: {"NamespaceIndex":3,"TextId":"SetValueDescription"}
+                      Value: 136
+                    - Name: ArrayIndex
+                      Type: BaseDataVariableType
+                      DataType: UInt32
+                      Description: {"NamespaceIndex":3,"TextId":"SetArrayIndexDescription"}
+                      ValueRank: ScalarOrOneDimension
+                      Value: 0
                 - Name: MethodContainer1
                   Type: BaseObjectType
                   Children:
@@ -45908,6 +47343,41 @@ Children:
               - Name: MethodsToCall
                 Type: BaseObjectType
                 Children:
+                - Name: MethodContainer2
+                  Type: BaseObjectType
+                  Children:
+                  - Name: ns=3;ObjectPointer
+                    Type: NodePointer
+                    DataType: NodeId
+                    Value: "/Objects/Commands/VariableCommands"
+                    Children:
+                    - Name: Kind
+                      Type: PropertyType
+                      DataType: NodeId
+                      Value: "/Types/ObjectTypes/BaseObjectType"
+                  - Name: ns=3;Method
+                    Type: BaseDataVariableType
+                    DataType: String
+                    Value: "Set"
+                  - Name: InputArguments
+                    Type: BaseObjectType
+                    Children:
+                    - Name: VariableToModify
+                      Type: BaseDataVariableType
+                      DataType: VariablePointer
+                      Description: {"NamespaceIndex":3,"TextId":"SetVariableToModifyDescription"}
+                      Value: "/Objects/Tata_Energy_Management/Model/MeterSelectionForPanels"
+                    - Name: Value
+                      Type: BaseDataVariableType
+                      DataType: Int32
+                      Description: {"NamespaceIndex":3,"TextId":"SetValueDescription"}
+                      Value: 137
+                    - Name: ArrayIndex
+                      Type: BaseDataVariableType
+                      DataType: UInt32
+                      Description: {"NamespaceIndex":3,"TextId":"SetArrayIndexDescription"}
+                      ValueRank: ScalarOrOneDimension
+                      Value: 0
                 - Name: MethodContainer1
                   Type: BaseObjectType
                   Children:
@@ -46858,6 +48328,41 @@ Children:
               - Name: MethodsToCall
                 Type: BaseObjectType
                 Children:
+                - Name: MethodContainer2
+                  Type: BaseObjectType
+                  Children:
+                  - Name: ns=3;ObjectPointer
+                    Type: NodePointer
+                    DataType: NodeId
+                    Value: "/Objects/Commands/VariableCommands"
+                    Children:
+                    - Name: Kind
+                      Type: PropertyType
+                      DataType: NodeId
+                      Value: "/Types/ObjectTypes/BaseObjectType"
+                  - Name: ns=3;Method
+                    Type: BaseDataVariableType
+                    DataType: String
+                    Value: "Set"
+                  - Name: InputArguments
+                    Type: BaseObjectType
+                    Children:
+                    - Name: VariableToModify
+                      Type: BaseDataVariableType
+                      DataType: VariablePointer
+                      Description: {"NamespaceIndex":3,"TextId":"SetVariableToModifyDescription"}
+                      Value: "/Objects/Tata_Energy_Management/Model/MeterSelectionForPanels"
+                    - Name: Value
+                      Type: BaseDataVariableType
+                      DataType: Int32
+                      Description: {"NamespaceIndex":3,"TextId":"SetValueDescription"}
+                      Value: 138
+                    - Name: ArrayIndex
+                      Type: BaseDataVariableType
+                      DataType: UInt32
+                      Description: {"NamespaceIndex":3,"TextId":"SetArrayIndexDescription"}
+                      ValueRank: ScalarOrOneDimension
+                      Value: 0
                 - Name: MethodContainer1
                   Type: BaseObjectType
                   Children:

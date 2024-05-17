@@ -217,6 +217,7 @@ public class HomePageTagsLogic : BaseNetLogic
         var myStore35 = project.GetObject("DataStores").Get<Store.Store>("ODBCDatabase");
         var myStore36 = project.GetObject("DataStores").Get<Store.Store>("ODBCDatabase");
         var myStore37 = project.GetObject("DataStores").Get<Store.Store>("ODBCDatabase");
+        //var myStore37 = project.GetObject("DataStores").Get<Store.Store>("ODBCDatabase");
 
 
         object[,] resultSet1;
@@ -316,7 +317,7 @@ public class HomePageTagsLogic : BaseNetLogic
         object[,] resultSet33;
         string[] header33;
 
-             object[,] resultSet34;
+        object[,] resultSet34;
         string[] header34;
 
         object[,] resultSet35;
@@ -327,6 +328,8 @@ public class HomePageTagsLogic : BaseNetLogic
 
         object[,] resultSet37;
         string[] header37;
+
+
 
 
 
@@ -345,15 +348,15 @@ public class HomePageTagsLogic : BaseNetLogic
             string new1 = startTime.ToString("dd");
             string jace1 = jace.ToString();
 
-            string query1 = $"SELECT SUM(Consumption) FROM DailyConsumptionAgg WHERE LocalDate = '" + new123 + " 00:00:00' AND Jace = '33KV' AND Meter = 'J1_INCOMER1'";
-            string query2 = $"SELECT SUM(Consumption) FROM DailyConsumptionAgg WHERE LocalDate = '" + new123 + " 00:00:00' AND Jace = '33KV' AND Meter = 'J1_INCOMER2'";
-            string query3 = $"SELECT Frequency FROM DailyConsumptionAgg WHERE LocalDate = '" + new123 + " 00:00:00' AND Jace = '33KV' AND Meter = 'J1_INCOMER1'";
-            string query4 = $"SELECT Avg_PF FROM DailyConsumptionAgg WHERE LocalDate = '" + new123 + " 00:00:00' AND Jace = '33KV' AND Meter = 'J1_INCOMER1'";
-            string query5 = $"SELECT SUM(Consumption) FROM DailyConsumptionAgg WHERE MonthYear = '" + new12 + "' AND Jace = '33KV' AND Meter = 'J1_INCOMER1'";
-            string query6 = $"SELECT SUM(Consumption) FROM DailyConsumptionAgg WHERE MonthYear = '" + new12 + "' AND Jace = '33KV' AND Meter = 'J1_INCOMER2'";
-            string query7 = $"SELECT Consumption FROM DailyJaceDataLogger WHERE Day = '1' AND MonthYear = '" + new12 + "' AND Jace = '" + jace1 + "' ";
-            string query8 = $"SELECT Consumption FROM DailyJaceDataLogger WHERE Day = '2' AND MonthYear = '" + new12 + "' AND Jace = '" + jace1 + "' ";
-            string query9 = $"SELECT Consumption FROM DailyJaceDataLogger WHERE Day = '3' AND MonthYear = '" + new12 + "' AND Jace = '" + jace1 + "' ";
+            string query1 =  $"SELECT SUM(Consumption) FROM DailyConsumptionAgg WHERE LocalDate = '" + new123 + " 00:00:00' AND Jace = '33KV' AND Meter = 'J1_INCOMER1'";
+            string query2 =  $"SELECT SUM(Consumption) FROM DailyConsumptionAgg WHERE LocalDate = '" + new123 + " 00:00:00' AND Jace = '33KV' AND Meter = 'J1_INCOMER2'";
+            string query3 =  $"SELECT Frequency FROM DailyConsumptionAgg WHERE LocalDate = '" + new123 + " 00:00:00' AND Jace = '33KV' AND Meter = 'J1_INCOMER1'";
+            string query4 =  $"SELECT Avg_PF FROM DailyConsumptionAgg WHERE LocalDate = '" + new123 + " 00:00:00' AND Jace = '33KV' AND Meter = 'J1_INCOMER1'";
+            string query5 =  $"SELECT SUM(Consumption) FROM DailyConsumptionAgg WHERE MonthYear = '" + new12 + "' AND Jace = '33KV' AND Meter = 'J1_INCOMER1'";
+            string query6 =  $"SELECT SUM(Consumption) FROM DailyConsumptionAgg WHERE MonthYear = '" + new12 + "' AND Jace = '33KV' AND Meter = 'J1_INCOMER2'";
+            string query7 =  $"SELECT Consumption FROM DailyJaceDataLogger WHERE Day = '1' AND MonthYear = '" + new12 + "' AND Jace = '" + jace1 + "' ";
+            string query8 =  $"SELECT Consumption FROM DailyJaceDataLogger WHERE Day = '2' AND MonthYear = '" + new12 + "' AND Jace = '" + jace1 + "' ";
+            string query9 =  $"SELECT Consumption FROM DailyJaceDataLogger WHERE Day = '3' AND MonthYear = '" + new12 + "' AND Jace = '" + jace1 + "' ";
             string query10 = $"SELECT Consumption FROM DailyJaceDataLogger WHERE Day = '4' AND MonthYear = '" + new12 + "' AND Jace = '" + jace1 + "' ";
             string query11 = $"SELECT Consumption FROM DailyJaceDataLogger WHERE Day = '5' AND MonthYear = '" + new12 + "' AND Jace = '" + jace1 + "' ";
             string query12 = $"SELECT Consumption FROM DailyJaceDataLogger WHERE Day = '6' AND MonthYear = '" + new12 + "' AND Jace = '" + jace1 + "' ";
@@ -383,20 +386,6 @@ public class HomePageTagsLogic : BaseNetLogic
             string query36 = $"SELECT Consumption FROM DailyJaceDataLogger WHERE Day = '30' AND MonthYear = '" + new12 + "' AND Jace = '" + jace1 + "' ";
             string query37 = $"SELECT Consumption FROM DailyJaceDataLogger WHERE Day = '31' AND MonthYear = '" + new12 + "' AND Jace = '" + jace1 + "' ";
             
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -615,6 +604,7 @@ public class HomePageTagsLogic : BaseNetLogic
             {
                 float.TryParse(resultSet37[0, 0]?.ToString(), out day31);
             }
+
 
 
 

@@ -1,4 +1,12 @@
 Name: CommDrivers
 Type: CommDriversCategoryFolder
 Children:
-- File: MicroControllerDriver1/MicroControllerDriver1.yaml
+- File: 33KVmeters/33KVmeters.yaml
+- File: UtilityMeters/UtilityMeters.yaml
+- File: PumpRoomMeters/PumpRoomMeters.yaml
+- File: PaintshopMeters/PaintshopMeters.yaml
+- File: BodyshopMeters/BodyshopMeters.yaml
+- File: TCFMeters/TCFMeters.yaml
+- File: StampingMeters/StampingMeters.yaml
+- File: AdminMeters/AdminMeters.yaml
+- File: SPPMeters/SPPMeters.yaml

@@ -2271,7 +2271,7 @@ Children:
         - Name: Value
           Type: BaseDataVariableType
           DataType: String
-          Value: "PUMP ROOM"
+          Value: "PUMPROOM"
       - Name: Pair3
         Type: ValueMapPair
         Children:
@@ -2282,7 +2282,7 @@ Children:
         - Name: Value
           Type: BaseDataVariableType
           DataType: String
-          Value: "PAINT SHOP"
+          Value: "PAINTSHOP"
       - Name: Pair4
         Type: ValueMapPair
         Children:
@@ -2293,7 +2293,7 @@ Children:
         - Name: Value
           Type: BaseDataVariableType
           DataType: String
-          Value: "BODY SHOP"
+          Value: "BODYSHOP"
       - Name: Pair5
         Type: ValueMapPair
         Children:
@@ -2304,7 +2304,7 @@ Children:
         - Name: Value
           Type: BaseDataVariableType
           DataType: String
-          Value: "TCF STATION"
+          Value: "TCF"
       - Name: Pair6
         Type: ValueMapPair
         Children:
@@ -2390,7 +2390,7 @@ Children:
         - Name: Value
           Type: BaseDataVariableType
           DataType: String
-          Value: "PUMP ROOM"
+          Value: "PUMPROOM"
       - Name: Pair3
         Type: ValueMapPair
         Children:
@@ -2401,7 +2401,7 @@ Children:
         - Name: Value
           Type: BaseDataVariableType
           DataType: String
-          Value: "PAINT SHOP"
+          Value: "PAINTSHOP"
       - Name: Pair4
         Type: ValueMapPair
         Children:
@@ -2412,7 +2412,7 @@ Children:
         - Name: Value
           Type: BaseDataVariableType
           DataType: String
-          Value: "BODY SHOP"
+          Value: "BODYSHOP"
       - Name: Pair5
         Type: ValueMapPair
         Children:
@@ -2423,7 +2423,7 @@ Children:
         - Name: Value
           Type: BaseDataVariableType
           DataType: String
-          Value: "TCF STATION"
+          Value: "TCF"
       - Name: Pair6
         Type: ValueMapPair
         Children:
@@ -3454,7 +3454,7 @@ Children:
                 - Name: Value
                   Type: BaseDataVariableType
                   DataType: String
-                  Value: "J2_meter63"
+                  Value: "J2_MCB_MCC_01_IN1F1"
               - Name: Pair64
                 Type: ValueMapPair
                 Children:
@@ -3465,7 +3465,7 @@ Children:
                 - Name: Value
                   Type: BaseDataVariableType
                   DataType: String
-                  Value: "J2_meter64"
+                  Value: "MCB_MCC_01_OG_2F1"
               - Name: Pair65
                 Type: ValueMapPair
                 Children:
@@ -3476,7 +3476,7 @@ Children:
                 - Name: Value
                   Type: BaseDataVariableType
                   DataType: String
-                  Value: "J2_meter65"
+                  Value: "MCB_MCC_01_OG_2F2"
               - Name: Pair66
                 Type: ValueMapPair
                 Children:
@@ -3487,7 +3487,7 @@ Children:
                 - Name: Value
                   Type: BaseDataVariableType
                   DataType: String
-                  Value: "J2_meter66"
+                  Value: "MCB_MCC_01_OG_3F1"
               - Name: Pair67
                 Type: ValueMapPair
                 Children:
@@ -3498,7 +3498,7 @@ Children:
                 - Name: Value
                   Type: BaseDataVariableType
                   DataType: String
-                  Value: "J2_meter67"
+                  Value: "MCB_MCC_01_OG_3F2"
               - Name: Pair68
                 Type: ValueMapPair
                 Children:
@@ -3509,7 +3509,7 @@ Children:
                 - Name: Value
                   Type: BaseDataVariableType
                   DataType: String
-                  Value: "J2_meter68"
+                  Value: "MCB_MCC_01_OG_4F1"
               - Name: Pair69
                 Type: ValueMapPair
                 Children:
@@ -3520,7 +3520,7 @@ Children:
                 - Name: Value
                   Type: BaseDataVariableType
                   DataType: String
-                  Value: "J2_meter69"
+                  Value: "MCB_MCC_01_OG_5F1"
               - Name: Pair70
                 Type: ValueMapPair
                 Children:
@@ -3531,7 +3531,7 @@ Children:
                 - Name: Value
                   Type: BaseDataVariableType
                   DataType: String
-                  Value: "J2_meter70"
+                  Value: "MCB_MCC_01_OG_6F1"
               - Name: Pair71
                 Type: ValueMapPair
                 Children:
@@ -3542,7 +3542,7 @@ Children:
                 - Name: Value
                   Type: BaseDataVariableType
                   DataType: String
-                  Value: "J2_meter71"
+                  Value: "MCB_MCC_01_OG_6F4"
               - Name: Pair72
                 Type: ValueMapPair
                 Children:
@@ -3553,7 +3553,7 @@ Children:
                 - Name: Value
                   Type: BaseDataVariableType
                   DataType: String
-                  Value: "J2_meter72"
+                  Value: "MCB_MCC_01_OG_7F1"
               - Name: Pair73
                 Type: ValueMapPair
                 Children:
@@ -3564,7 +3564,7 @@ Children:
                 - Name: Value
                   Type: BaseDataVariableType
                   DataType: String
-                  Value: "J2_meter73"
+                  Value: "MCB_MCC_01_OG_7F4"
               - Name: Pair74
                 Type: ValueMapPair
                 Children:
@@ -3575,7 +3575,7 @@ Children:
                 - Name: Value
                   Type: BaseDataVariableType
                   DataType: String
-                  Value: "J2_meter74"
+                  Value: "MCB_MCC_01_OG_8F1"
               - Name: Pair75
                 Type: ValueMapPair
                 Children:
@@ -3586,7 +3586,7 @@ Children:
                 - Name: Value
                   Type: BaseDataVariableType
                   DataType: String
-                  Value: "J2_meter75"
+                  Value: "MCB_MCC_01_OG_8F4"
       - Name: Pair3
         Type: ValueMapPair
         Children:
@@ -4941,7 +4941,7 @@ Children:
                 - Name: Value
                   Type: BaseDataVariableType
                   DataType: String
-                  Value: "J9_M1"
+                  Value: "J9_SSP_MVS_IN1"
               - Name: Pair1
                 Type: ValueMapPair
                 Children:
@@ -4952,7 +4952,7 @@ Children:
                 - Name: Value
                   Type: BaseDataVariableType
                   DataType: String
-                  Value: "J9_M2"
+                  Value: "J9_SPP_MVS_IN2"
               - Name: Pair2
                 Type: ValueMapPair
                 Children:
@@ -4963,7 +4963,7 @@ Children:
                 - Name: Value
                   Type: BaseDataVariableType
                   DataType: String
-                  Value: "J9_M3"
+                  Value: "J9_SPP_MVS_OG1"
               - Name: Pair3
                 Type: ValueMapPair
                 Children:
@@ -4974,7 +4974,7 @@ Children:
                 - Name: Value
                   Type: BaseDataVariableType
                   DataType: String
-                  Value: "J9_M4"
+                  Value: "J9_SPP_MVS_OG2"
               - Name: Pair4
                 Type: ValueMapPair
                 Children:
@@ -4985,7 +4985,7 @@ Children:
                 - Name: Value
                   Type: BaseDataVariableType
                   DataType: String
-                  Value: "J9_M5"
+                  Value: "J9_SPP_SWB_01_1F1"
               - Name: Pair5
                 Type: ValueMapPair
                 Children:
@@ -4996,7 +4996,7 @@ Children:
                 - Name: Value
                   Type: BaseDataVariableType
                   DataType: String
-                  Value: "J9_M6"
+                  Value: "J9_SPP_SWB_01_4F1"
               - Name: Pair6
                 Type: ValueMapPair
                 Children:
@@ -5007,7 +5007,7 @@ Children:
                 - Name: Value
                   Type: BaseDataVariableType
                   DataType: String
-                  Value: "J9_M7"
+                  Value: "J9_SPP_SWB_02_1F1"
               - Name: Pair7
                 Type: ValueMapPair
                 Children:
@@ -5018,7 +5018,7 @@ Children:
                 - Name: Value
                   Type: BaseDataVariableType
                   DataType: String
-                  Value: "J9_M8"
+                  Value: "J9_1_DB_0_01_1F1"
               - Name: Pair8
                 Type: ValueMapPair
                 Children:
@@ -5029,7 +5029,7 @@ Children:
                 - Name: Value
                   Type: BaseDataVariableType
                   DataType: String
-                  Value: "J9_M9"
+                  Value: "J9_SPP_EDB_0_01_1F1"
 - Name: Meterselected2
   Type: BaseDataVariableType
   DataType: String
@@ -6027,7 +6027,7 @@ Children:
                 - Name: Value
                   Type: BaseDataVariableType
                   DataType: String
-                  Value: "J2_meter63"
+                  Value: "J2_MCB_MCC_01_IN1F1"
               - Name: Pair64
                 Type: ValueMapPair
                 Children:
@@ -6038,7 +6038,7 @@ Children:
                 - Name: Value
                   Type: BaseDataVariableType
                   DataType: String
-                  Value: "J2_meter64"
+                  Value: "MCB_MCC_01_OG_2F1"
               - Name: Pair65
                 Type: ValueMapPair
                 Children:
@@ -6049,7 +6049,7 @@ Children:
                 - Name: Value
                   Type: BaseDataVariableType
                   DataType: String
-                  Value: "J2_meter65"
+                  Value: "MCB_MCC_01_OG_2F2"
               - Name: Pair66
                 Type: ValueMapPair
                 Children:
@@ -6060,7 +6060,7 @@ Children:
                 - Name: Value
                   Type: BaseDataVariableType
                   DataType: String
-                  Value: "J2_meter66"
+                  Value: "MCB_MCC_01_OG_3F1"
               - Name: Pair67
                 Type: ValueMapPair
                 Children:
@@ -6071,7 +6071,7 @@ Children:
                 - Name: Value
                   Type: BaseDataVariableType
                   DataType: String
-                  Value: "J2_meter67"
+                  Value: "MCB_MCC_01_OG_3F2"
               - Name: Pair68
                 Type: ValueMapPair
                 Children:
@@ -6082,7 +6082,7 @@ Children:
                 - Name: Value
                   Type: BaseDataVariableType
                   DataType: String
-                  Value: "J2_meter68"
+                  Value: "MCB_MCC_01_OG_4F1"
               - Name: Pair69
                 Type: ValueMapPair
                 Children:
@@ -6093,7 +6093,7 @@ Children:
                 - Name: Value
                   Type: BaseDataVariableType
                   DataType: String
-                  Value: "J2_meter69"
+                  Value: "MCB_MCC_01_OG_5F1"
               - Name: Pair70
                 Type: ValueMapPair
                 Children:
@@ -6104,7 +6104,7 @@ Children:
                 - Name: Value
                   Type: BaseDataVariableType
                   DataType: String
-                  Value: "J2_meter70"
+                  Value: "MCB_MCC_01_OG_6F1"
               - Name: Pair71
                 Type: ValueMapPair
                 Children:
@@ -6115,7 +6115,7 @@ Children:
                 - Name: Value
                   Type: BaseDataVariableType
                   DataType: String
-                  Value: "J2_meter71"
+                  Value: "MCB_MCC_01_OG_6F4"
               - Name: Pair72
                 Type: ValueMapPair
                 Children:
@@ -6126,7 +6126,7 @@ Children:
                 - Name: Value
                   Type: BaseDataVariableType
                   DataType: String
-                  Value: "J2_meter72"
+                  Value: "MCB_MCC_01_OG_7F1"
               - Name: Pair73
                 Type: ValueMapPair
                 Children:
@@ -6137,7 +6137,7 @@ Children:
                 - Name: Value
                   Type: BaseDataVariableType
                   DataType: String
-                  Value: "J2_meter73"
+                  Value: "MCB_MCC_01_OG_7F4"
               - Name: Pair74
                 Type: ValueMapPair
                 Children:
@@ -6148,7 +6148,7 @@ Children:
                 - Name: Value
                   Type: BaseDataVariableType
                   DataType: String
-                  Value: "J2_meter74"
+                  Value: "MCB_MCC_01_OG_8F1"
               - Name: Pair75
                 Type: ValueMapPair
                 Children:
@@ -6159,7 +6159,7 @@ Children:
                 - Name: Value
                   Type: BaseDataVariableType
                   DataType: String
-                  Value: "J2_meter75"
+                  Value: "MCB_MCC_01_OG_8F4"
       - Name: Pair2
         Type: ValueMapPair
         Children:
