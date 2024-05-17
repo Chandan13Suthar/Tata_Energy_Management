@@ -35,6 +35,7 @@ public class eChartTest4Logic : BaseNetLogic
     public override void Stop()
     {
         // Insert code to be executed when the user-defined logic is stopped
+       // RefreshRadarGraph();
         refreshTimer?.Stop();
     }
 
@@ -43,7 +44,7 @@ public class eChartTest4Logic : BaseNetLogic
     public void OnRefreshButtonClicked()
     {
         // Stop the timer if running
-        Thread.Sleep(500);
+        Thread.Sleep(100);
         refreshTimer?.Stop();
 
         /* Start the timer for refresh
@@ -79,9 +80,32 @@ public class eChartTest4Logic : BaseNetLogic
         //string meter = Project.Current.GetVariable("Model/MeterSelectionForPanels").ToString();
 
         // Insert values
-        for (int i = 1; i < 32; i++)
+       /* for (int i = 1; i < 145; i++)
         {
-            text = text.Replace(i < 10 ? "$0" + i : "$" + i, (Project.Current.GetVariable("Model/eCharts/eCharts4/Day" + i).Value * 1).ToString());
+            text = text.Replace(i < 10 ? "$00" + i : "$" + i, (Project.Current.GetVariable("Model/eCharts/eCharts6/Min" + i).Value * 1).ToString());
+        }
+       */
+
+        for (int i = 1; i<145; i++) 
+        {
+            string replacePattern;
+            if(i < 10)
+            {
+                replacePattern = "$00" + i;
+            }
+            else if (i>=10 && i < 100)
+            {
+                replacePattern = "$0" + i;
+            }
+            else
+            {
+                replacePattern = "$" + i;
+            }
+            string variableName = "Model/eCharts/eCharts6/Min" + i;
+            var variableValue = Project.Current.GetVariable(variableName).Value * 1;
+            string replaceValue = variableValue.ToString();
+
+            text = text.Replace(replacePattern, replaceValue);
         }
 
         // Write to file
@@ -92,5 +116,7 @@ public class eChartTest4Logic : BaseNetLogic
         Log.Debug("eCharts4", "Finished");
         Thread.Sleep(500);
         Owner.Get<WebBrowser>("WebBrowser").Visible = true;
+        
     }
+    
 }
