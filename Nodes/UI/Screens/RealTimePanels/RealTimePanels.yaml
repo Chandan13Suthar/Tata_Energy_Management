@@ -37352,6 +37352,29 @@ Children:
                                   Type: DynamicLink
                                   DataType: NodePath
                                   Value: "../../../../../../../../../../Panel1/Switch1/Checked"
+                      - Name: HorizontalLayout4
+                        Type: RowLayout
+                        Children:
+                        - Name: Width
+                          Type: BaseVariableType
+                          DataType: Size
+                          ModellingRule: Optional
+                          Value: 50.0
+                        - Name: Height
+                          Type: BaseVariableType
+                          DataType: Size
+                          ModellingRule: Optional
+                          Value: 30.0
+                        - Name: HorizontalAlignment
+                          Type: BaseVariableType
+                          DataType: HorizontalAlignment
+                          ModellingRule: Optional
+                          Value: 3
+                        - Name: TopMargin
+                          Type: BaseVariableType
+                          DataType: Size
+                          ModellingRule: Optional
+                          Value: 195.0
                     - Name: StripedRightArrow2
                       Type: ScaleLayout
                       WriteMask: BrowseName|DataType|Description|DisplayName|MinimumSamplingInterval|UserAccessLevel
