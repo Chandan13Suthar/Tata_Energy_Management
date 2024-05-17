@@ -72,7 +72,7 @@ Children:
       },
       "Description": {
        "LocaleId": "en-US",
-       "Text": "PUMP ROOM"
+       "Text": "ENGINE ROOM"
       }
      },{
       "Name": "Value3",
@@ -127,7 +127,7 @@ Children:
       },
       "Description": {
        "LocaleId": "en-US",
-       "Text": "ADMIN"
+       "Text": "SPARE"
       }
      },{
       "Name": "Value8",
@@ -2068,115 +2068,6 @@ Children:
   Name: Selection_1_MeterSelection_SPP
   Id: g=1993c44616cfce39684059cfd67e3db5
   Supertype: Enumeration
-  EnumDefinition: 
-   {
-    "Name": "Selection_1_MeterSelection_SPP",
-    "DataType": {
-     "IdType": 2,
-     "Id": "1993c44616cfce39684059cfd67e3db5",
-     "Namespace": 36
-    },
-    "Fields": [{
-      "Name": "Value0",
-      "Value": 0,
-      "DisplayName": {
-       "LocaleId": "en-US",
-       "Text": "J9_SSP_MVS_IN1"
-      },
-      "Description": {
-       "LocaleId": "en-US",
-       "Text": "J9_SSP_MVS_IN1"
-      }
-     },{
-      "Name": "Value1",
-      "Value": 1,
-      "DisplayName": {
-       "LocaleId": "en-US",
-       "Text": "J9_SPP_MVS_IN2"
-      },
-      "Description": {
-       "LocaleId": "en-US",
-       "Text": "J9_SPP_MVS_IN2"
-      }
-     },{
-      "Name": "Value2",
-      "Value": 2,
-      "DisplayName": {
-       "LocaleId": "en-US",
-       "Text": "J9_SPP_MVS_OG1"
-      },
-      "Description": {
-       "LocaleId": "en-US",
-       "Text": "J9_SPP_MVS_OG1"
-      }
-     },{
-      "Name": "Value3",
-      "Value": 3,
-      "DisplayName": {
-       "LocaleId": "en-US",
-       "Text": "J9_SPP_MVS_OG2"
-      },
-      "Description": {
-       "LocaleId": "en-US",
-       "Text": "J9_SPP_MVS_OG2"
-      }
-     },{
-      "Name": "Value4",
-      "Value": 4,
-      "DisplayName": {
-       "LocaleId": "en-US",
-       "Text": "J9_SPP_SWB_01_1F1"
-      },
-      "Description": {
-       "LocaleId": "en-US",
-       "Text": "J9_SPP_SWB_01_1F1"
-      }
-     },{
-      "Name": "Value5",
-      "Value": 5,
-      "DisplayName": {
-       "LocaleId": "en-US",
-       "Text": "J9_SPP_SWB_01_4F1"
-      },
-      "Description": {
-       "LocaleId": "en-US",
-       "Text": "J9_SPP_SWB_01_4F1"
-      }
-     },{
-      "Name": "Value6",
-      "Value": 6,
-      "DisplayName": {
-       "LocaleId": "en-US",
-       "Text": "J9_SPP_SWB_02_1F1"
-      },
-      "Description": {
-       "LocaleId": "en-US",
-       "Text": "J9_SPP_SWB_02_1F1"
-      }
-     },{
-      "Name": "Value7",
-      "Value": 7,
-      "DisplayName": {
-       "LocaleId": "en-US",
-       "Text": "J9_1_DB_0_01_1F1"
-      },
-      "Description": {
-       "LocaleId": "en-US",
-       "Text": "J9_1_DB_0_01_1F1"
-      }
-     },{
-      "Name": "Value8",
-      "Value": 8,
-      "DisplayName": {
-       "LocaleId": "en-US",
-       "Text": "J9_SPP_EDB_0_01_1F1"
-      },
-      "Description": {
-       "LocaleId": "en-US",
-       "Text": "J9_SPP_EDB_0_01_1F1"
-      }
-     }]
-   }
   Children:
   - Name: ns=0;EnumValues
     Type: BaseDataVariableType

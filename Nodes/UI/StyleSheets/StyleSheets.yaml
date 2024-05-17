@@ -500,7 +500,7 @@ Children:
       - Name: Radius
         Type: BaseDataVariableType
         DataType: Size
-        Value: 15.0
+        Value: 5.0
       - Name: BorderWidth
         Type: BaseDataVariableType
         DataType: Size
@@ -816,6 +816,14 @@ Children:
         Type: BaseDataVariableType
         DataType: Size
         Value: 0.0
+      - Name: ActiveSecondaryColor
+        Type: BaseDataVariableType
+        DataType: Color
+        Value: "#ffffff"
+      - Name: Radius
+        Type: BaseDataVariableType
+        DataType: Size
+        Value: 5.0
     - Name: NavigationPanelStyle1
       Type: NavigationPanelStyle
       Children:
