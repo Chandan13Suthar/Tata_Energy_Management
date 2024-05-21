@@ -365,163 +365,6 @@ Children:
                           Type: BaseDataVariableType
                           DataType: Color
                           Value: "#0000ff"
-                  - Name: CircularGauge4
-                    Type: CircularGauge
-                    Children:
-                    - Name: Value
-                      Type: BaseDataVariableType
-                      DataType: Float
-                      Value: 0.0
-                    - Name: MinValue
-                      Type: BaseDataVariableType
-                      DataType: Float
-                      Value: 0.0
-                    - Name: MaxValue
-                      Type: BaseDataVariableType
-                      DataType: Float
-                      Value: 1000.0
-                    - Name: WarningZones
-                      Type: BaseObjectType
-                      Children:
-                      - Name: WarningZone1
-                        Type: WarningZone
-                        Children:
-                        - Name: From
-                          Type: BaseDataVariableType
-                          DataType: Float
-                          Value: 0.0
-                        - Name: To
-                          Type: BaseDataVariableType
-                          DataType: Float
-                          Value: 100.0
-                        - Name: Color
-                          Type: BaseDataVariableType
-                          DataType: Color
-                          Value: "#000000"
-                    - Name: RightMargin
-                      Type: BaseVariableType
-                      DataType: Size
-                      ModellingRule: Optional
-                      Value: 101.0
-                    - Name: TopMargin
-                      Type: BaseVariableType
-                      DataType: Size
-                      ModellingRule: Optional
-                      Value: 57.0
-                  - Name: Label4
-                    Type: Label
-                  - Name: Label5
-                    Type: Label
-                    Children:
-                    - Name: Text
-                      Type: BaseDataVariableType
-                      DataType: LocalizedText
-                      Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
-                      Children:
-                      - Name: StringFormatter2
-                        Type: StringFormatter
-                        Children:
-                        - Name: Source0
-                          Type: BaseDataVariableType
-                          DataType: BaseDataType
-                          ReferenceType: HasSource
-                          Children:
-                          - Name: StringFormatter1
-                            Type: StringFormatter
-                            Children:
-                            - Name: Source0
-                              Type: BaseDataVariableType
-                              DataType: BaseDataType
-                              ReferenceType: HasSource
-                              Children:
-                              - Name: DynamicLink
-                                Type: DynamicLink
-                                DataType: NodePath
-                                Value: "../../../../../../CircularGauge1/Value"
-                  - Name: Label6
-                    Type: Label
-                    Children:
-                    - Name: Text
-                      Type: BaseDataVariableType
-                      DataType: LocalizedText
-                      Value: {"LocaleId":"en-US","Text":""}
-                      Children:
-                      - Name: StringFormatter2
-                        Type: StringFormatter
-                        Children:
-                        - Name: Source0
-                          Type: BaseDataVariableType
-                          DataType: BaseDataType
-                          ReferenceType: HasSource
-                          Children:
-                          - Name: StringFormatter1
-                            Type: StringFormatter
-                            Children:
-                            - Name: Source0
-                              Type: BaseDataVariableType
-                              DataType: BaseDataType
-                              ReferenceType: HasSource
-                              Children:
-                              - Name: DynamicLink
-                                Type: DynamicLink
-                                DataType: NodePath
-                                Value: "../../../../../../CircularGauge2/Value"
-                  - Name: Label8
-                    Type: Label
-                    Children:
-                    - Name: Text
-                      Type: BaseDataVariableType
-                      DataType: LocalizedText
-                      Value: {"LocaleId":"en-US","Text":""}
-                      Children:
-                      - Name: StringFormatter2
-                        Type: StringFormatter
-                        Children:
-                        - Name: Source0
-                          Type: BaseDataVariableType
-                          DataType: BaseDataType
-                          ReferenceType: HasSource
-                          Children:
-                          - Name: StringFormatter1
-                            Type: StringFormatter
-                            Children:
-                            - Name: Source0
-                              Type: BaseDataVariableType
-                              DataType: BaseDataType
-                              ReferenceType: HasSource
-                              Children:
-                              - Name: DynamicLink
-                                Type: DynamicLink
-                                DataType: NodePath
-                                Value: "../../../../../../CircularGauge4/Value"
-                  - Name: Label7
-                    Type: Label
-                    Children:
-                    - Name: Text
-                      Type: BaseDataVariableType
-                      DataType: LocalizedText
-                      Value: {"LocaleId":"en-US","Text":""}
-                      Children:
-                      - Name: StringFormatter2
-                        Type: StringFormatter
-                        Children:
-                        - Name: Source0
-                          Type: BaseDataVariableType
-                          DataType: BaseDataType
-                          ReferenceType: HasSource
-                          Children:
-                          - Name: StringFormatter1
-                            Type: StringFormatter
-                            Children:
-                            - Name: Source0
-                              Type: BaseDataVariableType
-                              DataType: BaseDataType
-                              ReferenceType: HasSource
-                              Children:
-                              - Name: DynamicLink
-                                Type: DynamicLink
-                                DataType: NodePath
-                                Value: "../../../../../../CircularGauge3/Value"
                 - Name: HorizontalLayout2
                   Type: RowLayout
                   Children:
@@ -564,7 +407,7 @@ Children:
                                 - Name: DynamicLink
                                   Type: DynamicLink
                                   DataType: NodePath
-                                  Value: "../../../../../../CircularGauge2/Value"
+                                  Value: "../../../../../../../../HorizontalLayout1/CircularGauge1/Value"
                   - Name: R Phase
                     Type: Rectangle
                     Children:
@@ -604,7 +447,7 @@ Children:
                                 - Name: DynamicLink
                                   Type: DynamicLink
                                   DataType: NodePath
-                                  Value: "../../../../../../CircularGauge1/Value"
+                                  Value: "../../../../../../../../HorizontalLayout1/CircularGauge2/Value"
                   - Name: B Phase
                     Type: Rectangle
                     Children:
@@ -644,7 +487,7 @@ Children:
                                 - Name: DynamicLink
                                   Type: DynamicLink
                                   DataType: NodePath
-                                  Value: "../../../../../../CircularGauge3/Value"
+                                  Value: "../../../../../../../../HorizontalLayout1/CircularGauge3/Value"
         - Name: Average Current
           Type: Rectangle
           Children:
@@ -760,7 +603,7 @@ Children:
                                 - Name: DynamicLink
                                   Type: DynamicLink
                                   DataType: NodePath
-                                  Value: "../../../../../../CircularGauge3/Value"
+                                  Value: "../../../../../../../../HorizontalLayout1/CircularGauge4/Value"
       - Name: HorizontalLayout2
         Type: RowLayout
         Children:

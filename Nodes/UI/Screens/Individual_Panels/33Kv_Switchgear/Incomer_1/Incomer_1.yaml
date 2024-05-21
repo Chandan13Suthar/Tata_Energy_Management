@@ -207,8 +207,8 @@ Children:
           Direction: Forward
       - Name: Label1
         Type: Label
-- Name: Current_Panel201
-  Id: g=e3d9a9b94b08274ce3b196e6f20043c5
+- Name: Current_Panel108
+  Id: g=a5603053b18a85c1952323f144886c8c
   Supertype: Current_Panel
   ReferenceType: HasComponent
   Children:
@@ -225,16 +225,6 @@ Children:
           Type: BaseDataVariableType
           DataType: Duration
           Value: "0:00:00:0.0000000"
-      - Name: TopMargin
-        Type: BaseVariableType
-        DataType: Size
-        ModellingRule: Optional
-        Value: 0.0
-      - Name: Height
-        Type: BaseVariableType
-        DataType: Size
-        ModellingRule: Optional
-        Value: 890.0
       - Name: HorizontalLayout1
         Type: RowLayout
         Children:
@@ -259,11 +249,6 @@ Children:
             - Name: Gauges
               Type: Rectangle
               Children:
-              - Name: VerticalAlignment
-                Type: BaseVariableType
-                DataType: VerticalAlignment
-                ModellingRule: Optional
-                Value: 3
               - Name: VerticalLayout1
                 Type: ColumnLayout
                 Children:
@@ -316,16 +301,6 @@ Children:
                           Type: BaseDataVariableType
                           DataType: Color
                           Value: "#ff0000"
-                    - Name: LeftMargin
-                      Type: BaseVariableType
-                      DataType: Size
-                      ModellingRule: Optional
-                      Value: 120.0
-                    - Name: TopMargin
-                      Type: BaseVariableType
-                      DataType: Size
-                      ModellingRule: Optional
-                      Value: 56.0
                   - Name: CircularGauge2
                     Type: CircularGauge
                     Children:
@@ -418,153 +393,6 @@ Children:
                           Type: BaseDataVariableType
                           DataType: Color
                           Value: "#0000ff"
-                  - Name: CircularGauge4
-                    Type: CircularGauge
-                    Children:
-                    - Name: Value
-                      Type: BaseDataVariableType
-                      DataType: Float
-                      Value: 0.0
-                    - Name: MinValue
-                      Type: BaseDataVariableType
-                      DataType: Float
-                      Value: 0.0
-                    - Name: MaxValue
-                      Type: BaseDataVariableType
-                      DataType: Float
-                      Value: 1000.0
-                    - Name: WarningZones
-                      Type: BaseObjectType
-                      Children:
-                      - Name: WarningZone1
-                        Type: WarningZone
-                        Children:
-                        - Name: From
-                          Type: BaseDataVariableType
-                          DataType: Float
-                          Value: 0.0
-                        - Name: To
-                          Type: BaseDataVariableType
-                          DataType: Float
-                          Value: 100.0
-                        - Name: Color
-                          Type: BaseDataVariableType
-                          DataType: Color
-                          Value: "#000000"
-                  - Name: Label4
-                    Type: Label
-                  - Name: Label5
-                    Type: Label
-                    Children:
-                    - Name: Text
-                      Type: BaseDataVariableType
-                      DataType: LocalizedText
-                      Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
-                      Children:
-                      - Name: StringFormatter2
-                        Type: StringFormatter
-                        Children:
-                        - Name: Source0
-                          Type: BaseDataVariableType
-                          DataType: BaseDataType
-                          ReferenceType: HasSource
-                          Children:
-                          - Name: StringFormatter1
-                            Type: StringFormatter
-                            Children:
-                            - Name: Source0
-                              Type: BaseDataVariableType
-                              DataType: BaseDataType
-                              ReferenceType: HasSource
-                              Children:
-                              - Name: DynamicLink
-                                Type: DynamicLink
-                                DataType: NodePath
-                                Value: "../../../../../../CircularGauge1/Value"
-                  - Name: Label6
-                    Type: Label
-                    Children:
-                    - Name: Text
-                      Type: BaseDataVariableType
-                      DataType: LocalizedText
-                      Value: {"LocaleId":"en-US","Text":""}
-                      Children:
-                      - Name: StringFormatter2
-                        Type: StringFormatter
-                        Children:
-                        - Name: Source0
-                          Type: BaseDataVariableType
-                          DataType: BaseDataType
-                          ReferenceType: HasSource
-                          Children:
-                          - Name: StringFormatter1
-                            Type: StringFormatter
-                            Children:
-                            - Name: Source0
-                              Type: BaseDataVariableType
-                              DataType: BaseDataType
-                              ReferenceType: HasSource
-                              Children:
-                              - Name: DynamicLink
-                                Type: DynamicLink
-                                DataType: NodePath
-                                Value: "../../../../../../CircularGauge2/Value"
-                  - Name: Label8
-                    Type: Label
-                    Children:
-                    - Name: Text
-                      Type: BaseDataVariableType
-                      DataType: LocalizedText
-                      Value: {"LocaleId":"en-US","Text":""}
-                      Children:
-                      - Name: StringFormatter2
-                        Type: StringFormatter
-                        Children:
-                        - Name: Source0
-                          Type: BaseDataVariableType
-                          DataType: BaseDataType
-                          ReferenceType: HasSource
-                          Children:
-                          - Name: StringFormatter1
-                            Type: StringFormatter
-                            Children:
-                            - Name: Source0
-                              Type: BaseDataVariableType
-                              DataType: BaseDataType
-                              ReferenceType: HasSource
-                              Children:
-                              - Name: DynamicLink
-                                Type: DynamicLink
-                                DataType: NodePath
-                                Value: "../../../../../../CircularGauge4/Value"
-                  - Name: Label7
-                    Type: Label
-                    Children:
-                    - Name: Text
-                      Type: BaseDataVariableType
-                      DataType: LocalizedText
-                      Value: {"LocaleId":"en-US","Text":""}
-                      Children:
-                      - Name: StringFormatter2
-                        Type: StringFormatter
-                        Children:
-                        - Name: Source0
-                          Type: BaseDataVariableType
-                          DataType: BaseDataType
-                          ReferenceType: HasSource
-                          Children:
-                          - Name: StringFormatter1
-                            Type: StringFormatter
-                            Children:
-                            - Name: Source0
-                              Type: BaseDataVariableType
-                              DataType: BaseDataType
-                              ReferenceType: HasSource
-                              Children:
-                              - Name: DynamicLink
-                                Type: DynamicLink
-                                DataType: NodePath
-                                Value: "../../../../../../CircularGauge3/Value"
                 - Name: HorizontalLayout2
                   Type: RowLayout
                   Children:
@@ -578,24 +406,8 @@ Children:
                         Type: BaseDataVariableType
                         DataType: ResourceUri
                         Value: "ns=36;%PROJECTDIR%/imgs/white_tile_2.svg"
-                      - Name: TopMargin
-                        Type: BaseVariableType
-                        DataType: Size
-                        ModellingRule: Optional
-                        Value: 0.0
                     - Name: Label4
                       Type: Label
-                      Children:
-                      - Name: LeftMargin
-                        Type: BaseVariableType
-                        DataType: Size
-                        ModellingRule: Optional
-                        Value: 39.0
-                      - Name: TopMargin
-                        Type: BaseVariableType
-                        DataType: Size
-                        ModellingRule: Optional
-                        Value: 61.0
                     - Name: Label2
                       Type: Label
                       Children:
@@ -623,27 +435,7 @@ Children:
                                 - Name: DynamicLink
                                   Type: DynamicLink
                                   DataType: NodePath
-                                  Value: "../../../../../../CircularGauge2/Value"
-                      - Name: LeftMargin
-                        Type: BaseVariableType
-                        DataType: Size
-                        ModellingRule: Optional
-                        Value: 38.0
-                      - Name: TopMargin
-                        Type: BaseVariableType
-                        DataType: Size
-                        ModellingRule: Optional
-                        Value: 8.0
-                    - Name: LeftMargin
-                      Type: BaseVariableType
-                      DataType: Size
-                      ModellingRule: Optional
-                      Value: 520.0
-                    - Name: TopMargin
-                      Type: BaseVariableType
-                      DataType: Size
-                      ModellingRule: Optional
-                      Value: 266.0
+                                  Value: "../../../../../../../../HorizontalLayout1/CircularGauge1/Value"
                   - Name: R Phase
                     Type: Rectangle
                     Children:
@@ -654,24 +446,8 @@ Children:
                         Type: BaseDataVariableType
                         DataType: ResourceUri
                         Value: "ns=36;%PROJECTDIR%/imgs/white_tile_2.svg"
-                      - Name: TopMargin
-                        Type: BaseVariableType
-                        DataType: Size
-                        ModellingRule: Optional
-                        Value: 0.0
                     - Name: Label4
                       Type: Label
-                      Children:
-                      - Name: LeftMargin
-                        Type: BaseVariableType
-                        DataType: Size
-                        ModellingRule: Optional
-                        Value: 39.0
-                      - Name: TopMargin
-                        Type: BaseVariableType
-                        DataType: Size
-                        ModellingRule: Optional
-                        Value: 64.0
                     - Name: Label2
                       Type: Label
                       Children:
@@ -699,27 +475,7 @@ Children:
                                 - Name: DynamicLink
                                   Type: DynamicLink
                                   DataType: NodePath
-                                  Value: "../../../../../../CircularGauge1/Value"
-                      - Name: LeftMargin
-                        Type: BaseVariableType
-                        DataType: Size
-                        ModellingRule: Optional
-                        Value: 44.0
-                      - Name: TopMargin
-                        Type: BaseVariableType
-                        DataType: Size
-                        ModellingRule: Optional
-                        Value: 14.0
-                    - Name: LeftMargin
-                      Type: BaseVariableType
-                      DataType: Size
-                      ModellingRule: Optional
-                      Value: 81.0
-                    - Name: TopMargin
-                      Type: BaseVariableType
-                      DataType: Size
-                      ModellingRule: Optional
-                      Value: 268.0
+                                  Value: "../../../../../../../../HorizontalLayout1/CircularGauge2/Value"
                   - Name: B Phase
                     Type: Rectangle
                     Children:
@@ -730,24 +486,8 @@ Children:
                         Type: BaseDataVariableType
                         DataType: ResourceUri
                         Value: "ns=36;%PROJECTDIR%/imgs/white_tile_2.svg"
-                      - Name: TopMargin
-                        Type: BaseVariableType
-                        DataType: Size
-                        ModellingRule: Optional
-                        Value: 0.0
                     - Name: Label4
                       Type: Label
-                      Children:
-                      - Name: LeftMargin
-                        Type: BaseVariableType
-                        DataType: Size
-                        ModellingRule: Optional
-                        Value: 56.0
-                      - Name: TopMargin
-                        Type: BaseVariableType
-                        DataType: Size
-                        ModellingRule: Optional
-                        Value: 62.0
                     - Name: Label2
                       Type: Label
                       Children:
@@ -775,47 +515,7 @@ Children:
                                 - Name: DynamicLink
                                   Type: DynamicLink
                                   DataType: NodePath
-                                  Value: "../../../../../../CircularGauge3/Value"
-                      - Name: LeftMargin
-                        Type: BaseVariableType
-                        DataType: Size
-                        ModellingRule: Optional
-                        Value: 44.0
-                      - Name: TopMargin
-                        Type: BaseVariableType
-                        DataType: Size
-                        ModellingRule: Optional
-                        Value: 10.0
-                    - Name: LeftMargin
-                      Type: BaseVariableType
-                      DataType: Size
-                      ModellingRule: Optional
-                      Value: 931.0
-                    - Name: TopMargin
-                      Type: BaseVariableType
-                      DataType: Size
-                      ModellingRule: Optional
-                      Value: 268.0
-            - Name: VerticalAlignment
-              Type: BaseVariableType
-              DataType: VerticalAlignment
-              ModellingRule: Optional
-              Value: 3
-            - Name: RightMargin
-              Type: BaseVariableType
-              DataType: Size
-              ModellingRule: Optional
-              Value: 0.0
-          - Name: VerticalAlignment
-            Type: BaseVariableType
-            DataType: VerticalAlignment
-            ModellingRule: Optional
-            Value: 3
-          - Name: RightMargin
-            Type: BaseVariableType
-            DataType: Size
-            ModellingRule: Optional
-            Value: -360.0
+                                  Value: "../../../../../../../../HorizontalLayout1/CircularGauge3/Value"
         - Name: Average Current
           Type: Rectangle
           Children:
@@ -832,38 +532,6 @@ Children:
                   Type: BaseDataVariableType
                   DataType: ResourceUri
                   Value: "ns=36;%PROJECTDIR%/imgs/Screenshot (192).png"
-                - Name: RightMargin
-                  Type: BaseVariableType
-                  DataType: Size
-                  ModellingRule: Optional
-                  Value: 10.0
-              - Name: Label1
-                Type: Label
-                Children:
-                - Name: Text
-                  Type: BaseDataVariableType
-                  DataType: LocalizedText
-                  ModellingRule: Optional
-                  Value: {"LocaleId":"en-US","Text":"Average Current"}
-                - Name: HorizontalAlignment
-                  Type: BaseVariableType
-                  DataType: HorizontalAlignment
-                  ModellingRule: Optional
-                  Value: 2
-                - Name: VerticalAlignment
-                  Type: BaseVariableType
-                  DataType: VerticalAlignment
-                  ModellingRule: Optional
-                  Value: 2
-                - Name: WordWrap
-                  Type: BaseDataVariableType
-                  DataType: Boolean
-                  Value: false
-                - Name: FontSize
-                  Type: BaseDataVariableType
-                  DataType: Size
-                  ModellingRule: Optional
-                  Value: 30.0
               - Name: Label2
                 Type: Label
             - Name: Gauges
@@ -894,7 +562,7 @@ Children:
                           - Name: DynamicLink
                             Type: DynamicLink
                             DataType: NodePath
-                            Value: ""
+                            Value: "/Objects/Tata_Energy_Management/Model/Tags/RealTimePanelTags/33KVMeters/Incomer1/Avg_Current"
                     - Name: MinValue
                       Type: BaseDataVariableType
                       DataType: Float
@@ -934,24 +602,8 @@ Children:
                         Type: BaseDataVariableType
                         DataType: ResourceUri
                         Value: "ns=36;%PROJECTDIR%/imgs/white_tile_2.svg"
-                      - Name: TopMargin
-                        Type: BaseVariableType
-                        DataType: Size
-                        ModellingRule: Optional
-                        Value: 0.0
                     - Name: Label4
                       Type: Label
-                      Children:
-                      - Name: LeftMargin
-                        Type: BaseVariableType
-                        DataType: Size
-                        ModellingRule: Optional
-                        Value: 43.0
-                      - Name: TopMargin
-                        Type: BaseVariableType
-                        DataType: Size
-                        ModellingRule: Optional
-                        Value: 63.0
                     - Name: Label2
                       Type: Label
                       Children:
@@ -979,62 +631,7 @@ Children:
                                 - Name: DynamicLink
                                   Type: DynamicLink
                                   DataType: NodePath
-                                  Value: "../../../../../../CircularGauge3/Value"
-                      - Name: LeftMargin
-                        Type: BaseVariableType
-                        DataType: Size
-                        ModellingRule: Optional
-                        Value: 45.0
-                      - Name: TopMargin
-                        Type: BaseVariableType
-                        DataType: Size
-                        ModellingRule: Optional
-                        Value: 15.0
-                    - Name: LeftMargin
-                      Type: BaseVariableType
-                      DataType: Size
-                      ModellingRule: Optional
-                      Value: 151.0
-                    - Name: TopMargin
-                      Type: BaseVariableType
-                      DataType: Size
-                      ModellingRule: Optional
-                      Value: 259.0
-              - Name: VerticalAlignment
-                Type: BaseVariableType
-                DataType: VerticalAlignment
-                ModellingRule: Optional
-                Value: 3
-            - Name: VerticalAlignment
-              Type: BaseVariableType
-              DataType: VerticalAlignment
-              ModellingRule: Optional
-              Value: 3
-            - Name: HorizontalAlignment
-              Type: BaseVariableType
-              DataType: HorizontalAlignment
-              ModellingRule: Optional
-              Value: 3
-            - Name: LeftMargin
-              Type: BaseVariableType
-              DataType: Size
-              ModellingRule: Optional
-              Value: 10.0
-          - Name: VerticalAlignment
-            Type: BaseVariableType
-            DataType: VerticalAlignment
-            ModellingRule: Optional
-            Value: 3
-          - Name: LeftMargin
-            Type: BaseVariableType
-            DataType: Size
-            ModellingRule: Optional
-            Value: 380.0
-        - Name: Height
-          Type: BaseVariableType
-          DataType: Size
-          ModellingRule: Optional
-          Value: 470.0
+                                  Value: "../../../../../../../../HorizontalLayout1/CircularGauge4/Value"
       - Name: HorizontalLayout2
         Type: RowLayout
         Children:
@@ -1060,11 +657,6 @@ Children:
           - Class: Reference
             Target: g=02aedbd508d81fd01e14b0bfada9c2fa
             Direction: Forward
-  - Name: Height
-    Type: BaseVariableType
-    DataType: Size
-    ModellingRule: Optional
-    Value: 900.0
 - Name: Voltage_Panel203
   Id: g=9bcae33e2dd13f11e3933013b2a08226
   Supertype: Voltage_Panel

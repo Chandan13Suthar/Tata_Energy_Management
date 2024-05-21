@@ -938,7 +938,7 @@ Children:
       Type: BaseVariableType
       DataType: Size
       ModellingRule: Optional
-      Value: 760.0
+      Value: 940.0
     - Name: HorizontalAlignment
       Type: BaseVariableType
       DataType: HorizontalAlignment
@@ -1006,7 +1006,7 @@ Children:
           Type: BaseVariableType
           DataType: Size
           ModellingRule: Optional
-          Value: 320.0
+          Value: 340.0
         - Name: HorizontalAlignment
           Type: BaseVariableType
           DataType: HorizontalAlignment
@@ -1024,7 +1024,7 @@ Children:
             Type: BaseVariableType
             DataType: Size
             ModellingRule: Optional
-            Value: 320.0
+            Value: 340.0
           - Name: BorderThickness
             Type: BaseDataVariableType
             DataType: Size
@@ -1057,7 +1057,7 @@ Children:
               Type: BaseVariableType
               DataType: Size
               ModellingRule: Optional
-              Value: 320.0
+              Value: 340.0
             - Name: HorizontalAlignment
               Type: BaseVariableType
               DataType: HorizontalAlignment
@@ -1334,6 +1334,11 @@ Children:
                       DataType: String
                       ModellingRule: Optional
                       Value: "TooltipStyle2"
+                    - Name: GaugeStyle
+                      Type: BaseDataVariableType
+                      DataType: String
+                      ModellingRule: Optional
+                      Value: "GaugeStyle2"
                   - Name: CircularGauge2
                     Type: CircularGauge
                     Children:
@@ -1417,7 +1422,7 @@ Children:
                       Type: BaseVariableType
                       DataType: Size
                       ModellingRule: Optional
-                      Value: 10.0
+                      Value: 30.0
                     - Name: Editable
                       Type: BaseDataVariableType
                       DataType: Boolean
@@ -1453,6 +1458,16 @@ Children:
                       DataType: String
                       ModellingRule: Optional
                       Value: "TooltipStyle2"
+                    - Name: HorizontalAlignment
+                      Type: BaseVariableType
+                      DataType: HorizontalAlignment
+                      ModellingRule: Optional
+                      Value: 2
+                    - Name: GaugeStyle
+                      Type: BaseDataVariableType
+                      DataType: String
+                      ModellingRule: Optional
+                      Value: "GaugeStyle2"
                   - Name: CircularGauge3
                     Type: CircularGauge
                     Children:
@@ -1521,7 +1536,7 @@ Children:
                       Type: BaseVariableType
                       DataType: Size
                       ModellingRule: Optional
-                      Value: 170.0
+                      Value: 189.0
                     - Name: Height
                       Type: BaseVariableType
                       DataType: Size
@@ -1531,12 +1546,12 @@ Children:
                       Type: BaseVariableType
                       DataType: Size
                       ModellingRule: Optional
-                      Value: 220.0
+                      Value: 260.0
                     - Name: TopMargin
                       Type: BaseVariableType
                       DataType: Size
                       ModellingRule: Optional
-                      Value: 10.0
+                      Value: 30.0
                     - Name: Editable
                       Type: BaseDataVariableType
                       DataType: Boolean
@@ -1576,453 +1591,22 @@ Children:
                       Type: BaseVariableType
                       DataType: Size
                       ModellingRule: Optional
-                      Value: 881.0
-                  - Name: CircularGauge4
-                    Type: CircularGauge
-                    Children:
-                    - Name: Value
+                      Value: 120.0
+                    - Name: GaugeStyle
                       Type: BaseDataVariableType
-                      DataType: Float
-                      Value: 0.0
-                    - Name: MinValue
-                      Type: BaseDataVariableType
-                      DataType: Float
-                      Value: 0.0
-                    - Name: MaxValue
-                      Type: BaseDataVariableType
-                      DataType: Float
-                      Value: 1000.0
-                    - Name: WarningZones
-                      Type: BaseObjectType
-                      Children:
-                      - Name: WarningZone1
-                        Type: WarningZone
-                        Children:
-                        - Name: From
-                          Type: BaseDataVariableType
-                          DataType: Float
-                          Value: 0.0
-                        - Name: To
-                          Type: BaseDataVariableType
-                          DataType: Float
-                          Value: 100.0
-                        - Name: Color
-                          Type: BaseDataVariableType
-                          DataType: Color
-                          Value: "#000000"
-                    - Name: Width
-                      Type: BaseVariableType
-                      DataType: Size
+                      DataType: String
                       ModellingRule: Optional
-                      Value: 170.0
-                    - Name: Height
-                      Type: BaseVariableType
-                      DataType: Size
-                      ModellingRule: Optional
-                      Value: 162.0
-                    - Name: LeftMargin
-                      Type: BaseVariableType
-                      DataType: Size
-                      ModellingRule: Optional
-                      Value: 1070.0
-                    - Name: TopMargin
-                      Type: BaseVariableType
-                      DataType: Size
-                      ModellingRule: Optional
-                      Value: 57.0
-                    - Name: Editable
-                      Type: BaseDataVariableType
-                      DataType: Boolean
-                      ModellingRule: Optional
-                      Value: false
-                    - Name: ValueChangeBehaviour
-                      Type: BaseDataVariableType
-                      DataType: ValueChangeBehaviour
-                      ModellingRule: Optional
-                      Value: 1
-                    - Name: Tooltip
-                      Type: BaseDataVariableType
-                      DataType: Boolean
-                      ModellingRule: Optional
-                      Value: false
-                    - Name: MajorTickCount
-                      Type: BaseDataVariableType
-                      DataType: Float
-                      ModellingRule: Optional
-                      Value: 11.0
-                    - Name: MinorTickCount
-                      Type: BaseDataVariableType
-                      DataType: Float
-                      ModellingRule: Optional
-                      Value: 0.0
-                    - Name: ScalePadding
-                      Type: BaseDataVariableType
-                      DataType: Size
-                      ModellingRule: Optional
-                      Value: 35.0
-                    - Name: HorizontalAlignment
-                      Type: BaseVariableType
-                      DataType: HorizontalAlignment
-                      ModellingRule: Optional
-                      Value: 1
-                    - Name: RightMargin
-                      Type: BaseVariableType
-                      DataType: Size
-                      ModellingRule: Optional
-                      Value: 350.0
-                  - Name: Label4
-                    Type: Label
-                    Children:
-                    - Name: Text
-                      Type: BaseDataVariableType
-                      DataType: LocalizedText
-                      ModellingRule: Optional
-                      Value: {"LocaleId":"en-US","Text":"Average Current"}
-                    - Name: LeftMargin
-                      Type: BaseVariableType
-                      DataType: Size
-                      ModellingRule: Optional
-                      Value: 1100.0
-                    - Name: TopMargin
-                      Type: BaseVariableType
-                      DataType: Size
-                      ModellingRule: Optional
-                      Value: 200.0
-                    - Name: HorizontalAlignment
-                      Type: BaseVariableType
-                      DataType: HorizontalAlignment
-                      ModellingRule: Optional
-                      Value: 1
-                    - Name: RightMargin
-                      Type: BaseVariableType
-                      DataType: Size
-                      ModellingRule: Optional
-                      Value: 399.0
-                    - Name: TextHorizontalAlignment
-                      Type: BaseVariableType
-                      DataType: TextHorizontalAlignment
-                      ModellingRule: Optional
-                      Value: 1
-                    - Name: TextColor
-                      Type: BaseDataVariableType
-                      DataType: Color
-                      ModellingRule: Optional
-                      Value: "#000000"
-                  - Name: Label5
-                    Type: Label
-                    Children:
-                    - Name: Text
-                      Type: BaseDataVariableType
-                      DataType: LocalizedText
-                      Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
-                      Children:
-                      - Name: StringFormatter2
-                        Type: StringFormatter
-                        Children:
-                        - Name: Format
-                          Type: BaseDataVariableType
-                          DataType: LocalizedText
-                          ReferenceType: HasParameter
-                          ModellingRule: Optional
-                          Value: {"LocaleId":"en-US","Text":"{0} Amp"}
-                        - Name: ns=3;Source0
-                          Type: BaseDataVariableType
-                          DataType: BaseDataType
-                          ReferenceType: HasSource
-                          Children:
-                          - Name: StringFormatter1
-                            Type: StringFormatter
-                            Children:
-                            - Name: Format
-                              Type: BaseDataVariableType
-                              DataType: LocalizedText
-                              ReferenceType: HasParameter
-                              ModellingRule: Optional
-                              Value: {"LocaleId":"","Text":"{0:n2}"}
-                            - Name: ns=3;Source0
-                              Type: BaseDataVariableType
-                              DataType: BaseDataType
-                              ReferenceType: HasSource
-                              Children:
-                              - Name: DynamicLink
-                                Type: DynamicLink
-                                DataType: NodePath
-                                Value: "../../../../../../CircularGauge1/Value"
-                    - Name: Width
-                      Type: BaseVariableType
-                      DataType: Size
-                      ModellingRule: Optional
-                      Value: 81.0
-                    - Name: Height
-                      Type: BaseVariableType
-                      DataType: Size
-                      ModellingRule: Optional
-                      Value: 20.0
-                    - Name: LeftMargin
-                      Type: BaseVariableType
-                      DataType: Size
-                      ModellingRule: Optional
-                      Value: 101.0
-                    - Name: TopMargin
-                      Type: BaseVariableType
-                      DataType: Size
-                      ModellingRule: Optional
-                      Value: 189.0
-                    - Name: TextColor
-                      Type: BaseDataVariableType
-                      DataType: Color
-                      ModellingRule: Optional
-                      Value: "#000000"
-                    - Name: TextHorizontalAlignment
-                      Type: BaseVariableType
-                      DataType: TextHorizontalAlignment
-                      ModellingRule: Optional
-                      Value: 1
-                    - Name: TextVerticalAlignment
-                      Type: BaseVariableType
-                      DataType: TextVerticalAlignment
-                      ModellingRule: Optional
-                      Value: 1
-                  - Name: Label6
-                    Type: Label
-                    Children:
-                    - Name: Text
-                      Type: BaseDataVariableType
-                      DataType: LocalizedText
-                      Value: {"LocaleId":"en-US","Text":""}
-                      Children:
-                      - Name: StringFormatter2
-                        Type: StringFormatter
-                        Children:
-                        - Name: Format
-                          Type: BaseDataVariableType
-                          DataType: LocalizedText
-                          ReferenceType: HasParameter
-                          ModellingRule: Optional
-                          Value: {"LocaleId":"en-US","Text":"{0} Amp"}
-                        - Name: ns=3;Source0
-                          Type: BaseDataVariableType
-                          DataType: BaseDataType
-                          ReferenceType: HasSource
-                          Children:
-                          - Name: StringFormatter1
-                            Type: StringFormatter
-                            Children:
-                            - Name: Format
-                              Type: BaseDataVariableType
-                              DataType: LocalizedText
-                              ReferenceType: HasParameter
-                              ModellingRule: Optional
-                              Value: {"LocaleId":"","Text":"{0:n2}"}
-                            - Name: ns=3;Source0
-                              Type: BaseDataVariableType
-                              DataType: BaseDataType
-                              ReferenceType: HasSource
-                              Children:
-                              - Name: DynamicLink
-                                Type: DynamicLink
-                                DataType: NodePath
-                                Value: "../../../../../../CircularGauge2/Value"
-                    - Name: Width
-                      Type: BaseVariableType
-                      DataType: Size
-                      ModellingRule: Optional
-                      Value: 81.0
-                    - Name: Height
-                      Type: BaseVariableType
-                      DataType: Size
-                      ModellingRule: Optional
-                      Value: 20.0
-                    - Name: LeftMargin
-                      Type: BaseVariableType
-                      DataType: Size
-                      ModellingRule: Optional
-                      Value: 491.0
-                    - Name: TopMargin
-                      Type: BaseVariableType
-                      DataType: Size
-                      ModellingRule: Optional
-                      Value: 189.0
-                    - Name: TextColor
-                      Type: BaseDataVariableType
-                      DataType: Color
-                      ModellingRule: Optional
-                      Value: "#000000"
-                    - Name: TextHorizontalAlignment
-                      Type: BaseVariableType
-                      DataType: TextHorizontalAlignment
-                      ModellingRule: Optional
-                      Value: 1
-                    - Name: TextVerticalAlignment
-                      Type: BaseVariableType
-                      DataType: TextVerticalAlignment
-                      ModellingRule: Optional
-                      Value: 1
-                  - Name: Label8
-                    Type: Label
-                    Children:
-                    - Name: Text
-                      Type: BaseDataVariableType
-                      DataType: LocalizedText
-                      Value: {"LocaleId":"en-US","Text":""}
-                      Children:
-                      - Name: StringFormatter2
-                        Type: StringFormatter
-                        Children:
-                        - Name: Format
-                          Type: BaseDataVariableType
-                          DataType: LocalizedText
-                          ReferenceType: HasParameter
-                          ModellingRule: Optional
-                          Value: {"LocaleId":"en-US","Text":"{0} Amp"}
-                        - Name: ns=3;Source0
-                          Type: BaseDataVariableType
-                          DataType: BaseDataType
-                          ReferenceType: HasSource
-                          Children:
-                          - Name: StringFormatter1
-                            Type: StringFormatter
-                            Children:
-                            - Name: Format
-                              Type: BaseDataVariableType
-                              DataType: LocalizedText
-                              ReferenceType: HasParameter
-                              ModellingRule: Optional
-                              Value: {"LocaleId":"","Text":"{0:n2}"}
-                            - Name: ns=3;Source0
-                              Type: BaseDataVariableType
-                              DataType: BaseDataType
-                              ReferenceType: HasSource
-                              Children:
-                              - Name: DynamicLink
-                                Type: DynamicLink
-                                DataType: NodePath
-                                Value: "../../../../../../CircularGauge4/Value"
-                    - Name: Width
-                      Type: BaseVariableType
-                      DataType: Size
-                      ModellingRule: Optional
-                      Value: 81.0
-                    - Name: Height
-                      Type: BaseVariableType
-                      DataType: Size
-                      ModellingRule: Optional
-                      Value: 20.0
-                    - Name: LeftMargin
-                      Type: BaseVariableType
-                      DataType: Size
-                      ModellingRule: Optional
-                      Value: 1320.0
-                    - Name: TopMargin
-                      Type: BaseVariableType
-                      DataType: Size
-                      ModellingRule: Optional
-                      Value: 190.0
-                    - Name: TextColor
-                      Type: BaseDataVariableType
-                      DataType: Color
-                      ModellingRule: Optional
-                      Value: "#000000"
-                    - Name: TextHorizontalAlignment
-                      Type: BaseVariableType
-                      DataType: TextHorizontalAlignment
-                      ModellingRule: Optional
-                      Value: 1
-                    - Name: TextVerticalAlignment
-                      Type: BaseVariableType
-                      DataType: TextVerticalAlignment
-                      ModellingRule: Optional
-                      Value: 1
-                  - Name: Label7
-                    Type: Label
-                    Children:
-                    - Name: Text
-                      Type: BaseDataVariableType
-                      DataType: LocalizedText
-                      Value: {"LocaleId":"en-US","Text":""}
-                      Children:
-                      - Name: StringFormatter2
-                        Type: StringFormatter
-                        Children:
-                        - Name: Format
-                          Type: BaseDataVariableType
-                          DataType: LocalizedText
-                          ReferenceType: HasParameter
-                          ModellingRule: Optional
-                          Value: {"LocaleId":"en-US","Text":"{0} Amp"}
-                        - Name: ns=3;Source0
-                          Type: BaseDataVariableType
-                          DataType: BaseDataType
-                          ReferenceType: HasSource
-                          Children:
-                          - Name: StringFormatter1
-                            Type: StringFormatter
-                            Children:
-                            - Name: Format
-                              Type: BaseDataVariableType
-                              DataType: LocalizedText
-                              ReferenceType: HasParameter
-                              ModellingRule: Optional
-                              Value: {"LocaleId":"","Text":"{0:n2}"}
-                            - Name: ns=3;Source0
-                              Type: BaseDataVariableType
-                              DataType: BaseDataType
-                              ReferenceType: HasSource
-                              Children:
-                              - Name: DynamicLink
-                                Type: DynamicLink
-                                DataType: NodePath
-                                Value: "../../../../../../CircularGauge3/Value"
-                    - Name: Width
-                      Type: BaseVariableType
-                      DataType: Size
-                      ModellingRule: Optional
-                      Value: 81.0
-                    - Name: Height
-                      Type: BaseVariableType
-                      DataType: Size
-                      ModellingRule: Optional
-                      Value: 20.0
-                    - Name: LeftMargin
-                      Type: BaseVariableType
-                      DataType: Size
-                      ModellingRule: Optional
-                      Value: 1271.0
-                    - Name: TopMargin
-                      Type: BaseVariableType
-                      DataType: Size
-                      ModellingRule: Optional
-                      Value: 193.0
-                    - Name: TextColor
-                      Type: BaseDataVariableType
-                      DataType: Color
-                      ModellingRule: Optional
-                      Value: "#ffffff"
-                    - Name: TextHorizontalAlignment
-                      Type: BaseVariableType
-                      DataType: TextHorizontalAlignment
-                      ModellingRule: Optional
-                      Value: 1
-                    - Name: TextVerticalAlignment
-                      Type: BaseVariableType
-                      DataType: TextVerticalAlignment
-                      ModellingRule: Optional
-                      Value: 1
-                    - Name: HorizontalAlignment
-                      Type: BaseVariableType
-                      DataType: HorizontalAlignment
-                      ModellingRule: Optional
-                      Value: 1
-                    - Name: RightMargin
-                      Type: BaseVariableType
-                      DataType: Size
-                      ModellingRule: Optional
-                      Value: 926.0
+                      Value: "GaugeStyle2"
                   - Name: BottomMargin
                     Type: BaseVariableType
                     DataType: Size
                     ModellingRule: Optional
-                    Value: -34.0
+                    Value: -60.0
+                  - Name: ContentAlignment
+                    Type: BaseVariableType
+                    DataType: ContentHorizontalAlignment
+                    ModellingRule: Optional
+                    Value: 1
                 - Name: HorizontalLayout2
                   Type: RowLayout
                   Children:
@@ -2063,7 +1647,7 @@ Children:
                       Type: BaseVariableType
                       DataType: Size
                       ModellingRule: Optional
-                      Value: 10.0
+                      Value: 5.0
                     - Name: BorderColor
                       Type: BaseDataVariableType
                       DataType: Color
@@ -2110,7 +1694,7 @@ Children:
                         Type: BaseVariableType
                         DataType: Size
                         ModellingRule: Optional
-                        Value: 11.0
+                        Value: 0.0
                       - Name: HorizontalAlignment
                         Type: BaseVariableType
                         DataType: HorizontalAlignment
@@ -2138,17 +1722,17 @@ Children:
                         Type: BaseDataVariableType
                         DataType: LocalizedText
                         ModellingRule: Optional
-                        Value: {"LocaleId":"en-US","Text":"Phase - Y - Current"}
+                        Value: {"LocaleId":"en-US","Text":"Phase - R - Current"}
                       - Name: LeftMargin
                         Type: BaseVariableType
                         DataType: Size
                         ModellingRule: Optional
-                        Value: 39.0
+                        Value: 0.0
                       - Name: TopMargin
                         Type: BaseVariableType
                         DataType: Size
                         ModellingRule: Optional
-                        Value: 34.0
+                        Value: 30.0
                       - Name: FontSize
                         Type: BaseDataVariableType
                         DataType: Size
@@ -2164,6 +1748,11 @@ Children:
                         DataType: Color
                         ModellingRule: Optional
                         Value: "#01042c"
+                      - Name: HorizontalAlignment
+                        Type: BaseVariableType
+                        DataType: HorizontalAlignment
+                        ModellingRule: Optional
+                        Value: 2
                     - Name: Label2
                       Type: Label
                       Children:
@@ -2203,17 +1792,17 @@ Children:
                                 - Name: DynamicLink
                                   Type: DynamicLink
                                   DataType: NodePath
-                                  Value: "../../../../../../CircularGauge2/Value"
+                                  Value: "../../../../../../../../HorizontalLayout1/CircularGauge1/Value"
                       - Name: HorizontalAlignment
                         Type: BaseVariableType
                         DataType: HorizontalAlignment
                         ModellingRule: Optional
-                        Value: 0
+                        Value: 2
                       - Name: LeftMargin
                         Type: BaseVariableType
                         DataType: Size
                         ModellingRule: Optional
-                        Value: 44.0
+                        Value: 0.0
                       - Name: TopMargin
                         Type: BaseVariableType
                         DataType: Size
@@ -2291,7 +1880,7 @@ Children:
                       Type: BaseVariableType
                       DataType: Size
                       ModellingRule: Optional
-                      Value: 10.0
+                      Value: 5.0
                     - Name: BorderColor
                       Type: BaseDataVariableType
                       DataType: Color
@@ -2338,7 +1927,7 @@ Children:
                         Type: BaseVariableType
                         DataType: Size
                         ModellingRule: Optional
-                        Value: 11.0
+                        Value: 0.0
                       - Name: HorizontalAlignment
                         Type: BaseVariableType
                         DataType: HorizontalAlignment
@@ -2366,17 +1955,17 @@ Children:
                         Type: BaseDataVariableType
                         DataType: LocalizedText
                         ModellingRule: Optional
-                        Value: {"LocaleId":"en-US","Text":"Phase - R - Current"}
+                        Value: {"LocaleId":"en-US","Text":"Phase - Y - Current"}
                       - Name: LeftMargin
                         Type: BaseVariableType
                         DataType: Size
                         ModellingRule: Optional
-                        Value: 39.0
+                        Value: 0.0
                       - Name: TopMargin
                         Type: BaseVariableType
                         DataType: Size
                         ModellingRule: Optional
-                        Value: 40.0
+                        Value: 30.0
                       - Name: FontSize
                         Type: BaseDataVariableType
                         DataType: Size
@@ -2392,6 +1981,11 @@ Children:
                         DataType: Color
                         ModellingRule: Optional
                         Value: "#01042c"
+                      - Name: HorizontalAlignment
+                        Type: BaseVariableType
+                        DataType: HorizontalAlignment
+                        ModellingRule: Optional
+                        Value: 2
                     - Name: Label2
                       Type: Label
                       Children:
@@ -2431,17 +2025,17 @@ Children:
                                 - Name: DynamicLink
                                   Type: DynamicLink
                                   DataType: NodePath
-                                  Value: "../../../../../../CircularGauge1/Value"
+                                  Value: "../../../../../../../../HorizontalLayout1/CircularGauge2/Value"
                       - Name: HorizontalAlignment
                         Type: BaseVariableType
                         DataType: HorizontalAlignment
                         ModellingRule: Optional
-                        Value: 0
+                        Value: 2
                       - Name: LeftMargin
                         Type: BaseVariableType
                         DataType: Size
                         ModellingRule: Optional
-                        Value: 44.0
+                        Value: 0.0
                       - Name: TopMargin
                         Type: BaseVariableType
                         DataType: Size
@@ -2519,7 +2113,7 @@ Children:
                       Type: BaseVariableType
                       DataType: Size
                       ModellingRule: Optional
-                      Value: 10.0
+                      Value: 5.0
                     - Name: BorderColor
                       Type: BaseDataVariableType
                       DataType: Color
@@ -2566,7 +2160,7 @@ Children:
                         Type: BaseVariableType
                         DataType: Size
                         ModellingRule: Optional
-                        Value: 11.0
+                        Value: 0.0
                       - Name: HorizontalAlignment
                         Type: BaseVariableType
                         DataType: HorizontalAlignment
@@ -2594,17 +2188,17 @@ Children:
                         Type: BaseDataVariableType
                         DataType: LocalizedText
                         ModellingRule: Optional
-                        Value: {"LocaleId":"en-US","Text":"Phase - Y - Current"}
+                        Value: {"LocaleId":"en-US","Text":"Phase - B - Current"}
                       - Name: LeftMargin
                         Type: BaseVariableType
                         DataType: Size
                         ModellingRule: Optional
-                        Value: 56.0
+                        Value: 0.0
                       - Name: TopMargin
                         Type: BaseVariableType
                         DataType: Size
                         ModellingRule: Optional
-                        Value: 43.0
+                        Value: 30.0
                       - Name: FontSize
                         Type: BaseDataVariableType
                         DataType: Size
@@ -2620,6 +2214,11 @@ Children:
                         DataType: Color
                         ModellingRule: Optional
                         Value: "#01042c"
+                      - Name: HorizontalAlignment
+                        Type: BaseVariableType
+                        DataType: HorizontalAlignment
+                        ModellingRule: Optional
+                        Value: 2
                     - Name: Label2
                       Type: Label
                       Children:
@@ -2659,17 +2258,17 @@ Children:
                                 - Name: DynamicLink
                                   Type: DynamicLink
                                   DataType: NodePath
-                                  Value: "../../../../../../CircularGauge3/Value"
+                                  Value: "../../../../../../../../HorizontalLayout1/CircularGauge3/Value"
                       - Name: HorizontalAlignment
                         Type: BaseVariableType
                         DataType: HorizontalAlignment
                         ModellingRule: Optional
-                        Value: 0
+                        Value: 2
                       - Name: LeftMargin
                         Type: BaseVariableType
                         DataType: Size
                         ModellingRule: Optional
-                        Value: 44.0
+                        Value: 0.0
                       - Name: TopMargin
                         Type: BaseVariableType
                         DataType: Size
@@ -2734,7 +2333,7 @@ Children:
                     Type: BaseVariableType
                     DataType: Size
                     ModellingRule: Optional
-                    Value: 40.0
+                    Value: 60.0
                   - Name: BottomMargin
                     Type: BaseVariableType
                     DataType: Size
@@ -2750,6 +2349,26 @@ Children:
                   DataType: VerticalAlignment
                   ModellingRule: Optional
                   Value: 3
+                - Name: TopMargin
+                  Type: BaseVariableType
+                  DataType: Size
+                  ModellingRule: Optional
+                  Value: 0.0
+              - Name: VerticalAlignment
+                Type: BaseVariableType
+                DataType: VerticalAlignment
+                ModellingRule: Optional
+                Value: 3
+            - Name: VerticalAlignment
+              Type: BaseVariableType
+              DataType: VerticalAlignment
+              ModellingRule: Optional
+              Value: 3
+          - Name: VerticalAlignment
+            Type: BaseVariableType
+            DataType: VerticalAlignment
+            ModellingRule: Optional
+            Value: 3
         - Name: Average Current
           Type: Rectangle
           Children:
@@ -2762,7 +2381,7 @@ Children:
             Type: BaseVariableType
             DataType: Size
             ModellingRule: Optional
-            Value: 320.0
+            Value: 340.0
           - Name: BorderThickness
             Type: BaseDataVariableType
             DataType: Size
@@ -3056,12 +2675,12 @@ Children:
                       Type: BaseVariableType
                       DataType: Size
                       ModellingRule: Optional
-                      Value: 250.0
+                      Value: 0.0
                     - Name: TopMargin
                       Type: BaseVariableType
                       DataType: Size
                       ModellingRule: Optional
-                      Value: 10.0
+                      Value: 30.0
                     - Name: Editable
                       Type: BaseDataVariableType
                       DataType: Boolean
@@ -3096,17 +2715,27 @@ Children:
                       Type: BaseVariableType
                       DataType: HorizontalAlignment
                       ModellingRule: Optional
-                      Value: 1
+                      Value: 2
                     - Name: RightMargin
                       Type: BaseVariableType
                       DataType: Size
                       ModellingRule: Optional
-                      Value: 200.0
+                      Value: 0.0
+                    - Name: GaugeStyle
+                      Type: BaseDataVariableType
+                      DataType: String
+                      ModellingRule: Optional
+                      Value: "GaugeStyle2"
                   - Name: BottomMargin
                     Type: BaseVariableType
                     DataType: Size
                     ModellingRule: Optional
-                    Value: -24.0
+                    Value: -60.0
+                  - Name: ContentAlignment
+                    Type: BaseVariableType
+                    DataType: ContentHorizontalAlignment
+                    ModellingRule: Optional
+                    Value: 1
                 - Name: HorizontalLayout2
                   Type: RowLayout
                   Children:
@@ -3134,7 +2763,7 @@ Children:
                     Type: BaseVariableType
                     DataType: Size
                     ModellingRule: Optional
-                    Value: 34.0
+                    Value: 60.0
                   - Name: Average Current
                     Type: Rectangle
                     Children:
@@ -3157,7 +2786,7 @@ Children:
                       Type: BaseVariableType
                       DataType: Size
                       ModellingRule: Optional
-                      Value: 150.0
+                      Value: 130.0
                     - Name: TopMargin
                       Type: BaseVariableType
                       DataType: Size
@@ -3209,7 +2838,7 @@ Children:
                         Type: BaseVariableType
                         DataType: Size
                         ModellingRule: Optional
-                        Value: 11.0
+                        Value: 0.0
                       - Name: HorizontalAlignment
                         Type: BaseVariableType
                         DataType: HorizontalAlignment
@@ -3242,12 +2871,12 @@ Children:
                         Type: BaseVariableType
                         DataType: Size
                         ModellingRule: Optional
-                        Value: 59.0
+                        Value: 0.0
                       - Name: TopMargin
                         Type: BaseVariableType
                         DataType: Size
                         ModellingRule: Optional
-                        Value: 50.0
+                        Value: 30.0
                       - Name: FontSize
                         Type: BaseDataVariableType
                         DataType: Size
@@ -3263,6 +2892,11 @@ Children:
                         DataType: Color
                         ModellingRule: Optional
                         Value: "#01042c"
+                      - Name: HorizontalAlignment
+                        Type: BaseVariableType
+                        DataType: HorizontalAlignment
+                        ModellingRule: Optional
+                        Value: 2
                     - Name: Label2
                       Type: Label
                       Children:
@@ -3302,22 +2936,22 @@ Children:
                                 - Name: DynamicLink
                                   Type: DynamicLink
                                   DataType: NodePath
-                                  Value: "../../../../../../CircularGauge3/Value"
+                                  Value: "../../../../../../../../HorizontalLayout1/CircularGauge4/Value"
                       - Name: HorizontalAlignment
                         Type: BaseVariableType
                         DataType: HorizontalAlignment
                         ModellingRule: Optional
-                        Value: 0
+                        Value: 2
                       - Name: LeftMargin
                         Type: BaseVariableType
                         DataType: Size
                         ModellingRule: Optional
-                        Value: 55.0
+                        Value: 0.0
                       - Name: TopMargin
                         Type: BaseVariableType
                         DataType: Size
                         ModellingRule: Optional
-                        Value: 10.0
+                        Value: 0.0
                       - Name: FontSize
                         Type: BaseDataVariableType
                         DataType: Size
@@ -3362,7 +2996,12 @@ Children:
                     Type: BaseVariableType
                     DataType: Size
                     ModellingRule: Optional
-                    Value: 11.0
+                    Value: 0.0
+                  - Name: ContentAlignment
+                    Type: BaseVariableType
+                    DataType: ContentHorizontalAlignment
+                    ModellingRule: Optional
+                    Value: 1
       - Name: HorizontalLayout2
         Type: RowLayout
         Children:
@@ -3385,7 +3024,7 @@ Children:
           Type: BaseVariableType
           DataType: Size
           ModellingRule: Optional
-          Value: 340.0
+          Value: 350.0
         - Name: HorizontalAlignment
           Type: BaseVariableType
           DataType: HorizontalAlignment
@@ -3400,7 +3039,7 @@ Children:
           Type: BaseVariableType
           DataType: Size
           ModellingRule: Optional
-          Value: 200.0
+          Value: 100.0
         - Name: WebBrowser
           Type: WebBrowser
           Children:
@@ -3585,6 +3224,11 @@ Children:
           DataType: Size
           ModellingRule: Optional
           Value: 30.0
+        - Name: VerticalAlignment
+          Type: BaseVariableType
+          DataType: VerticalAlignment
+          ModellingRule: Optional
+          Value: 3
       - Name: eChartTest4Logic
         Type: NetLogic
         Children:
@@ -6946,7 +6590,7 @@ Children:
               Type: BaseVariableType
               DataType: Size
               ModellingRule: Optional
-              Value: 878.0
+              Value: 894.0
             - Name: RightMargin
               Type: BaseVariableType
               DataType: Size
@@ -6956,7 +6600,7 @@ Children:
               Type: BaseVariableType
               DataType: Size
               ModellingRule: Optional
-              Value: 338.0
+              Value: 314.0
             - Name: BottomMargin
               Type: BaseVariableType
               DataType: Size
@@ -7004,7 +6648,7 @@ Children:
               Type: BaseVariableType
               DataType: Size
               ModellingRule: Optional
-              Value: 876.0
+              Value: 900.0
             - Name: TopMargin
               Type: BaseVariableType
               DataType: Size
@@ -7457,12 +7101,12 @@ Children:
             Type: BaseVariableType
             DataType: Size
             ModellingRule: Optional
-            Value: 118.0
+            Value: 131.0
           - Name: TopMargin
             Type: BaseVariableType
             DataType: Size
             ModellingRule: Optional
-            Value: 309.0
+            Value: 314.0
           - Name: FontSize
             Type: BaseDataVariableType
             DataType: Size
@@ -7541,7 +7185,7 @@ Children:
             Type: BaseVariableType
             DataType: Size
             ModellingRule: Optional
-            Value: 199.0
+            Value: 240.0
           - Name: LeftMargin
             Type: BaseVariableType
             DataType: Size
@@ -7551,7 +7195,7 @@ Children:
             Type: BaseVariableType
             DataType: Size
             ModellingRule: Optional
-            Value: 80.0
+            Value: 30.0
           - Name: HorizontalAlignment
             Type: BaseVariableType
             DataType: HorizontalAlignment
@@ -7562,6 +7206,16 @@ Children:
             DataType: Size
             ModellingRule: Optional
             Value: 30.0
+          - Name: VerticalAlignment
+            Type: BaseVariableType
+            DataType: VerticalAlignment
+            ModellingRule: Optional
+            Value: 3
+          - Name: BottomMargin
+            Type: BaseVariableType
+            DataType: Size
+            ModellingRule: Optional
+            Value: 25.0
         - Name: eChartTest10Logic
           Type: NetLogic
           Children:

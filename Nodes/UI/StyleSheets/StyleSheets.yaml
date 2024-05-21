@@ -805,6 +805,8 @@ Children:
         Type: BaseDataVariableType
         DataType: Color
         Value: "#ffffff"
+    - Name: GaugeStyle2
+      Type: GaugeStyle
   - Name: NavigationPanelStyles
     Type: BaseObjectType
     Children:

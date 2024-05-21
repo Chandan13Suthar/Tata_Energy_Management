@@ -181,7 +181,7 @@ Children:
               - Name: Panel
                 Type: NodePointer
                 DataType: NodeId
-                Value: "/Objects/Tata_Energy_Management/UI/Screens/Individual Panels/33Kv Switchgear/Incomer_1/Current_Panel201"
+                Value: "/Objects/Tata_Energy_Management/UI/Screens/Individual Panels/33Kv Switchgear/Incomer_1/Current_Panel108"
                 Children:
                 - Name: Kind
                   Type: PropertyType
