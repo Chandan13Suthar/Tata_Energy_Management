@@ -34638,358 +34638,6 @@ Children:
                   DataType: Color
                   ModellingRule: Optional
                   Value: "#000000"
-              - Name: Label13
-                Type: Label
-                Children:
-                - Name: Text
-                  Type: BaseDataVariableType
-                  DataType: LocalizedText
-                  Value: {"LocaleId":"en-US","Text":"1234 A"}
-                - Name: LeftMargin
-                  Type: BaseVariableType
-                  DataType: Size
-                  ModellingRule: Optional
-                  Value: 127.0
-                - Name: TopMargin
-                  Type: BaseVariableType
-                  DataType: Size
-                  ModellingRule: Optional
-                  Value: 385.0
-                - Name: TextColor
-                  Type: BaseDataVariableType
-                  DataType: Color
-                  ModellingRule: Optional
-                  Value: "#000000"
-              - Name: Label14
-                Type: Label
-                Children:
-                - Name: Text
-                  Type: BaseDataVariableType
-                  DataType: LocalizedText
-                  Value: {"LocaleId":"en-US","Text":"21 %"}
-                - Name: LeftMargin
-                  Type: BaseVariableType
-                  DataType: Size
-                  ModellingRule: Optional
-                  Value: 127.0
-                - Name: TopMargin
-                  Type: BaseVariableType
-                  DataType: Size
-                  ModellingRule: Optional
-                  Value: 365.0
-                - Name: TextColor
-                  Type: BaseDataVariableType
-                  DataType: Color
-                  ModellingRule: Optional
-                  Value: "#000000"
-              - Name: Label15
-                Type: Label
-                Children:
-                - Name: Text
-                  Type: BaseDataVariableType
-                  DataType: LocalizedText
-                  Value: {"LocaleId":"en-US","Text":"1234 A"}
-                - Name: LeftMargin
-                  Type: BaseVariableType
-                  DataType: Size
-                  ModellingRule: Optional
-                  Value: 273.0
-                - Name: TopMargin
-                  Type: BaseVariableType
-                  DataType: Size
-                  ModellingRule: Optional
-                  Value: 385.0
-                - Name: TextColor
-                  Type: BaseDataVariableType
-                  DataType: Color
-                  ModellingRule: Optional
-                  Value: "#000000"
-              - Name: Label16
-                Type: Label
-                Children:
-                - Name: Text
-                  Type: BaseDataVariableType
-                  DataType: LocalizedText
-                  Value: {"LocaleId":"en-US","Text":"21 %"}
-                - Name: LeftMargin
-                  Type: BaseVariableType
-                  DataType: Size
-                  ModellingRule: Optional
-                  Value: 273.0
-                - Name: TopMargin
-                  Type: BaseVariableType
-                  DataType: Size
-                  ModellingRule: Optional
-                  Value: 365.0
-                - Name: TextColor
-                  Type: BaseDataVariableType
-                  DataType: Color
-                  ModellingRule: Optional
-                  Value: "#000000"
-              - Name: Label17
-                Type: Label
-                Children:
-                - Name: Text
-                  Type: BaseDataVariableType
-                  DataType: LocalizedText
-                  Value: {"LocaleId":"en-US","Text":"1234 A"}
-                - Name: LeftMargin
-                  Type: BaseVariableType
-                  DataType: Size
-                  ModellingRule: Optional
-                  Value: 412.0
-                - Name: TopMargin
-                  Type: BaseVariableType
-                  DataType: Size
-                  ModellingRule: Optional
-                  Value: 385.0
-                - Name: TextColor
-                  Type: BaseDataVariableType
-                  DataType: Color
-                  ModellingRule: Optional
-                  Value: "#000000"
-              - Name: Label18
-                Type: Label
-                Children:
-                - Name: Text
-                  Type: BaseDataVariableType
-                  DataType: LocalizedText
-                  Value: {"LocaleId":"en-US","Text":"21 %"}
-                - Name: LeftMargin
-                  Type: BaseVariableType
-                  DataType: Size
-                  ModellingRule: Optional
-                  Value: 412.0
-                - Name: TopMargin
-                  Type: BaseVariableType
-                  DataType: Size
-                  ModellingRule: Optional
-                  Value: 365.0
-                - Name: TextColor
-                  Type: BaseDataVariableType
-                  DataType: Color
-                  ModellingRule: Optional
-                  Value: "#000000"
-              - Name: Label19
-                Type: Label
-                Children:
-                - Name: Text
-                  Type: BaseDataVariableType
-                  DataType: LocalizedText
-                  Value: {"LocaleId":"en-US","Text":"1234 A"}
-                - Name: LeftMargin
-                  Type: BaseVariableType
-                  DataType: Size
-                  ModellingRule: Optional
-                  Value: 540.0
-                - Name: TopMargin
-                  Type: BaseVariableType
-                  DataType: Size
-                  ModellingRule: Optional
-                  Value: 385.0
-                - Name: TextColor
-                  Type: BaseDataVariableType
-                  DataType: Color
-                  ModellingRule: Optional
-                  Value: "#000000"
-              - Name: Label20
-                Type: Label
-                Children:
-                - Name: Text
-                  Type: BaseDataVariableType
-                  DataType: LocalizedText
-                  Value: {"LocaleId":"en-US","Text":"21 %"}
-                - Name: LeftMargin
-                  Type: BaseVariableType
-                  DataType: Size
-                  ModellingRule: Optional
-                  Value: 540.0
-                - Name: TopMargin
-                  Type: BaseVariableType
-                  DataType: Size
-                  ModellingRule: Optional
-                  Value: 365.0
-                - Name: TextColor
-                  Type: BaseDataVariableType
-                  DataType: Color
-                  ModellingRule: Optional
-                  Value: "#000000"
-              - Name: Label21
-                Type: Label
-                Children:
-                - Name: Text
-                  Type: BaseDataVariableType
-                  DataType: LocalizedText
-                  Value: {"LocaleId":"en-US","Text":"1234 A"}
-                - Name: LeftMargin
-                  Type: BaseVariableType
-                  DataType: Size
-                  ModellingRule: Optional
-                  Value: 666.0
-                - Name: TopMargin
-                  Type: BaseVariableType
-                  DataType: Size
-                  ModellingRule: Optional
-                  Value: 385.0
-                - Name: TextColor
-                  Type: BaseDataVariableType
-                  DataType: Color
-                  ModellingRule: Optional
-                  Value: "#000000"
-              - Name: Label22
-                Type: Label
-                Children:
-                - Name: Text
-                  Type: BaseDataVariableType
-                  DataType: LocalizedText
-                  Value: {"LocaleId":"en-US","Text":"21 %"}
-                - Name: LeftMargin
-                  Type: BaseVariableType
-                  DataType: Size
-                  ModellingRule: Optional
-                  Value: 666.0
-                - Name: TopMargin
-                  Type: BaseVariableType
-                  DataType: Size
-                  ModellingRule: Optional
-                  Value: 365.0
-                - Name: TextColor
-                  Type: BaseDataVariableType
-                  DataType: Color
-                  ModellingRule: Optional
-                  Value: "#000000"
-              - Name: Label23
-                Type: Label
-                Children:
-                - Name: Text
-                  Type: BaseDataVariableType
-                  DataType: LocalizedText
-                  Value: {"LocaleId":"en-US","Text":"1234 A"}
-                - Name: LeftMargin
-                  Type: BaseVariableType
-                  DataType: Size
-                  ModellingRule: Optional
-                  Value: 795.0
-                - Name: TopMargin
-                  Type: BaseVariableType
-                  DataType: Size
-                  ModellingRule: Optional
-                  Value: 385.0
-                - Name: TextColor
-                  Type: BaseDataVariableType
-                  DataType: Color
-                  ModellingRule: Optional
-                  Value: "#000000"
-              - Name: Label24
-                Type: Label
-                Children:
-                - Name: Text
-                  Type: BaseDataVariableType
-                  DataType: LocalizedText
-                  Value: {"LocaleId":"en-US","Text":"21 %"}
-                - Name: LeftMargin
-                  Type: BaseVariableType
-                  DataType: Size
-                  ModellingRule: Optional
-                  Value: 795.0
-                - Name: TopMargin
-                  Type: BaseVariableType
-                  DataType: Size
-                  ModellingRule: Optional
-                  Value: 365.0
-                - Name: TextColor
-                  Type: BaseDataVariableType
-                  DataType: Color
-                  ModellingRule: Optional
-                  Value: "#000000"
-              - Name: Label25
-                Type: Label
-                Children:
-                - Name: Text
-                  Type: BaseDataVariableType
-                  DataType: LocalizedText
-                  Value: {"LocaleId":"en-US","Text":"1234 A"}
-                - Name: LeftMargin
-                  Type: BaseVariableType
-                  DataType: Size
-                  ModellingRule: Optional
-                  Value: 935.0
-                - Name: TopMargin
-                  Type: BaseVariableType
-                  DataType: Size
-                  ModellingRule: Optional
-                  Value: 385.0
-                - Name: TextColor
-                  Type: BaseDataVariableType
-                  DataType: Color
-                  ModellingRule: Optional
-                  Value: "#000000"
-              - Name: Label26
-                Type: Label
-                Children:
-                - Name: Text
-                  Type: BaseDataVariableType
-                  DataType: LocalizedText
-                  Value: {"LocaleId":"en-US","Text":"21 %"}
-                - Name: LeftMargin
-                  Type: BaseVariableType
-                  DataType: Size
-                  ModellingRule: Optional
-                  Value: 935.0
-                - Name: TopMargin
-                  Type: BaseVariableType
-                  DataType: Size
-                  ModellingRule: Optional
-                  Value: 365.0
-                - Name: TextColor
-                  Type: BaseDataVariableType
-                  DataType: Color
-                  ModellingRule: Optional
-                  Value: "#000000"
-              - Name: Label27
-                Type: Label
-                Children:
-                - Name: Text
-                  Type: BaseDataVariableType
-                  DataType: LocalizedText
-                  Value: {"LocaleId":"en-US","Text":"1234 A"}
-                - Name: LeftMargin
-                  Type: BaseVariableType
-                  DataType: Size
-                  ModellingRule: Optional
-                  Value: 1084.0
-                - Name: TopMargin
-                  Type: BaseVariableType
-                  DataType: Size
-                  ModellingRule: Optional
-                  Value: 386.0
-                - Name: TextColor
-                  Type: BaseDataVariableType
-                  DataType: Color
-                  ModellingRule: Optional
-                  Value: "#000000"
-              - Name: Label28
-                Type: Label
-                Children:
-                - Name: Text
-                  Type: BaseDataVariableType
-                  DataType: LocalizedText
-                  Value: {"LocaleId":"en-US","Text":"21 %"}
-                - Name: LeftMargin
-                  Type: BaseVariableType
-                  DataType: Size
-                  ModellingRule: Optional
-                  Value: 1084.0
-                - Name: TopMargin
-                  Type: BaseVariableType
-                  DataType: Size
-                  ModellingRule: Optional
-                  Value: 366.0
-                - Name: TextColor
-                  Type: BaseDataVariableType
-                  DataType: Color
-                  ModellingRule: Optional
-                  Value: "#000000"
               - Name: Label29
                 Type: Label
                 Children:
@@ -37374,7 +37022,787 @@ Children:
                           Type: BaseVariableType
                           DataType: Size
                           ModellingRule: Optional
-                          Value: 195.0
+                          Value: 190.0
+                        - Name: Label14
+                          Type: Label
+                          Children:
+                          - Name: Text
+                            Type: BaseDataVariableType
+                            DataType: LocalizedText
+                            Value: {"LocaleId":"en-US","Text":"21 %"}
+                          - Name: LeftMargin
+                            Type: BaseVariableType
+                            DataType: Size
+                            ModellingRule: Optional
+                            Value: 0.0
+                          - Name: TopMargin
+                            Type: BaseVariableType
+                            DataType: Size
+                            ModellingRule: Optional
+                            Value: 0.0
+                          - Name: TextColor
+                            Type: BaseDataVariableType
+                            DataType: Color
+                            ModellingRule: Optional
+                            Value: "#000000"
+                          - Name: HorizontalAlignment
+                            Type: BaseVariableType
+                            DataType: HorizontalAlignment
+                            ModellingRule: Optional
+                            Value: 3
+                          - Name: VerticalAlignment
+                            Type: BaseVariableType
+                            DataType: VerticalAlignment
+                            ModellingRule: Optional
+                            Value: 2
+                          - Name: TextHorizontalAlignment
+                            Type: BaseVariableType
+                            DataType: TextHorizontalAlignment
+                            ModellingRule: Optional
+                            Value: 1
+                          - Name: TextVerticalAlignment
+                            Type: BaseVariableType
+                            DataType: TextVerticalAlignment
+                            ModellingRule: Optional
+                            Value: 1
+                        - Name: Label16
+                          Type: Label
+                          Children:
+                          - Name: Text
+                            Type: BaseDataVariableType
+                            DataType: LocalizedText
+                            Value: {"LocaleId":"en-US","Text":"21 %"}
+                          - Name: LeftMargin
+                            Type: BaseVariableType
+                            DataType: Size
+                            ModellingRule: Optional
+                            Value: 0.0
+                          - Name: TopMargin
+                            Type: BaseVariableType
+                            DataType: Size
+                            ModellingRule: Optional
+                            Value: 0.0
+                          - Name: TextColor
+                            Type: BaseDataVariableType
+                            DataType: Color
+                            ModellingRule: Optional
+                            Value: "#000000"
+                          - Name: HorizontalAlignment
+                            Type: BaseVariableType
+                            DataType: HorizontalAlignment
+                            ModellingRule: Optional
+                            Value: 3
+                          - Name: VerticalAlignment
+                            Type: BaseVariableType
+                            DataType: VerticalAlignment
+                            ModellingRule: Optional
+                            Value: 2
+                          - Name: TextHorizontalAlignment
+                            Type: BaseVariableType
+                            DataType: TextHorizontalAlignment
+                            ModellingRule: Optional
+                            Value: 1
+                          - Name: TextVerticalAlignment
+                            Type: BaseVariableType
+                            DataType: TextVerticalAlignment
+                            ModellingRule: Optional
+                            Value: 1
+                        - Name: Label18
+                          Type: Label
+                          Children:
+                          - Name: Text
+                            Type: BaseDataVariableType
+                            DataType: LocalizedText
+                            Value: {"LocaleId":"en-US","Text":"21 %"}
+                          - Name: LeftMargin
+                            Type: BaseVariableType
+                            DataType: Size
+                            ModellingRule: Optional
+                            Value: 0.0
+                          - Name: TopMargin
+                            Type: BaseVariableType
+                            DataType: Size
+                            ModellingRule: Optional
+                            Value: 0.0
+                          - Name: TextColor
+                            Type: BaseDataVariableType
+                            DataType: Color
+                            ModellingRule: Optional
+                            Value: "#000000"
+                          - Name: HorizontalAlignment
+                            Type: BaseVariableType
+                            DataType: HorizontalAlignment
+                            ModellingRule: Optional
+                            Value: 3
+                          - Name: VerticalAlignment
+                            Type: BaseVariableType
+                            DataType: VerticalAlignment
+                            ModellingRule: Optional
+                            Value: 2
+                          - Name: TextHorizontalAlignment
+                            Type: BaseVariableType
+                            DataType: TextHorizontalAlignment
+                            ModellingRule: Optional
+                            Value: 1
+                          - Name: TextVerticalAlignment
+                            Type: BaseVariableType
+                            DataType: TextVerticalAlignment
+                            ModellingRule: Optional
+                            Value: 1
+                        - Name: Label20
+                          Type: Label
+                          Children:
+                          - Name: Text
+                            Type: BaseDataVariableType
+                            DataType: LocalizedText
+                            Value: {"LocaleId":"en-US","Text":"21 %"}
+                          - Name: LeftMargin
+                            Type: BaseVariableType
+                            DataType: Size
+                            ModellingRule: Optional
+                            Value: 0.0
+                          - Name: TopMargin
+                            Type: BaseVariableType
+                            DataType: Size
+                            ModellingRule: Optional
+                            Value: 0.0
+                          - Name: TextColor
+                            Type: BaseDataVariableType
+                            DataType: Color
+                            ModellingRule: Optional
+                            Value: "#000000"
+                          - Name: HorizontalAlignment
+                            Type: BaseVariableType
+                            DataType: HorizontalAlignment
+                            ModellingRule: Optional
+                            Value: 3
+                          - Name: VerticalAlignment
+                            Type: BaseVariableType
+                            DataType: VerticalAlignment
+                            ModellingRule: Optional
+                            Value: 2
+                          - Name: TextHorizontalAlignment
+                            Type: BaseVariableType
+                            DataType: TextHorizontalAlignment
+                            ModellingRule: Optional
+                            Value: 1
+                          - Name: TextVerticalAlignment
+                            Type: BaseVariableType
+                            DataType: TextVerticalAlignment
+                            ModellingRule: Optional
+                            Value: 1
+                        - Name: Label22
+                          Type: Label
+                          Children:
+                          - Name: Text
+                            Type: BaseDataVariableType
+                            DataType: LocalizedText
+                            Value: {"LocaleId":"en-US","Text":"21 %"}
+                          - Name: LeftMargin
+                            Type: BaseVariableType
+                            DataType: Size
+                            ModellingRule: Optional
+                            Value: 0.0
+                          - Name: TopMargin
+                            Type: BaseVariableType
+                            DataType: Size
+                            ModellingRule: Optional
+                            Value: 0.0
+                          - Name: TextColor
+                            Type: BaseDataVariableType
+                            DataType: Color
+                            ModellingRule: Optional
+                            Value: "#000000"
+                          - Name: HorizontalAlignment
+                            Type: BaseVariableType
+                            DataType: HorizontalAlignment
+                            ModellingRule: Optional
+                            Value: 3
+                          - Name: VerticalAlignment
+                            Type: BaseVariableType
+                            DataType: VerticalAlignment
+                            ModellingRule: Optional
+                            Value: 2
+                          - Name: TextHorizontalAlignment
+                            Type: BaseVariableType
+                            DataType: TextHorizontalAlignment
+                            ModellingRule: Optional
+                            Value: 1
+                          - Name: TextVerticalAlignment
+                            Type: BaseVariableType
+                            DataType: TextVerticalAlignment
+                            ModellingRule: Optional
+                            Value: 1
+                        - Name: Label24
+                          Type: Label
+                          Children:
+                          - Name: Text
+                            Type: BaseDataVariableType
+                            DataType: LocalizedText
+                            Value: {"LocaleId":"en-US","Text":"21 %"}
+                          - Name: LeftMargin
+                            Type: BaseVariableType
+                            DataType: Size
+                            ModellingRule: Optional
+                            Value: 0.0
+                          - Name: TopMargin
+                            Type: BaseVariableType
+                            DataType: Size
+                            ModellingRule: Optional
+                            Value: 0.0
+                          - Name: TextColor
+                            Type: BaseDataVariableType
+                            DataType: Color
+                            ModellingRule: Optional
+                            Value: "#000000"
+                          - Name: HorizontalAlignment
+                            Type: BaseVariableType
+                            DataType: HorizontalAlignment
+                            ModellingRule: Optional
+                            Value: 3
+                          - Name: VerticalAlignment
+                            Type: BaseVariableType
+                            DataType: VerticalAlignment
+                            ModellingRule: Optional
+                            Value: 2
+                          - Name: TextHorizontalAlignment
+                            Type: BaseVariableType
+                            DataType: TextHorizontalAlignment
+                            ModellingRule: Optional
+                            Value: 1
+                          - Name: TextVerticalAlignment
+                            Type: BaseVariableType
+                            DataType: TextVerticalAlignment
+                            ModellingRule: Optional
+                            Value: 1
+                        - Name: Label26
+                          Type: Label
+                          Children:
+                          - Name: Text
+                            Type: BaseDataVariableType
+                            DataType: LocalizedText
+                            Value: {"LocaleId":"en-US","Text":"21 %"}
+                          - Name: LeftMargin
+                            Type: BaseVariableType
+                            DataType: Size
+                            ModellingRule: Optional
+                            Value: 0.0
+                          - Name: TopMargin
+                            Type: BaseVariableType
+                            DataType: Size
+                            ModellingRule: Optional
+                            Value: 0.0
+                          - Name: TextColor
+                            Type: BaseDataVariableType
+                            DataType: Color
+                            ModellingRule: Optional
+                            Value: "#000000"
+                          - Name: HorizontalAlignment
+                            Type: BaseVariableType
+                            DataType: HorizontalAlignment
+                            ModellingRule: Optional
+                            Value: 3
+                          - Name: VerticalAlignment
+                            Type: BaseVariableType
+                            DataType: VerticalAlignment
+                            ModellingRule: Optional
+                            Value: 2
+                          - Name: TextHorizontalAlignment
+                            Type: BaseVariableType
+                            DataType: TextHorizontalAlignment
+                            ModellingRule: Optional
+                            Value: 1
+                          - Name: TextVerticalAlignment
+                            Type: BaseVariableType
+                            DataType: TextVerticalAlignment
+                            ModellingRule: Optional
+                            Value: 1
+                        - Name: Label28
+                          Type: Label
+                          Children:
+                          - Name: Text
+                            Type: BaseDataVariableType
+                            DataType: LocalizedText
+                            Value: {"LocaleId":"en-US","Text":"21 %"}
+                          - Name: LeftMargin
+                            Type: BaseVariableType
+                            DataType: Size
+                            ModellingRule: Optional
+                            Value: 0.0
+                          - Name: TopMargin
+                            Type: BaseVariableType
+                            DataType: Size
+                            ModellingRule: Optional
+                            Value: 0.0
+                          - Name: TextColor
+                            Type: BaseDataVariableType
+                            DataType: Color
+                            ModellingRule: Optional
+                            Value: "#000000"
+                          - Name: HorizontalAlignment
+                            Type: BaseVariableType
+                            DataType: HorizontalAlignment
+                            ModellingRule: Optional
+                            Value: 3
+                          - Name: VerticalAlignment
+                            Type: BaseVariableType
+                            DataType: VerticalAlignment
+                            ModellingRule: Optional
+                            Value: 2
+                          - Name: TextHorizontalAlignment
+                            Type: BaseVariableType
+                            DataType: TextHorizontalAlignment
+                            ModellingRule: Optional
+                            Value: 1
+                          - Name: TextVerticalAlignment
+                            Type: BaseVariableType
+                            DataType: TextVerticalAlignment
+                            ModellingRule: Optional
+                            Value: 1
+                      - Name: HorizontalLayout5
+                        Type: RowLayout
+                        Children:
+                        - Name: Width
+                          Type: BaseVariableType
+                          DataType: Size
+                          ModellingRule: Optional
+                          Value: 50.0
+                        - Name: Height
+                          Type: BaseVariableType
+                          DataType: Size
+                          ModellingRule: Optional
+                          Value: 30.0
+                        - Name: HorizontalAlignment
+                          Type: BaseVariableType
+                          DataType: HorizontalAlignment
+                          ModellingRule: Optional
+                          Value: 3
+                        - Name: TopMargin
+                          Type: BaseVariableType
+                          DataType: Size
+                          ModellingRule: Optional
+                          Value: 225.0
+                        - Name: Label13
+                          Type: Label
+                          Children:
+                          - Name: Text
+                            Type: BaseDataVariableType
+                            DataType: LocalizedText
+                            Value: {"LocaleId":"en-US","Text":"1234 A"}
+                          - Name: LeftMargin
+                            Type: BaseVariableType
+                            DataType: Size
+                            ModellingRule: Optional
+                            Value: 0.0
+                          - Name: TopMargin
+                            Type: BaseVariableType
+                            DataType: Size
+                            ModellingRule: Optional
+                            Value: 0.0
+                          - Name: TextColor
+                            Type: BaseDataVariableType
+                            DataType: Color
+                            ModellingRule: Optional
+                            Value: "#000000"
+                          - Name: HorizontalAlignment
+                            Type: BaseVariableType
+                            DataType: HorizontalAlignment
+                            ModellingRule: Optional
+                            Value: 3
+                          - Name: VerticalAlignment
+                            Type: BaseVariableType
+                            DataType: VerticalAlignment
+                            ModellingRule: Optional
+                            Value: 1
+                          - Name: Height
+                            Type: BaseVariableType
+                            DataType: Size
+                            ModellingRule: Optional
+                            Value: 25.0
+                          - Name: TextHorizontalAlignment
+                            Type: BaseVariableType
+                            DataType: TextHorizontalAlignment
+                            ModellingRule: Optional
+                            Value: 1
+                          - Name: WordWrap
+                            Type: BaseDataVariableType
+                            DataType: Boolean
+                            ModellingRule: Optional
+                            Value: false
+                          - Name: TextVerticalAlignment
+                            Type: BaseVariableType
+                            DataType: TextVerticalAlignment
+                            ModellingRule: Optional
+                            Value: 1
+                        - Name: Label15
+                          Type: Label
+                          Children:
+                          - Name: Text
+                            Type: BaseDataVariableType
+                            DataType: LocalizedText
+                            Value: {"LocaleId":"en-US","Text":"1234 A"}
+                          - Name: LeftMargin
+                            Type: BaseVariableType
+                            DataType: Size
+                            ModellingRule: Optional
+                            Value: 0.0
+                          - Name: TopMargin
+                            Type: BaseVariableType
+                            DataType: Size
+                            ModellingRule: Optional
+                            Value: 0.0
+                          - Name: TextColor
+                            Type: BaseDataVariableType
+                            DataType: Color
+                            ModellingRule: Optional
+                            Value: "#000000"
+                          - Name: HorizontalAlignment
+                            Type: BaseVariableType
+                            DataType: HorizontalAlignment
+                            ModellingRule: Optional
+                            Value: 3
+                          - Name: VerticalAlignment
+                            Type: BaseVariableType
+                            DataType: VerticalAlignment
+                            ModellingRule: Optional
+                            Value: 1
+                          - Name: Height
+                            Type: BaseVariableType
+                            DataType: Size
+                            ModellingRule: Optional
+                            Value: 25.0
+                          - Name: TextHorizontalAlignment
+                            Type: BaseVariableType
+                            DataType: TextHorizontalAlignment
+                            ModellingRule: Optional
+                            Value: 1
+                          - Name: WordWrap
+                            Type: BaseDataVariableType
+                            DataType: Boolean
+                            ModellingRule: Optional
+                            Value: false
+                          - Name: TextVerticalAlignment
+                            Type: BaseVariableType
+                            DataType: TextVerticalAlignment
+                            ModellingRule: Optional
+                            Value: 1
+                        - Name: Label17
+                          Type: Label
+                          Children:
+                          - Name: Text
+                            Type: BaseDataVariableType
+                            DataType: LocalizedText
+                            Value: {"LocaleId":"en-US","Text":"1234 A"}
+                          - Name: LeftMargin
+                            Type: BaseVariableType
+                            DataType: Size
+                            ModellingRule: Optional
+                            Value: 0.0
+                          - Name: TopMargin
+                            Type: BaseVariableType
+                            DataType: Size
+                            ModellingRule: Optional
+                            Value: 0.0
+                          - Name: TextColor
+                            Type: BaseDataVariableType
+                            DataType: Color
+                            ModellingRule: Optional
+                            Value: "#000000"
+                          - Name: HorizontalAlignment
+                            Type: BaseVariableType
+                            DataType: HorizontalAlignment
+                            ModellingRule: Optional
+                            Value: 3
+                          - Name: VerticalAlignment
+                            Type: BaseVariableType
+                            DataType: VerticalAlignment
+                            ModellingRule: Optional
+                            Value: 1
+                          - Name: Height
+                            Type: BaseVariableType
+                            DataType: Size
+                            ModellingRule: Optional
+                            Value: 25.0
+                          - Name: TextHorizontalAlignment
+                            Type: BaseVariableType
+                            DataType: TextHorizontalAlignment
+                            ModellingRule: Optional
+                            Value: 1
+                          - Name: WordWrap
+                            Type: BaseDataVariableType
+                            DataType: Boolean
+                            ModellingRule: Optional
+                            Value: false
+                          - Name: TextVerticalAlignment
+                            Type: BaseVariableType
+                            DataType: TextVerticalAlignment
+                            ModellingRule: Optional
+                            Value: 1
+                        - Name: Label19
+                          Type: Label
+                          Children:
+                          - Name: Text
+                            Type: BaseDataVariableType
+                            DataType: LocalizedText
+                            Value: {"LocaleId":"en-US","Text":"1234 A"}
+                          - Name: LeftMargin
+                            Type: BaseVariableType
+                            DataType: Size
+                            ModellingRule: Optional
+                            Value: 0.0
+                          - Name: TopMargin
+                            Type: BaseVariableType
+                            DataType: Size
+                            ModellingRule: Optional
+                            Value: 0.0
+                          - Name: TextColor
+                            Type: BaseDataVariableType
+                            DataType: Color
+                            ModellingRule: Optional
+                            Value: "#000000"
+                          - Name: HorizontalAlignment
+                            Type: BaseVariableType
+                            DataType: HorizontalAlignment
+                            ModellingRule: Optional
+                            Value: 3
+                          - Name: VerticalAlignment
+                            Type: BaseVariableType
+                            DataType: VerticalAlignment
+                            ModellingRule: Optional
+                            Value: 1
+                          - Name: Height
+                            Type: BaseVariableType
+                            DataType: Size
+                            ModellingRule: Optional
+                            Value: 25.0
+                          - Name: TextHorizontalAlignment
+                            Type: BaseVariableType
+                            DataType: TextHorizontalAlignment
+                            ModellingRule: Optional
+                            Value: 1
+                          - Name: WordWrap
+                            Type: BaseDataVariableType
+                            DataType: Boolean
+                            ModellingRule: Optional
+                            Value: false
+                          - Name: TextVerticalAlignment
+                            Type: BaseVariableType
+                            DataType: TextVerticalAlignment
+                            ModellingRule: Optional
+                            Value: 1
+                        - Name: Label21
+                          Type: Label
+                          Children:
+                          - Name: Text
+                            Type: BaseDataVariableType
+                            DataType: LocalizedText
+                            Value: {"LocaleId":"en-US","Text":"1234 A"}
+                          - Name: LeftMargin
+                            Type: BaseVariableType
+                            DataType: Size
+                            ModellingRule: Optional
+                            Value: 0.0
+                          - Name: TopMargin
+                            Type: BaseVariableType
+                            DataType: Size
+                            ModellingRule: Optional
+                            Value: 0.0
+                          - Name: TextColor
+                            Type: BaseDataVariableType
+                            DataType: Color
+                            ModellingRule: Optional
+                            Value: "#000000"
+                          - Name: HorizontalAlignment
+                            Type: BaseVariableType
+                            DataType: HorizontalAlignment
+                            ModellingRule: Optional
+                            Value: 3
+                          - Name: VerticalAlignment
+                            Type: BaseVariableType
+                            DataType: VerticalAlignment
+                            ModellingRule: Optional
+                            Value: 1
+                          - Name: Height
+                            Type: BaseVariableType
+                            DataType: Size
+                            ModellingRule: Optional
+                            Value: 25.0
+                          - Name: TextHorizontalAlignment
+                            Type: BaseVariableType
+                            DataType: TextHorizontalAlignment
+                            ModellingRule: Optional
+                            Value: 1
+                          - Name: WordWrap
+                            Type: BaseDataVariableType
+                            DataType: Boolean
+                            ModellingRule: Optional
+                            Value: false
+                          - Name: TextVerticalAlignment
+                            Type: BaseVariableType
+                            DataType: TextVerticalAlignment
+                            ModellingRule: Optional
+                            Value: 1
+                        - Name: Label23
+                          Type: Label
+                          Children:
+                          - Name: Text
+                            Type: BaseDataVariableType
+                            DataType: LocalizedText
+                            Value: {"LocaleId":"en-US","Text":"1234 A"}
+                          - Name: LeftMargin
+                            Type: BaseVariableType
+                            DataType: Size
+                            ModellingRule: Optional
+                            Value: 0.0
+                          - Name: TopMargin
+                            Type: BaseVariableType
+                            DataType: Size
+                            ModellingRule: Optional
+                            Value: 0.0
+                          - Name: TextColor
+                            Type: BaseDataVariableType
+                            DataType: Color
+                            ModellingRule: Optional
+                            Value: "#000000"
+                          - Name: HorizontalAlignment
+                            Type: BaseVariableType
+                            DataType: HorizontalAlignment
+                            ModellingRule: Optional
+                            Value: 3
+                          - Name: VerticalAlignment
+                            Type: BaseVariableType
+                            DataType: VerticalAlignment
+                            ModellingRule: Optional
+                            Value: 1
+                          - Name: Height
+                            Type: BaseVariableType
+                            DataType: Size
+                            ModellingRule: Optional
+                            Value: 25.0
+                          - Name: TextHorizontalAlignment
+                            Type: BaseVariableType
+                            DataType: TextHorizontalAlignment
+                            ModellingRule: Optional
+                            Value: 1
+                          - Name: WordWrap
+                            Type: BaseDataVariableType
+                            DataType: Boolean
+                            ModellingRule: Optional
+                            Value: false
+                          - Name: TextVerticalAlignment
+                            Type: BaseVariableType
+                            DataType: TextVerticalAlignment
+                            ModellingRule: Optional
+                            Value: 1
+                        - Name: Label25
+                          Type: Label
+                          Children:
+                          - Name: Text
+                            Type: BaseDataVariableType
+                            DataType: LocalizedText
+                            Value: {"LocaleId":"en-US","Text":"1234 A"}
+                          - Name: LeftMargin
+                            Type: BaseVariableType
+                            DataType: Size
+                            ModellingRule: Optional
+                            Value: 0.0
+                          - Name: TopMargin
+                            Type: BaseVariableType
+                            DataType: Size
+                            ModellingRule: Optional
+                            Value: 0.0
+                          - Name: TextColor
+                            Type: BaseDataVariableType
+                            DataType: Color
+                            ModellingRule: Optional
+                            Value: "#000000"
+                          - Name: HorizontalAlignment
+                            Type: BaseVariableType
+                            DataType: HorizontalAlignment
+                            ModellingRule: Optional
+                            Value: 3
+                          - Name: VerticalAlignment
+                            Type: BaseVariableType
+                            DataType: VerticalAlignment
+                            ModellingRule: Optional
+                            Value: 1
+                          - Name: Height
+                            Type: BaseVariableType
+                            DataType: Size
+                            ModellingRule: Optional
+                            Value: 25.0
+                          - Name: TextHorizontalAlignment
+                            Type: BaseVariableType
+                            DataType: TextHorizontalAlignment
+                            ModellingRule: Optional
+                            Value: 1
+                          - Name: WordWrap
+                            Type: BaseDataVariableType
+                            DataType: Boolean
+                            ModellingRule: Optional
+                            Value: false
+                          - Name: TextVerticalAlignment
+                            Type: BaseVariableType
+                            DataType: TextVerticalAlignment
+                            ModellingRule: Optional
+                            Value: 1
+                        - Name: Label27
+                          Type: Label
+                          Children:
+                          - Name: Text
+                            Type: BaseDataVariableType
+                            DataType: LocalizedText
+                            Value: {"LocaleId":"en-US","Text":"1234 A"}
+                          - Name: LeftMargin
+                            Type: BaseVariableType
+                            DataType: Size
+                            ModellingRule: Optional
+                            Value: 0.0
+                          - Name: TopMargin
+                            Type: BaseVariableType
+                            DataType: Size
+                            ModellingRule: Optional
+                            Value: 0.0
+                          - Name: TextColor
+                            Type: BaseDataVariableType
+                            DataType: Color
+                            ModellingRule: Optional
+                            Value: "#000000"
+                          - Name: HorizontalAlignment
+                            Type: BaseVariableType
+                            DataType: HorizontalAlignment
+                            ModellingRule: Optional
+                            Value: 3
+                          - Name: VerticalAlignment
+                            Type: BaseVariableType
+                            DataType: VerticalAlignment
+                            ModellingRule: Optional
+                            Value: 1
+                          - Name: Height
+                            Type: BaseVariableType
+                            DataType: Size
+                            ModellingRule: Optional
+                            Value: 25.0
+                          - Name: TextHorizontalAlignment
+                            Type: BaseVariableType
+                            DataType: TextHorizontalAlignment
+                            ModellingRule: Optional
+                            Value: 1
+                          - Name: WordWrap
+                            Type: BaseDataVariableType
+                            DataType: Boolean
+                            ModellingRule: Optional
+                            Value: false
+                          - Name: TextVerticalAlignment
+                            Type: BaseVariableType
+                            DataType: TextVerticalAlignment
+                            ModellingRule: Optional
+                            Value: 1
+                        - Name: ContentAlignment
+                          Type: BaseVariableType
+                          DataType: ContentHorizontalAlignment
+                          ModellingRule: Optional
+                          Value: 0
                     - Name: StripedRightArrow2
                       Type: ScaleLayout
                       WriteMask: BrowseName|DataType|Description|DisplayName|MinimumSamplingInterval|UserAccessLevel
