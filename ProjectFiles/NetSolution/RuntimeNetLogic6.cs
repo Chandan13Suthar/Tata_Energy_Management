@@ -126,7 +126,7 @@ public class RuntimeNetLogic6 : BaseNetLogic
                 string currentDate = currentTime.ToString("yyyy-MM-dd");
                 int currentHour = currentTime.Hour;
 
-                // Calculate start and end times for the current day
+                // Calculate start and end times for the current day9
                 DateTime startTime = new DateTime(currentTime.Year, currentTime.Month, currentTime.Day, 8, 0, 0);
                // DateTime endTime = new DateTime(currentTime.Year, currentTime.Month, currentTime.Day, 7, 59, 59).AddDays(1);
                 var date1 = startTime.ToString("dd-MM-yyyy");
