@@ -44,6 +44,7 @@ public class RuntimeNetLogic5 : BaseNetLogic
         jace1Variable = owner.Jace1Variable;
         countVariable = owner.CountVariable;
 
+
         ////////////Tags////////////////////
         meterVariable = owner.MeterVariable;
         consumptionVariable = owner.ConsumptionVariable;
