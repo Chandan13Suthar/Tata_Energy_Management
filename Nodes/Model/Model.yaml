@@ -1078,12 +1078,14 @@ Children:
       DataType: NodePath
       Value: "../../Histo Dashboard/Dateto"
   - Name: Button
+    Id: g=fbe552d5acaa8716ab56aba67b3fcc83
     Type: BaseDataVariableType
     DataType: Boolean
     Value: false
   - Name: RuntimeNetLogic1
     Type: NetLogic
   - Name: Button1
+    Id: g=a51c0b08cd2a847ed21756e52b499792
     Type: BaseDataVariableType
     DataType: Boolean
     Value: false
