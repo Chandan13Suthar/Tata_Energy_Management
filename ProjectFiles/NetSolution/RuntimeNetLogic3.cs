@@ -54,6 +54,7 @@ public class RuntimeNetLogic3 : BaseNetLogic
         datefromVariable = owner.DatefromVariable;
         datetoVariable = owner.DatetoVariable;
         timerangeVariable = owner.TimeRangeVariable;
+        durationVariable = owner.DurationVariable;
 
         periodicTask = new PeriodicTask(IncrementDecrementTask, 5000, LogicObject);
         periodicTask.Start();
@@ -86,6 +87,7 @@ public class RuntimeNetLogic3 : BaseNetLogic
         DateTime datefrom = datefromVariable.Value;
         DateTime dateto = datetoVariable.Value;
         string timerange = timerangeVariable.Value;
+        
 
         var project = FTOptix.HMIProject.Project.Current;
         ///////////////////For Jace Selection////////////////////////////////////////////////////////////////////////////
@@ -262,6 +264,7 @@ public class RuntimeNetLogic3 : BaseNetLogic
             }
 
 
+            button1 = false;
 
            // float consumptionP1 = (maxconsumption1 - minconsumption1);
            // float consumptionP2 = (maxconsumption2 - minconsumption2);
@@ -281,6 +284,7 @@ public class RuntimeNetLogic3 : BaseNetLogic
             avgfrequency2Variable.Value = avgfrequency2;
             consumption2Variable.Value = consumption2;
             timerangeVariable.Value = timerange;
+            button1Variable.Value = button1;
 
 
 
@@ -413,7 +417,7 @@ public class RuntimeNetLogic3 : BaseNetLogic
                 avgfrequency2 = Avgfrequency2;
             }
 
-
+            button2 = false;
 
             ///////////////////For Meter 1/////////////////////////////
            // float consumptionP1 = (maxconsumption1 - minconsumption1);
@@ -434,6 +438,7 @@ public class RuntimeNetLogic3 : BaseNetLogic
             avgfrequency2Variable.Value = avgfrequency2;
             consumption2Variable.Value = consumption2;
             timerangeVariable.Value = timerange;
+            button2Variable.Value = button2;
 
 
         }
@@ -447,6 +452,7 @@ public class RuntimeNetLogic3 : BaseNetLogic
     private IUAVariable datefromVariable;
     private IUAVariable datetoVariable;
     private IUAVariable timerangeVariable;
+    private IUAVariable durationVariable;
     private IUAVariable jace1Variable;
     private IUAVariable jace2Variable;
     private IUAVariable meter1Variable;

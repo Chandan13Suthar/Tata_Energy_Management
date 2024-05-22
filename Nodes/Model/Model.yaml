@@ -2568,10 +2568,12 @@ Children:
   - Name: RuntimeNetLogic3
     Type: NetLogic
   - Name: Button1
+    Id: g=fda804bfa019c84c599120f8a177ad97
     Type: BaseDataVariableType
     DataType: Boolean
     Value: false
   - Name: Button2
+    Id: g=4d13915265945c98b04707e583452458
     Type: BaseDataVariableType
     DataType: Boolean
     Value: false
@@ -2583,6 +2585,10 @@ Children:
     Type: BaseDataVariableType
     DataType: TimeString
     Value: "0"
+  - Name: Duration
+    Type: BaseDataVariableType
+    DataType: Duration
+    Value: "0:00:00:0.0000000"
 - Name: ComparisionDashboard
   Id: g=0da78a672ae27b69ae302ef010613bd3
   Supertype: BaseObjectType
@@ -2735,6 +2741,10 @@ Children:
     Type: BaseDataVariableType
     DataType: TimeString
     Value: "0"
+  - Name: Duration
+    Type: BaseDataVariableType
+    DataType: Duration
+    Value: "0:00:00:0.0000000"
 - Name: ComparisionDashboard1
   Type: ComparisionDashboard
   Children:
@@ -2850,6 +2860,10 @@ Children:
     Type: BaseDataVariableType
     DataType: TimeString
     Value: "0"
+  - Name: Duration
+    Type: BaseDataVariableType
+    DataType: Duration
+    Value: "0:00:00:0.0000000"
 - File: Importer/Importer.yaml
 - Name: ButtonGenerator
   Type: BaseDataVariableType
