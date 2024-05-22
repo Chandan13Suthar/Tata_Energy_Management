@@ -736,6 +736,16 @@ Children:
     Type: BaseDataVariableType
     DataType: String
     Value: "0"
+  - Name: Test
+    Id: g=70a863c46af79415d3680e7ae8ceb896
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: false
+  - Name: Test1
+    Id: g=7c2bd6bb047f79eb950d00eb743800d2
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: false
 - Name: Comparision
   Id: g=8d89a5fce1435f2e42dcb0f1e89bcaab
   Supertype: BaseObjectType
@@ -1018,6 +1028,14 @@ Children:
     Type: BaseDataVariableType
     DataType: String
     Value: "0"
+  - Name: Test
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: false
+  - Name: Test1
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: false
 - Name: HistoDashboardInstance
   Type: HistoDashboard
   Children:
@@ -25097,3 +25115,4 @@ Children:
     Value: true
   - Name: PowerPanelLogic
     Type: NetLogic
+- File: ConsumptionDistribution/ConsumptionDistribution.yaml

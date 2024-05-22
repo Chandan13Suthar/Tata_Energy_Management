@@ -50651,7 +50651,7 @@ Children:
           Type: BaseDataVariableType
           DataType: Size
           ModellingRule: Optional
-          Value: 1.0
+          Value: 0.0
         - Name: LeftMargin
           Type: BaseVariableType
           DataType: Size
@@ -50807,7 +50807,7 @@ Children:
             - Name: Path
               Type: BaseDataVariableType
               DataType: ResourceUri
-              Value: "ns=36;%PROJECTDIR%/imgs/Untitled4.png"
+              Value: "ns=36;%PROJECTDIR%/imgs/Header.png"
             - Name: Width
               Type: BaseVariableType
               DataType: Size
@@ -50864,7 +50864,7 @@ Children:
                 Type: BaseDataVariableType
                 DataType: Color
                 ModellingRule: Optional
-                Value: "#ffffff"
+                Value: "#075982a5"
               - Name: FontFamily
                 Type: BaseDataVariableType
                 DataType: Font
@@ -51009,6 +51009,76 @@ Children:
                         Description: {"NamespaceIndex":3,"TextId":"SetArrayIndexDescription"}
                         ValueRank: ScalarOrOneDimension
                         Value: 0
+                  - Name: MethodContainer2
+                    Type: BaseObjectType
+                    Children:
+                    - Name: ns=3;ObjectPointer
+                      Type: NodePointer
+                      DataType: NodeId
+                      Value: "/Objects/Commands/VariableCommands"
+                      Children:
+                      - Name: Kind
+                        Type: PropertyType
+                        DataType: NodeId
+                        Value: "/Types/ObjectTypes/BaseObjectType"
+                    - Name: ns=3;Method
+                      Type: BaseDataVariableType
+                      DataType: String
+                      Value: "Set"
+                    - Name: InputArguments
+                      Type: BaseObjectType
+                      Children:
+                      - Name: VariableToModify
+                        Type: BaseDataVariableType
+                        DataType: VariablePointer
+                        Description: {"NamespaceIndex":3,"TextId":"SetVariableToModifyDescription"}
+                        Value: "/Objects/Tata_Energy_Management/Model/ComparisionInstance/Test"
+                      - Name: Value
+                        Type: BaseDataVariableType
+                        DataType: Boolean
+                        Description: {"NamespaceIndex":3,"TextId":"SetValueDescription"}
+                        Value: false
+                      - Name: ArrayIndex
+                        Type: BaseDataVariableType
+                        DataType: UInt32
+                        Description: {"NamespaceIndex":3,"TextId":"SetArrayIndexDescription"}
+                        ValueRank: ScalarOrOneDimension
+                        Value: 0
+                  - Name: MethodContainer3
+                    Type: BaseObjectType
+                    Children:
+                    - Name: ns=3;ObjectPointer
+                      Type: NodePointer
+                      DataType: NodeId
+                      Value: "/Objects/Commands/VariableCommands"
+                      Children:
+                      - Name: Kind
+                        Type: PropertyType
+                        DataType: NodeId
+                        Value: "/Types/ObjectTypes/BaseObjectType"
+                    - Name: ns=3;Method
+                      Type: BaseDataVariableType
+                      DataType: String
+                      Value: "Set"
+                    - Name: InputArguments
+                      Type: BaseObjectType
+                      Children:
+                      - Name: VariableToModify
+                        Type: BaseDataVariableType
+                        DataType: VariablePointer
+                        Description: {"NamespaceIndex":3,"TextId":"SetVariableToModifyDescription"}
+                        Value: "/Objects/Tata_Energy_Management/Model/ComparisionInstance/Test1"
+                      - Name: Value
+                        Type: BaseDataVariableType
+                        DataType: Boolean
+                        Description: {"NamespaceIndex":3,"TextId":"SetValueDescription"}
+                        Value: true
+                      - Name: ArrayIndex
+                        Type: BaseDataVariableType
+                        DataType: UInt32
+                        Description: {"NamespaceIndex":3,"TextId":"SetArrayIndexDescription"}
+                        ValueRank: ScalarOrOneDimension
+                        Value: 0
                 - Name: EventArguments
                   Type: MouseClickEvent
                   Children:
@@ -51081,17 +51151,17 @@ Children:
                 Type: BaseDataVariableType
                 DataType: Size
                 ModellingRule: Optional
-                Value: 20.0
+                Value: 25.0
               - Name: LeftMargin
                 Type: BaseVariableType
                 DataType: Size
                 ModellingRule: Optional
-                Value: 34.0
+                Value: 36.0
               - Name: TopMargin
                 Type: BaseVariableType
                 DataType: Size
                 ModellingRule: Optional
-                Value: 98.0
+                Value: 104.0
               - Name: FontWeight
                 Type: BaseDataVariableType
                 DataType: FontWeightEnum
@@ -51106,7 +51176,7 @@ Children:
                 Type: BaseDataVariableType
                 DataType: Color
                 ModellingRule: Optional
-                Value: "#ffffff"
+                Value: "#000000"
             - Name: RightMargin
               Type: BaseVariableType
               DataType: Size
@@ -51144,12 +51214,12 @@ Children:
                 Type: BaseVariableType
                 DataType: Size
                 ModellingRule: Optional
-                Value: 30.0
+                Value: 40.0
               - Name: Width
                 Type: BaseVariableType
                 DataType: Size
                 ModellingRule: Optional
-                Value: 120.0
+                Value: 150.0
               - Name: Style
                 Type: BaseDataVariableType
                 DataType: String
@@ -51165,6 +51235,11 @@ Children:
                 DataType: Float
                 ModellingRule: Optional
                 Value: 100.0
+              - Name: FontSize
+                Type: BaseDataVariableType
+                DataType: Size
+                ModellingRule: Optional
+                Value: 25.0
           - Name: Label1
             Type: Label
             Children:
@@ -51212,17 +51287,22 @@ Children:
               Type: BaseDataVariableType
               DataType: Color
               ModellingRule: Optional
-              Value: "#ffffff"
+              Value: "#000000"
             - Name: FontFamily
               Type: BaseDataVariableType
               DataType: Font
               ModellingRule: Optional
-              Value: ""
+              Value: "Cooper Black"
+            - Name: TopMargin
+              Type: BaseVariableType
+              DataType: Size
+              ModellingRule: Optional
+              Value: 16.0
         - Name: FillColor
           Type: BaseDataVariableType
           DataType: Color
           ModellingRule: Optional
-          Value: "#010320"
+          Value: "#f0f0f0"
         - Name: HorizontalAlignment
           Type: BaseVariableType
           DataType: HorizontalAlignment
@@ -51262,7 +51342,7 @@ Children:
             - Name: Path
               Type: BaseDataVariableType
               DataType: ResourceUri
-              Value: "ns=36;%PROJECTDIR%/imgs/Untitled7.png"
+              Value: "ns=36;%PROJECTDIR%/imgs/Screenshot (194).png"
             - Name: Width
               Type: BaseVariableType
               DataType: Size
@@ -51310,12 +51390,12 @@ Children:
                 Type: BaseVariableType
                 DataType: Size
                 ModellingRule: Optional
-                Value: -16.0
+                Value: -40.0
               - Name: TopMargin
                 Type: BaseVariableType
                 DataType: Size
                 ModellingRule: Optional
-                Value: 48.0
+                Value: 18.0
               - Name: TextHorizontalAlignment
                 Type: BaseVariableType
                 DataType: TextHorizontalAlignment
@@ -51345,12 +51425,12 @@ Children:
                 Type: BaseDataVariableType
                 DataType: Color
                 ModellingRule: Optional
-                Value: "#ffffffba"
+                Value: "#000000"
               - Name: FontSize
                 Type: BaseDataVariableType
                 DataType: Size
                 ModellingRule: Optional
-                Value: 38.0
+                Value: 30.0
               - Name: RightMargin
                 Type: BaseVariableType
                 DataType: Size
@@ -51413,7 +51493,7 @@ Children:
                 Type: BaseDataVariableType
                 DataType: Color
                 ModellingRule: Optional
-                Value: "#ffffffba"
+                Value: "#000000"
               - Name: Height
                 Type: BaseVariableType
                 DataType: Size
@@ -51456,7 +51536,7 @@ Children:
                 Type: BaseDataVariableType
                 DataType: Color
                 ModellingRule: Optional
-                Value: "#ffffffba"
+                Value: "#000000"
               - Name: FontSize
                 Type: BaseDataVariableType
                 DataType: Size
@@ -51494,7 +51574,7 @@ Children:
                 Type: BaseDataVariableType
                 DataType: Color
                 ModellingRule: Optional
-                Value: "#ffffffba"
+                Value: "#000000"
               - Name: FontSize
                 Type: BaseDataVariableType
                 DataType: Size
@@ -51532,7 +51612,7 @@ Children:
                 Type: BaseDataVariableType
                 DataType: Color
                 ModellingRule: Optional
-                Value: "#ffffffba"
+                Value: "#000000"
               - Name: FontSize
                 Type: BaseDataVariableType
                 DataType: Size
@@ -51570,7 +51650,7 @@ Children:
                 Type: BaseDataVariableType
                 DataType: Color
                 ModellingRule: Optional
-                Value: "#ffffffba"
+                Value: "#000000"
               - Name: FontSize
                 Type: BaseDataVariableType
                 DataType: Size
@@ -51799,12 +51879,12 @@ Children:
                 Type: BaseVariableType
                 DataType: Size
                 ModellingRule: Optional
-                Value: 1080.0
+                Value: 1116.0
               - Name: TopMargin
                 Type: BaseVariableType
                 DataType: Size
                 ModellingRule: Optional
-                Value: 229.0
+                Value: 230.0
               - Name: Width
                 Type: BaseVariableType
                 DataType: Size
@@ -51834,65 +51914,7 @@ Children:
                 Type: BaseDataVariableType
                 DataType: Color
                 ModellingRule: Optional
-                Value: "#ffffff"
-              - Name: FontWeight
-                Type: BaseDataVariableType
-                DataType: FontWeightEnum
-                ModellingRule: Optional
-                Value: 700
-              - Name: FontFamily
-                Type: BaseDataVariableType
-                DataType: Font
-                ModellingRule: Optional
-                Value: "Lucida Fax"
-            - Name: Label2
-              Type: Label
-              Children:
-              - Name: Text
-                Type: BaseDataVariableType
-                DataType: LocalizedText
-                ModellingRule: Optional
-                Value: {"LocaleId":"en-US","Text":"%"}
-              - Name: LeftMargin
-                Type: BaseVariableType
-                DataType: Size
-                ModellingRule: Optional
-                Value: 1199.0
-              - Name: TopMargin
-                Type: BaseVariableType
-                DataType: Size
-                ModellingRule: Optional
-                Value: 227.0
-              - Name: Width
-                Type: BaseVariableType
-                DataType: Size
-                ModellingRule: Optional
-                Value: 30.0
-              - Name: FontSize
-                Type: BaseDataVariableType
-                DataType: Size
-                ModellingRule: Optional
-                Value: 25.0
-              - Name: TextHorizontalAlignment
-                Type: BaseVariableType
-                DataType: TextHorizontalAlignment
-                ModellingRule: Optional
-                Value: 1
-              - Name: TextVerticalAlignment
-                Type: BaseVariableType
-                DataType: TextVerticalAlignment
-                ModellingRule: Optional
-                Value: 1
-              - Name: Height
-                Type: BaseVariableType
-                DataType: Size
-                ModellingRule: Optional
-                Value: 30.0
-              - Name: TextColor
-                Type: BaseDataVariableType
-                DataType: Color
-                ModellingRule: Optional
-                Value: "#ffffff"
+                Value: "#000000"
               - Name: FontWeight
                 Type: BaseDataVariableType
                 DataType: FontWeightEnum
@@ -51913,58 +51935,6 @@ Children:
             DataType: Size
             ModellingRule: Optional
             Value: 180.0
-          - Name: Consumption
-            Type: Label
-            Children:
-            - Name: LeftMargin
-              Type: BaseVariableType
-              DataType: Size
-              ModellingRule: Optional
-              Value: 400.0
-            - Name: TopMargin
-              Type: BaseVariableType
-              DataType: Size
-              ModellingRule: Optional
-              Value: 128.0
-            - Name: Width
-              Type: BaseVariableType
-              DataType: Size
-              ModellingRule: Optional
-              Value: 190.0
-            - Name: Height
-              Type: BaseVariableType
-              DataType: Size
-              ModellingRule: Optional
-              Value: 29.0
-            - Name: TextColor
-              Type: BaseDataVariableType
-              DataType: Color
-              ModellingRule: Optional
-              Value: "#ffffff"
-            - Name: FontSize
-              Type: BaseDataVariableType
-              DataType: Size
-              ModellingRule: Optional
-              Value: 25.0
-            - Name: TextHorizontalAlignment
-              Type: BaseVariableType
-              DataType: TextHorizontalAlignment
-              ModellingRule: Optional
-              Value: 1
-            - Name: TextVerticalAlignment
-              Type: BaseVariableType
-              DataType: TextVerticalAlignment
-              ModellingRule: Optional
-              Value: 1
-            - Name: Text
-              Type: BaseDataVariableType
-              DataType: LocalizedText
-              Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
-              Children:
-              - Name: DynamicLink
-                Type: DynamicLink
-                DataType: NodePath
-                Value: "/Objects/Tata_Energy_Management/Model/ComparisionInstance/Consumption33KV"
           - Name: Target
             Type: Label
             Children:
@@ -51992,7 +51962,7 @@ Children:
               Type: BaseDataVariableType
               DataType: Color
               ModellingRule: Optional
-              Value: "#ffffff"
+              Value: "#000000"
             - Name: FontSize
               Type: BaseDataVariableType
               DataType: Size
@@ -52044,7 +52014,7 @@ Children:
               Type: BaseDataVariableType
               DataType: Color
               ModellingRule: Optional
-              Value: "#ffffff"
+              Value: "#000000"
             - Name: FontSize
               Type: BaseDataVariableType
               DataType: Size
@@ -52096,7 +52066,7 @@ Children:
               Type: BaseDataVariableType
               DataType: Color
               ModellingRule: Optional
-              Value: "#ffffff"
+              Value: "#000000"
             - Name: FontSize
               Type: BaseDataVariableType
               DataType: Size
@@ -52148,7 +52118,7 @@ Children:
               Type: BaseDataVariableType
               DataType: Color
               ModellingRule: Optional
-              Value: "#ffffff"
+              Value: "#000000"
             - Name: FontSize
               Type: BaseDataVariableType
               DataType: Size
@@ -52173,6 +52143,180 @@ Children:
                 Type: DynamicLink
                 DataType: NodePath
                 Value: "/Objects/Tata_Energy_Management/Model/ComparisionInstance/Average33KV"
+          - Name: Consumption1
+            Type: Label
+            Children:
+            - Name: LeftMargin
+              Type: BaseVariableType
+              DataType: Size
+              ModellingRule: Optional
+              Value: 397.0
+            - Name: TopMargin
+              Type: BaseVariableType
+              DataType: Size
+              ModellingRule: Optional
+              Value: 135.0
+            - Name: Width
+              Type: BaseVariableType
+              DataType: Size
+              ModellingRule: Optional
+              Value: 190.0
+            - Name: Height
+              Type: BaseVariableType
+              DataType: Size
+              ModellingRule: Optional
+              Value: 29.0
+            - Name: TextColor
+              Type: BaseDataVariableType
+              DataType: Color
+              ModellingRule: Optional
+              Value: "#000000"
+            - Name: FontSize
+              Type: BaseDataVariableType
+              DataType: Size
+              ModellingRule: Optional
+              Value: 25.0
+            - Name: TextHorizontalAlignment
+              Type: BaseVariableType
+              DataType: TextHorizontalAlignment
+              ModellingRule: Optional
+              Value: 1
+            - Name: TextVerticalAlignment
+              Type: BaseVariableType
+              DataType: TextVerticalAlignment
+              ModellingRule: Optional
+              Value: 1
+            - Name: Text
+              Type: BaseDataVariableType
+              DataType: LocalizedText
+              Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+              Children:
+              - Name: DynamicLink
+                Type: DynamicLink
+                DataType: NodePath
+                Value: "/Objects/Tata_Energy_Management/Model/ComparisionInstance/Consumption33KV"
+          - Name: Consumption2
+            Type: Label
+            Children:
+            - Name: LeftMargin
+              Type: BaseVariableType
+              DataType: Size
+              ModellingRule: Optional
+              Value: 620.0
+            - Name: TopMargin
+              Type: BaseVariableType
+              DataType: Size
+              ModellingRule: Optional
+              Value: -40.0
+            - Name: Width
+              Type: BaseVariableType
+              DataType: Size
+              ModellingRule: Optional
+              Value: 190.0
+            - Name: Height
+              Type: BaseVariableType
+              DataType: Size
+              ModellingRule: Optional
+              Value: 40.0
+            - Name: TextColor
+              Type: BaseDataVariableType
+              DataType: Color
+              ModellingRule: Optional
+              Value: "#000000"
+            - Name: FontSize
+              Type: BaseDataVariableType
+              DataType: Size
+              ModellingRule: Optional
+              Value: 25.0
+            - Name: TextHorizontalAlignment
+              Type: BaseVariableType
+              DataType: TextHorizontalAlignment
+              ModellingRule: Optional
+              Value: 1
+            - Name: TextVerticalAlignment
+              Type: BaseVariableType
+              DataType: TextVerticalAlignment
+              ModellingRule: Optional
+              Value: 1
+            - Name: Text
+              Type: BaseDataVariableType
+              DataType: LocalizedText
+              Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+              Children:
+              - Name: ConditionalConverter1
+                Type: ConditionalConverter
+                Children:
+                - Name: Condition
+                  Type: BaseDataVariableType
+                  DataType: Boolean
+                  ReferenceType: HasSource
+                  Value: false
+                  Children:
+                  - Name: DynamicLink
+                    Type: DynamicLink
+                    DataType: NodePath
+                    Value: "/Objects/Tata_Energy_Management/Model/ComparisionInstance/Test"
+                - Name: TrueValue
+                  Type: BaseDataVariableType
+                  DataType: LocalizedText
+                  ReferenceType: HasParameter
+                  ModellingRule: Optional
+                  Value: {"LocaleId":"en-US","Text":"Generated"}
+                - Name: FalseValue
+                  Type: BaseDataVariableType
+                  DataType: LocalizedText
+                  ReferenceType: HasParameter
+                  ModellingRule: Optional
+                  Value: {"LocaleId":"en-US","Text":"Generating"}
+            - Name: Visible
+              Type: BaseDataVariableType
+              DataType: Boolean
+              Value: true
+              Children:
+              - Name: KeyValueConverter1
+                Type: ValueMapConverter
+                Children:
+                - Name: Source
+                  Type: BaseDataVariableType
+                  DataType: BaseDataType
+                  ReferenceType: HasSource
+                  Children:
+                  - Name: DynamicLink
+                    Type: DynamicLink
+                    DataType: NodePath
+                    Value: "/Objects/Tata_Energy_Management/Model/ComparisionInstance/Test1"
+                - Name: Pairs
+                  Type: BaseObjectType
+                  ModellingRule: None
+                  Children:
+                  - Name: Pair
+                    Type: ValueMapPair
+                    ModellingRule: None
+                    Children:
+                    - Name: Key
+                      Type: BaseDataVariableType
+                      DataType: Boolean
+                      ModellingRule: None
+                      Value: true
+                    - Name: Value
+                      Type: BaseDataVariableType
+                      DataType: Boolean
+                      ModellingRule: None
+                      Value: true
+                  - Name: Pair1
+                    Type: ValueMapPair
+                    ModellingRule: None
+                    Children:
+                    - Name: Key
+                      Type: BaseDataVariableType
+                      DataType: Boolean
+                      ModellingRule: None
+                      Value: false
+                    - Name: Value
+                      Type: BaseDataVariableType
+                      DataType: Boolean
+                      ModellingRule: None
+                      Value: false
         - Name: Outgoing_panel_1
           Type: Rectangle
           Children:
@@ -52190,7 +52334,7 @@ Children:
             Type: BaseDataVariableType
             DataType: Size
             ModellingRule: Optional
-            Value: 1.0
+            Value: 0.0
           - Name: LeftMargin
             Type: BaseVariableType
             DataType: Size
@@ -52207,7 +52351,7 @@ Children:
             - Name: Path
               Type: BaseDataVariableType
               DataType: ResourceUri
-              Value: "ns=36;%PROJECTDIR%/imgs/Screenshot (98).png"
+              Value: "ns=36;%PROJECTDIR%/imgs/Screenshot (194).png"
             - Name: Width
               Type: BaseVariableType
               DataType: Size
@@ -52245,7 +52389,7 @@ Children:
                 Type: BaseDataVariableType
                 DataType: LocalizedText
                 ModellingRule: Optional
-                Value: {"LocaleId":"en-US","Text":"Utility Shop"}
+                Value: {"LocaleId":"en-US","Text":"UTILITY"}
               - Name: LeftMargin
                 Type: BaseVariableType
                 DataType: Size
@@ -52255,7 +52399,7 @@ Children:
                 Type: BaseVariableType
                 DataType: Size
                 ModellingRule: Optional
-                Value: 56.0
+                Value: 29.0
               - Name: Width
                 Type: BaseVariableType
                 DataType: Size
@@ -52285,7 +52429,7 @@ Children:
                 Type: BaseDataVariableType
                 DataType: Color
                 ModellingRule: Optional
-                Value: "#ffffffba"
+                Value: "#000000"
               - Name: FontFamily
                 Type: BaseDataVariableType
                 DataType: Font
@@ -52295,12 +52439,12 @@ Children:
                 Type: BaseDataVariableType
                 DataType: Size
                 ModellingRule: Optional
-                Value: 20.0
+                Value: 30.0
               - Name: FontWeight
                 Type: BaseDataVariableType
                 DataType: FontWeightEnum
                 ModellingRule: Optional
-                Value: 600
+                Value: 700
             - Name: consumption
               Type: Label
               Children:
@@ -52343,7 +52487,7 @@ Children:
                 Type: BaseDataVariableType
                 DataType: Color
                 ModellingRule: Optional
-                Value: "#ffffffba"
+                Value: "#000000"
               - Name: Height
                 Type: BaseVariableType
                 DataType: Size
@@ -52371,7 +52515,7 @@ Children:
                 Type: BaseDataVariableType
                 DataType: Color
                 ModellingRule: Optional
-                Value: "#ffffffba"
+                Value: "#000000"
               - Name: FontSize
                 Type: BaseDataVariableType
                 DataType: Size
@@ -52404,7 +52548,7 @@ Children:
                 Type: BaseDataVariableType
                 DataType: Color
                 ModellingRule: Optional
-                Value: "#ffffffba"
+                Value: "#000000"
               - Name: FontSize
                 Type: BaseDataVariableType
                 DataType: Size
@@ -52437,7 +52581,7 @@ Children:
                 Type: BaseDataVariableType
                 DataType: Color
                 ModellingRule: Optional
-                Value: "#ffffffba"
+                Value: "#000000"
               - Name: FontSize
                 Type: BaseDataVariableType
                 DataType: Size
@@ -52470,7 +52614,7 @@ Children:
                 Type: BaseDataVariableType
                 DataType: Color
                 ModellingRule: Optional
-                Value: "#ffffffba"
+                Value: "#000000"
               - Name: FontSize
                 Type: BaseDataVariableType
                 DataType: Size
@@ -52646,12 +52790,12 @@ Children:
                 Type: BaseVariableType
                 DataType: Size
                 ModellingRule: Optional
-                Value: 125.0
+                Value: 114.0
               - Name: TopMargin
                 Type: BaseVariableType
                 DataType: Size
                 ModellingRule: Optional
-                Value: 180.0
+                Value: 187.0
               - Name: Width
                 Type: BaseVariableType
                 DataType: Size
@@ -52681,7 +52825,7 @@ Children:
                 Type: BaseDataVariableType
                 DataType: Color
                 ModellingRule: Optional
-                Value: "#ffffff"
+                Value: "#000000"
               - Name: FontWeight
                 Type: BaseDataVariableType
                 DataType: FontWeightEnum
@@ -52713,12 +52857,12 @@ Children:
                 Type: BaseVariableType
                 DataType: Size
                 ModellingRule: Optional
-                Value: 228.0
+                Value: 213.0
               - Name: TopMargin
                 Type: BaseVariableType
                 DataType: Size
                 ModellingRule: Optional
-                Value: 178.0
+                Value: 189.0
               - Name: Width
                 Type: BaseVariableType
                 DataType: Size
@@ -52748,7 +52892,7 @@ Children:
                 Type: BaseDataVariableType
                 DataType: Color
                 ModellingRule: Optional
-                Value: "#ffffff"
+                Value: "#000000"
               - Name: FontWeight
                 Type: BaseDataVariableType
                 DataType: FontWeightEnum
@@ -52786,7 +52930,7 @@ Children:
                 Type: BaseDataVariableType
                 DataType: Color
                 ModellingRule: Optional
-                Value: "#ffffff"
+                Value: "#000000"
               - Name: FontSize
                 Type: BaseDataVariableType
                 DataType: Size
@@ -52818,7 +52962,7 @@ Children:
                 Type: BaseVariableType
                 DataType: Size
                 ModellingRule: Optional
-                Value: 177.0
+                Value: 180.0
               - Name: TopMargin
                 Type: BaseVariableType
                 DataType: Size
@@ -52838,7 +52982,7 @@ Children:
                 Type: BaseDataVariableType
                 DataType: Color
                 ModellingRule: Optional
-                Value: "#ffffff"
+                Value: "#000000"
               - Name: FontSize
                 Type: BaseDataVariableType
                 DataType: Size
@@ -52870,7 +53014,7 @@ Children:
                 Type: BaseVariableType
                 DataType: Size
                 ModellingRule: Optional
-                Value: 180.0
+                Value: 179.0
               - Name: TopMargin
                 Type: BaseVariableType
                 DataType: Size
@@ -52890,7 +53034,7 @@ Children:
                 Type: BaseDataVariableType
                 DataType: Color
                 ModellingRule: Optional
-                Value: "#ffffff"
+                Value: "#000000"
               - Name: FontSize
                 Type: BaseDataVariableType
                 DataType: Size
@@ -52942,7 +53086,7 @@ Children:
                 Type: BaseDataVariableType
                 DataType: Color
                 ModellingRule: Optional
-                Value: "#ffffff"
+                Value: "#000000"
               - Name: FontSize
                 Type: BaseDataVariableType
                 DataType: Size
@@ -52994,7 +53138,7 @@ Children:
                 Type: BaseDataVariableType
                 DataType: Color
                 ModellingRule: Optional
-                Value: "#ffffff"
+                Value: "#000000"
               - Name: FontSize
                 Type: BaseDataVariableType
                 DataType: Size
@@ -53068,7 +53212,7 @@ Children:
             - Name: Path
               Type: BaseDataVariableType
               DataType: ResourceUri
-              Value: "ns=36;%PROJECTDIR%/imgs/Screenshot (98).png"
+              Value: "ns=36;%PROJECTDIR%/imgs/Screenshot (194).png"
             - Name: Width
               Type: BaseVariableType
               DataType: Size
@@ -53078,7 +53222,7 @@ Children:
               Type: BaseVariableType
               DataType: Size
               ModellingRule: Optional
-              Value: 481.0
+              Value: 472.0
             - Name: LeftMargin
               Type: BaseVariableType
               DataType: Size
@@ -53106,7 +53250,7 @@ Children:
                 Type: BaseDataVariableType
                 DataType: LocalizedText
                 ModellingRule: Optional
-                Value: {"LocaleId":"en-US","Text":"Stamping Shop"}
+                Value: {"LocaleId":"en-US","Text":"STAMPING"}
               - Name: LeftMargin
                 Type: BaseVariableType
                 DataType: Size
@@ -53116,7 +53260,7 @@ Children:
                 Type: BaseVariableType
                 DataType: Size
                 ModellingRule: Optional
-                Value: 56.0
+                Value: 28.0
               - Name: Width
                 Type: BaseVariableType
                 DataType: Size
@@ -53146,7 +53290,7 @@ Children:
                 Type: BaseDataVariableType
                 DataType: Color
                 ModellingRule: Optional
-                Value: "#ffffffba"
+                Value: "#000000"
               - Name: FontFamily
                 Type: BaseDataVariableType
                 DataType: Font
@@ -53156,12 +53300,12 @@ Children:
                 Type: BaseDataVariableType
                 DataType: Size
                 ModellingRule: Optional
-                Value: 20.0
+                Value: 30.0
               - Name: FontWeight
                 Type: BaseDataVariableType
                 DataType: FontWeightEnum
                 ModellingRule: Optional
-                Value: 600
+                Value: 700
             - Name: consumption
               Type: Label
               Children:
@@ -53204,7 +53348,7 @@ Children:
                 Type: BaseDataVariableType
                 DataType: Color
                 ModellingRule: Optional
-                Value: "#ffffffba"
+                Value: "#000000"
               - Name: Height
                 Type: BaseVariableType
                 DataType: Size
@@ -53232,7 +53376,7 @@ Children:
                 Type: BaseDataVariableType
                 DataType: Color
                 ModellingRule: Optional
-                Value: "#ffffffba"
+                Value: "#000000"
               - Name: FontSize
                 Type: BaseDataVariableType
                 DataType: Size
@@ -53265,7 +53409,7 @@ Children:
                 Type: BaseDataVariableType
                 DataType: Color
                 ModellingRule: Optional
-                Value: "#ffffffba"
+                Value: "#000000"
               - Name: FontSize
                 Type: BaseDataVariableType
                 DataType: Size
@@ -53298,7 +53442,7 @@ Children:
                 Type: BaseDataVariableType
                 DataType: Color
                 ModellingRule: Optional
-                Value: "#ffffffba"
+                Value: "#000000"
               - Name: FontSize
                 Type: BaseDataVariableType
                 DataType: Size
@@ -53331,7 +53475,7 @@ Children:
                 Type: BaseDataVariableType
                 DataType: Color
                 ModellingRule: Optional
-                Value: "#ffffffba"
+                Value: "#000000"
               - Name: FontSize
                 Type: BaseDataVariableType
                 DataType: Size
@@ -53542,7 +53686,7 @@ Children:
                 Type: BaseDataVariableType
                 DataType: Color
                 ModellingRule: Optional
-                Value: "#ffffff"
+                Value: "#000000"
               - Name: FontWeight
                 Type: BaseDataVariableType
                 DataType: FontWeightEnum
@@ -53574,7 +53718,7 @@ Children:
                 Type: BaseVariableType
                 DataType: Size
                 ModellingRule: Optional
-                Value: 182.0
+                Value: 213.0
               - Name: TopMargin
                 Type: BaseVariableType
                 DataType: Size
@@ -53609,7 +53753,7 @@ Children:
                 Type: BaseDataVariableType
                 DataType: Color
                 ModellingRule: Optional
-                Value: "#ffffff"
+                Value: "#000000"
               - Name: FontWeight
                 Type: BaseDataVariableType
                 DataType: FontWeightEnum
@@ -53647,7 +53791,7 @@ Children:
                 Type: BaseDataVariableType
                 DataType: Color
                 ModellingRule: Optional
-                Value: "#ffffff"
+                Value: "#000000"
               - Name: FontSize
                 Type: BaseDataVariableType
                 DataType: Size
@@ -53699,7 +53843,7 @@ Children:
                 Type: BaseDataVariableType
                 DataType: Color
                 ModellingRule: Optional
-                Value: "#ffffff"
+                Value: "#000000"
               - Name: FontSize
                 Type: BaseDataVariableType
                 DataType: Size
@@ -53751,7 +53895,7 @@ Children:
                 Type: BaseDataVariableType
                 DataType: Color
                 ModellingRule: Optional
-                Value: "#ffffff"
+                Value: "#000000"
               - Name: FontSize
                 Type: BaseDataVariableType
                 DataType: Size
@@ -53803,7 +53947,7 @@ Children:
                 Type: BaseDataVariableType
                 DataType: Color
                 ModellingRule: Optional
-                Value: "#ffffff"
+                Value: "#000000"
               - Name: FontSize
                 Type: BaseDataVariableType
                 DataType: Size
@@ -53855,7 +53999,7 @@ Children:
                 Type: BaseDataVariableType
                 DataType: Color
                 ModellingRule: Optional
-                Value: "#ffffff"
+                Value: "#000000"
               - Name: FontSize
                 Type: BaseDataVariableType
                 DataType: Size
@@ -53886,7 +54030,7 @@ Children:
             - Name: Path
               Type: BaseDataVariableType
               DataType: ResourceUri
-              Value: "ns=36;%PROJECTDIR%/imgs/Screenshot (98).png"
+              Value: "ns=36;%PROJECTDIR%/imgs/Screenshot (194).png"
             - Name: Width
               Type: BaseVariableType
               DataType: Size
@@ -53896,7 +54040,7 @@ Children:
               Type: BaseVariableType
               DataType: Size
               ModellingRule: Optional
-              Value: 471.0
+              Value: 472.0
             - Name: LeftMargin
               Type: BaseVariableType
               DataType: Size
@@ -53929,12 +54073,12 @@ Children:
                 Type: BaseVariableType
                 DataType: Size
                 ModellingRule: Optional
-                Value: -11.0
+                Value: -1.0
               - Name: TopMargin
                 Type: BaseVariableType
                 DataType: Size
                 ModellingRule: Optional
-                Value: 56.0
+                Value: 28.0
               - Name: Width
                 Type: BaseVariableType
                 DataType: Size
@@ -53964,7 +54108,7 @@ Children:
                 Type: BaseDataVariableType
                 DataType: Color
                 ModellingRule: Optional
-                Value: "#ffffffba"
+                Value: "#000000"
               - Name: FontFamily
                 Type: BaseDataVariableType
                 DataType: Font
@@ -53974,12 +54118,12 @@ Children:
                 Type: BaseDataVariableType
                 DataType: Size
                 ModellingRule: Optional
-                Value: 20.0
+                Value: 30.0
               - Name: FontWeight
                 Type: BaseDataVariableType
                 DataType: FontWeightEnum
                 ModellingRule: Optional
-                Value: 600
+                Value: 700
             - Name: consumption
               Type: Label
               Children:
@@ -54022,7 +54166,7 @@ Children:
                 Type: BaseDataVariableType
                 DataType: Color
                 ModellingRule: Optional
-                Value: "#ffffffba"
+                Value: "#000000"
               - Name: Height
                 Type: BaseVariableType
                 DataType: Size
@@ -54050,7 +54194,7 @@ Children:
                 Type: BaseDataVariableType
                 DataType: Color
                 ModellingRule: Optional
-                Value: "#ffffffba"
+                Value: "#000000"
               - Name: FontSize
                 Type: BaseDataVariableType
                 DataType: Size
@@ -54083,7 +54227,7 @@ Children:
                 Type: BaseDataVariableType
                 DataType: Color
                 ModellingRule: Optional
-                Value: "#ffffffba"
+                Value: "#000000"
               - Name: FontSize
                 Type: BaseDataVariableType
                 DataType: Size
@@ -54116,7 +54260,7 @@ Children:
                 Type: BaseDataVariableType
                 DataType: Color
                 ModellingRule: Optional
-                Value: "#ffffffba"
+                Value: "#000000"
               - Name: FontSize
                 Type: BaseDataVariableType
                 DataType: Size
@@ -54149,7 +54293,7 @@ Children:
                 Type: BaseDataVariableType
                 DataType: Color
                 ModellingRule: Optional
-                Value: "#ffffffba"
+                Value: "#000000"
               - Name: FontSize
                 Type: BaseDataVariableType
                 DataType: Size
@@ -54360,7 +54504,7 @@ Children:
                 Type: BaseDataVariableType
                 DataType: Color
                 ModellingRule: Optional
-                Value: "#ffffff"
+                Value: "#000000"
               - Name: FontWeight
                 Type: BaseDataVariableType
                 DataType: FontWeightEnum
@@ -54380,64 +54524,6 @@ Children:
                   Type: DynamicLink
                   DataType: NodePath
                   Value: "/Objects/Tata_Energy_Management/Model/ComparisionInstance/Tcfpercentage"
-            - Name: Label2
-              Type: Label
-              Children:
-              - Name: Text
-                Type: BaseDataVariableType
-                DataType: LocalizedText
-                ModellingRule: Optional
-                Value: {"LocaleId":"en-US","Text":"%"}
-              - Name: LeftMargin
-                Type: BaseVariableType
-                DataType: Size
-                ModellingRule: Optional
-                Value: 182.0
-              - Name: TopMargin
-                Type: BaseVariableType
-                DataType: Size
-                ModellingRule: Optional
-                Value: 179.0
-              - Name: Width
-                Type: BaseVariableType
-                DataType: Size
-                ModellingRule: Optional
-                Value: 30.0
-              - Name: FontSize
-                Type: BaseDataVariableType
-                DataType: Size
-                ModellingRule: Optional
-                Value: 25.0
-              - Name: TextHorizontalAlignment
-                Type: BaseVariableType
-                DataType: TextHorizontalAlignment
-                ModellingRule: Optional
-                Value: 1
-              - Name: TextVerticalAlignment
-                Type: BaseVariableType
-                DataType: TextVerticalAlignment
-                ModellingRule: Optional
-                Value: 1
-              - Name: Height
-                Type: BaseVariableType
-                DataType: Size
-                ModellingRule: Optional
-                Value: 30.0
-              - Name: TextColor
-                Type: BaseDataVariableType
-                DataType: Color
-                ModellingRule: Optional
-                Value: "#ffffff"
-              - Name: FontWeight
-                Type: BaseDataVariableType
-                DataType: FontWeightEnum
-                ModellingRule: Optional
-                Value: 700
-              - Name: FontFamily
-                Type: BaseDataVariableType
-                DataType: Font
-                ModellingRule: Optional
-                Value: "Lucida Fax"
             - Name: Label3
               Type: Label
               Children:
@@ -54450,7 +54536,7 @@ Children:
                 Type: BaseVariableType
                 DataType: Size
                 ModellingRule: Optional
-                Value: 182.0
+                Value: 213.0
               - Name: TopMargin
                 Type: BaseVariableType
                 DataType: Size
@@ -54485,7 +54571,7 @@ Children:
                 Type: BaseDataVariableType
                 DataType: Color
                 ModellingRule: Optional
-                Value: "#ffffff"
+                Value: "#000000"
               - Name: FontWeight
                 Type: BaseDataVariableType
                 DataType: FontWeightEnum
@@ -54523,7 +54609,7 @@ Children:
                 Type: BaseDataVariableType
                 DataType: Color
                 ModellingRule: Optional
-                Value: "#ffffff"
+                Value: "#000000"
               - Name: FontSize
                 Type: BaseDataVariableType
                 DataType: Size
@@ -54575,7 +54661,7 @@ Children:
                 Type: BaseDataVariableType
                 DataType: Color
                 ModellingRule: Optional
-                Value: "#ffffff"
+                Value: "#000000"
               - Name: FontSize
                 Type: BaseDataVariableType
                 DataType: Size
@@ -54627,7 +54713,7 @@ Children:
                 Type: BaseDataVariableType
                 DataType: Color
                 ModellingRule: Optional
-                Value: "#ffffff"
+                Value: "#000000"
               - Name: FontSize
                 Type: BaseDataVariableType
                 DataType: Size
@@ -54679,7 +54765,7 @@ Children:
                 Type: BaseDataVariableType
                 DataType: Color
                 ModellingRule: Optional
-                Value: "#ffffff"
+                Value: "#000000"
               - Name: FontSize
                 Type: BaseDataVariableType
                 DataType: Size
@@ -54731,7 +54817,7 @@ Children:
                 Type: BaseDataVariableType
                 DataType: Color
                 ModellingRule: Optional
-                Value: "#ffffff"
+                Value: "#000000"
               - Name: FontSize
                 Type: BaseDataVariableType
                 DataType: Size
@@ -54762,17 +54848,17 @@ Children:
             - Name: Path
               Type: BaseDataVariableType
               DataType: ResourceUri
-              Value: "ns=36;%PROJECTDIR%/imgs/Screenshot (98).png"
+              Value: "ns=36;%PROJECTDIR%/imgs/Screenshot (194).png"
             - Name: Width
               Type: BaseVariableType
               DataType: Size
               ModellingRule: Optional
-              Value: 401.0
+              Value: 371.0
             - Name: Height
               Type: BaseVariableType
               DataType: Size
               ModellingRule: Optional
-              Value: 471.0
+              Value: 472.0
             - Name: LeftMargin
               Type: BaseVariableType
               DataType: Size
@@ -54805,12 +54891,12 @@ Children:
                 Type: BaseVariableType
                 DataType: Size
                 ModellingRule: Optional
-                Value: -11.0
+                Value: -1.0
               - Name: TopMargin
                 Type: BaseVariableType
                 DataType: Size
                 ModellingRule: Optional
-                Value: 56.0
+                Value: 28.0
               - Name: Width
                 Type: BaseVariableType
                 DataType: Size
@@ -54840,7 +54926,7 @@ Children:
                 Type: BaseDataVariableType
                 DataType: Color
                 ModellingRule: Optional
-                Value: "#ffffffba"
+                Value: "#000000"
               - Name: FontFamily
                 Type: BaseDataVariableType
                 DataType: Font
@@ -54850,12 +54936,12 @@ Children:
                 Type: BaseDataVariableType
                 DataType: Size
                 ModellingRule: Optional
-                Value: 20.0
+                Value: 30.0
               - Name: FontWeight
                 Type: BaseDataVariableType
                 DataType: FontWeightEnum
                 ModellingRule: Optional
-                Value: 600
+                Value: 700
             - Name: consumption
               Type: Label
               Children:
@@ -54898,7 +54984,7 @@ Children:
                 Type: BaseDataVariableType
                 DataType: Color
                 ModellingRule: Optional
-                Value: "#ffffffba"
+                Value: "#000000"
               - Name: Height
                 Type: BaseVariableType
                 DataType: Size
@@ -54926,7 +55012,7 @@ Children:
                 Type: BaseDataVariableType
                 DataType: Color
                 ModellingRule: Optional
-                Value: "#ffffffba"
+                Value: "#000000"
               - Name: FontSize
                 Type: BaseDataVariableType
                 DataType: Size
@@ -54959,7 +55045,7 @@ Children:
                 Type: BaseDataVariableType
                 DataType: Color
                 ModellingRule: Optional
-                Value: "#ffffffba"
+                Value: "#000000"
               - Name: FontSize
                 Type: BaseDataVariableType
                 DataType: Size
@@ -54992,7 +55078,7 @@ Children:
                 Type: BaseDataVariableType
                 DataType: Color
                 ModellingRule: Optional
-                Value: "#ffffffba"
+                Value: "#000000"
               - Name: FontSize
                 Type: BaseDataVariableType
                 DataType: Size
@@ -55025,7 +55111,7 @@ Children:
                 Type: BaseDataVariableType
                 DataType: Color
                 ModellingRule: Optional
-                Value: "#ffffffba"
+                Value: "#000000"
               - Name: FontSize
                 Type: BaseDataVariableType
                 DataType: Size
@@ -55236,7 +55322,7 @@ Children:
                 Type: BaseDataVariableType
                 DataType: Color
                 ModellingRule: Optional
-                Value: "#ffffff"
+                Value: "#000000"
               - Name: FontWeight
                 Type: BaseDataVariableType
                 DataType: FontWeightEnum
@@ -55268,7 +55354,7 @@ Children:
                 Type: BaseVariableType
                 DataType: Size
                 ModellingRule: Optional
-                Value: 182.0
+                Value: 212.0
               - Name: TopMargin
                 Type: BaseVariableType
                 DataType: Size
@@ -55303,7 +55389,7 @@ Children:
                 Type: BaseDataVariableType
                 DataType: Color
                 ModellingRule: Optional
-                Value: "#ffffff"
+                Value: "#000000"
               - Name: FontWeight
                 Type: BaseDataVariableType
                 DataType: FontWeightEnum
@@ -55341,7 +55427,7 @@ Children:
                 Type: BaseDataVariableType
                 DataType: Color
                 ModellingRule: Optional
-                Value: "#ffffff"
+                Value: "#000000"
               - Name: FontSize
                 Type: BaseDataVariableType
                 DataType: Size
@@ -55393,7 +55479,7 @@ Children:
                 Type: BaseDataVariableType
                 DataType: Color
                 ModellingRule: Optional
-                Value: "#ffffff"
+                Value: "#000000"
               - Name: FontSize
                 Type: BaseDataVariableType
                 DataType: Size
@@ -55445,7 +55531,7 @@ Children:
                 Type: BaseDataVariableType
                 DataType: Color
                 ModellingRule: Optional
-                Value: "#ffffff"
+                Value: "#000000"
               - Name: FontSize
                 Type: BaseDataVariableType
                 DataType: Size
@@ -55497,7 +55583,7 @@ Children:
                 Type: BaseDataVariableType
                 DataType: Color
                 ModellingRule: Optional
-                Value: "#ffffff"
+                Value: "#000000"
               - Name: FontSize
                 Type: BaseDataVariableType
                 DataType: Size
@@ -55549,7 +55635,7 @@ Children:
                 Type: BaseDataVariableType
                 DataType: Color
                 ModellingRule: Optional
-                Value: "#ffffff"
+                Value: "#000000"
               - Name: FontSize
                 Type: BaseDataVariableType
                 DataType: Size
@@ -55589,6 +55675,11 @@ Children:
             DataType: Size
             ModellingRule: Optional
             Value: 20.0
+          - Name: FillColor
+            Type: BaseDataVariableType
+            DataType: Color
+            ModellingRule: Optional
+            Value: "#f0f0f0"
         - Name: Outgoing_panel_2
           Type: Rectangle
           Children:
@@ -55606,7 +55697,7 @@ Children:
             Type: BaseDataVariableType
             DataType: Size
             ModellingRule: Optional
-            Value: 1.0
+            Value: 0.0
           - Name: LeftMargin
             Type: BaseVariableType
             DataType: Size
@@ -55623,17 +55714,17 @@ Children:
             - Name: Path
               Type: BaseDataVariableType
               DataType: ResourceUri
-              Value: "ns=36;%PROJECTDIR%/imgs/Screenshot (98).png"
+              Value: "ns=36;%PROJECTDIR%/imgs/Screenshot (194).png"
             - Name: Width
               Type: BaseVariableType
               DataType: Size
               ModellingRule: Optional
-              Value: 374.0
+              Value: 371.0
             - Name: Height
               Type: BaseVariableType
               DataType: Size
               ModellingRule: Optional
-              Value: 471.0
+              Value: 472.0
             - Name: LeftMargin
               Type: BaseVariableType
               DataType: Size
@@ -55666,12 +55757,12 @@ Children:
                 Type: BaseVariableType
                 DataType: Size
                 ModellingRule: Optional
-                Value: -11.0
+                Value: -1.0
               - Name: TopMargin
                 Type: BaseVariableType
                 DataType: Size
                 ModellingRule: Optional
-                Value: 60.0
+                Value: 32.0
               - Name: Width
                 Type: BaseVariableType
                 DataType: Size
@@ -55701,7 +55792,7 @@ Children:
                 Type: BaseDataVariableType
                 DataType: Color
                 ModellingRule: Optional
-                Value: "#ffffffba"
+                Value: "#000000"
               - Name: FontFamily
                 Type: BaseDataVariableType
                 DataType: Font
@@ -55711,12 +55802,12 @@ Children:
                 Type: BaseDataVariableType
                 DataType: Size
                 ModellingRule: Optional
-                Value: 20.0
+                Value: 30.0
               - Name: FontWeight
                 Type: BaseDataVariableType
                 DataType: FontWeightEnum
                 ModellingRule: Optional
-                Value: 600
+                Value: 700
             - Name: consumption
               Type: Label
               Children:
@@ -55759,7 +55850,7 @@ Children:
                 Type: BaseDataVariableType
                 DataType: Color
                 ModellingRule: Optional
-                Value: "#ffffffba"
+                Value: "#000000"
               - Name: Height
                 Type: BaseVariableType
                 DataType: Size
@@ -55787,7 +55878,7 @@ Children:
                 Type: BaseDataVariableType
                 DataType: Color
                 ModellingRule: Optional
-                Value: "#ffffffba"
+                Value: "#000000"
               - Name: FontSize
                 Type: BaseDataVariableType
                 DataType: Size
@@ -55820,7 +55911,7 @@ Children:
                 Type: BaseDataVariableType
                 DataType: Color
                 ModellingRule: Optional
-                Value: "#ffffffba"
+                Value: "#000000"
               - Name: FontSize
                 Type: BaseDataVariableType
                 DataType: Size
@@ -55853,7 +55944,7 @@ Children:
                 Type: BaseDataVariableType
                 DataType: Color
                 ModellingRule: Optional
-                Value: "#ffffffba"
+                Value: "#000000"
               - Name: FontSize
                 Type: BaseDataVariableType
                 DataType: Size
@@ -55886,7 +55977,7 @@ Children:
                 Type: BaseDataVariableType
                 DataType: Color
                 ModellingRule: Optional
-                Value: "#ffffffba"
+                Value: "#000000"
               - Name: FontSize
                 Type: BaseDataVariableType
                 DataType: Size
@@ -56102,7 +56193,7 @@ Children:
                 Type: BaseDataVariableType
                 DataType: Color
                 ModellingRule: Optional
-                Value: "#ffffff"
+                Value: "#000000"
               - Name: FontWeight
                 Type: BaseDataVariableType
                 DataType: FontWeightEnum
@@ -56160,7 +56251,7 @@ Children:
                 Type: BaseDataVariableType
                 DataType: Color
                 ModellingRule: Optional
-                Value: "#ffffff"
+                Value: "#000000"
               - Name: FontWeight
                 Type: BaseDataVariableType
                 DataType: FontWeightEnum
@@ -56198,7 +56289,7 @@ Children:
                 Type: BaseDataVariableType
                 DataType: Color
                 ModellingRule: Optional
-                Value: "#ffffff"
+                Value: "#000000"
               - Name: FontSize
                 Type: BaseDataVariableType
                 DataType: Size
@@ -56250,7 +56341,7 @@ Children:
                 Type: BaseDataVariableType
                 DataType: Color
                 ModellingRule: Optional
-                Value: "#ffffff"
+                Value: "#000000"
               - Name: FontSize
                 Type: BaseDataVariableType
                 DataType: Size
@@ -56302,7 +56393,7 @@ Children:
                 Type: BaseDataVariableType
                 DataType: Color
                 ModellingRule: Optional
-                Value: "#ffffff"
+                Value: "#000000"
               - Name: FontSize
                 Type: BaseDataVariableType
                 DataType: Size
@@ -56354,7 +56445,7 @@ Children:
                 Type: BaseDataVariableType
                 DataType: Color
                 ModellingRule: Optional
-                Value: "#ffffff"
+                Value: "#000000"
               - Name: FontSize
                 Type: BaseDataVariableType
                 DataType: Size
@@ -56406,7 +56497,7 @@ Children:
                 Type: BaseDataVariableType
                 DataType: Color
                 ModellingRule: Optional
-                Value: "#ffffff"
+                Value: "#000000"
               - Name: FontSize
                 Type: BaseDataVariableType
                 DataType: Size
@@ -56437,7 +56528,7 @@ Children:
             - Name: Path
               Type: BaseDataVariableType
               DataType: ResourceUri
-              Value: "ns=36;%PROJECTDIR%/imgs/Screenshot (98).png"
+              Value: "ns=36;%PROJECTDIR%/imgs/Screenshot (194).png"
             - Name: Width
               Type: BaseVariableType
               DataType: Size
@@ -56447,7 +56538,7 @@ Children:
               Type: BaseVariableType
               DataType: Size
               ModellingRule: Optional
-              Value: 471.0
+              Value: 472.0
             - Name: LeftMargin
               Type: BaseVariableType
               DataType: Size
@@ -56480,12 +56571,12 @@ Children:
                 Type: BaseVariableType
                 DataType: Size
                 ModellingRule: Optional
-                Value: -11.0
+                Value: -1.0
               - Name: TopMargin
                 Type: BaseVariableType
                 DataType: Size
                 ModellingRule: Optional
-                Value: 60.0
+                Value: 32.0
               - Name: Width
                 Type: BaseVariableType
                 DataType: Size
@@ -56515,7 +56606,7 @@ Children:
                 Type: BaseDataVariableType
                 DataType: Color
                 ModellingRule: Optional
-                Value: "#ffffffba"
+                Value: "#000000"
               - Name: FontFamily
                 Type: BaseDataVariableType
                 DataType: Font
@@ -56525,12 +56616,12 @@ Children:
                 Type: BaseDataVariableType
                 DataType: Size
                 ModellingRule: Optional
-                Value: 20.0
+                Value: 30.0
               - Name: FontWeight
                 Type: BaseDataVariableType
                 DataType: FontWeightEnum
                 ModellingRule: Optional
-                Value: 600
+                Value: 700
             - Name: consumption
               Type: Label
               Children:
@@ -56573,7 +56664,7 @@ Children:
                 Type: BaseDataVariableType
                 DataType: Color
                 ModellingRule: Optional
-                Value: "#ffffffba"
+                Value: "#000000"
               - Name: Height
                 Type: BaseVariableType
                 DataType: Size
@@ -56601,7 +56692,7 @@ Children:
                 Type: BaseDataVariableType
                 DataType: Color
                 ModellingRule: Optional
-                Value: "#ffffffba"
+                Value: "#000000"
               - Name: FontSize
                 Type: BaseDataVariableType
                 DataType: Size
@@ -56634,7 +56725,7 @@ Children:
                 Type: BaseDataVariableType
                 DataType: Color
                 ModellingRule: Optional
-                Value: "#ffffffba"
+                Value: "#000000"
               - Name: FontSize
                 Type: BaseDataVariableType
                 DataType: Size
@@ -56667,7 +56758,7 @@ Children:
                 Type: BaseDataVariableType
                 DataType: Color
                 ModellingRule: Optional
-                Value: "#ffffffba"
+                Value: "#000000"
               - Name: FontSize
                 Type: BaseDataVariableType
                 DataType: Size
@@ -56700,7 +56791,7 @@ Children:
                 Type: BaseDataVariableType
                 DataType: Color
                 ModellingRule: Optional
-                Value: "#ffffffba"
+                Value: "#000000"
               - Name: FontSize
                 Type: BaseDataVariableType
                 DataType: Size
@@ -56911,7 +57002,7 @@ Children:
                 Type: BaseDataVariableType
                 DataType: Color
                 ModellingRule: Optional
-                Value: "#ffffff"
+                Value: "#000000"
               - Name: FontWeight
                 Type: BaseDataVariableType
                 DataType: FontWeightEnum
@@ -56943,12 +57034,12 @@ Children:
                 Type: BaseVariableType
                 DataType: Size
                 ModellingRule: Optional
-                Value: 182.0
+                Value: 216.0
               - Name: TopMargin
                 Type: BaseVariableType
                 DataType: Size
                 ModellingRule: Optional
-                Value: 179.0
+                Value: 180.0
               - Name: Width
                 Type: BaseVariableType
                 DataType: Size
@@ -56978,7 +57069,7 @@ Children:
                 Type: BaseDataVariableType
                 DataType: Color
                 ModellingRule: Optional
-                Value: "#ffffff"
+                Value: "#000000"
               - Name: FontWeight
                 Type: BaseDataVariableType
                 DataType: FontWeightEnum
@@ -57016,7 +57107,7 @@ Children:
                 Type: BaseDataVariableType
                 DataType: Color
                 ModellingRule: Optional
-                Value: "#ffffff"
+                Value: "#000000"
               - Name: FontSize
                 Type: BaseDataVariableType
                 DataType: Size
@@ -57068,7 +57159,7 @@ Children:
                 Type: BaseDataVariableType
                 DataType: Color
                 ModellingRule: Optional
-                Value: "#ffffff"
+                Value: "#000000"
               - Name: FontSize
                 Type: BaseDataVariableType
                 DataType: Size
@@ -57120,7 +57211,7 @@ Children:
                 Type: BaseDataVariableType
                 DataType: Color
                 ModellingRule: Optional
-                Value: "#ffffff"
+                Value: "#000000"
               - Name: FontSize
                 Type: BaseDataVariableType
                 DataType: Size
@@ -57172,7 +57263,7 @@ Children:
                 Type: BaseDataVariableType
                 DataType: Color
                 ModellingRule: Optional
-                Value: "#ffffff"
+                Value: "#000000"
               - Name: FontSize
                 Type: BaseDataVariableType
                 DataType: Size
@@ -57224,7 +57315,7 @@ Children:
                 Type: BaseDataVariableType
                 DataType: Color
                 ModellingRule: Optional
-                Value: "#ffffff"
+                Value: "#000000"
               - Name: FontSize
                 Type: BaseDataVariableType
                 DataType: Size
@@ -57255,7 +57346,7 @@ Children:
             - Name: Path
               Type: BaseDataVariableType
               DataType: ResourceUri
-              Value: "ns=36;%PROJECTDIR%/imgs/Screenshot (98).png"
+              Value: "ns=36;%PROJECTDIR%/imgs/Screenshot (194).png"
             - Name: Width
               Type: BaseVariableType
               DataType: Size
@@ -57265,7 +57356,7 @@ Children:
               Type: BaseVariableType
               DataType: Size
               ModellingRule: Optional
-              Value: 471.0
+              Value: 472.0
             - Name: LeftMargin
               Type: BaseVariableType
               DataType: Size
@@ -57298,12 +57389,12 @@ Children:
                 Type: BaseVariableType
                 DataType: Size
                 ModellingRule: Optional
-                Value: -11.0
+                Value: -1.0
               - Name: TopMargin
                 Type: BaseVariableType
                 DataType: Size
                 ModellingRule: Optional
-                Value: 60.0
+                Value: 32.0
               - Name: Width
                 Type: BaseVariableType
                 DataType: Size
@@ -57333,7 +57424,7 @@ Children:
                 Type: BaseDataVariableType
                 DataType: Color
                 ModellingRule: Optional
-                Value: "#ffffffba"
+                Value: "#000000"
               - Name: FontFamily
                 Type: BaseDataVariableType
                 DataType: Font
@@ -57343,12 +57434,12 @@ Children:
                 Type: BaseDataVariableType
                 DataType: Size
                 ModellingRule: Optional
-                Value: 20.0
+                Value: 30.0
               - Name: FontWeight
                 Type: BaseDataVariableType
                 DataType: FontWeightEnum
                 ModellingRule: Optional
-                Value: 600
+                Value: 700
             - Name: consumption
               Type: Label
               Children:
@@ -57391,7 +57482,7 @@ Children:
                 Type: BaseDataVariableType
                 DataType: Color
                 ModellingRule: Optional
-                Value: "#ffffffba"
+                Value: "#000000"
               - Name: Height
                 Type: BaseVariableType
                 DataType: Size
@@ -57419,7 +57510,7 @@ Children:
                 Type: BaseDataVariableType
                 DataType: Color
                 ModellingRule: Optional
-                Value: "#ffffffba"
+                Value: "#000000"
               - Name: FontSize
                 Type: BaseDataVariableType
                 DataType: Size
@@ -57452,7 +57543,7 @@ Children:
                 Type: BaseDataVariableType
                 DataType: Color
                 ModellingRule: Optional
-                Value: "#ffffffba"
+                Value: "#000000"
               - Name: FontSize
                 Type: BaseDataVariableType
                 DataType: Size
@@ -57485,7 +57576,7 @@ Children:
                 Type: BaseDataVariableType
                 DataType: Color
                 ModellingRule: Optional
-                Value: "#ffffffba"
+                Value: "#000000"
               - Name: FontSize
                 Type: BaseDataVariableType
                 DataType: Size
@@ -57518,7 +57609,7 @@ Children:
                 Type: BaseDataVariableType
                 DataType: Color
                 ModellingRule: Optional
-                Value: "#ffffffba"
+                Value: "#000000"
               - Name: FontSize
                 Type: BaseDataVariableType
                 DataType: Size
@@ -57729,7 +57820,7 @@ Children:
                 Type: BaseDataVariableType
                 DataType: Color
                 ModellingRule: Optional
-                Value: "#ffffff"
+                Value: "#000000"
               - Name: FontWeight
                 Type: BaseDataVariableType
                 DataType: FontWeightEnum
@@ -57761,12 +57852,12 @@ Children:
                 Type: BaseVariableType
                 DataType: Size
                 ModellingRule: Optional
-                Value: 182.0
+                Value: 206.0
               - Name: TopMargin
                 Type: BaseVariableType
                 DataType: Size
                 ModellingRule: Optional
-                Value: 179.0
+                Value: 177.0
               - Name: Width
                 Type: BaseVariableType
                 DataType: Size
@@ -57796,7 +57887,7 @@ Children:
                 Type: BaseDataVariableType
                 DataType: Color
                 ModellingRule: Optional
-                Value: "#ffffff"
+                Value: "#000000"
               - Name: FontWeight
                 Type: BaseDataVariableType
                 DataType: FontWeightEnum
@@ -57834,7 +57925,7 @@ Children:
                 Type: BaseDataVariableType
                 DataType: Color
                 ModellingRule: Optional
-                Value: "#ffffff"
+                Value: "#000000"
               - Name: FontSize
                 Type: BaseDataVariableType
                 DataType: Size
@@ -57886,7 +57977,7 @@ Children:
                 Type: BaseDataVariableType
                 DataType: Color
                 ModellingRule: Optional
-                Value: "#ffffff"
+                Value: "#000000"
               - Name: FontSize
                 Type: BaseDataVariableType
                 DataType: Size
@@ -57938,7 +58029,7 @@ Children:
                 Type: BaseDataVariableType
                 DataType: Color
                 ModellingRule: Optional
-                Value: "#ffffff"
+                Value: "#000000"
               - Name: FontSize
                 Type: BaseDataVariableType
                 DataType: Size
@@ -57990,7 +58081,7 @@ Children:
                 Type: BaseDataVariableType
                 DataType: Color
                 ModellingRule: Optional
-                Value: "#ffffff"
+                Value: "#000000"
               - Name: FontSize
                 Type: BaseDataVariableType
                 DataType: Size
@@ -58042,7 +58133,7 @@ Children:
                 Type: BaseDataVariableType
                 DataType: Color
                 ModellingRule: Optional
-                Value: "#ffffff"
+                Value: "#000000"
               - Name: FontSize
                 Type: BaseDataVariableType
                 DataType: Size
@@ -58086,7 +58177,7 @@ Children:
             Type: BaseDataVariableType
             DataType: Color
             ModellingRule: Optional
-            Value: "#010320"
+            Value: "#f0f0f0"
   - Name: CategoryName
     Type: BaseDataVariableType
     DataType: LocalizedText
