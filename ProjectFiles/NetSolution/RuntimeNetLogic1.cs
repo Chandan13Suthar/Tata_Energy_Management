@@ -170,12 +170,12 @@ public class RuntimeNetLogic1 : BaseNetLogic
                 avgfrequency = Avgfrequency;
             }
 
+            button = false;
 
-           
 
-           // float consumptionP = (maxconsumption - minconsumption);
+            // float consumptionP = (maxconsumption - minconsumption);
 
-           // consumption = consumptionP;
+            // consumption = consumptionP;
 
 
             maxconsumptionVariable.Value = maxconsumption;
@@ -184,7 +184,7 @@ public class RuntimeNetLogic1 : BaseNetLogic
             avgfrequencyVariable.Value = avgfrequency;
             consumptionVariable.Value = consumption;
             timerangeVariable.Value = timerange;
-
+            buttonVariable.Value = button;
 
 
 
@@ -201,10 +201,10 @@ public class RuntimeNetLogic1 : BaseNetLogic
             timerange = difference.ToString(@"dd\:hh\:mm\:ss");
            // string timerange = difference.ToString(@"dd\:hh\:mm\:ss");// ya aap apne hisab se date format mein set karein
 
-            string query5 = $"SELECT  SUM(Consumption) FROM DailyConsumption WHERE LocalTimestamp  BETWEEN '" + new456 + " 00:00:00' AND '" + new645 + " 23:59:59' AND Jace =  '" + jace1 + "'  AND Meter = '" + meter1 + "' ";
+            string query5 = $"SELECT  SUM(Consumption) FROM DailyConsumption WHERE Timestamp  BETWEEN '" + new456 + " 00:00:00' AND '" + new645 + " 23:59:59' AND Jace =  '" + jace1 + "'  AND Meter = '" + meter1 + "' ";
             //string query6 = $"SELECT  MIN(Consumption) FROM DailyConsumption  WHERE Date  BETWEEN '" + new456 + " 00:00:00' AND '" + new645 + " 23:59:59' AND Jace =  '" + jace1 + "'  AND Meter = '" + meter1 + "' ";
-            string query7 = $"SELECT  AVG(Avg_PF) FROM DailyConsumption  WHERE  LocalTimestamp BETWEEN '" + new456 + " 00:00:00' AND '" + new645 + " 23:59:59' AND Jace =  '" + jace1 + "'  AND Meter = '" + meter1 + "' ";
-            string query8 = $"SELECT  AVG(Frequency) FROM DailyConsumption  WHERE  LocalTimestamp  BETWEEN '" + new456 + " 00:00:00' AND '" + new645 + " 23:59:59' AND Jace =  '" + jace1 + "'  AND Meter = '" + meter1 + "' ";
+            string query7 = $"SELECT  AVG(Avg_PF) FROM DailyConsumption  WHERE  Timestamp BETWEEN '" + new456 + " 00:00:00' AND '" + new645 + " 23:59:59' AND Jace =  '" + jace1 + "'  AND Meter = '" + meter1 + "' ";
+            string query8 = $"SELECT  AVG(Frequency) FROM DailyConsumption  WHERE  Timestamp  BETWEEN '" + new456 + " 00:00:00' AND '" + new645 + " 23:59:59' AND Jace =  '" + jace1 + "'  AND Meter = '" + meter1 + "' ";
 
             //throw new Exception(query5);
             myStore5.Query(query5, out header5, out resultSet5);
@@ -259,15 +259,16 @@ public class RuntimeNetLogic1 : BaseNetLogic
 
             //consumption = consumptionP;
 
-
+            button1 = false;
             maxconsumptionVariable.Value = maxconsumption;
             minconsumptionVariable.Value = minconsumption;
             avgpfVariable.Value = avgpf;
             avgfrequencyVariable.Value = avgfrequency;
             consumptionVariable.Value = consumption;
             timerangeVariable.Value = timerange;
+            button1Variable.Value = button1;
 
-
+            
 
         }
 
